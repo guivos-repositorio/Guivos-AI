@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 5.3 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 5.4 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -189,10 +189,13 @@ Ver [Estudo de Autoridade, Consentimentos e Revogação](autoridade-dados-consen
 ## 59. GAI-INT-28 — Minuta Executiva de Indicação P0-A/P0-B — v5.3
 [Minuta para decisão da direção](minuta-executiva-indicacao-p0-a-p0-b.md) com três alternativas de alocação, escopos, aceites e limites, e [registro JSON](minuta-indicacao-p0-a-p0-b.json). **Nenhum indicado, mandato, teste ou gate aprovado.**
 
-## 60. Próximos passos
+## 60. GAI-DEC-010 — Coordenação Temporária da Direção para P0-A/P0-B — v5.4
+[Decisão de alocação](decisao-coordenacao-temporaria-direcao-p0-a-p0-b.md). A direção confirmou a alternativa C da GAI-INT-28. [Matriz P0 atualizada](minuta-indicacao-p0-a-p0-b.json). Não há nomes, aceites individuais, autorização operacional nem gates aprovados.
+
+## 61. Próximos passos
 - Revisão e testes futuros dos schemas compartilhados candidatos
 - Formalização da autoridade canônica, finalidades, bases legais e contratos de autorização
 - Aprovação futura das fixtures, rubricas e critérios de adjudicação
-- Direção deve designar e obter aceite dos responsáveis P0-A (arquitetura) e P0-B (inventário canônico) antes de inspeção operacional
+- Formalizar titulares e aceites da coordenação temporária institucional de P0-A/P0-B antes de qualquer inspeção operacional
 - Comparação controlada dos contratos com implementação Replit, somente mediante autorização específica
 - Avaliação comercial e B2B após verificação dos gates relevantes
