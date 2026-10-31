@@ -38,4 +38,6 @@
 
 | 2.0 | 31/10/2026 | Especificação GAI-CAP-08 para qualificação de ofertas, status de publicação/disponibilidade, requisitos, eventos e 20 cenários sintéticos. | Conceitual; não implementada |
 
+| 2.1 | 31/10/2026 | Especificação GAI-CAP-09 sobre incertezas, contradições temporais, divergências entre modelos, revisão humana e 20 cenários sintéticos. | Conceitual; não implementada |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
