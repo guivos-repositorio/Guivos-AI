@@ -1,6 +1,6 @@
 # Guivos AI — Repositório Mestre de Conhecimento
 
-**Versão documental 4.0 · 31/10/2026**
+**Versão documental 4.1 · 31/10/2026**
 
 Este repositório é a **base mestra de conhecimento, análise, governança e evolução da Guivos AI**. É um projeto independente do [Guivos Knowledge Repository](https://github.com/guivos-repositorio/Guivos-Knowledge-Repository).
 
@@ -29,6 +29,7 @@ Não se destina a divulgar ou comercializar um produto, nem a oferecer interface
 - [GAI-INT-14 — Registro de Decisões Pendentes e Plano de Fechamento de Gates — v3.8](docs/registro-decisoes-pendentes-plano-fechamento-gates.md)
 - [GAI-INT-15 — Plano de Preparação para Execução Sintética Controlada e Evidências de Gate — v3.9](docs/preparacao-execucao-sintetica-controlada-evidencias-gate.md)
 - [GAI-INT-16 — Pacote de Evidências, Revisão Independente e Adjudicação de Gates — v4.0](docs/pacote-evidencias-revisao-independente-adjudicacao-gates.md)
+- [GAI-INT-17 — Rastreabilidade, Auditoria e Proveniência de Evidências de Gate — v4.1](docs/modelo-rastreabilidade-auditoria-proveniencia-gates.md)
 
 ## Especificações de capacidades
 - [GAI-CAP-01 — Leitura e Compreensão de Trajetórias — v1.3](docs/cap-01-leitura-compreensao-trajetorias.md)
