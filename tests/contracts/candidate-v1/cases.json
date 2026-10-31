@@ -1,0 +1,415 @@
+{
+  "catalog_id": "GAI-INT-10",
+  "catalog_version": "candidate-1",
+  "document_version": "3.4",
+  "created_at": "2026-10-31",
+  "data_class": "synthetic_only",
+  "execution_status": "not_executed",
+  "notes": "Structural Draft 2020-12 fixtures only. These are not authorization or semantic quality evaluations.",
+  "cases": [
+    {
+      "case_id": "INT10-analysis-request-V01",
+      "schema": "schemas/candidate-v1/analysis-request.schema.json",
+      "expected_valid": true,
+      "instance": {
+        "request_id": "synthetic-req-1",
+        "api_contract_version": "candidate-1",
+        "capability_id": "GAI-CAP-04",
+        "consumer_ref": "synthetic-intelligence",
+        "subject_ref": "synthetic-person",
+        "purpose": "review_requirements",
+        "authorization_scope_ref": "synthetic-scope",
+        "context_version": "ctx-v1",
+        "as_of": "2026-10-31T13:00:00-03:00",
+        "input_refs": [
+          "synthetic-source"
+        ]
+      }
+    },
+    {
+      "case_id": "INT10-analysis-request-I01",
+      "schema": "schemas/candidate-v1/analysis-request.schema.json",
+      "expected_valid": false,
+      "instance": {
+        "api_contract_version": "candidate-1",
+        "capability_id": "GAI-CAP-04",
+        "consumer_ref": "synthetic-intelligence",
+        "subject_ref": "synthetic-person",
+        "purpose": "review_requirements",
+        "authorization_scope_ref": "synthetic-scope",
+        "context_version": "ctx-v1",
+        "as_of": "2026-10-31T13:00:00-03:00",
+        "input_refs": [
+          "synthetic-source"
+        ]
+      }
+    },
+    {
+      "case_id": "INT10-analysis-response-V01",
+      "schema": "schemas/candidate-v1/analysis-response.schema.json",
+      "expected_valid": true,
+      "instance": {
+        "request_id": "synthetic-req-1",
+        "analysis_id": "synthetic-analysis-1",
+        "api_contract_version": "candidate-1",
+        "capability_id": "GAI-CAP-04",
+        "context_version": "ctx-v1",
+        "lifecycle_status": "completed",
+        "validity_status": "valid_for_recorded_context",
+        "support_status": "partially_supported",
+        "claims": [],
+        "limitations": [
+          "Synthetic partial context"
+        ],
+        "generated_at": "2026-10-31T13:00:00-03:00"
+      }
+    },
+    {
+      "case_id": "INT10-analysis-response-I01",
+      "schema": "schemas/candidate-v1/analysis-response.schema.json",
+      "expected_valid": false,
+      "instance": {
+        "request_id": "synthetic-req-1",
+        "analysis_id": "synthetic-analysis-1",
+        "api_contract_version": "candidate-1",
+        "capability_id": "GAI-CAP-04",
+        "context_version": "ctx-v1",
+        "lifecycle_status": "completed",
+        "validity_status": "valid_for_recorded_context",
+        "claims": [],
+        "limitations": [
+          "Synthetic partial context"
+        ],
+        "generated_at": "2026-10-31T13:00:00-03:00"
+      }
+    },
+    {
+      "case_id": "INT10-canonical-event-V01",
+      "schema": "schemas/candidate-v1/canonical-event.schema.json",
+      "expected_valid": true,
+      "instance": {
+        "event_id": "synthetic-event-1",
+        "event_type": "person_statement_corrected",
+        "schema_version": "candidate-1",
+        "producer_service_ref": "synthetic-context",
+        "aggregate_ref": "synthetic-statement",
+        "aggregate_version": "v2",
+        "occurred_at": "2026-10-31T13:00:00-03:00",
+        "recorded_at": "2026-10-31T13:00:01-03:00",
+        "payload_ref": "synthetic-restricted-payload"
+      }
+    },
+    {
+      "case_id": "INT10-canonical-event-I01",
+      "schema": "schemas/candidate-v1/canonical-event.schema.json",
+      "expected_valid": false,
+      "instance": {
+        "event_id": "synthetic-event-1",
+        "event_type": "person_statement_corrected",
+        "schema_version": "candidate-1",
+        "aggregate_ref": "synthetic-statement",
+        "aggregate_version": "v2",
+        "occurred_at": "2026-10-31T13:00:00-03:00",
+        "recorded_at": "2026-10-31T13:00:01-03:00",
+        "payload_ref": "synthetic-restricted-payload"
+      }
+    },
+    {
+      "case_id": "INT10-error-response-V01",
+      "schema": "schemas/candidate-v1/error-response.schema.json",
+      "expected_valid": true,
+      "instance": {
+        "request_id": "synthetic-req-2",
+        "api_contract_version": "candidate-1",
+        "error": {
+          "code": "forbidden",
+          "category": "auth",
+          "retryable": false,
+          "message_safe": "Acesso não permitido."
+        }
+      }
+    },
+    {
+      "case_id": "INT10-error-response-I01",
+      "schema": "schemas/candidate-v1/error-response.schema.json",
+      "expected_valid": false,
+      "instance": {
+        "request_id": "synthetic-req-2",
+        "api_contract_version": "candidate-1"
+      }
+    },
+    {
+      "case_id": "INT10-event-receipt-V01",
+      "schema": "schemas/candidate-v1/event-receipt.schema.json",
+      "expected_valid": true,
+      "instance": {
+        "event_id": "synthetic-event-1",
+        "receipt_id": "synthetic-receipt-1",
+        "consumer_ref": "synthetic-consumer",
+        "operation": "event_received",
+        "result": "applied",
+        "recorded_at": "2026-10-31T13:01:00-03:00"
+      }
+    },
+    {
+      "case_id": "INT10-event-receipt-I01",
+      "schema": "schemas/candidate-v1/event-receipt.schema.json",
+      "expected_valid": false,
+      "instance": {
+        "receipt_id": "synthetic-receipt-1",
+        "consumer_ref": "synthetic-consumer",
+        "operation": "event_received",
+        "result": "applied",
+        "recorded_at": "2026-10-31T13:01:00-03:00"
+      }
+    },
+    {
+      "case_id": "INT10-dependency-edge-V01",
+      "schema": "schemas/candidate-v1/dependency-edge.schema.json",
+      "expected_valid": true,
+      "instance": {
+        "dependency_id": "synthetic-dependency-1",
+        "derived_ref": "synthetic-analysis-v1",
+        "derived_type": "analysis_version",
+        "source_ref": "synthetic-statement",
+        "dependency_kind": "uses_source_version",
+        "context_version": "ctx-v1",
+        "subject_scope_ref": "synthetic-person",
+        "authorization_scope_ref": "synthetic-scope",
+        "recorded_at": "2026-10-31T13:00:00-03:00"
+      }
+    },
+    {
+      "case_id": "INT10-dependency-edge-I01",
+      "schema": "schemas/candidate-v1/dependency-edge.schema.json",
+      "expected_valid": false,
+      "instance": {
+        "dependency_id": "synthetic-dependency-1",
+        "derived_ref": "synthetic-analysis-v1",
+        "derived_type": "analysis_version",
+        "source_ref": "synthetic-statement",
+        "dependency_kind": "uses_source_version",
+        "context_version": "ctx-v1",
+        "subject_scope_ref": "synthetic-person",
+        "recorded_at": "2026-10-31T13:00:00-03:00"
+      }
+    },
+    {
+      "case_id": "INT10-cap04-gap-result-V01",
+      "schema": "schemas/candidate-v1/cap04-gap-result.schema.json",
+      "expected_valid": true,
+      "instance": {
+        "capability_id": "GAI-CAP-04",
+        "requirement_ref": "synthetic-req",
+        "gap_status": "unknown",
+        "evidence_refs": [],
+        "limitations": [
+          "Condition unknown"
+        ]
+      }
+    },
+    {
+      "case_id": "INT10-cap04-gap-result-I01",
+      "schema": "schemas/candidate-v1/cap04-gap-result.schema.json",
+      "expected_valid": false,
+      "instance": {
+        "capability_id": "GAI-CAP-04",
+        "requirement_ref": "synthetic-req",
+        "evidence_refs": [],
+        "limitations": [
+          "Condition unknown"
+        ]
+      }
+    },
+    {
+      "case_id": "INT10-cap05-possibility-result-V01",
+      "schema": "schemas/candidate-v1/cap05-possibility-result.schema.json",
+      "expected_valid": true,
+      "instance": {
+        "capability_id": "GAI-CAP-05",
+        "possibility_ref": "synthetic-possibility",
+        "origin": "exploratory",
+        "interest_status": "not_asked",
+        "evidence_refs": [],
+        "limitations": [
+          "No confirmed interest"
+        ]
+      }
+    },
+    {
+      "case_id": "INT10-cap05-possibility-result-I01",
+      "schema": "schemas/candidate-v1/cap05-possibility-result.schema.json",
+      "expected_valid": false,
+      "instance": {
+        "capability_id": "GAI-CAP-05",
+        "possibility_ref": "synthetic-possibility",
+        "origin": "exploratory",
+        "evidence_refs": [],
+        "limitations": [
+          "No confirmed interest"
+        ]
+      }
+    },
+    {
+      "case_id": "INT10-cap07-path-result-V01",
+      "schema": "schemas/candidate-v1/cap07-path-result.schema.json",
+      "expected_valid": true,
+      "instance": {
+        "capability_id": "GAI-CAP-07",
+        "path_ref": "synthetic-path",
+        "possibility_ref": "synthetic-possibility",
+        "steps": [
+          {
+            "step_ref": "step-1",
+            "kind": "clarification"
+          }
+        ],
+        "limitations": [
+          "Not a real offer"
+        ]
+      }
+    },
+    {
+      "case_id": "INT10-cap07-path-result-I01",
+      "schema": "schemas/candidate-v1/cap07-path-result.schema.json",
+      "expected_valid": false,
+      "instance": {
+        "capability_id": "GAI-CAP-07",
+        "possibility_ref": "synthetic-possibility",
+        "steps": [
+          {
+            "step_ref": "step-1",
+            "kind": "clarification"
+          }
+        ],
+        "limitations": [
+          "Not a real offer"
+        ]
+      }
+    },
+    {
+      "case_id": "INT10-cap08-offer-result-V01",
+      "schema": "schemas/candidate-v1/cap08-offer-result.schema.json",
+      "expected_valid": true,
+      "instance": {
+        "capability_id": "GAI-CAP-08",
+        "offer_ref": "synthetic-offer",
+        "publisher_ref": "synthetic-publisher",
+        "source_ref": "synthetic-catalog",
+        "publication_status": "published",
+        "verification_status": "pending_verification",
+        "availability_status": "unknown",
+        "as_of": "2026-10-31T13:00:00-03:00",
+        "limitations": [
+          "Availability unverified"
+        ]
+      }
+    },
+    {
+      "case_id": "INT10-cap08-offer-result-I01",
+      "schema": "schemas/candidate-v1/cap08-offer-result.schema.json",
+      "expected_valid": false,
+      "instance": {
+        "capability_id": "GAI-CAP-08",
+        "offer_ref": "synthetic-offer",
+        "publisher_ref": "synthetic-publisher",
+        "source_ref": "synthetic-catalog",
+        "publication_status": "published",
+        "verification_status": "pending_verification",
+        "as_of": "2026-10-31T13:00:00-03:00",
+        "limitations": [
+          "Availability unverified"
+        ]
+      }
+    },
+    {
+      "case_id": "INT10-cap11-report-result-V01",
+      "schema": "schemas/candidate-v1/cap11-report-result.schema.json",
+      "expected_valid": true,
+      "instance": {
+        "capability_id": "GAI-CAP-11",
+        "report_ref": "synthetic-report",
+        "report_version": "v1",
+        "report_status": "draft",
+        "processing_scope_ref": "synthetic-scope",
+        "sections": [],
+        "limitations": [
+          "No sharing permission"
+        ]
+      }
+    },
+    {
+      "case_id": "INT10-cap11-report-result-I01",
+      "schema": "schemas/candidate-v1/cap11-report-result.schema.json",
+      "expected_valid": false,
+      "instance": {
+        "capability_id": "GAI-CAP-11",
+        "report_ref": "synthetic-report",
+        "report_version": "v1",
+        "report_status": "draft",
+        "sections": [],
+        "limitations": [
+          "No sharing permission"
+        ]
+      }
+    },
+    {
+      "case_id": "INT10-request-invalid-capability",
+      "schema": "schemas/candidate-v1/analysis-request.schema.json",
+      "expected_valid": false,
+      "instance": {
+        "request_id": "synthetic-req-1",
+        "api_contract_version": "candidate-1",
+        "capability_id": "GAI-CAP-99",
+        "consumer_ref": "synthetic-intelligence",
+        "subject_ref": "synthetic-person",
+        "purpose": "review_requirements",
+        "authorization_scope_ref": "synthetic-scope",
+        "context_version": "ctx-v1",
+        "as_of": "2026-10-31T13:00:00-03:00",
+        "input_refs": [
+          "synthetic-source"
+        ]
+      }
+    },
+    {
+      "case_id": "INT10-offer-invalid-availability",
+      "schema": "schemas/candidate-v1/cap08-offer-result.schema.json",
+      "expected_valid": false,
+      "instance": {
+        "capability_id": "GAI-CAP-08",
+        "offer_ref": "synthetic-offer",
+        "publisher_ref": "synthetic-publisher",
+        "source_ref": "synthetic-catalog",
+        "publication_status": "published",
+        "verification_status": "pending_verification",
+        "availability_status": "guaranteed",
+        "as_of": "2026-10-31T13:00:00-03:00",
+        "limitations": [
+          "Availability unverified"
+        ]
+      }
+    },
+    {
+      "case_id": "INT10-response-unexpected-field",
+      "schema": "schemas/candidate-v1/analysis-response.schema.json",
+      "expected_valid": false,
+      "instance": {
+        "request_id": "synthetic-req-1",
+        "analysis_id": "synthetic-analysis-1",
+        "api_contract_version": "candidate-1",
+        "capability_id": "GAI-CAP-04",
+        "context_version": "ctx-v1",
+        "lifecycle_status": "completed",
+        "validity_status": "valid_for_recorded_context",
+        "support_status": "partially_supported",
+        "claims": [],
+        "limitations": [
+          "Synthetic partial context"
+        ],
+        "generated_at": "2026-10-31T13:00:00-03:00",
+        "unexpected_field": "not allowed"
+      }
+    }
+  ]
+}
