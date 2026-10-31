@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 0.7 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 0.8 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -51,7 +51,10 @@ Ver [Compatibilidade Futura — estudo v0.4](compatibilidade-futura.md), que esp
 ## 13. Diagnóstico da Jornada no Replit e integração com Neo4j e modelos
 Ver [Diagnóstico e arquitetura-alvo de integração](integracao-replit-intelligence-ai-neo4j.md). A inspeção de leitura em 31/10/2026 identificou adaptadores e provas isoladas, mas não um fluxo público completo de entrada da Pessoa → memória durável → análise real → painel. A arquitetura-alvo prevê Guivos Intelligence orquestrando a Jornada, Guivos AI como serviço especializado e uma camada autorizada de memória/contexto, sem acesso direto dos modelos ao Neo4j. Nenhuma liberação operacional é autorizada por este documento.
 
-## 14. Próximos estudos
+## 14. Autoridade dos dados e memória contextual — v0.8
+A fonte canônica de cada informação deve permanecer sob responsabilidade dos serviços de contexto, identidade e oportunidades do ecossistema. Guivos AI mantém autoridade metodológica sobre análises especializadas, e Guivos Intelligence sobre orquestração e experiência; nenhum modelo de linguagem é autoridade pelos fatos originais. Detalhes de persistência, Neo4j e contratos ainda estão em estudo. Ver [Autoridade de Dados, Memória Canônica e Consumo de Inteligência](autoridade-dados-memoria-contexto.md).
+
+## 15. Próximos estudos
 - Modelos de evidências, fontes e rastreabilidade
 - Ontologia temporal de trajetórias e possibilidades
 - Métodos de identificação e validação de lacunas
