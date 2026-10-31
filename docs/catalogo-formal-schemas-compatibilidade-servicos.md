@@ -101,7 +101,7 @@ Nenhum cenário foi executado. Os casos S06 e S08–S18 ilustram que **validaç�
 **G1, G2, G3 e posteriores continuam pendentes.** A criação de JSONs de schema não demonstra a passagem de nenhum gate.
 
 ## 9. Próxima etapa
-**GAI-INT-09 — Schemas Especializados, Contratos de Erro e Recibos de Eventos** é o próximo estudo recomendado para completar os campos específicos das capacidades, contratos de falha e confirmação de propagação, mantendo o escopo documental.
+[**GAI-INT-09 — Schemas Especializados, Contratos de Erro e Recibos de Eventos**](schemas-especializados-erros-recibos-eventos.md) foi publicado como estudo complementar para completar os campos específicos das capacidades, contratos de falha e confirmação de propagação, mantendo o escopo documental.
 
 **Referências:** [INT-02](normalizacao-contratos-estados-compartilhados.md) · [INT-07](contratos-eventos-projecao-dependencias.md) · [INT-03](matriz-testes-integrados-criterios-aceite-gates.md) · [INT-04](catalogo-fixtures-rubricas-adjudicacao.md) · [CAP-12](cap-12-api-especializada-guivos-ai.md).
 
