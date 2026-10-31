@@ -77,4 +77,6 @@
 
 | 5.1 | 31/10/2026 | GAI-INT-26: inventário inicial verificado no GitHub, distinção entre artefatos e serviços operacionais, e duas nomeações P0 a ratificar. | Inspeção de repositório; sem serviços externos inspecionados ou gates aprovados |
 
+| 5.2 | 31/10/2026 | GAI-INT-27: dois termos candidatos de designação P0-A/P0-B, critérios de aceite, limites e registro JSON sem indicados. | Preparação documental; nenhuma nomeação, teste ou gate aprovado |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
