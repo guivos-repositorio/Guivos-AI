@@ -127,6 +127,6 @@ Ver [Estudo de Autoridade, Consentimentos e Revogação](autoridade-dados-consen
 - Formalização e validação técnica dos schemas compartilhados propostos
 - Formalização da autoridade canônica, finalidades, bases legais e contratos de autorização
 - Aprovação futura das fixtures, rubricas e critérios de adjudicação
-- Modelo de dependências, eventos canônicos e propagação de invalidação
+- Formalização de schemas de eventos e validação da projeção de dependências
 - Comparação controlada dos contratos com implementação Replit, somente mediante autorização específica
 - Avaliação comercial e B2B após verificação dos gates relevantes
