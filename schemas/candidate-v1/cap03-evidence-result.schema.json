@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://guivos-repositorio.github.io/Guivos-AI/schemas/candidate-v1/cap03-evidence-result.schema.json",
+  "title": "cap03-evidence-result candidate-1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "capability_id",
+    "claims",
+    "limitations"
+  ],
+  "properties": {
+    "capability_id": {
+      "const": "GAI-CAP-03"
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "claim_id",
+          "support_status",
+          "epistemic_type",
+          "evidence_refs"
+        ],
+        "properties": {
+          "claim_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "support_status": {
+            "enum": [
+              "supported",
+              "partially_supported",
+              "unsupported",
+              "contradictory",
+              "not_assessable"
+            ]
+          },
+          "epistemic_type": {
+            "enum": [
+              "observed_event",
+              "attributed_report",
+              "grounded_interpretation",
+              "exploratory_hypothesis",
+              "unknown"
+            ]
+          },
+          "evidence_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          }
+        }
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
