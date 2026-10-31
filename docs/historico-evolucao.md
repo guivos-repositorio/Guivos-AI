@@ -81,4 +81,6 @@
 
 | 5.3 | 31/10/2026 | GAI-INT-28: minuta executiva de indicação P0-A/P0-B, alternativas de alocação e registro estruturado sem titulares. | Decisão pendente; sem nomeações ou testes |
 
+| 5.4 | 31/10/2026 | GAI-DEC-010: alternativa C escolhida pela direção para coordenação institucional temporária P0-A/P0-B, com limites e pendências de aceite. | Decisão estratégica de alocação; sem nomeações individuais, testes ou gates |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
