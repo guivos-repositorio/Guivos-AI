@@ -85,4 +85,6 @@
 
 | 5.5 | 31/10/2026 | GAI-INT-29: minuta objetiva de representação temporária P0-A/P0-B e cadastro estruturado ainda sem indicações individuais. | Sem nomeação formal, testes ou gates aprovados |
 
+| 5.6 | 31/10/2026 | GAI-DEC-011: representante declarante da direção assume coordenação P0-A/P0-B e responsabilidade por autorizações administrativas futuras, sem aprovação de execução ou gates. | Decisão administrativa declarada; verificações especializadas pendentes |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
