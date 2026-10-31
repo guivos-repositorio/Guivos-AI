@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 4.5 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 4.6 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -165,10 +165,13 @@ Ver [Estudo de Autoridade, Consentimentos e Revogação](autoridade-dados-consen
 ## 51. GAI-INT-21 — Decisões Prioritárias de G0/G2 e Autorização de Validação Estrutural — v4.5
 [Especificação GAI-INT-21](pacote-decisoes-g0-g2-autorizacao-validacao-estrutural.md). Define oito propostas de deliberação, governança de fontes, identidade, finalidades e revogação, além de pedido futuro delimitado para executar 49 fixtures sintéticas. [Registro candidato JSON](pacote-decisoes-g0-g2-autorizacao-estrutural-candidato.json). **Estado: nenhuma autorização, execução ou gate aprovado.**
 
-## 52. Próximos estudos
+## 52. GAI-INT-22 — Autoridade Canônica e Responsabilidades de Governança — v4.6
+[Especificação GAI-INT-22](encaminhamento-decisoes-autoridade-canonica-alcadas-g0-g2.md). Define direcionamentos conceituais para D21-01 e D21-02, fronteiras de fontes e alçadas candidatas, com [matriz JSON](matriz-autoridade-alcadas-g0-g2-candidata.json). **Ratificação e nomeações formais pendentes; nenhuma autorização, execução ou gate aprovado.**
+
+## 53. Próximos passos
 - Revisão e testes futuros dos schemas compartilhados candidatos
 - Formalização da autoridade canônica, finalidades, bases legais e contratos de autorização
 - Aprovação futura das fixtures, rubricas e critérios de adjudicação
-- Deliberar formalmente D21-01 e D21-02 e definir alçada para eventual campanha sintética
+- Ratificar responsáveis reais e alçadas de D21-01/D21-02 antes de qualquer campanha sintética
 - Comparação controlada dos contratos com implementação Replit, somente mediante autorização específica
 - Avaliação comercial e B2B após verificação dos gates relevantes
