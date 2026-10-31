@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://guivos-repositorio.github.io/Guivos-AI/schemas/candidate-v2-proposed/event-receipt.schema.json",
+  "title": "Guivos AI event-receipt candidate-1 — proposal v2 (not approved)",
+  "type": "object",
+  "properties": {
+    "event_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "receipt_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "consumer_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "operation": {
+      "enum": [
+        "event_received",
+        "event_validated",
+        "impact_assessed",
+        "validity_applied",
+        "consumer_acknowledged",
+        "reassessment_completed",
+        "delivery_revalidated"
+      ]
+    },
+    "result": {
+      "enum": [
+        "applied",
+        "not_applied",
+        "blocked",
+        "failed",
+        "inconclusive"
+      ]
+    },
+    "aggregate_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "recorded_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "event_id",
+    "receipt_id",
+    "consumer_ref",
+    "operation",
+    "result",
+    "recorded_at"
+  ],
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "operation": {
+            "enum": [
+              "event_received",
+              "event_validated"
+            ]
+          }
+        },
+        "required": [
+          "operation"
+        ]
+      },
+      "then": {
+        "properties": {
+          "result": {
+            "not": {
+              "const": "applied"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "operation": {
+            "const": "validity_applied"
+          },
+          "result": {
+            "const": "applied"
+          }
+        },
+        "required": [
+          "operation",
+          "result"
+        ]
+      },
+      "then": {
+        "required": [
+          "aggregate_version"
+        ]
+      }
+    }
+  ]
+}
