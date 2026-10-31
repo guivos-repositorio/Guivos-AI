@@ -138,7 +138,7 @@ A [matriz machine-readable](matriz-dependencias-sequenciamento-candidato.json) d
 - Avaliar se o próximo avanço deve priorizar **validação observável dos 49 casos** após autorização, em vez de gerar apenas novos estudos.
 
 ## 12. Próxima etapa sugerida
-**GAI-INT-21 — Pacote de Decisões Prioritárias de G0/G2 e Autorização de Validação Estrutural**, com propostas prontas para deliberar, sem declarar nenhuma aprovação. Recomenda-se fechar as escolhas fundamentais antes de continuar ampliando indefinidamente documentação.
+[**GAI-INT-21 — Pacote de Decisões Prioritárias de G0/G2 e Autorização de Validação Estrutural**](pacote-decisoes-g0-g2-autorizacao-validacao-estrutural.md), com propostas prontas para deliberar, sem declarar nenhuma aprovação. Recomenda-se fechar as escolhas fundamentais antes de continuar ampliando indefinidamente documentação.
 
 **Referências:** [INT-19](consolidacao-arquitetura-prontidao-implementacao.md) · [INT-14](registro-decisoes-pendentes-plano-fechamento-gates.md) · [INT-15](preparacao-execucao-sintetica-controlada-evidencias-gate.md) · [INT-12](relatorio-conformidade-estrategia-homologacao-contratual.md) · [INT-05](autoridade-dados-consentimentos-revogacao.md) · [INT-03](matriz-testes-integrados-criterios-aceite-gates.md).
 
