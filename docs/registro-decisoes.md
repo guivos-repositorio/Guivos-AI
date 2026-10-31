@@ -17,5 +17,7 @@ O [GAI-INT-14 — Registro de Decisões Pendentes e Plano de Fechamento de Gates
 
 A [proposta GAI-INT-21 de deliberação prioritária](pacote-decisoes-g0-g2-autorizacao-validacao-estrutural.md) reúne oito perguntas e uma campanha sintética ainda **não autorizada**. Nenhuma PND foi encerrada por sua publicação.
 
+O [GAI-INT-22 — Encaminhamento de Autoridade Canônica e Alçadas](encaminhamento-decisoes-autoridade-canonica-alcadas-g0-g2.md) especifica as alternativas conceituais D21-01 e D21-02, mas não nomeia autoridades nem encerra as PND-01/11. Trata-se de documentação para ratificação formal posterior.
+
 ## Registro de novas decisões
 Cada decisão deve indicar: identificador, data, responsável pela aprovação, contexto, alternativas, decisão, fundamentos, documentos afetados e condição de revisão. Novas hipóteses não serão promovidas a decisões automaticamente.
