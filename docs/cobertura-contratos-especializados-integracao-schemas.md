@@ -79,7 +79,7 @@ A validação negativa busca impedir que o Guivos Intelligence ou um parceiro re
 ## 8. Próximas validações e gates
 **G1:** revisar schemas com responsáveis, perfis formais de enum/timestamp, contrato de erros e compatibilidade de consumidores; **G2:** validar autorização, isolamento e revogação em sistemas apropriados; **G3:** executar casos sintéticos e registrar resultado reprodutível; **G4:** integração isolada; **G5:** adjudicação; **G6:** liberação expressa. Todos pendentes. A documentação G0 permanece parcial.
 
-**Próximo estudo recomendado:** **GAI-INT-12 — Relatório de Conformidade e Estratégia de Homologação Contratual**, para especificar evidências de runs, política de compatibilidade, critérios de aceite e plano de fechamento das lacunas antes de qualquer liberação.
+**Relatório complementar publicado:** [GAI-INT-12 — Relatório de Conformidade e Estratégia de Homologação Contratual](relatorio-conformidade-estrategia-homologacao-contratual.md), para especificar evidências de runs, política de compatibilidade, critérios de aceite e plano de fechamento das lacunas antes de qualquer liberação.
 
 **Referências:** [GAI-INT-10](conformidade-schemas-casos-contrato-compatibilidade.md) · [GAI-INT-09](schemas-especializados-erros-recibos-eventos.md) · [GAI-INT-08](catalogo-formal-schemas-compatibilidade-servicos.md) · [GAI-INT-03](matriz-testes-integrados-criterios-aceite-gates.md) · [CAP-12](cap-12-api-especializada-guivos-ai.md).
 
