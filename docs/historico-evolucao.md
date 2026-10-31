@@ -28,4 +28,6 @@
 
 | 1.5 | 31/10/2026 | Especificação CAP-03 de interpretação fundamentada, contratos de claims/evidências, integração transversal e 16 casos sintéticos candidatos. | Conceitual, sem implementação ou testes |
 
+| 1.6 | 31/10/2026 | Especificação GAI-CAP-04 de identificação e qualificação de lacunas, critérios de confirmação, barreiras e 16 fixtures sintéticas. | Conceitual; não implementada |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
