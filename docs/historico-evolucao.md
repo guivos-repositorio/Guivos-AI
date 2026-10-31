@@ -16,4 +16,6 @@
 
 | 0.9 | 31/10/2026 | Modelo de conhecimento e ontologia temporal para trajetórias, eventos, evidências, lacunas e possibilidades. | Estudo conceitual; esquema técnico pendente |
 
+| 1.0 | 31/10/2026 | Modelo de evidências, rastreabilidade por afirmação, tratamento de contradições e invalidação analítica. | Estudo técnico; não implementado |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
