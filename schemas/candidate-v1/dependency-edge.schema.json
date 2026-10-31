@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://guivos-repositorio.github.io/Guivos-AI/schemas/candidate-v1/dependency-edge.schema.json",
+  "title": "Guivos AI dependency-edge candidate-1",
+  "type": "object",
+  "properties": {
+    "dependency_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "derived_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "derived_type": {
+      "enum": [
+        "analysis_version",
+        "report_version",
+        "consumer_projection"
+      ]
+    },
+    "source_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "dependency_kind": {
+      "enum": [
+        "uses_source_version",
+        "uses_claim",
+        "derived_from_analysis",
+        "references_opportunity",
+        "uses_context_version",
+        "requires_scope",
+        "presented_by"
+      ]
+    },
+    "context_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "subject_scope_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "authorization_scope_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "recorded_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "dependency_id",
+    "derived_ref",
+    "derived_type",
+    "source_ref",
+    "dependency_kind",
+    "context_version",
+    "subject_scope_ref",
+    "authorization_scope_ref",
+    "recorded_at"
+  ],
+  "additionalProperties": false
+}
