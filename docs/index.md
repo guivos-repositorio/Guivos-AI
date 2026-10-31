@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 4.4 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 4.5 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -162,10 +162,13 @@ Ver [Estudo de Autoridade, Consentimentos e Revogação](autoridade-dados-consen
 ## 50. GAI-INT-20 — Matriz de Dependências, Sequenciamento e Entrada na Implementação — v4.4
 [Especificação GAI-INT-20](matriz-dependencias-sequenciamento-entrada-implementacao.md). Publica backlog arquitetural com 16 itens vinculados às PND-01–16, dependências, owners candidatos, prioridades, gates e [matriz JSON](matriz-dependencias-sequenciamento-candidato.json). **Estado: planejamento documental; nenhuma implementação, execução de teste ou gate aprovado.**
 
-## 51. Próximos estudos
+## 51. GAI-INT-21 — Decisões Prioritárias de G0/G2 e Autorização de Validação Estrutural — v4.5
+[Especificação GAI-INT-21](pacote-decisoes-g0-g2-autorizacao-validacao-estrutural.md). Define oito propostas de deliberação, governança de fontes, identidade, finalidades e revogação, além de pedido futuro delimitado para executar 49 fixtures sintéticas. [Registro candidato JSON](pacote-decisoes-g0-g2-autorizacao-estrutural-candidato.json). **Estado: nenhuma autorização, execução ou gate aprovado.**
+
+## 52. Próximos estudos
 - Revisão e testes futuros dos schemas compartilhados candidatos
 - Formalização da autoridade canônica, finalidades, bases legais e contratos de autorização
 - Aprovação futura das fixtures, rubricas e critérios de adjudicação
-- Deliberar decisões prioritárias de G0/G2 e eventual autorização delimitada de validação sintética
+- Deliberar formalmente D21-01 e D21-02 e definir alçada para eventual campanha sintética
 - Comparação controlada dos contratos com implementação Replit, somente mediante autorização específica
 - Avaliação comercial e B2B após verificação dos gates relevantes
