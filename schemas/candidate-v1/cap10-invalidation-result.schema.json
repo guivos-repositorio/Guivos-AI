@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://guivos-repositorio.github.io/Guivos-AI/schemas/candidate-v1/cap10-invalidation-result.schema.json",
+  "title": "cap10-invalidation-result candidate-1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "capability_id",
+    "trigger_event_ref",
+    "impacts",
+    "limitations"
+  ],
+  "properties": {
+    "capability_id": {
+      "const": "GAI-CAP-10"
+    },
+    "trigger_event_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "impacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "derived_ref",
+          "validity_status",
+          "reason_ref"
+        ],
+        "properties": {
+          "derived_ref": {
+            "type": "string",
+            "minLength": 1
+          },
+          "validity_status": {
+            "enum": [
+              "valid_for_recorded_context",
+              "revalidation_required",
+              "stale",
+              "superseded",
+              "invalidated",
+              "blocked_by_authorization"
+            ]
+          },
+          "reason_ref": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
