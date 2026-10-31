@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://guivos-repositorio.github.io/Guivos-AI/schemas/candidate-v1/cap05-possibility-result.schema.json",
+  "title": "Guivos AI cap05-possibility-result candidate-1",
+  "type": "object",
+  "properties": {
+    "capability_id": {
+      "const": "GAI-CAP-05"
+    },
+    "possibility_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "origin": {
+      "enum": [
+        "declared",
+        "adjacent",
+        "emerging",
+        "exploratory"
+      ]
+    },
+    "interest_status": {
+      "enum": [
+        "not_asked",
+        "pending_validation",
+        "accepted_for_exploration",
+        "declined",
+        "postponed"
+      ]
+    },
+    "evidence_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "capability_id",
+    "possibility_ref",
+    "origin",
+    "interest_status",
+    "evidence_refs",
+    "limitations"
+  ],
+  "additionalProperties": false
+}
