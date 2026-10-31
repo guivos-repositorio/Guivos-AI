@@ -43,4 +43,6 @@
 
 | 3.4 | 31/10/2026 | GAI-INT-10: 25 casos sintéticos para 11 schemas, executor offline Draft 2020-12 e plano de conformidade/compatibilidade. | Suite candidata criada; sem runs ou homologação |
 
+| 3.5 | 31/10/2026 | GAI-INT-11: sete payloads, um envelope tipado CAP-01–12, 24 casos sintéticos e executor de referências locais. | Artefatos candidatos; sem testes executados ou homologação |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
