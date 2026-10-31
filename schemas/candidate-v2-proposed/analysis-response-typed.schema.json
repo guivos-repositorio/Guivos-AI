@@ -5,7 +5,7 @@
   "description": "Draft: completed responses require a capability-typed result. Non-completed lifecycle statuses must omit result. All external references must be resolved from a version-pinned local registry; no remote network fetch implied.",
   "allOf": [
     {
-      "$ref": "https://guivos-repositorio.github.io/Guivos-AI/schemas/candidate-v1/analysis-response.schema.json"
+      "$ref": "https://guivos-repositorio.github.io/Guivos-AI/schemas/candidate-v2-proposed/analysis-response.schema.json"
     },
     {
       "if": {
