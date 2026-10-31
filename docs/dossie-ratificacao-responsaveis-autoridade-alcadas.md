@@ -57,7 +57,10 @@ Os 19 schemas e 49 fixtures continuam preparados, não executados. Nenhum runner
 ## 7. Verificação da administração GitHub
 O [GAI-INT-24](verificacao-administracao-repositorio-limites-autoridade.md) constatou permissão administrativa da conexão no GitHub, sem comprovar mandato institucional de nomeação ou homologação. As 16 funções permanecem sem titulares ratificados.
 
-## 8. Próxima ação efetiva
+## 8. Confirmação da instância de nomeações
+A [GAI-DEC-009](decisao-instancia-governanca-direcao-guivos.md) confirma a direção da Guivos como instância inicial de nomeações e decisões estratégicas. Essa confirmação não preenche os 16 papéis do cadastro nem concede alçadas de gate. Os mandatos e aceites individuais permanecem por registrar.
+
+## 9. Próxima ação efetiva
 A instância de governança legítima precisa identificar os titulares e confirmar os mandatos para que o cadastro deixe de ser apenas candidato. **Prosseguir com documentação não substitui essa confirmação organizacional.**
 
 **Referências:** [GAI-INT-22](encaminhamento-decisoes-autoridade-canonica-alcadas-g0-g2.md) · [GAI-INT-14](registro-decisoes-pendentes-plano-fechamento-gates.md) · [Registro de Decisões](registro-decisoes.md).
