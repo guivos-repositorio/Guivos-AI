@@ -1,0 +1,299 @@
+{
+  "catalog_id": "GAI-INT-20-backlog",
+  "document_version": "4.4",
+  "created_at": "2026-10-31",
+  "status": "proposal_only",
+  "planning_level": "dependencies_and_decision_sequence",
+  "task_count": 16,
+  "all_decisions_pending": true,
+  "execution_authorized": false,
+  "gate_approvals_recorded": 0,
+  "notes": "Dependency order is a documentary proposal. No owners formally assigned, tests executed, releases or gates approved.",
+  "tasks": [
+    {
+      "task_id": "GAI-BLK-01",
+      "decision_ref": "PND-01",
+      "title": "Mapear autoridade canônica e proveniência",
+      "depends_on": [],
+      "owner_role_candidate": "dados",
+      "priority_candidate": "critica",
+      "gates": [
+        "G0",
+        "G2"
+      ],
+      "status": "proposed_not_authorized",
+      "acceptance_evidence": "Mapa de fontes/versionamento aprovado",
+      "authorization_required": true
+    },
+    {
+      "task_id": "GAI-BLK-11",
+      "decision_ref": "PND-11",
+      "title": "Designar owners e alçadas de gate",
+      "depends_on": [],
+      "owner_role_candidate": "governanca",
+      "priority_candidate": "critica",
+      "gates": [
+        "G0",
+        "G5"
+      ],
+      "status": "proposed_not_authorized",
+      "acceptance_evidence": "Registro de autoridades com escopo",
+      "authorization_required": true
+    },
+    {
+      "task_id": "GAI-BLK-02",
+      "decision_ref": "PND-02",
+      "title": "Validar finalidades e bases legais",
+      "depends_on": [
+        "GAI-BLK-01",
+        "GAI-BLK-11"
+      ],
+      "owner_role_candidate": "privacidade",
+      "priority_candidate": "critica",
+      "gates": [
+        "G2"
+      ],
+      "status": "proposed_not_authorized",
+      "acceptance_evidence": "Parecer e matriz de finalidades",
+      "authorization_required": true
+    },
+    {
+      "task_id": "GAI-BLK-03",
+      "decision_ref": "PND-03",
+      "title": "Desenhar identidade, tenant e escopos",
+      "depends_on": [
+        "GAI-BLK-01",
+        "GAI-BLK-02",
+        "GAI-BLK-11"
+      ],
+      "owner_role_candidate": "seguranca",
+      "priority_candidate": "critica",
+      "gates": [
+        "G2"
+      ],
+      "status": "proposed_not_authorized",
+      "acceptance_evidence": "Contrato e casos negativos de autorização",
+      "authorization_required": true
+    },
+    {
+      "task_id": "GAI-BLK-08",
+      "decision_ref": "PND-08",
+      "title": "Definir revogação, retenção e derivados",
+      "depends_on": [
+        "GAI-BLK-02",
+        "GAI-BLK-03"
+      ],
+      "owner_role_candidate": "privacidade",
+      "priority_candidate": "critica",
+      "gates": [
+        "G2"
+      ],
+      "status": "proposed_not_authorized",
+      "acceptance_evidence": "Política de bloqueio e retenção",
+      "authorization_required": true
+    },
+    {
+      "task_id": "GAI-BLK-04",
+      "decision_ref": "PND-04",
+      "title": "Decidir projeção Neo4j e autoridade do grafo",
+      "depends_on": [
+        "GAI-BLK-01",
+        "GAI-BLK-03"
+      ],
+      "owner_role_candidate": "arquitetura_dados",
+      "priority_candidate": "alta",
+      "gates": [
+        "G1",
+        "G4"
+      ],
+      "status": "proposed_not_authorized",
+      "acceptance_evidence": "ADR e reconciliação de projeções",
+      "authorization_required": true
+    },
+    {
+      "task_id": "GAI-BLK-05",
+      "decision_ref": "PND-05",
+      "title": "Revisar envelopes, claims, erros e schemas CAP",
+      "depends_on": [
+        "GAI-BLK-01",
+        "GAI-BLK-03"
+      ],
+      "owner_role_candidate": "engenharia_contratos",
+      "priority_candidate": "alta",
+      "gates": [
+        "G1"
+      ],
+      "status": "proposed_not_authorized",
+      "acceptance_evidence": "Schemas/semântica revisados por owners",
+      "authorization_required": true
+    },
+    {
+      "task_id": "GAI-BLK-06",
+      "decision_ref": "PND-06",
+      "title": "Definir versões e compatibilidade",
+      "depends_on": [
+        "GAI-BLK-05"
+      ],
+      "owner_role_candidate": "arquitetura_integracao",
+      "priority_candidate": "alta",
+      "gates": [
+        "G1"
+      ],
+      "status": "proposed_not_authorized",
+      "acceptance_evidence": "Matriz producer-consumer e rollback",
+      "authorization_required": true
+    },
+    {
+      "task_id": "GAI-BLK-07",
+      "decision_ref": "PND-07",
+      "title": "Definir eventos, recibos e garantias de aplicação",
+      "depends_on": [
+        "GAI-BLK-03",
+        "GAI-BLK-04",
+        "GAI-BLK-05"
+      ],
+      "owner_role_candidate": "integracao_seguranca",
+      "priority_candidate": "critica",
+      "gates": [
+        "G2",
+        "G4"
+      ],
+      "status": "proposed_not_authorized",
+      "acceptance_evidence": "Contrato de eventos, reprocessamento e testes",
+      "authorization_required": true
+    },
+    {
+      "task_id": "GAI-BLK-09",
+      "decision_ref": "PND-09",
+      "title": "Revisar fixtures, rubricas e dados sintéticos",
+      "depends_on": [
+        "GAI-BLK-05",
+        "GAI-BLK-11"
+      ],
+      "owner_role_candidate": "qa_ai",
+      "priority_candidate": "alta",
+      "gates": [
+        "G3"
+      ],
+      "status": "proposed_not_authorized",
+      "acceptance_evidence": "Catálogo revisado e critérios de aceite",
+      "authorization_required": true
+    },
+    {
+      "task_id": "GAI-BLK-12",
+      "decision_ref": "PND-12",
+      "title": "Definir severidades, thresholds e stop conditions",
+      "depends_on": [
+        "GAI-BLK-09",
+        "GAI-BLK-11"
+      ],
+      "owner_role_candidate": "qa_seguranca",
+      "priority_candidate": "alta",
+      "gates": [
+        "G3",
+        "G5"
+      ],
+      "status": "proposed_not_authorized",
+      "acceptance_evidence": "Política de severidade e decisões pré-run",
+      "authorization_required": true
+    },
+    {
+      "task_id": "GAI-BLK-10",
+      "decision_ref": "PND-10",
+      "title": "Deliberar autorização de campanha sintética",
+      "depends_on": [
+        "GAI-BLK-03",
+        "GAI-BLK-09",
+        "GAI-BLK-11",
+        "GAI-BLK-12"
+      ],
+      "owner_role_candidate": "governanca_tecnica",
+      "priority_candidate": "alta",
+      "gates": [
+        "G3"
+      ],
+      "status": "proposed_not_authorized",
+      "acceptance_evidence": "Autorização delimitada, orçamento e ambiente",
+      "authorization_required": true
+    },
+    {
+      "task_id": "GAI-BLK-13",
+      "decision_ref": "PND-13",
+      "title": "Deliberar autorização de inspeção da Jornada/Replit",
+      "depends_on": [
+        "GAI-BLK-03",
+        "GAI-BLK-04",
+        "GAI-BLK-06",
+        "GAI-BLK-07",
+        "GAI-BLK-11"
+      ],
+      "owner_role_candidate": "produto_arquitetura",
+      "priority_candidate": "alta",
+      "gates": [
+        "G4"
+      ],
+      "status": "proposed_not_authorized",
+      "acceptance_evidence": "Autorização específica, escopo e dados permitidos",
+      "authorization_required": true
+    },
+    {
+      "task_id": "GAI-BLK-14",
+      "decision_ref": "PND-14",
+      "title": "Definir avaliação de provedores e fallback",
+      "depends_on": [
+        "GAI-BLK-03",
+        "GAI-BLK-05",
+        "GAI-BLK-09"
+      ],
+      "owner_role_candidate": "arquitetura_ia",
+      "priority_candidate": "alta",
+      "gates": [
+        "G4",
+        "G6"
+      ],
+      "status": "proposed_not_authorized",
+      "acceptance_evidence": "Métodos versionados, custo/qualidade e segurança",
+      "authorization_required": true
+    },
+    {
+      "task_id": "GAI-BLK-15",
+      "decision_ref": "PND-15",
+      "title": "Projetar observabilidade e resposta a incidentes",
+      "depends_on": [
+        "GAI-BLK-07",
+        "GAI-BLK-10",
+        "GAI-BLK-12"
+      ],
+      "owner_role_candidate": "operacoes_seguranca",
+      "priority_candidate": "alta",
+      "gates": [
+        "G6"
+      ],
+      "status": "proposed_not_authorized",
+      "acceptance_evidence": "Plano de alertas, logs minimizados e rollback",
+      "authorization_required": true
+    },
+    {
+      "task_id": "GAI-BLK-16",
+      "decision_ref": "PND-16",
+      "title": "Avaliar expansão de API B2B e critérios comerciais",
+      "depends_on": [
+        "GAI-BLK-02",
+        "GAI-BLK-03",
+        "GAI-BLK-06",
+        "GAI-BLK-11",
+        "GAI-BLK-13",
+        "GAI-BLK-14",
+        "GAI-BLK-15"
+      ],
+      "owner_role_candidate": "produto_juridico",
+      "priority_candidate": "posterior",
+      "gates": [
+        "G6"
+      ],
+      "status": "proposed_not_authorized",
+      "acceptance_evidence": "Valor, consentimento de entrega, escopo e release",
+      "authorization_required": true
+    }
+  ]
+}
