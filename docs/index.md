@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 1.0 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 1.1 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -60,7 +60,10 @@ Ver [Modelo de Conhecimento e Ontologia Temporal](modelo-conhecimento-ontologia-
 ## 16. Modelo de Evidências, Rastreabilidade e Revisão — v1.0
 Ver [Modelo de Evidências e Rastreabilidade](modelo-evidencias-rastreabilidade.md), que especifica a cadeia de suporte das afirmações, classificação de fontes, contradições temporais, interpretação de lacunas, obsolescência, correções e avaliações. Princípios de evidências e limites são diretrizes aprovadas; contratos e métodos concretos seguem em estudo.
 
-## 17. Próximos estudos
+## 17. Modelo de Avaliação, Validação e Qualidade — v1.1
+Ver [Modelo de Avaliação, Validação e Qualidade](avaliacao-validacao-qualidade.md). Define unidades de avaliação, cenários sintéticos, métricas, procedimentos de adjudicação e divergências de GPT/Claude/Gemini, além de etapas de validação e bloqueios propostos. É uma especificação de estudo; não registra testes executados nem autoriza liberação operacional.
+
+## 18. Próximos estudos
 - Modelos de evidências, fontes e rastreabilidade
 - Ontologia temporal de trajetórias e possibilidades
 - Métodos de identificação e validação de lacunas
