@@ -95,4 +95,6 @@
 
 | 6.0 | 31/10/2026 | GAI-INT-33: compatibilidade tipada v1/v2 e matriz candidata com 15 casos sintéticos (6 positivos, 9 negativos), mais cinco verificações de integração. | Preparação documental e leitura estática; nenhuma execução ou gate aprovado |
 
+| 6.1 | 31/10/2026 | GAI-INT-34: envelope tipado v2 isolado, política candidata de ciclo de vida e referência CAP-11 v2, com 11 capacidades ligadas a v1. | Publicação de candidato; sem execução, implantação ou gates aprovados |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
