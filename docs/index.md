@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 3.8 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 3.9 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -144,10 +144,13 @@ Ver [Estudo de Autoridade, Consentimentos e Revogação](autoridade-dados-consen
 ## 44. GAI-INT-14 — Registro de Decisões Pendentes e Plano de Fechamento de Gates — v3.8
 [Registro de Pendências e Gates](registro-decisoes-pendentes-plano-fechamento-gates.md). Consolida 16 decisões pendentes, sequenciamento A–E, níveis de autoridade, riscos e evidências necessárias para G0–G6. **Estado: planejamento; nenhuma decisão nova aprovada, teste executado ou gate liberado.**
 
-## 45. Próximos estudos
+## 45. GAI-INT-15 — Preparação para Execução Sintética Controlada e Evidências de Gate — v3.9
+[Especificação GAI-INT-15](preparacao-execucao-sintetica-controlada-evidencias-gate.md). Define autorização, ambiente isolado, controles de segurança, evidências de run, critérios de parada e checklist, além do [manifesto não autorizado](../tests/contracts/candidate-v1/execution-readiness-manifest.json). **Estado: preparação documental; nenhum teste executado, gate liberado ou operação alterada.**
+
+## 46. Próximos estudos
 - Revisão e testes futuros dos schemas compartilhados candidatos
 - Formalização da autoridade canônica, finalidades, bases legais e contratos de autorização
 - Aprovação futura das fixtures, rubricas e critérios de adjudicação
-- Preparar critérios de execução sintética controlada e evidências de gate
+- Definir pacote de evidências, revisão independente e adjudicação formal de gates
 - Comparação controlada dos contratos com implementação Replit, somente mediante autorização específica
 - Avaliação comercial e B2B após verificação dos gates relevantes
