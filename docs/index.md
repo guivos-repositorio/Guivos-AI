@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 2.8 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 2.9 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -114,10 +114,13 @@ Ver [Matriz Integrada de Testes e Gates](matriz-testes-integrados-criterios-acei
 ## 34. GAI-INT-04 — Catálogo de Fixtures, Rubricas e Registro de Adjudicação — v2.8
 Ver [Catálogo de Fixtures, Rubricas e Adjudicação](catalogo-fixtures-rubricas-adjudicacao.md). Define hierarquia de suites/casos/fixtures/runs, nove pacotes sintéticos, rubricas por risco, registros de execução, revisão e adjudicação humana, exemplos documentais e controle de evidências. **Estado: proposta documental; nenhum teste executado, adjudicação ou gate aprovado.**
 
-## 35. Próximos estudos
+## 35. GAI-INT-05 — Autoridade de Dados, Consentimentos e Fluxos de Revogação — v2.9
+Ver [Estudo de Autoridade, Consentimentos e Revogação](autoridade-dados-consentimentos-revogacao.md). Consolida matriz de autoridade, finalidades e bases legais a definir, autorizações de processamento e entrega, fluxo de restrição/revogação, estados separados, contrato lógico de evento e 18 cenários sintéticos candidatos. **Estado: estudo documental; sem execução, parecer jurídico ou alteração operacional.**
+
+## 36. Próximos estudos
 - Formalização e validação técnica dos schemas compartilhados propostos
-- Autoridade canônica e autorização por finalidade, vínculo e versão
+- Formalização da autoridade canônica, finalidades, bases legais e contratos de autorização
 - Aprovação futura das fixtures, rubricas e critérios de adjudicação
-- Modelo de dependências e propagação de revogações e invalidações
+- Modelo de dependências, eventos canônicos e propagação de invalidação
 - Comparação controlada dos contratos com implementação Replit, somente mediante autorização específica
 - Avaliação comercial e B2B após verificação dos gates relevantes
