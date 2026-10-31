@@ -24,4 +24,6 @@
 
 | 1.3 | 31/10/2026 | Especificação da GAI-CAP-01 com fontes, temporalidade, entradas/saídas, erros, integração e 12 fixtures de avaliação candidatas. | Especificação conceitual; não implementada |
 
+| 1.4 | 31/10/2026 | Especificação CAP-02 do momento atual, com dimensões, proveniência, contratos lógicos e 14 cenários sintéticos. | Conceitual; não implementada |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
