@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://guivos-repositorio.github.io/Guivos-AI/schemas/candidate-v1/cap12-api-service-result.schema.json",
+  "title": "cap12-api-service-result candidate-1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "capability_id",
+    "consumer_ref",
+    "enabled_capability_ids",
+    "contract_version",
+    "scope_status",
+    "limitations"
+  ],
+  "properties": {
+    "capability_id": {
+      "const": "GAI-CAP-12"
+    },
+    "consumer_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "enabled_capability_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^GAI-CAP-(0[1-9]|1[0-2])$"
+      }
+    },
+    "contract_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scope_status": {
+      "enum": [
+        "authorized",
+        "denied",
+        "requires_reverification"
+      ]
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
