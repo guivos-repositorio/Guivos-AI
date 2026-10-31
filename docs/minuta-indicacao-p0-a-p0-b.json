@@ -1,0 +1,31 @@
+{
+  "id": "GAI-INT-28",
+  "version": "5.3",
+  "state": "awaiting_direction_nominees",
+  "appointing_body_ref": "GAI-DEC-009",
+  "selected_allocation_option": null,
+  "options": [
+    "shared_nominee",
+    "distinct_nominees",
+    "temporary_direction_coordination_with_specific_mandate"
+  ],
+  "nominations": [
+    {
+      "role_id": "P0-A",
+      "nominee_ref": null,
+      "mandate_ref": null,
+      "acceptance_ref": null,
+      "status": "not_nominated"
+    },
+    {
+      "role_id": "P0-B",
+      "nominee_ref": null,
+      "mandate_ref": null,
+      "acceptance_ref": null,
+      "status": "not_nominated"
+    }
+  ],
+  "tests_executed": 0,
+  "gate_approvals": 0,
+  "authorization_for_operational_inspection": false
+}
