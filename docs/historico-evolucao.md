@@ -73,4 +73,6 @@
 
 | 4.9 | 31/10/2026 | GAI-DEC-009: direção da Guivos confirmada como instância das nomeações e decisões estratégicas iniciais; atualização do cadastro sem nomeações individuais. | Decisão de governança estratégica; gates e testes pendentes |
 
+| 5.0 | 31/10/2026 | GAI-INT-25: modelo progressivo de designação, priorização P0–P3, segregação de funções e 16 slots candidatos com matriz JSON. | Plano documental; sem nomeações formais, testes ou gates aprovados |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
