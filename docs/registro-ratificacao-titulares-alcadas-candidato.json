@@ -1,0 +1,207 @@
+{
+  "register_id": "GAI-INT-23-ROLE-RATIFICATION",
+  "document_version": "4.7",
+  "date": "2026-10-31",
+  "status": "candidate_unratified",
+  "authoritative_owner_inventory_verified": false,
+  "identity_data_access_authorized": false,
+  "gate_status": {
+    "G0": "partial",
+    "G2": "pending",
+    "G5": "pending",
+    "G6": "pending"
+  },
+  "decisions": {
+    "D21_01": "pending_formal_ratification",
+    "D21_02": "pending_formal_role_assignment"
+  },
+  "roles": [
+    {
+      "role_id": "ROLE-01",
+      "role": "architecture_owner",
+      "person_or_team_ref": null,
+      "mandate_ref": null,
+      "acceptance_ref": null,
+      "scope_ref": null,
+      "substitute_ref": null,
+      "reviewed_at": null,
+      "status": "unassigned_pending_formal_ratification"
+    },
+    {
+      "role_id": "ROLE-02",
+      "role": "identity_service_owner",
+      "person_or_team_ref": null,
+      "mandate_ref": null,
+      "acceptance_ref": null,
+      "scope_ref": null,
+      "substitute_ref": null,
+      "reviewed_at": null,
+      "status": "unassigned_pending_formal_ratification"
+    },
+    {
+      "role_id": "ROLE-03",
+      "role": "context_service_owner",
+      "person_or_team_ref": null,
+      "mandate_ref": null,
+      "acceptance_ref": null,
+      "scope_ref": null,
+      "substitute_ref": null,
+      "reviewed_at": null,
+      "status": "unassigned_pending_formal_ratification"
+    },
+    {
+      "role_id": "ROLE-04",
+      "role": "authorization_service_owner",
+      "person_or_team_ref": null,
+      "mandate_ref": null,
+      "acceptance_ref": null,
+      "scope_ref": null,
+      "substitute_ref": null,
+      "reviewed_at": null,
+      "status": "unassigned_pending_formal_ratification"
+    },
+    {
+      "role_id": "ROLE-05",
+      "role": "supply_service_owner",
+      "person_or_team_ref": null,
+      "mandate_ref": null,
+      "acceptance_ref": null,
+      "scope_ref": null,
+      "substitute_ref": null,
+      "reviewed_at": null,
+      "status": "unassigned_pending_formal_ratification"
+    },
+    {
+      "role_id": "ROLE-06",
+      "role": "evidence_service_owner",
+      "person_or_team_ref": null,
+      "mandate_ref": null,
+      "acceptance_ref": null,
+      "scope_ref": null,
+      "substitute_ref": null,
+      "reviewed_at": null,
+      "status": "unassigned_pending_formal_ratification"
+    },
+    {
+      "role_id": "ROLE-07",
+      "role": "report_delivery_owner",
+      "person_or_team_ref": null,
+      "mandate_ref": null,
+      "acceptance_ref": null,
+      "scope_ref": null,
+      "substitute_ref": null,
+      "reviewed_at": null,
+      "status": "unassigned_pending_formal_ratification"
+    },
+    {
+      "role_id": "ROLE-08",
+      "role": "privacy_legal_reviewer",
+      "person_or_team_ref": null,
+      "mandate_ref": null,
+      "acceptance_ref": null,
+      "scope_ref": null,
+      "substitute_ref": null,
+      "reviewed_at": null,
+      "status": "unassigned_pending_formal_ratification"
+    },
+    {
+      "role_id": "ROLE-09",
+      "role": "security_owner",
+      "person_or_team_ref": null,
+      "mandate_ref": null,
+      "acceptance_ref": null,
+      "scope_ref": null,
+      "substitute_ref": null,
+      "reviewed_at": null,
+      "status": "unassigned_pending_formal_ratification"
+    },
+    {
+      "role_id": "ROLE-10",
+      "role": "contract_owner",
+      "person_or_team_ref": null,
+      "mandate_ref": null,
+      "acceptance_ref": null,
+      "scope_ref": null,
+      "substitute_ref": null,
+      "reviewed_at": null,
+      "status": "unassigned_pending_formal_ratification"
+    },
+    {
+      "role_id": "ROLE-11",
+      "role": "qa_executor",
+      "person_or_team_ref": null,
+      "mandate_ref": null,
+      "acceptance_ref": null,
+      "scope_ref": null,
+      "substitute_ref": null,
+      "reviewed_at": null,
+      "status": "unassigned_pending_formal_ratification"
+    },
+    {
+      "role_id": "ROLE-12",
+      "role": "independent_reviewer",
+      "person_or_team_ref": null,
+      "mandate_ref": null,
+      "acceptance_ref": null,
+      "scope_ref": null,
+      "substitute_ref": null,
+      "reviewed_at": null,
+      "status": "unassigned_pending_formal_ratification"
+    },
+    {
+      "role_id": "ROLE-13",
+      "role": "gate_g0_authority",
+      "person_or_team_ref": null,
+      "mandate_ref": null,
+      "acceptance_ref": null,
+      "scope_ref": null,
+      "substitute_ref": null,
+      "reviewed_at": null,
+      "status": "unassigned_pending_formal_ratification"
+    },
+    {
+      "role_id": "ROLE-14",
+      "role": "gate_g2_authority",
+      "person_or_team_ref": null,
+      "mandate_ref": null,
+      "acceptance_ref": null,
+      "scope_ref": null,
+      "substitute_ref": null,
+      "reviewed_at": null,
+      "status": "unassigned_pending_formal_ratification"
+    },
+    {
+      "role_id": "ROLE-15",
+      "role": "gate_g5_authority",
+      "person_or_team_ref": null,
+      "mandate_ref": null,
+      "acceptance_ref": null,
+      "scope_ref": null,
+      "substitute_ref": null,
+      "reviewed_at": null,
+      "status": "unassigned_pending_formal_ratification"
+    },
+    {
+      "role_id": "ROLE-16",
+      "role": "gate_g6_authority",
+      "person_or_team_ref": null,
+      "mandate_ref": null,
+      "acceptance_ref": null,
+      "scope_ref": null,
+      "substitute_ref": null,
+      "reviewed_at": null,
+      "status": "unassigned_pending_formal_ratification"
+    }
+  ],
+  "required_evidence": [
+    "service_contract_and_actual_owner",
+    "authorization_of_appointment",
+    "scope_and_limits_of_mandate",
+    "independence_and_conflict_review",
+    "acceptance_and_effective_date",
+    "gate_authority_ref_if_applicable"
+  ],
+  "campaign_authorized": false,
+  "executed_runs": [],
+  "gate_decision_ref": null
+}
