@@ -93,4 +93,6 @@
 
 | 5.9 | 31/10/2026 | GAI-INT-32: três schemas v2 propostos em diretório isolado, preservando candidate-v1. | Nenhum teste ou gate aprovado |
 
+| 6.0 | 31/10/2026 | GAI-INT-33: compatibilidade tipada v1/v2 e matriz candidata com 15 casos sintéticos (6 positivos, 9 negativos), mais cinco verificações de integração. | Preparação documental e leitura estática; nenhuma execução ou gate aprovado |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
