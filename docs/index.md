@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 3.7 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 3.8 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -141,10 +141,13 @@ Ver [Estudo de Autoridade, Consentimentos e Revogação](autoridade-dados-consen
 ## 43. GAI-INT-13 — Plano de Compatibilidade, Migração e Evolução de Contratos — v3.7
 [Estudo de Compatibilidade e Migração](plano-compatibilidade-migracao-evolucao-contratos.md). Estabelece classes de mudança, matriz produtor/consumidor, versionamento paralelo, adaptadores, depreciação, rollout/rollback, 20 cenários sintéticos e gates pendentes. **Estado: plano documental, sem migração implementada ou teste executado.**
 
-## 44. Próximos estudos
+## 44. GAI-INT-14 — Registro de Decisões Pendentes e Plano de Fechamento de Gates — v3.8
+[Registro de Pendências e Gates](registro-decisoes-pendentes-plano-fechamento-gates.md). Consolida 16 decisões pendentes, sequenciamento A–E, níveis de autoridade, riscos e evidências necessárias para G0–G6. **Estado: planejamento; nenhuma decisão nova aprovada, teste executado ou gate liberado.**
+
+## 45. Próximos estudos
 - Revisão e testes futuros dos schemas compartilhados candidatos
 - Formalização da autoridade canônica, finalidades, bases legais e contratos de autorização
 - Aprovação futura das fixtures, rubricas e critérios de adjudicação
-- Consolidar decisões pendentes e plano de fechamento dos gates contratuais
+- Preparar critérios de execução sintética controlada e evidências de gate
 - Comparação controlada dos contratos com implementação Replit, somente mediante autorização específica
 - Avaliação comercial e B2B após verificação dos gates relevantes
