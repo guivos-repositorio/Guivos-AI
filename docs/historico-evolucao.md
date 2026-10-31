@@ -33,4 +33,6 @@
 
 | 2.9 | 31/10/2026 | GAI-INT-05: autoridade de dados, autorizações por finalidade, fluxos de revogação e 18 cenários sintéticos propostos. | Estudo documental; sem testes ou implementação |
 
+| 3.0 | 31/10/2026 | GAI-INT-06: eventos canônicos, grafo de dependências, impacto seletivo, idempotência, propagação e 20 casos sintéticos. | Estudo documental; sem execução ou implementação |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
