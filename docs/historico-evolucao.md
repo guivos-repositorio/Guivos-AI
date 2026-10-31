@@ -87,4 +87,6 @@
 
 | 5.6 | 31/10/2026 | GAI-DEC-011: representante declarante da direção assume coordenação P0-A/P0-B e responsabilidade por autorizações administrativas futuras, sem aprovação de execução ou gates. | Decisão administrativa declarada; verificações especializadas pendentes |
 
+| 5.7 | 31/10/2026 | GAI-REV-001: revisão estática autorizada do Pedido A, 19 schemas, 49 fixtures e 2 scripts; dez achados candidatos para triagem. Documento Mestre sincronizado com GAI-DEC-011. | Leitura estática concluída; B/C não autorizados, nenhum gate aprovado |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
