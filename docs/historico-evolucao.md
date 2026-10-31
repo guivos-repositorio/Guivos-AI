@@ -67,4 +67,6 @@
 
 | 4.6 | 31/10/2026 | GAI-INT-22: encaminhamento conceitual de autoridade canônica por domínio e segregação de papéis, com matriz JSON e ratificações pendentes. | Direcionamentos conceituais; sem nomeações, testes ou gates aprovados |
 
+| 4.7 | 31/10/2026 | GAI-INT-23: dossiê de ratificação de responsáveis, 16 papéis candidatos e registro JSON sem titulares. | Proposta; sem mandatos, testes ou gates aprovados |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
