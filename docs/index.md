@@ -1,5 +1,12 @@
 # Guivos AI — Documento Mestre
-**Versão:** 0.4 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 0.5 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+
+## Natureza e autoridade deste documento
+Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
+
+**Documentos de controle:** [Governança documental](governanca-repositorio.md) · [Registro de decisões](registro-decisoes.md) · [Histórico de evolução](historico-evolucao.md).
+
+**Regra de autoridade:** documentos conceituais podem conter hipóteses. Somente decisões explicitamente aprovadas, registradas e fundamentadas são normativas.
 
 ## 1. Identidade e objetivo
 Guivos AI é uma proposta de inteligência especializada no universo Guivos, capaz de compreender trajetórias, relacionar evidências, analisar lacunas e identificar possibilidades futuras e oportunidades intermediárias. Não é necessário desenvolver um modelo de linguagem fundacional próprio para construir esta especialização.
