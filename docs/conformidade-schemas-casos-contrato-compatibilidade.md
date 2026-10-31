@@ -85,7 +85,7 @@ Nenhum desses gates é aprovado automaticamente pela publicação da suite. G0 c
 6. Aprovar versões, critérios de severidade, política de compatibilidade e responsáveis.
 7. Separar formalmente teste de estrutura, teste de domínio e testes integrados sem dados reais.
 
-**Próximo estudo recomendado:** **GAI-INT-11 — Cobertura dos Contratos Especializados e Integração dos Schemas**, antes de considerar homologação G1.
+**Estudo seguinte publicado:** [GAI-INT-11 — Cobertura dos Contratos Especializados e Integração dos Schemas](cobertura-contratos-especializados-integracao-schemas.md), antes de considerar homologação G1.
 
 ## 10. Referências
 [GAI-INT-08](catalogo-formal-schemas-compatibilidade-servicos.md) · [GAI-INT-09](schemas-especializados-erros-recibos-eventos.md) · [GAI-INT-03](matriz-testes-integrados-criterios-aceite-gates.md) · [GAI-INT-04](catalogo-fixtures-rubricas-adjudicacao.md) · [CAP-12](cap-12-api-especializada-guivos-ai.md).
