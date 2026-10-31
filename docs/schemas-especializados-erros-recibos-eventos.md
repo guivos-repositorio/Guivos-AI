@@ -86,7 +86,7 @@ Todos os cenários estão **planejados**, sem resultados de execução, revisão
 ## 10. Lacunas e critérios de gate
 **G1 pendente:** faltam schemas dos demais payloads, união tipada de sucesso/erro, normalização de claims, perfis de timestamp com fuso e contratos normativos de revisão. **G2 pendente:** autorização, isolamento e revogação não se comprovam pelo JSON Schema. **G3 pendente:** nenhum validador/campanha de teste executado nesta etapa. **G4–G6 pendentes:** nenhuma integração, adjudicação ou liberação operacional.
 
-A próxima etapa recomendada é **GAI-INT-10 — Conformidade de Schemas, Casos de Contrato e Compatibilidade**, para definir validação automatizável com fixtures sintéticas e resultados reproduzíveis, preservando aprovação de gates separada.
+O estudo seguinte está disponível em [GAI-INT-10 — Conformidade de Schemas, Casos de Contrato e Compatibilidade](conformidade-schemas-casos-contrato-compatibilidade.md), para definir validação automatizável com fixtures sintéticas e resultados reproduzíveis, preservando aprovação de gates separada.
 
 **Referências:** [GAI-INT-08](catalogo-formal-schemas-compatibilidade-servicos.md) · [GAI-INT-07](contratos-eventos-projecao-dependencias.md) · [GAI-INT-04](catalogo-fixtures-rubricas-adjudicacao.md) · [CAP-04](cap-04-identificacao-qualificacao-lacunas.md) · [CAP-08](cap-08-qualificacao-oportunidades.md) · [CAP-11](cap-11-relatorio-trajetoria-possibilidades.md) · [CAP-12](cap-12-api-especializada-guivos-ai.md).
 
