@@ -61,4 +61,6 @@
 
 | 4.3 | 31/10/2026 | GAI-INT-19: consolidação da arquitetura-alvo, fronteiras dos serviços, inventário de contratos, prontidão por camada, dependências e critérios futuros de implementação. | Estudo documental; sem implementação, testes ou gates aprovados |
 
+| 4.4 | 31/10/2026 | GAI-INT-20: backlog de 16 decisões, matriz JSON de dependências, priorização por ondas, critérios de entrada e pré-requisitos dos gates. | Plano documental; sem decisões operacionais, testes ou implementação |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
