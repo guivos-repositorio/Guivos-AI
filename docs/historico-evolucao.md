@@ -28,4 +28,6 @@
 | 2.4 | 31/10/2026 | Especificação GAI-CAP-12 de API interna/externa, autorização, contratos, segurança, versionamento e 24 cenários sintéticos; primeira rodada de 12 capacidades documentada. | Conceitual; não implementada |
 | 2.5 | 31/10/2026 | Revisão integrada GAI-INT-01 das 12 capacidades, dependências, contratos, 12 achados, 8 cenários ponta a ponta e gates G0–G6. | Revisão documental; sem implementação nem testes |
 
+| 2.6 | 31/10/2026 | GAI-INT-02: normalização de envelopes, estados independentes, versões, evidências, autorização, erros e 18 testes sintéticos de contrato. | Proposta documental; sem schemas homologados ou testes |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
