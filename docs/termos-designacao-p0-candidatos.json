@@ -1,17 +1,17 @@
 {
   "document_id": "GAI-INT-27",
-  "document_version": "5.4",
-  "status": "alternative_c_confirmed_personal_appointments_and_acceptance_pending",
+  "document_version": "5.6",
+  "status": "representative_self_declared_coordination_with_limits",
   "appointing_institution_ref": "GAI-DEC-009",
   "mandates": [
     {
       "mandate_id": "P0-A",
       "title": "Coordenação de Arquitetura Guivos AI",
-      "status": "temporary_direction_coordination_model_confirmed_no_individual_nominee",
-      "nominee_ref": null,
+      "status": "self_declared_temporary_coordination_not_operationally_authorized",
+      "nominee_ref": "GUIVOS-DIRECTION-DECLARANT",
       "nominator_ref": "Guivos direction (GAI-DEC-009)",
       "appointment_decision_ref": null,
-      "acceptance_ref": null,
+      "acceptance_ref": "GAI-DEC-011:self_declaration_in_conversation",
       "effective_at": null,
       "scope": [
         "assess_architecture_boundary",
@@ -31,11 +31,11 @@
     {
       "mandate_id": "P0-B",
       "title": "Inventário de Serviços Canônicos",
-      "status": "temporary_direction_coordination_model_confirmed_no_individual_nominee",
-      "nominee_ref": null,
+      "status": "self_declared_temporary_coordination_not_operationally_authorized",
+      "nominee_ref": "GUIVOS-DIRECTION-DECLARANT",
       "nominator_ref": "Guivos direction (GAI-DEC-009)",
       "appointment_decision_ref": null,
-      "acceptance_ref": null,
+      "acceptance_ref": "GAI-DEC-011:self_declaration_in_conversation",
       "effective_at": null,
       "scope": [
         "identify_real_service_owners",
@@ -54,7 +54,7 @@
     }
   ],
   "appointments_count": 0,
-  "acceptances_count": 0,
+  "acceptances_count": 2,
   "gate_approvals_count": 0,
   "test_execution_authorized": false,
   "operational_access_authorized": false,
@@ -62,5 +62,6 @@
     "PND-01",
     "PND-11"
   ],
-  "allocation_decision_ref": "GAI-DEC-010"
+  "allocation_decision_ref": "GAI-DEC-010",
+  "authorization_controller_ref": "GAI-DEC-011"
 }
