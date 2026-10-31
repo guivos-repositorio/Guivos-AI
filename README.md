@@ -1,6 +1,6 @@
 # Guivos AI — Repositório Mestre de Conhecimento
 
-**Versão documental 5.0 · 31/10/2026**
+**Versão documental 5.1 · 31/10/2026**
 
 Este repositório é a **base mestra de conhecimento, análise, governança e evolução da Guivos AI**. É um projeto independente do [Guivos Knowledge Repository](https://github.com/guivos-repositorio/Guivos-Knowledge-Repository).
 
@@ -89,6 +89,8 @@ Não se destina a divulgar ou comercializar um produto, nem a oferecer interface
 - [GAI-DEC-009 — Direção da Guivos como Instância Inicial de Governança — v4.9](docs/decisao-instancia-governanca-direcao-guivos.md)
 
 - [GAI-INT-25 — Modelo Inicial de Designações e Segregação de Responsabilidades — v5.0](docs/modelo-inicial-designacoes-segregacao-responsabilidades.md)
+
+- [GAI-INT-26 — Inventário Técnico Inicial e Designações P0 — v5.1](docs/inventario-tecnico-inicial-designacoes-p0.md)
 
 ## Regras
 1. Registrar evidências, hipóteses, limitações e decisões separadamente.
