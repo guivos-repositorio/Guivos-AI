@@ -53,4 +53,6 @@
 
 | 3.9 | 31/10/2026 | GAI-INT-15: preparação de ambiente sintético, autorização, isolamento, evidências de execução, critérios de parada e manifesto de campanha não autorizada. | Preparação documental; sem execução ou gate aprovado |
 
+| 4.0 | 31/10/2026 | GAI-INT-16: pacote de evidências, revisão independente, adjudicação, GateDecision e dois templates JSON candidatos; 16 cenários propostos. | Estudo documental; sem runs, revisões ou gate aprovado |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
