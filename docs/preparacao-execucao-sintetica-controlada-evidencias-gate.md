@@ -138,7 +138,7 @@ O preparo do ambiente não resolve automaticamente nenhuma das 16 pendências e 
 **Nenhum item é marcado como concluído nesta etapa sem registro de prova.**
 
 ## 13. Próxima etapa recomendada
-**GAI-INT-16 — Modelo de Pacote de Evidências, Revisão Independente e Adjudicação de Gates**, para detalhar formulários lógicos, critérios de decisão e proveniência de evidências sem pressupor que testes já foram executados.
+[**GAI-INT-16 — Modelo de Pacote de Evidências, Revisão Independente e Adjudicação de Gates**](pacote-evidencias-revisao-independente-adjudicacao-gates.md), para detalhar formulários lógicos, critérios de decisão e proveniência de evidências sem pressupor que testes já foram executados.
 
 **Referências:** [INT-14](registro-decisoes-pendentes-plano-fechamento-gates.md) · [INT-12](relatorio-conformidade-estrategia-homologacao-contratual.md) · [INT-10](conformidade-schemas-casos-contrato-compatibilidade.md) · [INT-11](cobertura-contratos-especializados-integracao-schemas.md) · [INT-03](matriz-testes-integrados-criterios-aceite-gates.md) · [INT-05](autoridade-dados-consentimentos-revogacao.md).
 
