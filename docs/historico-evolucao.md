@@ -10,4 +10,6 @@
 
 | 0.6 | 31/10/2026 | Separação de papéis Guivos AI e Guivos Intelligence, com relação de consumo definida. | Direção aprovada; detalhamento técnico em estudo |
 
+| 0.7 | 31/10/2026 | Inspeção de leitura da Jornada no Replit; diagnóstico de conexões atuais e arquitetura-alvo Intelligence, AI, Neo4j e modelos. | Documentado; implementação não autorizada |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
