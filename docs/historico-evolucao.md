@@ -83,4 +83,6 @@
 
 | 5.4 | 31/10/2026 | GAI-DEC-010: alternativa C escolhida pela direção para coordenação institucional temporária P0-A/P0-B, com limites e pendências de aceite. | Decisão estratégica de alocação; sem nomeações individuais, testes ou gates |
 
+| 5.5 | 31/10/2026 | GAI-INT-29: minuta objetiva de representação temporária P0-A/P0-B e cadastro estruturado ainda sem indicações individuais. | Sem nomeação formal, testes ou gates aprovados |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
