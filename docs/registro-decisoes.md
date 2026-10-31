@@ -19,5 +19,7 @@ A [proposta GAI-INT-21 de deliberação prioritária](pacote-decisoes-g0-g2-auto
 
 O [GAI-INT-22 — Encaminhamento de Autoridade Canônica e Alçadas](encaminhamento-decisoes-autoridade-canonica-alcadas-g0-g2.md) especifica as alternativas conceituais D21-01 e D21-02, mas não nomeia autoridades nem encerra as PND-01/11. Trata-se de documentação para ratificação formal posterior.
 
+O [GAI-INT-23 — Dossiê de Ratificação de Responsáveis](dossie-ratificacao-responsaveis-autoridade-alcadas.md) consolida 16 funções candidatas, sem atribuição ou mandato efetivo. As PND-01 e PND-11 e todas as demais PNDs permanecem abertas.
+
 ## Registro de novas decisões
 Cada decisão deve indicar: identificador, data, responsável pela aprovação, contexto, alternativas, decisão, fundamentos, documentos afetados e condição de revisão. Novas hipóteses não serão promovidas a decisões automaticamente.
