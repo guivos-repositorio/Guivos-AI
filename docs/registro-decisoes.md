@@ -25,5 +25,7 @@ O [GAI-INT-23 — Dossiê de Ratificação de Responsáveis](dossie-ratificacao-
 
 O [GAI-INT-24](verificacao-administracao-repositorio-limites-autoridade.md) registra administração técnica da conexão sobre o repositório, mas não identifica autoridade institucional legitimada. Não houve ratificação ou encerramento de PNDs.
 
+O [GAI-INT-25](modelo-inicial-designacoes-segregacao-responsabilidades.md) propõe uma ordem P0–P3 para designar funções com separação de responsabilidades. Essa proposta não atribui titulares nem altera a GAI-DEC-009, as PNDs ou os gates.
+
 ## Registro de novas decisões
 Cada decisão deve indicar: identificador, data, responsável pela aprovação, contexto, alternativas, decisão, fundamentos, documentos afetados e condição de revisão. Novas hipóteses não serão promovidas a decisões automaticamente.
