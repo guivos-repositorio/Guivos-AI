@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://guivos-repositorio.github.io/Guivos-AI/schemas/candidate-v1/error-response.schema.json",
+  "title": "Guivos AI error-response candidate-1",
+  "type": "object",
+  "properties": {
+    "request_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "correlation_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "api_contract_version": {
+      "const": "candidate-1"
+    },
+    "error": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "code",
+        "category",
+        "retryable",
+        "message_safe"
+      ],
+      "properties": {
+        "code": {
+          "enum": [
+            "unauthenticated",
+            "forbidden",
+            "invalid_contract",
+            "capability_not_enabled",
+            "context_version_conflict",
+            "upstream_unavailable",
+            "rate_limited",
+            "access_revoked",
+            "needs_review",
+            "internal_failure"
+          ]
+        },
+        "category": {
+          "enum": [
+            "auth",
+            "contract",
+            "state",
+            "dependency",
+            "safety",
+            "transient",
+            "internal"
+          ]
+        },
+        "retryable": {
+          "type": "boolean"
+        },
+        "message_safe": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "context_version": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "request_id",
+    "api_contract_version",
+    "error"
+  ],
+  "additionalProperties": false
+}
