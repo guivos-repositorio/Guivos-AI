@@ -114,7 +114,7 @@ Não marcar decisão como `approved` apenas pela criação deste GAI-INT-14.
 Manter um registro versionado das propostas e decisões, com revisão por domínio conforme disponibilidade dos responsáveis. Separar reuniões de arquitetura, privacidade e testes; não inventar cronograma, responsáveis ou prazos. Nenhuma automação ou auditoria recorrente adicional é instituída por este documento.
 
 ## 10. Próximo passo condicionado
-**GAI-INT-15 — Plano de Preparação para Execução Sintética Controlada e Evidências de Gate**, apenas como detalhamento documental futuro. Antes de executar qualquer suíte, exigir designação dos responsáveis, autorização de ambiente, critérios de segurança e versão congelada dos contratos.
+[**GAI-INT-15 — Plano de Preparação para Execução Sintética Controlada e Evidências de Gate**](preparacao-execucao-sintetica-controlada-evidencias-gate.md) foi publicado como aprofundamento documental. Antes de executar qualquer suíte, exigir designação dos responsáveis, autorização de ambiente, critérios de segurança e versão congelada dos contratos.
 
 **Referências:** [Registro de decisões existente](registro-decisoes.md) · [GAI-INT-13](plano-compatibilidade-migracao-evolucao-contratos.md) · [GAI-INT-12](relatorio-conformidade-estrategia-homologacao-contratual.md) · [GAI-INT-03](matriz-testes-integrados-criterios-aceite-gates.md) · [GAI-INT-05](autoridade-dados-consentimentos-revogacao.md) · [GAI-INT-11](cobertura-contratos-especializados-integracao-schemas.md).
 
