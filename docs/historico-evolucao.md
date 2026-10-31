@@ -71,4 +71,6 @@
 
 | 4.8 | 31/10/2026 | GAI-INT-24: verificação de metadados do GitHub e distinção entre administração técnica e autoridade institucional, com evidência estruturada. | Verificação documental; sem ratificações, testes ou gates aprovados |
 
+| 4.9 | 31/10/2026 | GAI-DEC-009: direção da Guivos confirmada como instância das nomeações e decisões estratégicas iniciais; atualização do cadastro sem nomeações individuais. | Decisão de governança estratégica; gates e testes pendentes |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
