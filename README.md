@@ -1,6 +1,6 @@
 # Guivos AI — Repositório Mestre de Conhecimento
 
-**Versão documental 3.7 · 31/10/2026**
+**Versão documental 3.8 · 31/10/2026**
 
 Este repositório é a **base mestra de conhecimento, análise, governança e evolução da Guivos AI**. É um projeto independente do [Guivos Knowledge Repository](https://github.com/guivos-repositorio/Guivos-Knowledge-Repository).
 
@@ -26,6 +26,7 @@ Não se destina a divulgar ou comercializar um produto, nem a oferecer interface
 - [GAI-INT-11 — Cobertura dos Contratos Especializados e Integração dos Schemas — v3.5](docs/cobertura-contratos-especializados-integracao-schemas.md)
 - [GAI-INT-12 — Relatório de Conformidade e Estratégia de Homologação Contratual — v3.6](docs/relatorio-conformidade-estrategia-homologacao-contratual.md)
 - [GAI-INT-13 — Plano de Compatibilidade, Migração e Evolução de Contratos — v3.7](docs/plano-compatibilidade-migracao-evolucao-contratos.md)
+- [GAI-INT-14 — Registro de Decisões Pendentes e Plano de Fechamento de Gates — v3.8](docs/registro-decisoes-pendentes-plano-fechamento-gates.md)
 
 ## Especificações de capacidades
 - [GAI-CAP-01 — Leitura e Compreensão de Trajetórias — v1.3](docs/cap-01-leitura-compreensao-trajetorias.md)
