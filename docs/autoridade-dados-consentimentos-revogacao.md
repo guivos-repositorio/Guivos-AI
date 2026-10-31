@@ -163,7 +163,7 @@ Não substituir esses conceitos por um único `status` e não exibir “excluíd
 7. Definir política para relatórios compartilhados e parceiros externos.
 8. Formalizar responsáveis, evidências e gates G1/G2/G3 antes de integração.
 
-**Próximo estudo recomendado:** **GAI-INT-06 — Modelo de Dependências, Eventos e Propagação de Invalidação**, para detalhar interações CAP-10 e contratos de eventos canônicos, ainda sem execução.
+**Estudo complementar publicado:** [GAI-INT-06 — Modelo de Dependências, Eventos e Propagação de Invalidação](modelo-dependencias-eventos-propagacao-invalidacao.md), para detalhar interações CAP-10 e contratos de eventos canônicos, ainda sem execução.
 
 **Referências:** [Autoridade de Dados e Memória v0.8](autoridade-dados-memoria-contexto.md) · [GAI-INT-01](arquitetura-integrada-plano-validacao.md) · [GAI-INT-02](normalizacao-contratos-estados-compartilhados.md) · [GAI-INT-03](matriz-testes-integrados-criterios-aceite-gates.md) · [CAP-10](cap-10-reavaliacao-invalidacao-analises.md) · [CAP-11](cap-11-relatorio-trajetoria-possibilidades.md) · [CAP-12](cap-12-api-especializada-guivos-ai.md).
 
