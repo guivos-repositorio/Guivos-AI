@@ -1,5 +1,5 @@
 # Matriz de Capacidades da Guivos AI
-**Versão documental 6.0 · 31/10/2026**
+**Versão documental 6.1 · 31/10/2026**
 **Estado:** planejamento conceitual e priorização proposta, sem homologação técnica, comercial ou autorização de implantação.
 
 ## 1. Função deste documento
@@ -118,6 +118,8 @@ Transformar os fundamentos e estudos da Guivos AI em um catálogo rastreável de
 **Schemas candidatos v2:** [GAI-INT-32](schemas-candidatos-v2-propostas-sta01-sta02-sta03.md), três arquivos isolados de candidate-v1, sem execução nem homologação.
 
 **Compatibilidade do contrato tipado:** [GAI-INT-33](compatibilidade-contrato-tipado-matriz-casos-v2.md) delimita CAP-11 v1/v2, recibos e eventos e prepara 15 casos não executados.
+
+**Envelope tipado v2 candidato:** [GAI-INT-34](envelope-tipado-v2-politica-ciclo-vida-candidata.md) define proposta de `result` apenas para `completed`, mantendo os contratos anteriores.
 
 ## 3. Capacidades estruturais habilitadoras (não equivalentes à Guivos AI)
 | ID | Responsável proposto | Capacidade habilitadora | Dependência |
