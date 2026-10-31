@@ -162,6 +162,6 @@ Homologação e evolução: [INT-12](relatorio-conformidade-estrategia-homologac
 Decisões e avaliação: [INT-14](registro-decisoes-pendentes-plano-fechamento-gates.md) · [INT-15](preparacao-execucao-sintetica-controlada-evidencias-gate.md) · [INT-16](pacote-evidencias-revisao-independente-adjudicacao-gates.md) · [INT-17](modelo-rastreabilidade-auditoria-proveniencia-gates.md) · [INT-18](modelo-observabilidade-gates-alertas-revalidacao.md).
 
 ## 13. Próximo avanço recomendado
-**GAI-INT-20 — Matriz de Dependências, Sequenciamento de Decisões e Critérios de Entrada na Implementação** para transformar esta visão integrada em backlog arquitetural priorizado, com ownership candidato e pré-requisitos concretos. Permanecer na governança documental até que ocorra autorização expressa de execução.
+[**GAI-INT-20 — Matriz de Dependências, Sequenciamento de Decisões e Critérios de Entrada na Implementação**](matriz-dependencias-sequenciamento-entrada-implementacao.md) para transformar esta visão integrada em backlog arquitetural priorizado, com ownership candidato e pré-requisitos concretos. Permanecer na governança documental até que ocorra autorização expressa de execução.
 
 **Nenhuma alteração ao Replit, Neo4j, provedores, API, GKR ou gates operacionais foi realizada por este estudo.**
