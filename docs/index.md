@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 6.1 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 6.2 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -213,7 +213,10 @@ Ver [Estudo de Autoridade, Consentimentos e Revogação](autoridade-dados-consen
 ## 67. GAI-INT-34 — Envelope Tipado v2 e Política de Ciclo de Vida — v6.1
 [Estudo](envelope-tipado-v2-politica-ciclo-vida-candidata.md) e [schema candidato](../schemas/candidate-v2-proposed/analysis-response-typed.schema.json). Resultado obrigatório apenas em `completed`; demais estados sem resultado conforme proposta. CAP-11 usa v2; demais 11 capacidades referenciam candidate-v1. Sem testes, homologação ou mudança de produção.
 
-## 68. Próximos passos
+## 68. GAI-INT-35 — Deliberação sobre Respostas e Versionamento — v6.2
+[Minuta executiva](deliberacao-compatibilidade-versionamento-envelope-v2.md) e [registro candidato](deliberacao-compatibilidade-envelope-v2-candidata.json). Recomenda A1/B1/C1 para resultados completos, erros correlacionados e versão candidate-2 isolada; opções ainda dependem de escolha explícita da direção. Sem novos testes ou gates.
+
+## 69. Próximos passos
 - Revisão e testes futuros dos schemas compartilhados candidatos
 - Formalização da autoridade canônica, finalidades, bases legais e contratos de autorização
 - Aprovação futura das fixtures, rubricas e critérios de adjudicação
