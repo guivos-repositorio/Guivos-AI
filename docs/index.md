@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 3.1 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 3.2 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -123,10 +123,13 @@ Ver [Estudo de Autoridade, Consentimentos e Revogação](autoridade-dados-consen
 ## 37. GAI-INT-07 — Contratos de Eventos e Projeção — v3.1
 [Especificação GAI-INT-07](contratos-eventos-projecao-dependencias.md). Envelopes, versões, projeções, recibos e 22 cenários sintéticos, sem execução.
 
-## 38. Próximos estudos
-- Formalização e validação técnica dos schemas compartilhados propostos
+## 38. GAI-INT-08 — Catálogo Formal de Schemas e Compatibilidade entre Serviços — v3.2
+[Especificação GAI-INT-08](catalogo-formal-schemas-compatibilidade-servicos.md). Publica três JSON Schemas candidatos para requisição, resposta e evento canônico, mais compatibilidade, limitações e 18 cenários de conformidade não executados. **Estado: artefatos técnicos candidatos; sem homologação ou integração.**
+
+## 39. Próximos estudos
+- Revisão e testes futuros dos schemas compartilhados candidatos
 - Formalização da autoridade canônica, finalidades, bases legais e contratos de autorização
 - Aprovação futura das fixtures, rubricas e critérios de adjudicação
-- Formalização de schemas de eventos e validação da projeção de dependências
+- Schemas especializados por capacidade, contratos de erro e recibos de eventos
 - Comparação controlada dos contratos com implementação Replit, somente mediante autorização específica
 - Avaliação comercial e B2B após verificação dos gates relevantes
