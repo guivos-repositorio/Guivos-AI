@@ -29,5 +29,7 @@ O [GAI-INT-25](modelo-inicial-designacoes-segregacao-responsabilidades.md) prop�
 
 O [GAI-INT-26](inventario-tecnico-inicial-designacoes-p0.md) verifica artefatos do GitHub e prepara a indicação de responsáveis P0-A/P0-B, sem nomeações ou fechamento das decisões PND-01/PND-11.
 
+O [GAI-INT-27](termos-designacao-coordenacao-arquitetura-inventario-canonico.md) formaliza os termos candidatos P0-A/P0-B. A [minuta GAI-INT-28](minuta-executiva-indicacao-p0-a-p0-b.md) apresenta alternativas para indicação pela direção, sem nomeações ou alteração das PNDs.
+
 ## Registro de novas decisões
 Cada decisão deve indicar: identificador, data, responsável pela aprovação, contexto, alternativas, decisão, fundamentos, documentos afetados e condição de revisão. Novas hipóteses não serão promovidas a decisões automaticamente.
