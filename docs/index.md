@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 4.7 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 4.8 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -171,7 +171,10 @@ Ver [Estudo de Autoridade, Consentimentos e Revogação](autoridade-dados-consen
 ## 53. GAI-INT-23 — Dossiê de Ratificação de Responsáveis e Alçadas — v4.7
 [Dossiê GAI-INT-23](dossie-ratificacao-responsaveis-autoridade-alcadas.md). Registra 16 posições funcionais sem titular ratificado, provas de mandato/aceite e critérios de fechamento de D21-01 e D21-02. [Registro candidato JSON](registro-ratificacao-titulares-alcadas-candidato.json). **Estado: nenhuma ratificação, execução de testes ou gate aprovado.**
 
-## 54. Próximos passos
+## 54. GAI-INT-24 — Verificação de Administração do Repositório e Limites de Autoridade — v4.8
+[Estudo GAI-INT-24](verificacao-administracao-repositorio-limites-autoridade.md). Verifica que a conexão possui administração sobre o repositório GitHub da Guivos AI, mas não comprova alçadas institucionais sobre dados, privacidade, nomeações e gates. [Evidência estruturada](evidencia-controle-github-autoridade-institucional-candidata.json). **Sem mandatos, testes ou gates aprovados.**
+
+## 55. Próximos passos
 - Revisão e testes futuros dos schemas compartilhados candidatos
 - Formalização da autoridade canônica, finalidades, bases legais e contratos de autorização
 - Aprovação futura das fixtures, rubricas e critérios de adjudicação
