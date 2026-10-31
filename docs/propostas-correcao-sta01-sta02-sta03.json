@@ -1,0 +1,145 @@
+{
+  "document_id": "GAI-INT-31",
+  "version": "5.8",
+  "status": "proposed_not_approved",
+  "source_review": "GAI-REV-001",
+  "draft": "2020-12",
+  "source_schemas_unmodified": true,
+  "changes": [
+    {
+      "finding": "STA-01",
+      "file": "schemas/candidate-v1/cap11-report-result.schema.json",
+      "proposed_clause": {
+        "if": {
+          "properties": {
+            "report_status": {
+              "enum": [
+                "ready_for_authorized_release",
+                "released_to_authorized_recipient"
+              ]
+            }
+          },
+          "required": [
+            "report_status"
+          ]
+        },
+        "then": {
+          "required": [
+            "sharing_scope_ref"
+          ]
+        }
+      },
+      "additional_semantics": "verify external validity of scope and delivery before release",
+      "contract_migration_required": true
+    },
+    {
+      "finding": "STA-02",
+      "file": "schemas/candidate-v1/event-receipt.schema.json",
+      "proposed_clause": {
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "operation": {
+                  "enum": [
+                    "event_received",
+                    "event_validated"
+                  ]
+                }
+              },
+              "required": [
+                "operation"
+              ]
+            },
+            "then": {
+              "properties": {
+                "result": {
+                  "not": {
+                    "const": "applied"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "operation": {
+                  "const": "validity_applied"
+                },
+                "result": {
+                  "const": "applied"
+                }
+              },
+              "required": [
+                "operation",
+                "result"
+              ]
+            },
+            "then": {
+              "required": [
+                "aggregate_version"
+              ]
+            }
+          }
+        ]
+      },
+      "additional_semantics": "operation/result state machine, provenance and real applied effect require owner review",
+      "contract_migration_required": true
+    },
+    {
+      "finding": "STA-03",
+      "file": "schemas/candidate-v1/canonical-event.schema.json",
+      "proposed_clause": {
+        "if": {
+          "properties": {
+            "event_type": {
+              "enum": [
+                "authorization_scope_revoked",
+                "authorization_scope_expired",
+                "report_access_restricted"
+              ]
+            }
+          },
+          "required": [
+            "event_type"
+          ]
+        },
+        "then": {
+          "required": [
+            "authorization_policy_ref",
+            "subject_scope_ref"
+          ],
+          "properties": {
+            "authorization_policy_ref": {
+              "type": "string",
+              "minLength": 1
+            },
+            "subject_scope_ref": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      },
+      "tenant_rule": "require nonempty tenant_scope_ref where domain is confirmed multitenant",
+      "additional_semantics": "policy existence, revocation enforcement and actual scope authorization must be checked outside schemas",
+      "contract_migration_required": true
+    }
+  ],
+  "approval": {
+    "decision_ref": null,
+    "approver_ref": "GUIVOS-DIRECTION-DECLARANT",
+    "schema_change_approved": false,
+    "tests_authorized": false,
+    "operational_inspection_authorized": false,
+    "gates_approved": false
+  },
+  "required_review": [
+    "architecture",
+    "canonical_service_owners",
+    "security",
+    "privacy_legal",
+    "contract_compatibility"
+  ]
+}
