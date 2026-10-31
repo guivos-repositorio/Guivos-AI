@@ -1,5 +1,5 @@
 # Matriz de Capacidades da Guivos AI
-**Versão documental 3.0 · 31/10/2026**
+**Versão documental 3.1 · 31/10/2026**
 **Estado:** planejamento conceitual e priorização proposta, sem homologação técnica, comercial ou autorização de implantação.
 
 ## 1. Função deste documento
@@ -58,6 +58,8 @@ Transformar os fundamentos e estudos da Guivos AI em um catálogo rastreável de
 **Autoridade e revogação:** [GAI-INT-05 — Autoridade de Dados, Consentimentos e Fluxos de Revogação v2.9](autoridade-dados-consentimentos-revogacao.md). Separa autoridade canônica, autorização por finalidade, consentimento quando aplicável, processamento, entrega e efeitos de revogação. Não altera a maturidade das capacidades.
 
 **Eventos e invalidação:** [GAI-INT-06 — Modelo de Dependências, Eventos e Propagação de Invalidação v3.0](modelo-dependencias-eventos-propagacao-invalidacao.md). Complementa CAP-10 e INT-05 com semântica de eventos canônicos, dependências diretas/transitivas e propagação seletiva, sem homologar capacidade.
+
+**Contratos de eventos e projeções:** [GAI-INT-07 — Contratos de Eventos e Projeção de Dependências v3.1](contratos-eventos-projecao-dependencias.md). Define semântica de envelopes, índices, recibos e consistência, sem instalar schema Neo4j ou executar testes.
 
 ## 3. Capacidades estruturais habilitadoras (não equivalentes à Guivos AI)
 | ID | Responsável proposto | Capacidade habilitadora | Dependência |
