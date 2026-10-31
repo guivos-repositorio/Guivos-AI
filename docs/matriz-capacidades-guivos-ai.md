@@ -1,5 +1,5 @@
 # Matriz de Capacidades da Guivos AI
-**Versão documental 4.6 · 31/10/2026**
+**Versão documental 4.7 · 31/10/2026**
 **Estado:** planejamento conceitual e priorização proposta, sem homologação técnica, comercial ou autorização de implantação.
 
 ## 1. Função deste documento
@@ -90,6 +90,8 @@ Transformar os fundamentos e estudos da Guivos AI em um catálogo rastreável de
 **Deliberação e autorização:** [GAI-INT-21 — Decisões G0/G2 e Autorização de Validação Estrutural v4.5](pacote-decisoes-g0-g2-autorizacao-validacao-estrutural.md). Oito propostas pendentes para fundamentar gates e eventual campanha offline; nenhuma execução autorizada.
 
 **Autoridade e alçadas:** [GAI-INT-22 — Encaminhamento de D21-01/D21-02 v4.6](encaminhamento-decisoes-autoridade-canonica-alcadas-g0-g2.md). Define fronteiras conceituais de fonte e revisão; atribuições formais e gates permanecem pendentes.
+
+**Responsabilidades e ratificação:** [GAI-INT-23 — Dossiê de Ratificação v4.7](dossie-ratificacao-responsaveis-autoridade-alcadas.md). Define evidências de nomeação, aceite e alçada para 16 funções candidatas; nenhuma atribuição formal registrada.
 
 ## 3. Capacidades estruturais habilitadoras (não equivalentes à Guivos AI)
 | ID | Responsável proposto | Capacidade habilitadora | Dependência |
