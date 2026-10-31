@@ -36,4 +36,6 @@
 
 | 1.9 | 31/10/2026 | Especificação GAI-CAP-07 de caminhos intermediários, etapas alternativas, Direct/Enabling Supply, contratos e 20 cenários sintéticos. | Conceitual; não implementada |
 
+| 2.0 | 31/10/2026 | Especificação GAI-CAP-08 para qualificação de ofertas, status de publicação/disponibilidade, requisitos, eventos e 20 cenários sintéticos. | Conceitual; não implementada |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
