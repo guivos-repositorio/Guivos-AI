@@ -18,4 +18,6 @@
 
 | 1.0 | 31/10/2026 | Modelo de evidências, rastreabilidade por afirmação, tratamento de contradições e invalidação analítica. | Estudo técnico; não implementado |
 
+| 1.1 | 31/10/2026 | Protocolo de avaliação e qualidade, cenários sintéticos, divergência entre modelos, falhas e gates. | Proposta documental, sem testes executados |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
