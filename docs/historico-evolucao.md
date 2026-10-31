@@ -79,4 +79,6 @@
 
 | 5.2 | 31/10/2026 | GAI-INT-27: dois termos candidatos de designação P0-A/P0-B, critérios de aceite, limites e registro JSON sem indicados. | Preparação documental; nenhuma nomeação, teste ou gate aprovado |
 
+| 5.3 | 31/10/2026 | GAI-INT-28: minuta executiva de indicação P0-A/P0-B, alternativas de alocação e registro estruturado sem titulares. | Decisão pendente; sem nomeações ou testes |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
