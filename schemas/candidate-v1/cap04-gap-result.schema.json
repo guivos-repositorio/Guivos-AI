@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://guivos-repositorio.github.io/Guivos-AI/schemas/candidate-v1/cap04-gap-result.schema.json",
+  "title": "Guivos AI cap04-gap-result candidate-1",
+  "type": "object",
+  "properties": {
+    "capability_id": {
+      "const": "GAI-CAP-04"
+    },
+    "requirement_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "condition_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "gap_status": {
+      "enum": [
+        "confirmed_gap",
+        "possible_gap",
+        "no_gap",
+        "unknown",
+        "not_assessable"
+      ]
+    },
+    "evidence_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "capability_id",
+    "requirement_ref",
+    "gap_status",
+    "evidence_refs",
+    "limitations"
+  ],
+  "additionalProperties": false
+}
