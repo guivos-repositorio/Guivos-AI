@@ -16,6 +16,8 @@
 
 | GAI-DEC-010 | Aprovado — alocação institucional | Alternativa C: direção da Guivos coordenará temporariamente P0-A e P0-B. | [Escopo e limites](decisao-coordenacao-temporaria-direcao-p0-a-p0-b.md). Sem nomeação individual, aceite, acesso a sistemas, testes ou homologação de gates. |
 
+| GAI-DEC-011 | Aprovado — responsabilidade administrativa declarada | Declarante da direção assume coordenação inicial P0-A/P0-B e controle central de autorizações específicas para Guivos AI. | [Decisão com limites](decisao-representante-direcao-autoridade-central-autorizacao.md). Sem aprovações antecipadas, acessos operacionais, gates ou dispensa de revisões. |
+
 ## Propostas de decisão ainda não aprovadas
 O [GAI-INT-14 — Registro de Decisões Pendentes e Plano de Fechamento de Gates](registro-decisoes-pendentes-plano-fechamento-gates.md) consolida **16 decisões candidatas PND-01 a PND-16**. Todas permanecem em aberto e não modificam o status dos direcionamentos aprovados neste registro. A criação de uma pendência não representa aprovação técnica nem operacional.
 
@@ -36,6 +38,8 @@ O [GAI-INT-27](termos-designacao-coordenacao-arquitetura-inventario-canonico.md)
 A [GAI-DEC-010](decisao-coordenacao-temporaria-direcao-p0-a-p0-b.md) seleciona a alternativa C da minuta GAI-INT-28; as pendências PND-01/11 continuam abertas até a ratificação de titulares e competências.
 
 O [GAI-INT-29](encaminhamento-representante-temporario-p0.md) reúne condições para designar representantes da direção, sem afirmar aceite ou alçada operacional. A GAI-DEC-010 segue válida dentro de seus limites.
+
+A [GAI-DEC-011](decisao-representante-direcao-autoridade-central-autorizacao.md) registra a responsabilidade administrativa central assumida pelo representante da direção, preservando competências técnicas e legais externas, nomeações de especialistas e o estado pendente das PNDs.
 
 ## Registro de novas decisões
 Cada decisão deve indicar: identificador, data, responsável pela aprovação, contexto, alternativas, decisão, fundamentos, documentos afetados e condição de revisão. Novas hipóteses não serão promovidas a decisões automaticamente.
