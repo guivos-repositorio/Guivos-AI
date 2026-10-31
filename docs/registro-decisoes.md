@@ -49,5 +49,7 @@ O [GAI-INT-32](schemas-candidatos-v2-propostas-sta01-sta02-sta03.md) contém tr�
 
 O [GAI-INT-33](compatibilidade-contrato-tipado-matriz-casos-v2.md) documenta compatibilidade do contrato tipado e 15 casos sintéticos não executados; a preparação não configura nova autorização de testes, adoção contratual ou gate.
 
+O [GAI-INT-34](envelope-tipado-v2-politica-ciclo-vida-candidata.md) publica um envelope tipado v2 independente com proposta de política de ciclo de vida. Nenhuma regra foi homologada ou posta em execução.
+
 ## Registro de novas decisões
 Cada decisão deve indicar: identificador, data, responsável pela aprovação, contexto, alternativas, decisão, fundamentos, documentos afetados e condição de revisão. Novas hipóteses não serão promovidas a decisões automaticamente.
