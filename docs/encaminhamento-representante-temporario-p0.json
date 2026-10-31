@@ -1,0 +1,28 @@
+{
+  "id": "GAI-INT-29",
+  "version": "5.5",
+  "decision_ref": "GAI-DEC-010",
+  "status": "pending_individual_representatives",
+  "roles": [
+    {
+      "role": "P0-A",
+      "coordinating_body": "Guivos direction",
+      "representative_ref": null,
+      "acceptance_ref": null,
+      "mandate_ref": null,
+      "term_ref": null,
+      "status": "not_ratified"
+    },
+    {
+      "role": "P0-B",
+      "coordinating_body": "Guivos direction",
+      "representative_ref": null,
+      "acceptance_ref": null,
+      "mandate_ref": null,
+      "term_ref": null,
+      "status": "not_ratified"
+    }
+  ],
+  "test_authorized": false,
+  "gates_approved": 0
+}
