@@ -55,4 +55,6 @@
 
 | 4.0 | 31/10/2026 | GAI-INT-16: pacote de evidências, revisão independente, adjudicação, GateDecision e dois templates JSON candidatos; 16 cenários propostos. | Estudo documental; sem runs, revisões ou gate aprovado |
 
+| 4.1 | 31/10/2026 | GAI-INT-17: rastreabilidade, auditoria e proveniência de evidências, relações entre artefatos e decisões, 18 casos sintéticos e template JSON. | Estudo documental; sem runs, auditorias ou gate aprovado |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
