@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 5.0 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 5.1 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -180,10 +180,13 @@ Ver [Estudo de Autoridade, Consentimentos e Revogação](autoridade-dados-consen
 ## 56. GAI-INT-25 — Modelo Inicial de Designações e Segregação de Responsabilidades — v5.0
 [Especificação GAI-INT-25](modelo-inicial-designacoes-segregacao-responsabilidades.md). Distribui 16 funções em ondas P0–P3 e define limites entre direção, responsáveis técnicos, revisores e autoridades de gate, com [matriz JSON de designações candidatas](matriz-designacoes-segregacao-candidata.json). **Nenhum titular nomeado, teste executado ou gate aprovado.**
 
-## 57. Próximos passos
+## 57. GAI-INT-26 — Inventário Técnico Inicial e Designações P0 — v5.1
+[Inventário GAI-INT-26](inventario-tecnico-inicial-designacoes-p0.md). Verificou no GitHub 19 schemas candidatos, dois runners e dois catálogos de fixtures, diferenciando-os de serviços operacionais ainda não verificados. Define duas designações prioritárias a ratificar; [registro JSON](inventario-tecnico-inicial-guivos-ai.json). **Nenhum teste, nomeação ou gate aprovado.**
+
+## 58. Próximos passos
 - Revisão e testes futuros dos schemas compartilhados candidatos
 - Formalização da autoridade canônica, finalidades, bases legais e contratos de autorização
 - Aprovação futura das fixtures, rubricas e critérios de adjudicação
-- A direção da Guivos deve indicar a coordenação de arquitetura e inventário dos serviços, com mandatos e aceites registrados
+- Direção deve designar e obter aceite dos responsáveis P0-A (arquitetura) e P0-B (inventário canônico) antes de inspeção operacional
 - Comparação controlada dos contratos com implementação Replit, somente mediante autorização específica
 - Avaliação comercial e B2B após verificação dos gates relevantes
