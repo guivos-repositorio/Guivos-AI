@@ -1,5 +1,5 @@
 # Matriz de Capacidades da Guivos AI
-**Versão documental 2.7 · 31/10/2026**
+**Versão documental 2.8 · 31/10/2026**
 **Estado:** planejamento conceitual e priorização proposta, sem homologação técnica, comercial ou autorização de implantação.
 
 ## 1. Função deste documento
@@ -52,6 +52,8 @@ Transformar os fundamentos e estudos da Guivos AI em um catálogo rastreável de
 **Contratos e estados transversais:** [GAI-INT-02 — Normalização dos Contratos e Estados Compartilhados v2.6](normalizacao-contratos-estados-compartilhados.md). Distingue status de execução, validade, suporte, escolha da Pessoa, publicação e disponibilidade da oferta; os contratos seguem propostos e não homologados.
 
 **Testes integrados e gates:** [GAI-INT-03 — Matriz de Testes Integrados, Critérios de Aceite e Gates v2.7](matriz-testes-integrados-criterios-aceite-gates.md). Plano de cenários, severidade, evidência e adjudicação humana, sem testes executados ou alteração da maturidade das capacidades.
+
+**Catálogo de avaliação:** [GAI-INT-04 — Fixtures, Rubricas e Adjudicação v2.8](catalogo-fixtures-rubricas-adjudicacao.md). Organiza casos, dados sintéticos, rubricas, runs e decisões humanas sem atribuir resultados ou gates aprovados.
 
 ## 3. Capacidades estruturais habilitadoras (não equivalentes à Guivos AI)
 | ID | Responsável proposto | Capacidade habilitadora | Dependência |
