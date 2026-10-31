@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 5.4 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 5.5 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -192,7 +192,10 @@ Ver [Estudo de Autoridade, Consentimentos e Revogação](autoridade-dados-consen
 ## 60. GAI-DEC-010 — Coordenação Temporária da Direção para P0-A/P0-B — v5.4
 [Decisão de alocação](decisao-coordenacao-temporaria-direcao-p0-a-p0-b.md). A direção confirmou a alternativa C da GAI-INT-28. [Matriz P0 atualizada](minuta-indicacao-p0-a-p0-b.json). Não há nomes, aceites individuais, autorização operacional nem gates aprovados.
 
-## 61. Próximos passos
+## 61. GAI-INT-29 — Encaminhamento de Representante Temporário P0 — v5.5
+[Minuta para designação](encaminhamento-representante-temporario-p0.md) e [registro candidato](encaminhamento-representante-temporario-p0.json). A alternativa C já está confirmada; nomes, mandatos, aceites e vigências individuais permanecem pendentes. Nenhum teste ou gate aprovado.
+
+## 62. Próximos passos
 - Revisão e testes futuros dos schemas compartilhados candidatos
 - Formalização da autoridade canônica, finalidades, bases legais e contratos de autorização
 - Aprovação futura das fixtures, rubricas e critérios de adjudicação
