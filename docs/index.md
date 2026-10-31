@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 1.1 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 1.2 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -63,7 +63,10 @@ Ver [Modelo de Evidências e Rastreabilidade](modelo-evidencias-rastreabilidade.
 ## 17. Modelo de Avaliação, Validação e Qualidade — v1.1
 Ver [Modelo de Avaliação, Validação e Qualidade](avaliacao-validacao-qualidade.md). Define unidades de avaliação, cenários sintéticos, métricas, procedimentos de adjudicação e divergências de GPT/Claude/Gemini, além de etapas de validação e bloqueios propostos. É uma especificação de estudo; não registra testes executados nem autoriza liberação operacional.
 
-## 18. Próximos estudos
+## 18. Matriz de Capacidades e Dependências — v1.2
+Ver [Matriz de Capacidades Guivos AI](matriz-capacidades-guivos-ai.md). Organiza doze capacidades especializadas (GAI-CAP-01 a 12), seus dados, métodos, métricas, dependências, consumidores, riscos e estados de maturidade. As ondas A/B/C são propostas de priorização, não autorização de implementação. Nenhuma capacidade é declarada operacional.
+
+## 19. Próximos estudos
 - Modelos de evidências, fontes e rastreabilidade
 - Ontologia temporal de trajetórias e possibilidades
 - Métodos de identificação e validação de lacunas
