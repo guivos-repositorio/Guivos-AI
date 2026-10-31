@@ -30,4 +30,6 @@
 
 | 1.6 | 31/10/2026 | Especificação GAI-CAP-04 de identificação e qualificação de lacunas, critérios de confirmação, barreiras e 16 fixtures sintéticas. | Conceitual; não implementada |
 
+| 1.7 | 31/10/2026 | Especificação CAP-05 de descoberta de possibilidades declaradas, adjacentes, emergentes e exploratórias, contratos e 18 cenários sintéticos. | Conceitual; não implementada |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
