@@ -149,7 +149,7 @@ Não presumir nomes, designação, alçada legal nem poderes de aprovar produç�
 **F5 — Decisão:** documentar evidências e adjudicar gates por escopo, separando homologação de autorização comercial.
 
 ## 11. Próxima etapa recomendada
-**GAI-INT-13 — Plano de Compatibilidade, Migração e Evolução de Contratos**, aprofundando cenários producer/consumer, versionamento e rollout/rollback sem presumir operação real.
+[**GAI-INT-13 — Plano de Compatibilidade, Migração e Evolução de Contratos**](plano-compatibilidade-migracao-evolucao-contratos.md), publicado para aprofundar cenários producer/consumer, versionamento e rollout/rollback sem presumir operação real.
 
 **Referências:** [GAI-INT-11](cobertura-contratos-especializados-integracao-schemas.md) · [GAI-INT-10](conformidade-schemas-casos-contrato-compatibilidade.md) · [GAI-INT-09](schemas-especializados-erros-recibos-eventos.md) · [GAI-INT-03](matriz-testes-integrados-criterios-aceite-gates.md) · [GAI-INT-05](autoridade-dados-consentimentos-revogacao.md) · [GAI-INT-08](catalogo-formal-schemas-compatibilidade-servicos.md).
 
