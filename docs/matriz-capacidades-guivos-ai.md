@@ -1,5 +1,5 @@
 # Matriz de Capacidades da Guivos AI
-**Versão documental 2.4 · 31/10/2026**
+**Versão documental 2.5 · 31/10/2026**
 **Estado:** planejamento conceitual e priorização proposta, sem homologação técnica, comercial ou autorização de implantação.
 
 ## 1. Função deste documento
@@ -31,7 +31,7 @@ Transformar os fundamentos e estudos da Guivos AI em um catálogo rastreável de
 | GAI-CAP-11 | Relatório de Trajetória e Possibilidades | Resultados GAI-CAP-01 a 10, escopo profissional | Relatório explicável, temporal, validável | Utilidade, clareza, integridade e acesso | Produto comercial inicial | Conceituada |
 | GAI-CAP-12 | API especializada | Autenticação, escopo, contexto e capacidade solicitada | Resposta versionada de análises, sem histórico indiscriminado | Segurança, isolamento, contratos, custo e falhas | Plataformas parceiras; Intelligence | Conceituada |
 
-### Detalhamento da primeira capacidade
+### Especificações documentadas das capacidades
 - [GAI-CAP-01 — Leitura e Compreensão de Trajetórias](cap-01-leitura-compreensao-trajetorias.md): especificação v1.3, contrato lógico, temporalidade, evidências e testes sintéticos propostos. **Estado: conceituada**.
 - [GAI-CAP-02 — Síntese do Momento Atual](cap-02-sintese-momento-atual.md): especificação v1.4, dimensões contextuais, estados de informação, perguntas e contratos lógicos. **Estado: conceituada**.
 - [GAI-CAP-03 — Interpretação Fundamentada em Evidências](cap-03-interpretacao-fundamentada-evidencias.md): especificação v1.5, afirmações verificáveis, suporte por fonte, incerteza, contradições e validação transversal. **Estado: conceituada**.
@@ -46,6 +46,8 @@ Transformar os fundamentos e estudos da Guivos AI em um catálogo rastreável de
 - [GAI-CAP-12 — API Especializada da Guivos AI](cap-12-api-especializada-guivos-ai.md): especificação v2.4, contratos internos e B2B, autorização por finalidade, versionamento e segurança. **Estado: conceituada**.
 
 **Primeira rodada documental concluída:** CAP-01 a CAP-12 têm especificações; nenhuma capacidade foi declarada homologada ou operacional.
+
+**Revisão integrada:** [GAI-INT-01 — Arquitetura Integrada e Plano de Validação v2.5](arquitetura-integrada-plano-validacao.md). Identifica dependências não circulares, limites de autoridade, estados compartilhados e critérios de avaliação ponta a ponta. Não altera os estados de maturidade.
 
 ## 3. Capacidades estruturais habilitadoras (não equivalentes à Guivos AI)
 | ID | Responsável proposto | Capacidade habilitadora | Dependência |
