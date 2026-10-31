@@ -26,4 +26,6 @@
 
 | 1.4 | 31/10/2026 | Especificação CAP-02 do momento atual, com dimensões, proveniência, contratos lógicos e 14 cenários sintéticos. | Conceitual; não implementada |
 
+| 1.5 | 31/10/2026 | Especificação CAP-03 de interpretação fundamentada, contratos de claims/evidências, integração transversal e 16 casos sintéticos candidatos. | Conceitual, sem implementação ou testes |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
