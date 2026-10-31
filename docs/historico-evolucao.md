@@ -47,4 +47,6 @@
 
 | 3.6 | 31/10/2026 | GAI-INT-12: relatório de prontidão documental, inventário de 19 schemas e 49 fixtures, níveis de evidência, riscos, compatibilidade e estratégia de homologação. | Planejamento; sem runs, adjudicação ou gates aprovados |
 
+| 3.7 | 31/10/2026 | GAI-INT-13: plano de compatibilidade de produtores e consumidores, migração, versionamento, depreciação, rollout/rollback e 20 cenários sintéticos. | Planejamento documental; sem migrações ou testes |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
