@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://guivos-repositorio.github.io/Guivos-AI/schemas/candidate-v1/cap11-report-result.schema.json",
+  "title": "Guivos AI cap11-report-result candidate-1",
+  "type": "object",
+  "properties": {
+    "capability_id": {
+      "const": "GAI-CAP-11"
+    },
+    "report_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "report_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "report_status": {
+      "enum": [
+        "draft",
+        "awaiting_evidence_review",
+        "awaiting_person_validation",
+        "ready_for_authorized_release",
+        "released_to_authorized_recipient",
+        "under_revision",
+        "stale",
+        "superseded",
+        "access_blocked",
+        "failed"
+      ]
+    },
+    "processing_scope_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sharing_scope_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "section_ref",
+          "claim_refs"
+        ],
+        "properties": {
+          "section_ref": {
+            "type": "string",
+            "minLength": 1
+          },
+          "claim_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "limitations": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "capability_id",
+    "report_ref",
+    "report_version",
+    "report_status",
+    "processing_scope_ref",
+    "sections",
+    "limitations"
+  ],
+  "additionalProperties": false
+}
