@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 5.7 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 5.8 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -201,7 +201,10 @@ Ver [Estudo de Autoridade, Consentimentos e Revogação](autoridade-dados-consen
 ## 63. GAI-REV-001 — Revisão Estática do Pedido A — v5.7
 [Relatório autorizado](relatorio-revisao-estatica-autorizada-pedido-a.md): 19 schemas, 49 casos catalogados e dois runners analisados sem execução; achados STA-01 a STA-10. Pedidos B e C não autorizados.
 
-## 64. Próximos passos
+## 64. GAI-INT-31 — Propostas para Contratos Prioritários — v5.8
+[Estudo de correções candidatas](propostas-correcao-contratos-prioritarios-sta01-sta02-sta03.md) e [propostas JSON](propostas-correcao-sta01-sta02-sta03.json) para STA-01/02/03. Schemas originais preservados. Necessárias decisões específicas de mudança de contrato e posterior autorização de testes.
+
+## 65. Próximos passos
 - Revisão e testes futuros dos schemas compartilhados candidatos
 - Formalização da autoridade canônica, finalidades, bases legais e contratos de autorização
 - Aprovação futura das fixtures, rubricas e critérios de adjudicação
