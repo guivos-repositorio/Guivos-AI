@@ -22,4 +22,6 @@
 
 | 1.2 | 31/10/2026 | Matriz com 12 capacidades Guivos AI, 8 dependências habilitadoras, riscos, estados e priorização em ondas. | Planejamento conceitual; não implementado |
 
+| 1.3 | 31/10/2026 | Especificação da GAI-CAP-01 com fontes, temporalidade, entradas/saídas, erros, integração e 12 fixtures de avaliação candidatas. | Especificação conceitual; não implementada |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
