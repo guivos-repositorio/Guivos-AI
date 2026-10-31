@@ -1,7 +1,7 @@
 {
   "id": "GAI-INT-35",
-  "version": "6.2",
-  "state": "awaiting_explicit_direction_policy_choices",
+  "version": "6.3",
+  "state": "direction_policy_approved_design_only",
   "approval_authority_ref": "GAI-DEC-011",
   "recommended_combination": [
     "A1",
@@ -17,7 +17,7 @@
         "A2_partial_processing_and_review",
         "A3_partial_awaiting_review_only"
       ],
-      "selected": null
+      "selected": "A1_completed_only"
     },
     {
       "id": "D35-B",
@@ -27,7 +27,7 @@
         "B2_failure_object_in_envelope",
         "B3_status_without_structured_cause"
       ],
-      "selected": null
+      "selected": "B1_separate_correlated_error_or_status"
     },
     {
       "id": "D35-C",
@@ -37,12 +37,14 @@
         "C2_keep_candidate_1_draft_only",
         "C3_explicit_api_negotiation_after_inventory"
       ],
-      "selected": null
+      "selected": "C1_new_candidate_2_base_preserve_candidate_1"
     }
   ],
-  "approved": false,
+  "approved": true,
   "change_existing_schemas_authorized": false,
   "tests_authorized": false,
   "operational_inspection_authorized": false,
-  "gate_approvals": 0
+  "gate_approvals": 0,
+  "decision_ref": "GAI-DEC-012",
+  "approval_scope": "design_and_candidate_versioning_only"
 }
