@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 3.4 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 3.5 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -132,10 +132,13 @@ Ver [Estudo de Autoridade, Consentimentos e Revogação](autoridade-dados-consen
 ## 40. GAI-INT-10 — Conformidade de Schemas, Casos de Contrato e Compatibilidade — v3.4
 [Especificação GAI-INT-10](conformidade-schemas-casos-contrato-compatibilidade.md). Organiza 25 fixtures sintéticas para os 11 schemas candidatos e publica executor offline de validação estrutural, sem runs executados nem gates aprovados.
 
-## 41. Próximos estudos
+## 41. GAI-INT-11 — Cobertura dos Contratos Especializados e Integração dos Schemas — v3.5
+[Especificação GAI-INT-11](cobertura-contratos-especializados-integracao-schemas.md). Adiciona sete payloads especializados, um envelope tipado com associações CAP-01 a CAP-12, 24 fixtures sintéticas e executor offline com registry local. **Estado: artefatos candidatos, sem testes executados ou homologação.**
+
+## 42. Próximos estudos
 - Revisão e testes futuros dos schemas compartilhados candidatos
 - Formalização da autoridade canônica, finalidades, bases legais e contratos de autorização
 - Aprovação futura das fixtures, rubricas e critérios de adjudicação
-- Completar cobertura dos schemas específicos e união tipada entre envelopes
+- Validar schemas especializados, perfil de compatibilidade e união tipada de respostas e erros
 - Comparação controlada dos contratos com implementação Replit, somente mediante autorização específica
 - Avaliação comercial e B2B após verificação dos gates relevantes
