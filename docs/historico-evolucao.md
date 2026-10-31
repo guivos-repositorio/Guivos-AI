@@ -69,4 +69,6 @@
 
 | 4.7 | 31/10/2026 | GAI-INT-23: dossiê de ratificação de responsáveis, 16 papéis candidatos e registro JSON sem titulares. | Proposta; sem mandatos, testes ou gates aprovados |
 
+| 4.8 | 31/10/2026 | GAI-INT-24: verificação de metadados do GitHub e distinção entre administração técnica e autoridade institucional, com evidência estruturada. | Verificação documental; sem ratificações, testes ou gates aprovados |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
