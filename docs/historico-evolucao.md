@@ -14,4 +14,6 @@
 
 | 0.8 | 31/10/2026 | Arquitetura conceitual de autoridade pelos fatos, memória canônica, análises derivadas, permissões e consumo por Intelligence/API. | Estudo técnico; não implementado |
 
+| 0.9 | 31/10/2026 | Modelo de conhecimento e ontologia temporal para trajetórias, eventos, evidências, lacunas e possibilidades. | Estudo conceitual; esquema técnico pendente |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
