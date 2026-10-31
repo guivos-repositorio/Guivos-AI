@@ -1,6 +1,6 @@
 # Guivos AI — Repositório Mestre de Conhecimento
 
-**Versão documental 6.2 · 31/10/2026**
+**Versão documental 6.3 · 31/10/2026**
 
 Este repositório é a **base mestra de conhecimento, análise, governança e evolução da Guivos AI**. É um projeto independente do [Guivos Knowledge Repository](https://github.com/guivos-repositorio/Guivos-Knowledge-Repository).
 
@@ -113,6 +113,9 @@ Não se destina a divulgar ou comercializar um produto, nem a oferecer interface
 - [GAI-INT-34 — Envelope Tipado v2 e Política de Ciclo de Vida — v6.1](docs/envelope-tipado-v2-politica-ciclo-vida-candidata.md)
 
 - [GAI-INT-35 — Deliberação de Compatibilidade e Versionamento — v6.2](docs/deliberacao-compatibilidade-versionamento-envelope-v2.md)
+
+- [GAI-DEC-012 — Política A1/B1/C1 confirmada — v6.3](docs/decisao-politica-envelope-v2-a1-b1-c1.md)
+- [Contrato-base candidate-2 isolado](schemas/candidate-v2-proposed/analysis-response.schema.json)
 
 ## Regras
 1. Registrar evidências, hipóteses, limitações e decisões separadamente.
