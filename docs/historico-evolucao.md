@@ -20,4 +20,6 @@
 
 | 1.1 | 31/10/2026 | Protocolo de avaliação e qualidade, cenários sintéticos, divergência entre modelos, falhas e gates. | Proposta documental, sem testes executados |
 
+| 1.2 | 31/10/2026 | Matriz com 12 capacidades Guivos AI, 8 dependências habilitadoras, riscos, estados e priorização em ondas. | Planejamento conceitual; não implementado |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
