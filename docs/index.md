@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 5.9 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 6.0 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -207,7 +207,10 @@ Ver [Estudo de Autoridade, Consentimentos e Revogação](autoridade-dados-consen
 ## 65. GAI-INT-32 — Schemas Candidatos v2 Isolados — v5.9
 [Especificação](schemas-candidatos-v2-propostas-sta01-sta02-sta03.md) e [três schemas v2 propostos](../schemas/candidate-v2-proposed/) para STA-01/02/03. Os 19 schemas candidate-v1 foram preservados; sem testes, compatibilidade validada ou gates aprovados.
 
-## 66. Próximos passos
+## 66. GAI-INT-33 — Compatibilidade do Contrato Tipado e Casos v2 — v6.0
+[Análise](compatibilidade-contrato-tipado-matriz-casos-v2.md) e [matriz de 15 casos sintéticos propostos](matriz-casos-compatibilidade-v2-candidata.json). A referência tipada CAP-11 ainda aponta para candidate-v1; cinco verificações de integração foram planejadas, não executadas. Sem alterações contratuais ou gates aprovados.
+
+## 67. Próximos passos
 - Revisão e testes futuros dos schemas compartilhados candidatos
 - Formalização da autoridade canônica, finalidades, bases legais e contratos de autorização
 - Aprovação futura das fixtures, rubricas e critérios de adjudicação
