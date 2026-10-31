@@ -1,0 +1,26 @@
+{
+  "template_id": "GAI-INT-17-evidence-trace",
+  "document_version": "4.1",
+  "record_kind": "candidate_evidence_trace",
+  "status": "draft_unexecuted",
+  "schema_family": "candidate-v1",
+  "planned_fixture_refs": [
+    "tests/contracts/candidate-v1/cases.json",
+    "tests/contracts/candidate-v1/typed-cases.json"
+  ],
+  "repository_commit_sha": null,
+  "artifact_digests": [],
+  "authorization_ref": null,
+  "environment_ref": null,
+  "run_refs": [],
+  "observation_refs": [],
+  "defect_refs": [],
+  "evidence_package_ref": null,
+  "review_refs": [],
+  "adjudication_ref": null,
+  "gate_decision_ref": null,
+  "created_at": "2026-10-31",
+  "limitations": [
+    "Template only; zero execution observations; zero gate approvals."
+  ]
+}
