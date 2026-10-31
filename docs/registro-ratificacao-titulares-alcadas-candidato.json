@@ -1,8 +1,8 @@
 {
   "register_id": "GAI-INT-23-ROLE-RATIFICATION",
-  "document_version": "4.7",
+  "document_version": "4.9",
   "date": "2026-10-31",
-  "status": "candidate_unratified",
+  "status": "appointing_body_confirmed_role_assignments_pending",
   "authoritative_owner_inventory_verified": false,
   "identity_data_access_authorized": false,
   "gate_status": {
@@ -203,5 +203,17 @@
   ],
   "campaign_authorized": false,
   "executed_runs": [],
-  "gate_decision_ref": null
+  "gate_decision_ref": null,
+  "institutional_appointment_body": {
+    "decision_ref": "GAI-DEC-009",
+    "role": "Guivos administration represented initially by its direction",
+    "decision_status": "confirmed_strategic_scope",
+    "scope": [
+      "initial_strategic_decisions",
+      "nomination_and_ratification_of_governance_roles"
+    ],
+    "individual_members_verified": false,
+    "gate_authority_delegated": false,
+    "operational_execution_authorized": false
+  }
 }
