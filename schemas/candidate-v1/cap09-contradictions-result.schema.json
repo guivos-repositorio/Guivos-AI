@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://guivos-repositorio.github.io/Guivos-AI/schemas/candidate-v1/cap09-contradictions-result.schema.json",
+  "title": "cap09-contradictions-result candidate-1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "capability_id",
+    "conflicts",
+    "limitations"
+  ],
+  "properties": {
+    "capability_id": {
+      "const": "GAI-CAP-09"
+    },
+    "conflicts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "conflict_ref",
+          "claim_refs",
+          "conflict_type",
+          "resolution_status"
+        ],
+        "properties": {
+          "conflict_ref": {
+            "type": "string",
+            "minLength": 1
+          },
+          "claim_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "conflict_type": {
+            "enum": [
+              "temporal",
+              "source",
+              "semantic",
+              "model_divergence",
+              "missing_context"
+            ]
+          },
+          "resolution_status": {
+            "enum": [
+              "open",
+              "needs_review",
+              "resolved_with_evidence",
+              "not_resolvable"
+            ]
+          }
+        }
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
