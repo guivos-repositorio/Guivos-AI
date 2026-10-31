@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 2.5 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 2.6 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -105,8 +105,11 @@ Ver [Especificação CAP-12](cap-12-api-especializada-guivos-ai.md). Distingue c
 ## 31. GAI-INT-01 — Arquitetura Integrada e Plano de Validação — v2.5
 Ver [Revisão Integrada da Arquitetura](arquitetura-integrada-plano-validacao.md). Consolida responsabilidades, dependências CAP-01 a CAP-12, doze achados documentais, contrato compartilhado proposto, oito cenários sintéticos ponta a ponta e gates G0–G6 pendentes. **Estado: revisão documental, sem testes executados ou liberação operacional.**
 
-## 32. Próximos estudos
-- Normalização do contrato compartilhado e taxonomia de estados por domínio
+## 32. GAI-INT-02 — Normalização dos Contratos e Estados Compartilhados — v2.6
+Ver [Normalização de Contratos e Estados](normalizacao-contratos-estados-compartilhados.md). Define envelope lógico comum, tipos de estados independentes, convenções de versão, claims, autorização, erros, payload específico por capacidade e 18 testes de contrato sintéticos candidatos. **Estado: proposta documental, sem schemas executáveis aprovados, testes ou implementação.**
+
+## 33. Próximos estudos
+- Formalização e validação técnica dos schemas compartilhados propostos
 - Autoridade canônica e autorização por finalidade, vínculo e versão
 - Matriz de testes ponta a ponta, critérios de qualidade e adjudicação humana
 - Modelo de dependências e propagação de revogações e invalidações
