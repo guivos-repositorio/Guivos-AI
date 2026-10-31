@@ -47,5 +47,7 @@ O [GAI-INT-31](propostas-correcao-contratos-prioritarios-sta01-sta02-sta03.md) p
 
 O [GAI-INT-32](schemas-candidatos-v2-propostas-sta01-sta02-sta03.md) contém três schemas candidatos sem homologação ou execução.
 
+O [GAI-INT-33](compatibilidade-contrato-tipado-matriz-casos-v2.md) documenta compatibilidade do contrato tipado e 15 casos sintéticos não executados; a preparação não configura nova autorização de testes, adoção contratual ou gate.
+
 ## Registro de novas decisões
 Cada decisão deve indicar: identificador, data, responsável pela aprovação, contexto, alternativas, decisão, fundamentos, documentos afetados e condição de revisão. Novas hipóteses não serão promovidas a decisões automaticamente.
