@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 0.1 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 0.2 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## 1. Identidade e objetivo
 Guivos AI é uma proposta de inteligência especializada no universo Guivos, capaz de compreender trajetórias, relacionar evidências, analisar lacunas e identificar possibilidades futuras e oportunidades intermediárias. Não é necessário desenvolver um modelo de linguagem fundacional próprio para construir esta especialização.
@@ -29,7 +29,10 @@ Uma camada de inteligência pode ser oferecida por plataforma própria ou API pa
 ## 8. Organização independente
 Este repositório não substitui nem modifica o GKR. A Guivos AI tem documentação, versionamento e publicação próprios. Integrações entre os dois devem ser explicitamente documentadas.
 
-## 9. Próximos estudos
+## 9. Aprofundamento: motor prospectivo e lacunas
+Ver [Motor de Possibilidades Futuras e Análise de Lacunas](motor-possibilidades-lacunas.md), documento v0.2 que detalha conceitos, etapas, evidências, análise de lacunas, oportunidades intermediárias e critérios de avaliação. As propostas ainda dependem de validação técnica e comercial.
+
+## 10. Próximos estudos
 - Modelos de evidências, fontes e rastreabilidade
 - Ontologia temporal de trajetórias e possibilidades
 - Métodos de identificação e validação de lacunas
