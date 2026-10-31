@@ -1,5 +1,5 @@
 # Matriz de Capacidades da Guivos AI
-**Versão documental 1.6 · 31/10/2026**
+**Versão documental 1.7 · 31/10/2026**
 **Estado:** planejamento conceitual e priorização proposta, sem homologação técnica, comercial ou autorização de implantação.
 
 ## 1. Função deste documento
@@ -36,6 +36,7 @@ Transformar os fundamentos e estudos da Guivos AI em um catálogo rastreável de
 - [GAI-CAP-02 — Síntese do Momento Atual](cap-02-sintese-momento-atual.md): especificação v1.4, dimensões contextuais, estados de informação, perguntas e contratos lógicos. **Estado: conceituada**.
 - [GAI-CAP-03 — Interpretação Fundamentada em Evidências](cap-03-interpretacao-fundamentada-evidencias.md): especificação v1.5, afirmações verificáveis, suporte por fonte, incerteza, contradições e validação transversal. **Estado: conceituada**.
 - [GAI-CAP-04 — Identificação e Qualificação de Lacunas](cap-04-identificacao-qualificacao-lacunas.md): especificação v1.6, comparação por requisito, estados, evidências e oportunidades habilitadoras. **Estado: conceituada**.
+- [GAI-CAP-05 — Descoberta de Possibilidades Futuras](cap-05-descoberta-possibilidades-futuras.md): especificação v1.7, possibilidades declaradas, adjacentes, emergentes e exploratórias; evidências e validação de interesse. **Estado: conceituada**.
 
 ## 3. Capacidades estruturais habilitadoras (não equivalentes à Guivos AI)
 | ID | Responsável proposto | Capacidade habilitadora | Dependência |
