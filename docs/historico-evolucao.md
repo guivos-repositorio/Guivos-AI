@@ -63,4 +63,6 @@
 
 | 4.4 | 31/10/2026 | GAI-INT-20: backlog de 16 decisões, matriz JSON de dependências, priorização por ondas, critérios de entrada e pré-requisitos dos gates. | Plano documental; sem decisões operacionais, testes ou implementação |
 
+| 4.5 | 31/10/2026 | GAI-INT-21: oito propostas de decisões G0/G2, pacote sintético delimitado e registro JSON explicitamente não autorizado. | Propostas documentais; sem deliberação, testes ou gate aprovado |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
