@@ -1,0 +1,318 @@
+{
+  "catalog_id": "GAI-INT-33-COMPAT-CASES",
+  "document_version": "6.0",
+  "date": "2026-10-31",
+  "status": "prepared_not_executed",
+  "scope": "schema_compatibility_proposal",
+  "schema_directory": "schemas/candidate-v2-proposed",
+  "test_run_authorized": false,
+  "existing_candidate_v1_cases_unchanged": true,
+  "notes": [
+    "Expected outcomes are design expectations, not validator observations.",
+    "No contract adoption or typed envelope ref mutation.",
+    "Legacy version predictions are heuristic and require future validator verification."
+  ],
+  "cases": [
+    {
+      "case_id": "STA01-P01",
+      "schema": "cap11-report-result",
+      "instance": {
+        "capability_id": "GAI-CAP-11",
+        "report_ref": "synthetic-report-1",
+        "report_version": "v1",
+        "report_status": "draft",
+        "processing_scope_ref": "synthetic-process-scope",
+        "sections": [],
+        "limitations": []
+      },
+      "expected_valid_v2": true,
+      "expected_valid_v1": true,
+      "review_reason": "Draft without sharing scope remains acceptable.",
+      "execution_status": "not_executed"
+    },
+    {
+      "case_id": "STA01-P02",
+      "schema": "cap11-report-result",
+      "instance": {
+        "capability_id": "GAI-CAP-11",
+        "report_ref": "synthetic-report-1",
+        "report_version": "v1",
+        "report_status": "released_to_authorized_recipient",
+        "processing_scope_ref": "synthetic-process-scope",
+        "sections": [],
+        "limitations": [],
+        "sharing_scope_ref": "synthetic-sharing-scope"
+      },
+      "expected_valid_v2": true,
+      "expected_valid_v1": true,
+      "review_reason": "Released report with nonempty scope reference.",
+      "execution_status": "not_executed"
+    },
+    {
+      "case_id": "STA01-N01",
+      "schema": "cap11-report-result",
+      "instance": {
+        "capability_id": "GAI-CAP-11",
+        "report_ref": "synthetic-report-1",
+        "report_version": "v1",
+        "report_status": "released_to_authorized_recipient",
+        "processing_scope_ref": "synthetic-process-scope",
+        "sections": [],
+        "limitations": []
+      },
+      "expected_valid_v2": false,
+      "expected_valid_v1": true,
+      "review_reason": "Released report missing sharing_scope_ref.",
+      "execution_status": "not_executed"
+    },
+    {
+      "case_id": "STA01-N02",
+      "schema": "cap11-report-result",
+      "instance": {
+        "capability_id": "GAI-CAP-11",
+        "report_ref": "synthetic-report-1",
+        "report_version": "v1",
+        "report_status": "ready_for_authorized_release",
+        "processing_scope_ref": "synthetic-process-scope",
+        "sections": [],
+        "limitations": []
+      },
+      "expected_valid_v2": false,
+      "expected_valid_v1": true,
+      "review_reason": "Release-ready report missing scope.",
+      "execution_status": "not_executed"
+    },
+    {
+      "case_id": "STA01-N03",
+      "schema": "cap11-report-result",
+      "instance": {
+        "capability_id": "GAI-CAP-11",
+        "report_ref": "synthetic-report-1",
+        "report_version": "v1",
+        "report_status": "released_to_authorized_recipient",
+        "processing_scope_ref": "synthetic-process-scope",
+        "sections": [],
+        "limitations": [],
+        "sharing_scope_ref": ""
+      },
+      "expected_valid_v2": false,
+      "expected_valid_v1": true,
+      "review_reason": "Empty scope fails minimum string length.",
+      "execution_status": "not_executed"
+    },
+    {
+      "case_id": "STA02-P01",
+      "schema": "event-receipt",
+      "instance": {
+        "event_id": "synthetic-event-1",
+        "receipt_id": "synthetic-receipt-1",
+        "consumer_ref": "synthetic-consumer",
+        "operation": "event_received",
+        "result": "not_applied",
+        "recorded_at": "2026-10-31T12:00:00-03:00"
+      },
+      "expected_valid_v2": true,
+      "expected_valid_v1": true,
+      "review_reason": "Received without applied remains structurally accepted.",
+      "execution_status": "not_executed"
+    },
+    {
+      "case_id": "STA02-P02",
+      "schema": "event-receipt",
+      "instance": {
+        "event_id": "synthetic-event-1",
+        "receipt_id": "synthetic-receipt-1",
+        "consumer_ref": "synthetic-consumer",
+        "operation": "validity_applied",
+        "result": "applied",
+        "recorded_at": "2026-10-31T12:00:00-03:00",
+        "aggregate_version": "v2"
+      },
+      "expected_valid_v2": true,
+      "expected_valid_v1": true,
+      "review_reason": "Applied versioned change.",
+      "execution_status": "not_executed"
+    },
+    {
+      "case_id": "STA02-N01",
+      "schema": "event-receipt",
+      "instance": {
+        "event_id": "synthetic-event-1",
+        "receipt_id": "synthetic-receipt-1",
+        "consumer_ref": "synthetic-consumer",
+        "operation": "event_received",
+        "result": "applied",
+        "recorded_at": "2026-10-31T12:00:00-03:00"
+      },
+      "expected_valid_v2": false,
+      "expected_valid_v1": true,
+      "review_reason": "Receipt cannot claim applied.",
+      "execution_status": "not_executed"
+    },
+    {
+      "case_id": "STA02-N02",
+      "schema": "event-receipt",
+      "instance": {
+        "event_id": "synthetic-event-1",
+        "receipt_id": "synthetic-receipt-1",
+        "consumer_ref": "synthetic-consumer",
+        "operation": "event_validated",
+        "result": "applied",
+        "recorded_at": "2026-10-31T12:00:00-03:00"
+      },
+      "expected_valid_v2": false,
+      "expected_valid_v1": true,
+      "review_reason": "Validation not equivalent to application.",
+      "execution_status": "not_executed"
+    },
+    {
+      "case_id": "STA02-N03",
+      "schema": "event-receipt",
+      "instance": {
+        "event_id": "synthetic-event-1",
+        "receipt_id": "synthetic-receipt-1",
+        "consumer_ref": "synthetic-consumer",
+        "operation": "validity_applied",
+        "result": "applied",
+        "recorded_at": "2026-10-31T12:00:00-03:00"
+      },
+      "expected_valid_v2": false,
+      "expected_valid_v1": true,
+      "review_reason": "Applied validity needs aggregate version.",
+      "execution_status": "not_executed"
+    },
+    {
+      "case_id": "STA03-P01",
+      "schema": "canonical-event",
+      "instance": {
+        "event_id": "synthetic-event-2",
+        "event_type": "authorization_scope_revoked",
+        "schema_version": "candidate-1",
+        "producer_service_ref": "synthetic-policy-owner",
+        "aggregate_ref": "synthetic-scope-ref",
+        "aggregate_version": "v2",
+        "occurred_at": "2026-10-31T11:59:00-03:00",
+        "recorded_at": "2026-10-31T12:00:00-03:00",
+        "payload_ref": "synthetic-payload",
+        "authorization_policy_ref": "synthetic-policy",
+        "subject_scope_ref": "synthetic-subject"
+      },
+      "expected_valid_v2": true,
+      "expected_valid_v1": true,
+      "review_reason": "Revocation with policy and subject scope.",
+      "execution_status": "not_executed"
+    },
+    {
+      "case_id": "STA03-P02",
+      "schema": "canonical-event",
+      "instance": {
+        "event_id": "synthetic-event-2",
+        "event_type": "method_version_withdrawn",
+        "schema_version": "candidate-1",
+        "producer_service_ref": "synthetic-policy-owner",
+        "aggregate_ref": "synthetic-scope-ref",
+        "aggregate_version": "v2",
+        "occurred_at": "2026-10-31T11:59:00-03:00",
+        "recorded_at": "2026-10-31T12:00:00-03:00",
+        "payload_ref": "synthetic-payload"
+      },
+      "expected_valid_v2": true,
+      "expected_valid_v1": true,
+      "review_reason": "Global method event without subject scope remains accepted.",
+      "execution_status": "not_executed"
+    },
+    {
+      "case_id": "STA03-N01",
+      "schema": "canonical-event",
+      "instance": {
+        "event_id": "synthetic-event-2",
+        "event_type": "authorization_scope_revoked",
+        "schema_version": "candidate-1",
+        "producer_service_ref": "synthetic-policy-owner",
+        "aggregate_ref": "synthetic-scope-ref",
+        "aggregate_version": "v2",
+        "occurred_at": "2026-10-31T11:59:00-03:00",
+        "recorded_at": "2026-10-31T12:00:00-03:00",
+        "payload_ref": "synthetic-payload"
+      },
+      "expected_valid_v2": false,
+      "expected_valid_v1": true,
+      "review_reason": "Revocation missing authorization policy and subject.",
+      "execution_status": "not_executed"
+    },
+    {
+      "case_id": "STA03-N02",
+      "schema": "canonical-event",
+      "instance": {
+        "event_id": "synthetic-event-2",
+        "event_type": "authorization_scope_revoked",
+        "schema_version": "candidate-1",
+        "producer_service_ref": "synthetic-policy-owner",
+        "aggregate_ref": "synthetic-scope-ref",
+        "aggregate_version": "v2",
+        "occurred_at": "2026-10-31T11:59:00-03:00",
+        "recorded_at": "2026-10-31T12:00:00-03:00",
+        "payload_ref": "synthetic-payload",
+        "authorization_policy_ref": "synthetic-policy",
+        "subject_scope_ref": null
+      },
+      "expected_valid_v2": false,
+      "expected_valid_v1": true,
+      "review_reason": "Null subject scope prohibited for revocation.",
+      "execution_status": "not_executed"
+    },
+    {
+      "case_id": "STA03-N03",
+      "schema": "canonical-event",
+      "instance": {
+        "event_id": "synthetic-event-2",
+        "event_type": "authorization_scope_revoked",
+        "schema_version": "candidate-1",
+        "producer_service_ref": "synthetic-policy-owner",
+        "aggregate_ref": "synthetic-scope-ref",
+        "aggregate_version": "v2",
+        "occurred_at": "2026-10-31T11:59:00-03:00",
+        "recorded_at": "2026-10-31T12:00:00-03:00",
+        "payload_ref": "synthetic-payload",
+        "authorization_policy_ref": "",
+        "subject_scope_ref": "synthetic-subject"
+      },
+      "expected_valid_v2": false,
+      "expected_valid_v1": true,
+      "review_reason": "Empty policy prohibited for revocation.",
+      "execution_status": "not_executed"
+    }
+  ],
+  "typed_integration_checks": [
+    {
+      "case_id": "INT-COMP-01",
+      "kind": "integration_reference_check",
+      "expected": "existing typed-v1 schema resolves cap11 result to candidate-v1, not candidate-v2-proposed",
+      "observed_by_static_read": true
+    },
+    {
+      "case_id": "INT-COMP-02",
+      "kind": "contract_lifecycle_decision",
+      "expected": "candidate-v2-proposed cap11 not activated in typed response without separate revised typed envelope and local reference registry",
+      "observed_by_static_read": true
+    },
+    {
+      "case_id": "INT-COMP-03",
+      "kind": "future_test",
+      "expected": "completed GAI-CAP-11 response with released result lacking sharing_scope_ref rejected by revised typed envelope",
+      "observed_by_static_read": false
+    },
+    {
+      "case_id": "INT-COMP-04",
+      "kind": "future_test",
+      "expected": "GAI-CAP-11 draft lacking sharing_scope_ref stays valid under new typed envelope",
+      "observed_by_static_read": false
+    },
+    {
+      "case_id": "INT-COMP-05",
+      "kind": "future_test",
+      "expected": "typed envelope with failed/queued status and no result policy deliberately specified",
+      "observed_by_static_read": false
+    }
+  ]
+}
