@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 2.0 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 2.1 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -90,7 +90,10 @@ Ver [Especificação CAP-07](cap-07-caminhos-intermediarios.md). Define caminhos
 ## 26. GAI-CAP-08 — Qualificação de Oportunidades — v2.0
 Ver [Especificação CAP-08](cap-08-qualificacao-oportunidades.md). Define identificação e verificação de ofertas, estados independentes de publicação, verificação e disponibilidade, Direct/Enabling Supply, requisitos, eventos de interação, contratos lógicos, atualização e 20 cenários sintéticos propostos. **Estado: conceituada; sem implementação ou homologação.**
 
-## 27. Próximos estudos
+## 27. GAI-CAP-09 — Gestão de Incertezas e Contradições — v2.1
+Ver [Especificação CAP-09](cap-09-gestao-incertezas-contradicoes.md). Define tipologia de divergências, comparação contextual e temporal de afirmações, incertezas, critérios de revisão humana, análise por evidência das divergências GPT/Claude/Gemini, contratos lógicos e 20 casos sintéticos propostos. **Estado: conceituada; sem implementação ou homologação.**
+
+## 28. Próximos estudos
 - Modelos de evidências, fontes e rastreabilidade
 - Ontologia temporal de trajetórias e possibilidades
 - Métodos de identificação e validação de lacunas
