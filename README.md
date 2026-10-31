@@ -1,6 +1,6 @@
 # Guivos AI — Repositório Mestre de Conhecimento
 
-**Versão documental 1.5 · 31/10/2026**
+**Versão documental 1.6 · 31/10/2026**
 
 Este repositório é a **base mestra de conhecimento, análise, governança e evolução da Guivos AI**. É um projeto independente do [Guivos Knowledge Repository](https://github.com/guivos-repositorio/Guivos-Knowledge-Repository).
 
@@ -16,6 +16,7 @@ Não se destina a divulgar ou comercializar um produto, nem a oferecer interface
 - [GAI-CAP-01 — Leitura e Compreensão de Trajetórias — v1.3](docs/cap-01-leitura-compreensao-trajetorias.md)
 - [GAI-CAP-02 — Síntese do Momento Atual — v1.4](docs/cap-02-sintese-momento-atual.md)
 - [GAI-CAP-03 — Interpretação Fundamentada em Evidências — v1.5](docs/cap-03-interpretacao-fundamentada-evidencias.md)
+- [GAI-CAP-04 — Identificação e Qualificação de Lacunas — v1.6](docs/cap-04-identificacao-qualificacao-lacunas.md)
 
 ## Matriz de capacidades
 - [Matriz de Capacidades, Dependências e Priorização — v1.2](docs/matriz-capacidades-guivos-ai.md)
