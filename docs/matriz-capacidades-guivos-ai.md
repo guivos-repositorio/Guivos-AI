@@ -1,5 +1,5 @@
 # Matriz de Capacidades da Guivos AI
-**Versão documental 4.8 · 31/10/2026**
+**Versão documental 4.9 · 31/10/2026**
 **Estado:** planejamento conceitual e priorização proposta, sem homologação técnica, comercial ou autorização de implantação.
 
 ## 1. Função deste documento
@@ -94,6 +94,8 @@ Transformar os fundamentos e estudos da Guivos AI em um catálogo rastreável de
 **Responsabilidades e ratificação:** [GAI-INT-23 — Dossiê de Ratificação v4.7](dossie-ratificacao-responsaveis-autoridade-alcadas.md). Define evidências de nomeação, aceite e alçada para 16 funções candidatas; nenhuma atribuição formal registrada.
 
 **Administração e autoridade:** [GAI-INT-24 — Verificação de Controle do GitHub v4.8](verificacao-administracao-repositorio-limites-autoridade.md). A conexão atual tem administração técnica do repositório, sem evidência de mandato institucional de gate ou dados.
+
+**Governança inicial:** [GAI-DEC-009 — Instância de Governança Estratégica](decisao-instancia-governanca-direcao-guivos.md). A direção da Guivos conduz nomeações e decisões iniciais, mas não há titulares ou gates homologados.
 
 ## 3. Capacidades estruturais habilitadoras (não equivalentes à Guivos AI)
 | ID | Responsável proposto | Capacidade habilitadora | Dependência |
