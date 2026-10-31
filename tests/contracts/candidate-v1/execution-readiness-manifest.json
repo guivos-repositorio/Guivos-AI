@@ -1,0 +1,18 @@
+{
+  "manifest_id": "GAI-INT-15-candidate",
+  "document_version": "3.9",
+  "status": "not_authorized",
+  "authorization_ref": null,
+  "repository_commit_sha": null,
+  "environment_ref": null,
+  "fixtures": [
+    "tests/contracts/candidate-v1/cases.json",
+    "tests/contracts/candidate-v1/typed-cases.json"
+  ],
+  "runners": [
+    "tests/contracts/run_schema_cases.py",
+    "tests/contracts/run_typed_cases.py"
+  ],
+  "run_refs": [],
+  "gate_decision_ref": null
+}
