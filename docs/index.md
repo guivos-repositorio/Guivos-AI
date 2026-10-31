@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 2.7 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 2.8 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -111,10 +111,13 @@ Ver [Normalização de Contratos e Estados](normalizacao-contratos-estados-compa
 ## 33. GAI-INT-03 — Matriz de Testes Integrados, Critérios de Aceite e Gates — v2.7
 Ver [Matriz Integrada de Testes e Gates](matriz-testes-integrados-criterios-aceite-gates.md). Relaciona as CAP-01 a 12 a falhas críticas, 12 cenários ponta a ponta, 18 testes de contrato pré-existentes, métricas candidatas, evidências de execução, severidade e aprovação humana dos gates G0–G6. **Estado: plano documental; nenhum teste executado, adjudicação ou gate liberado.**
 
-## 34. Próximos estudos
+## 34. GAI-INT-04 — Catálogo de Fixtures, Rubricas e Registro de Adjudicação — v2.8
+Ver [Catálogo de Fixtures, Rubricas e Adjudicação](catalogo-fixtures-rubricas-adjudicacao.md). Define hierarquia de suites/casos/fixtures/runs, nove pacotes sintéticos, rubricas por risco, registros de execução, revisão e adjudicação humana, exemplos documentais e controle de evidências. **Estado: proposta documental; nenhum teste executado, adjudicação ou gate aprovado.**
+
+## 35. Próximos estudos
 - Formalização e validação técnica dos schemas compartilhados propostos
 - Autoridade canônica e autorização por finalidade, vínculo e versão
-- Catálogo versionado de fixtures, rubricas e registro de adjudicação humana
+- Aprovação futura das fixtures, rubricas e critérios de adjudicação
 - Modelo de dependências e propagação de revogações e invalidações
 - Comparação controlada dos contratos com implementação Replit, somente mediante autorização específica
 - Avaliação comercial e B2B após verificação dos gates relevantes
