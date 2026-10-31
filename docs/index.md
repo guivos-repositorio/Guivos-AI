@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 1.3 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 1.4 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -69,7 +69,10 @@ Ver [Matriz de Capacidades Guivos AI](matriz-capacidades-guivos-ai.md). Organiza
 ## 19. GAI-CAP-01 — Leitura e Compreensão de Trajetórias — v1.3
 Ver [Especificação da CAP-01](cap-01-leitura-compreensao-trajetorias.md), que define objetivo, fronteiras, entradas autorizadas, processo de interpretação temporal, contratos lógicos de solicitação e resposta, tratamento de contradições, falhas, critérios de teste e integração com Intelligence. A capacidade segue **conceituada, não implementada ou homologada**.
 
-## 20. Próximos estudos
+## 20. GAI-CAP-02 — Síntese do Momento Atual — v1.4
+Ver [Especificação CAP-02](cap-02-sintese-momento-atual.md). Estabelece dimensões do contexto presente, estados epistêmicos por informação, atualização temporal, distinção entre lacuna informacional e lacuna de compatibilidade, contratos lógicos, limites, integração com Guivos Intelligence e 14 cenários sintéticos candidatos. **Estado: conceituada, não implementada.**
+
+## 21. Próximos estudos
 - Modelos de evidências, fontes e rastreabilidade
 - Ontologia temporal de trajetórias e possibilidades
 - Métodos de identificação e validação de lacunas
