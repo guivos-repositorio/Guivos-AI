@@ -45,7 +45,10 @@ Os arquivos foram lidos via GitHub; não foram executados comandos Python nem va
 
 Alterar schemas, fixtures ou runners depende de nova decisão de implementação/documentação; **o Pedido A concedeu revisão estática, não execução de testes ou modificação automática dos contratos**.
 
-## 5. Conclusão
+## 5. Encaminhamento de correções prioritárias
+O [GAI-INT-31](propostas-correcao-contratos-prioritarios-sta01-sta02-sta03.md) descreve alterações candidatas para STA-01/02/03, com critérios de compatibilidade e sem modificação dos schemas originais.
+
+## 6. Conclusão
 **Pedido A — revisão estática:** realizado dentro do escopo autorizado, com achados para triagem. **Pedido B:** não autorizado. **Pedido C:** não autorizado. **G0 parcial; G1–G6 pendentes. PND-01 a PND-16 não foram encerradas.**
 
 Referências diretas: [Schemas candidatos](../schemas/candidate-v1/) · [Casos gerais](../tests/contracts/candidate-v1/cases.json) · [Casos tipados](../tests/contracts/candidate-v1/typed-cases.json) · [Runner geral](../tests/contracts/run_schema_cases.py) · [Runner tipado](../tests/contracts/run_typed_cases.py) · [Pedido A/B/C](solicitacoes-autorizacao-a-b-c.md).
