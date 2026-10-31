@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 0.9 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 1.0 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -57,7 +57,10 @@ A fonte canônica de cada informação deve permanecer sob responsabilidade dos 
 ## 15. Modelo de Conhecimento e Ontologia Temporal — v0.9
 Ver [Modelo de Conhecimento e Ontologia Temporal](modelo-conhecimento-ontologia-temporal.md), que estabelece um vocabulário proposto para Pessoa, Momento, Objetivo, Possibilidade, Oportunidade, Requisito, Condição, Evento, Evidência, Lacuna, Hipótese e Análise, com relações, temporalidade, proveniência, versionamento e autorização. O esquema físico Neo4j ainda depende de validação e não está autorizado para implantação.
 
-## 16. Próximos estudos
+## 16. Modelo de Evidências, Rastreabilidade e Revisão — v1.0
+Ver [Modelo de Evidências e Rastreabilidade](modelo-evidencias-rastreabilidade.md), que especifica a cadeia de suporte das afirmações, classificação de fontes, contradições temporais, interpretação de lacunas, obsolescência, correções e avaliações. Princípios de evidências e limites são diretrizes aprovadas; contratos e métodos concretos seguem em estudo.
+
+## 17. Próximos estudos
 - Modelos de evidências, fontes e rastreabilidade
 - Ontologia temporal de trajetórias e possibilidades
 - Métodos de identificação e validação de lacunas
