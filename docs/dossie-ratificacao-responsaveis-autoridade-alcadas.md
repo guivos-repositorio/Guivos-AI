@@ -54,7 +54,10 @@ Sem esses elementos, **as 16 PNDs permanecem abertas**; G0 parcial e G1–G6 pen
 ## 6. Limite da execução sintética
 Os 19 schemas e 49 fixtures continuam preparados, não executados. Nenhum runner foi disparado, e o [pedido candidato de campanha](pacote-decisoes-g0-g2-autorizacao-validacao-estrutural.md) permanece sem autorização. Não houve acesso operacional a Replit, Neo4j, provedores ou GKR.
 
-## 7. Próxima ação efetiva
+## 7. Verificação da administração GitHub
+O [GAI-INT-24](verificacao-administracao-repositorio-limites-autoridade.md) constatou permissão administrativa da conexão no GitHub, sem comprovar mandato institucional de nomeação ou homologação. As 16 funções permanecem sem titulares ratificados.
+
+## 8. Próxima ação efetiva
 A instância de governança legítima precisa identificar os titulares e confirmar os mandatos para que o cadastro deixe de ser apenas candidato. **Prosseguir com documentação não substitui essa confirmação organizacional.**
 
 **Referências:** [GAI-INT-22](encaminhamento-decisoes-autoridade-canonica-alcadas-g0-g2.md) · [GAI-INT-14](registro-decisoes-pendentes-plano-fechamento-gates.md) · [Registro de Decisões](registro-decisoes.md).
