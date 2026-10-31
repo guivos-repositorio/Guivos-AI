@@ -51,5 +51,7 @@ O [GAI-INT-33](compatibilidade-contrato-tipado-matriz-casos-v2.md) documenta com
 
 O [GAI-INT-34](envelope-tipado-v2-politica-ciclo-vida-candidata.md) publica um envelope tipado v2 independente com proposta de política de ciclo de vida. Nenhuma regra foi homologada ou posta em execução.
 
+O [GAI-INT-35](deliberacao-compatibilidade-versionamento-envelope-v2.md) apresenta alternativas de política A/B/C sem decisão aprovada e sem autorizar testes ou mudança de contratos.
+
 ## Registro de novas decisões
 Cada decisão deve indicar: identificador, data, responsável pela aprovação, contexto, alternativas, decisão, fundamentos, documentos afetados e condição de revisão. Novas hipóteses não serão promovidas a decisões automaticamente.
