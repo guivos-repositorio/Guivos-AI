@@ -1,6 +1,6 @@
 # Guivos AI — Repositório Mestre de Conhecimento
 
-**Versão documental 5.8 · 31/10/2026**
+**Versão documental 5.9 · 31/10/2026**
 
 Este repositório é a **base mestra de conhecimento, análise, governança e evolução da Guivos AI**. É um projeto independente do [Guivos Knowledge Repository](https://github.com/guivos-repositorio/Guivos-Knowledge-Repository).
 
@@ -105,6 +105,8 @@ Não se destina a divulgar ou comercializar um produto, nem a oferecer interface
 - [GAI-REV-001 — Relatório da Revisão Estática Autorizada (Pedido A)](docs/relatorio-revisao-estatica-autorizada-pedido-a.md) — 10 achados; sem testes executados.
 
 - [GAI-INT-31 — Propostas para STA-01/02/03 — v5.8](docs/propostas-correcao-contratos-prioritarios-sta01-sta02-sta03.md) — sem alteração dos contratos vigentes.
+
+- [GAI-INT-32 — Três Schemas Candidatos v2 Isolados — v5.9](docs/schemas-candidatos-v2-propostas-sta01-sta02-sta03.md)
 
 ## Regras
 1. Registrar evidências, hipóteses, limitações e decisões separadamente.
