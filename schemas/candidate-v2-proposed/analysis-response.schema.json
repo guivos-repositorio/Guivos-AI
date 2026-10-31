@@ -1,0 +1,164 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://guivos-repositorio.github.io/Guivos-AI/schemas/candidate-v2-proposed/analysis-response.schema.json",
+  "title": "Guivos AI analysis response — candidate-2 proposal",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "request_id",
+    "analysis_id",
+    "api_contract_version",
+    "capability_id",
+    "context_version",
+    "lifecycle_status",
+    "validity_status",
+    "support_status",
+    "claims",
+    "limitations",
+    "generated_at"
+  ],
+  "properties": {
+    "request_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "analysis_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "api_contract_version": {
+      "const": "candidate-2"
+    },
+    "capability_id": {
+      "type": "string",
+      "pattern": "^GAI-CAP-(0[1-9]|1[0-2])$"
+    },
+    "method_version": {
+      "type": "string"
+    },
+    "context_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "lifecycle_status": {
+      "enum": [
+        "accepted",
+        "queued",
+        "processing",
+        "awaiting_review",
+        "completed",
+        "failed",
+        "cancelled"
+      ]
+    },
+    "validity_status": {
+      "enum": [
+        "valid_for_recorded_context",
+        "revalidation_required",
+        "stale",
+        "superseded",
+        "invalidated",
+        "blocked_by_authorization"
+      ]
+    },
+    "support_status": {
+      "enum": [
+        "supported",
+        "partially_supported",
+        "unsupported",
+        "contradictory",
+        "not_assessable"
+      ]
+    },
+    "person_validation_status": {
+      "enum": [
+        "not_requested",
+        "pending",
+        "accepted_for_exploration",
+        "confirmed_report",
+        "contested",
+        "declined",
+        "postponed"
+      ]
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "claim_id",
+          "epistemic_type",
+          "support_status"
+        ],
+        "properties": {
+          "claim_id": {
+            "type": "string"
+          },
+          "epistemic_type": {
+            "enum": [
+              "observed_event",
+              "attributed_report",
+              "grounded_interpretation",
+              "exploratory_hypothesis",
+              "unknown"
+            ]
+          },
+          "support_status": {
+            "enum": [
+              "supported",
+              "partially_supported",
+              "unsupported",
+              "contradictory",
+              "not_assessable"
+            ]
+          },
+          "evidence_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "source_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "unknowns": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "dependencies": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "result": {
+      "type": "object"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "valid_until": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    }
+  }
+}
