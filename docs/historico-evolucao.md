@@ -44,4 +44,6 @@
 
 | 2.3 | 31/10/2026 | Especificação GAI-CAP-11 de Relatório de Trajetória e Possibilidades, evidências por seção, validação, acesso, entrega e 22 cenários sintéticos. | Conceitual; não implementada |
 
+| 2.4 | 31/10/2026 | Especificação GAI-CAP-12 de API interna/externa, autorização, contratos, segurança, versionamento e 24 cenários sintéticos; primeira rodada de 12 capacidades documentada. | Conceitual; não implementada |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
