@@ -8,4 +8,6 @@
 | 0.4 | 31/10/2026 | Inteligência de Compatibilidade Futura. | Estudo |
 | 0.5 | 31/10/2026 | Governança do repositório como Documento Mestre, registro de decisões e índice documental público. | Direcionamento aprovado |
 
+| 0.6 | 31/10/2026 | Separação de papéis Guivos AI e Guivos Intelligence, com relação de consumo definida. | Direção aprovada; detalhamento técnico em estudo |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
