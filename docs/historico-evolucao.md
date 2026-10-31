@@ -97,4 +97,6 @@
 
 | 6.1 | 31/10/2026 | GAI-INT-34: envelope tipado v2 isolado, política candidata de ciclo de vida e referência CAP-11 v2, com 11 capacidades ligadas a v1. | Publicação de candidato; sem execução, implantação ou gates aprovados |
 
+| 6.2 | 31/10/2026 | GAI-INT-35: três decisões candidatas A/B/C para resultados parciais, falhas/cancelamento e versionamento de protocolo; recomendação A1/B1/C1. | Minuta; sem escolha formal, mudança de schema, execução ou gate |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
