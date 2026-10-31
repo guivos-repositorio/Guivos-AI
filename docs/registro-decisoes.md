@@ -41,5 +41,7 @@ O [GAI-INT-29](encaminhamento-representante-temporario-p0.md) reúne condições
 
 A [GAI-DEC-011](decisao-representante-direcao-autoridade-central-autorizacao.md) registra a responsabilidade administrativa central assumida pelo representante da direção, preservando competências técnicas e legais externas, nomeações de especialistas e o estado pendente das PNDs.
 
+A [revisão estática GAI-REV-001](relatorio-revisao-estatica-autorizada-pedido-a.md) foi realizada mediante autorização expressa do Pedido A; seus achados não são decisões de gate, nem autorizam B/C ou correções operacionais.
+
 ## Registro de novas decisões
 Cada decisão deve indicar: identificador, data, responsável pela aprovação, contexto, alternativas, decisão, fundamentos, documentos afetados e condição de revisão. Novas hipóteses não serão promovidas a decisões automaticamente.
