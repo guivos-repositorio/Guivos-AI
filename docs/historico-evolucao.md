@@ -39,4 +39,6 @@
 
 | 3.2 | 31/10/2026 | GAI-INT-08: catálogo de três JSON Schemas candidatos, compatibilidade, lacunas e 18 cenários de conformidade propostos. | Artefatos técnicos candidatos; sem testes ou homologação |
 
+| 3.3 | 31/10/2026 | GAI-INT-09: oito schemas candidatos de erros, recibos, dependências e CAP-04/05/07/08/11; 20 casos de contrato propostos. | Artefatos técnicos candidatos; sem testes ou homologação |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
