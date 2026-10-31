@@ -1,5 +1,7 @@
 # Plataforma profissional e API — Guivos AI
 
+**Especificação da API especializada:** [GAI-CAP-12 — v2.4](cap-12-api-especializada-guivos-ai.md). Este documento preserva o estudo inicial de produto e mercado; a CAP-12 detalha os contratos lógicos e controles, sem representar implementação.
+
 ## Mercado potencial
 Mentores, coaches, orientadores de carreira, instituições educacionais e, mediante salvaguardas adicionais, profissionais de Psicologia e serviços de saúde.
 
