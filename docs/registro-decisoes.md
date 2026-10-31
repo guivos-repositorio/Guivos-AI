@@ -43,5 +43,7 @@ A [GAI-DEC-011](decisao-representante-direcao-autoridade-central-autorizacao.md)
 
 A [revisão estática GAI-REV-001](relatorio-revisao-estatica-autorizada-pedido-a.md) foi realizada mediante autorização expressa do Pedido A; seus achados não são decisões de gate, nem autorizam B/C ou correções operacionais.
 
+O [GAI-INT-31](propostas-correcao-contratos-prioritarios-sta01-sta02-sta03.md) propõe correções para STA-01/02/03, mas não representa aprovação de contrato, gate, testes ou inspeção operacional.
+
 ## Registro de novas decisões
 Cada decisão deve indicar: identificador, data, responsável pela aprovação, contexto, alternativas, decisão, fundamentos, documentos afetados e condição de revisão. Novas hipóteses não serão promovidas a decisões automaticamente.
