@@ -1,6 +1,6 @@
 # Guivos AI — Repositório Mestre de Conhecimento
 
-**Versão documental 3.1 · 31/10/2026**
+**Versão documental 3.2 · 31/10/2026**
 
 Este repositório é a **base mestra de conhecimento, análise, governança e evolução da Guivos AI**. É um projeto independente do [Guivos Knowledge Repository](https://github.com/guivos-repositorio/Guivos-Knowledge-Repository).
 
@@ -20,6 +20,7 @@ Não se destina a divulgar ou comercializar um produto, nem a oferecer interface
 - [GAI-INT-05 — Autoridade de Dados, Consentimentos e Fluxos de Revogação — v2.9](docs/autoridade-dados-consentimentos-revogacao.md)
 - [GAI-INT-06 — Modelo de Dependências, Eventos e Propagação de Invalidação — v3.0](docs/modelo-dependencias-eventos-propagacao-invalidacao.md)
 - [GAI-INT-07 — Contratos de Eventos e Projeção de Dependências — v3.1](docs/contratos-eventos-projecao-dependencias.md)
+- [GAI-INT-08 — Catálogo Formal de Schemas e Compatibilidade entre Serviços — v3.2](docs/catalogo-formal-schemas-compatibilidade-servicos.md)
 
 ## Especificações de capacidades
 - [GAI-CAP-01 — Leitura e Compreensão de Trajetórias — v1.3](docs/cap-01-leitura-compreensao-trajetorias.md)
