@@ -81,7 +81,10 @@ A [matriz JSON de alocação](matriz-designacoes-segregacao-candidata.json) cons
 - G0 permanece parcial; G1–G6 permanecem pendentes.
 - Os 19 schemas e 49 fixtures sintéticas permanecem sem execução verificada. Não foi concedida autorização para testar, usar dados reais ou acessar sistemas externos.
 
-## 8. Próxima ação verificável
+## 8. Inventário técnico inicial
+O [GAI-INT-26](inventario-tecnico-inicial-designacoes-p0.md) confirma os schemas, catálogos e runners presentes no GitHub e delimita as nomeações prioritárias P0-A/P0-B. Não houve inspeção operacional ou nomeação pessoal.
+
+## 9. Próxima ação verificável
 A direção poderá **indicar formalmente a primeira função de coordenação técnica/arquitetural** e a função responsável pelo inventário dos serviços canônicos, associando os respectivos mandatos e aceites. Uma vez identificados, será possível verificar as fontes reais e reduzir bloqueios de G0, sem confundir isso com implantação.
 
 **Referências:** [GAI-DEC-009](decisao-instancia-governanca-direcao-guivos.md) · [GAI-INT-23](dossie-ratificacao-responsaveis-autoridade-alcadas.md) · [GAI-INT-22](encaminhamento-decisoes-autoridade-canonica-alcadas-g0-g2.md) · [Registro de Decisões](registro-decisoes.md).
