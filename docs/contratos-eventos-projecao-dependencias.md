@@ -160,7 +160,7 @@ G0 permanece parcial; G1 necessita schemas e compatibilidade formal; G2 exige au
 
 **A decidir:** modelo de dados da projeção; contratos JSON Schema/AsyncAPI; eventos por domínio; outbox/inbox e reconciliação; garantias de entrega; TTL de caches; índices e segregação Neo4j; cronologia entre agregados; auditoria de recibos; responsáveis pelos gates.
 
-**Próximo estudo sugerido:** GAI-INT-08 — **Catálogo Formal de Schemas e Compatibilidade entre Serviços**, como etapa preparatória para validação técnica.
+**Catálogo candidato publicado:** [GAI-INT-08 — Schemas e Compatibilidade entre Serviços](catalogo-formal-schemas-compatibilidade-servicos.md), como etapa preparatória para validação técnica.
 
 **Referências:** [GAI-INT-06](modelo-dependencias-eventos-propagacao-invalidacao.md) · [GAI-INT-05](autoridade-dados-consentimentos-revogacao.md) · [GAI-INT-02](normalizacao-contratos-estados-compartilhados.md) · [CAP-10](cap-10-reavaliacao-invalidacao-analises.md) · [CAP-12](cap-12-api-especializada-guivos-ai.md) · [Autoridade e Memória](autoridade-dados-memoria-contexto.md).
 
