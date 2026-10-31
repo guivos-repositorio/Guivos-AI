@@ -1,5 +1,5 @@
 # Matriz de Capacidades da Guivos AI
-**Versão documental 4.4 · 31/10/2026**
+**Versão documental 4.5 · 31/10/2026**
 **Estado:** planejamento conceitual e priorização proposta, sem homologação técnica, comercial ou autorização de implantação.
 
 ## 1. Função deste documento
@@ -86,6 +86,8 @@ Transformar os fundamentos e estudos da Guivos AI em um catálogo rastreável de
 **Arquitetura consolidada:** [GAI-INT-19 — Consolidação de Arquitetura e Critérios de Prontidão para Implementação v4.3](consolidacao-arquitetura-prontidao-implementacao.md). Mapa integrado das 12 CAPs, serviços, contratos, decisões e gates pendentes; não autoriza implementação.
 
 **Backlog e dependências:** [GAI-INT-20 — Matriz de Dependências, Sequenciamento e Entrada na Implementação v4.4](matriz-dependencias-sequenciamento-entrada-implementacao.md). Define 16 itens e dependências por gate; responsáveis e execução não autorizados.
+
+**Deliberação e autorização:** [GAI-INT-21 — Decisões G0/G2 e Autorização de Validação Estrutural v4.5](pacote-decisoes-g0-g2-autorizacao-validacao-estrutural.md). Oito propostas pendentes para fundamentar gates e eventual campanha offline; nenhuma execução autorizada.
 
 ## 3. Capacidades estruturais habilitadoras (não equivalentes à Guivos AI)
 | ID | Responsável proposto | Capacidade habilitadora | Dependência |
