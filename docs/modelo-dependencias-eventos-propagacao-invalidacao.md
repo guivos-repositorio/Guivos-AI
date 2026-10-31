@@ -193,7 +193,7 @@ Distinguir **ação solicitada** de **ação confirmada** em auditoria e telemet
 7. Autoridade dos gates e estratégia de rollout/rollback;
 8. Contratos normativos JSON Schema/AsyncAPI e testes executáveis futuros.
 
-**Próximo estudo recomendado:** GAI-INT-07 — **Contratos de Eventos e Projeção de Dependências**, aprofundando schemas canônicos, índices e estratégia de consistência, ainda documental.
+**Detalhamento publicado:** [GAI-INT-07 — Contratos de Eventos e Projeção de Dependências](contratos-eventos-projecao-dependencias.md), aprofundando schemas canônicos, índices e estratégia de consistência, ainda documental.
 
 **Referências:** [GAI-INT-05](autoridade-dados-consentimentos-revogacao.md) · [GAI-INT-02](normalizacao-contratos-estados-compartilhados.md) · [GAI-INT-03](matriz-testes-integrados-criterios-aceite-gates.md) · [CAP-10](cap-10-reavaliacao-invalidacao-analises.md) · [CAP-08](cap-08-qualificacao-oportunidades.md) · [Autoridade e Memória](autoridade-dados-memoria-contexto.md).
 
