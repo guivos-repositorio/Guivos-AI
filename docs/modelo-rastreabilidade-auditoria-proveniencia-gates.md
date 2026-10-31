@@ -149,7 +149,7 @@ A ausência de qualquer condição relevante mantém `pending`, `inconclusive` o
 As 16 PND-01–16 permanecem abertas; nenhuma delas foi encerrada neste estudo.
 
 ## 12. Próximo estudo recomendado
-**GAI-INT-18 — Modelo de Observabilidade de Gates, Alertas e Revalidação Contínua**, especificando como detectar expiração, revogação, mudanças de versão, perda de cobertura e divergências de evidência **sem acionar monitoramento operacional** antes de aprovação.
+[**GAI-INT-18 — Modelo de Observabilidade de Gates, Alertas e Revalidação Contínua**](modelo-observabilidade-gates-alertas-revalidacao.md), especificando como detectar expiração, revogação, mudanças de versão, perda de cobertura e divergências de evidência **sem acionar monitoramento operacional** antes de aprovação.
 
 **Referências:** [GAI-INT-16](pacote-evidencias-revisao-independente-adjudicacao-gates.md) · [GAI-INT-15](preparacao-execucao-sintetica-controlada-evidencias-gate.md) · [GAI-INT-14](registro-decisoes-pendentes-plano-fechamento-gates.md) · [GAI-INT-07](contratos-eventos-projecao-dependencias.md) · [GAI-INT-04](catalogo-fixtures-rubricas-adjudicacao.md).
 
