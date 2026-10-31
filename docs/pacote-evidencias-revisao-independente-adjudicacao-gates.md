@@ -126,7 +126,7 @@ As PND-01–16 do [GAI-INT-14](registro-decisoes-pendentes-plano-fechamento-gate
 Não aprovar G1–G6 com base na criação de templates. Não alterar o [Registro de Decisões](registro-decisoes.md) para marcar novas aprovações inexistentes.
 
 ## 12. Próximo estudo recomendado
-**GAI-INT-17 — Modelo de Rastreabilidade, Auditoria e Proveniência de Evidências de Gate**, para documentar relacionamentos entre commits, fixtures, runs, defeitos, revisões e decisões, mantendo o escopo documental até autorização.
+[**GAI-INT-17 — Modelo de Rastreabilidade, Auditoria e Proveniência de Evidências de Gate**](modelo-rastreabilidade-auditoria-proveniencia-gates.md), para documentar relacionamentos entre commits, fixtures, runs, defeitos, revisões e decisões, mantendo o escopo documental até autorização.
 
 **Referências:** [GAI-INT-15](preparacao-execucao-sintetica-controlada-evidencias-gate.md) · [GAI-INT-14](registro-decisoes-pendentes-plano-fechamento-gates.md) · [GAI-INT-12](relatorio-conformidade-estrategia-homologacao-contratual.md) · [GAI-INT-04](catalogo-fixtures-rubricas-adjudicacao.md) · [GAI-INT-03](matriz-testes-integrados-criterios-aceite-gates.md).
 
