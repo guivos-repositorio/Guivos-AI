@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://guivos-repositorio.github.io/Guivos-AI/schemas/candidate-v1/analysis-request.schema.json",
+  "title": "Guivos AI analysis request — candidate v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "request_id",
+    "api_contract_version",
+    "capability_id",
+    "consumer_ref",
+    "subject_ref",
+    "purpose",
+    "authorization_scope_ref",
+    "context_version",
+    "as_of",
+    "input_refs"
+  ],
+  "properties": {
+    "request_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "correlation_id": {
+      "type": "string"
+    },
+    "api_contract_version": {
+      "const": "candidate-1"
+    },
+    "capability_id": {
+      "type": "string",
+      "pattern": "^GAI-CAP-(0[1-9]|1[0-2])$"
+    },
+    "consumer_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "subject_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "purpose": {
+      "type": "string",
+      "minLength": 1
+    },
+    "authorization_scope_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "context_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "as_of": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "input_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "requested_output_scope": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "idempotency_key": {
+      "type": "string"
+    }
+  }
+}
