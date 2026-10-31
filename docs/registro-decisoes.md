@@ -14,6 +14,8 @@
 
 | GAI-DEC-009 | Aprovado — escopo estratégico | A administração da Guivos, representada inicialmente por sua direção, é a instância responsável pelas nomeações e decisões estratégicas iniciais. | [Decisão formalizada](decisao-instancia-governanca-direcao-guivos.md). Não nomeia titulares, não concede gate, não autoriza testes; PND-01 e PND-11 ainda requerem ratificação específica. |
 
+| GAI-DEC-010 | Aprovado — alocação institucional | Alternativa C: direção da Guivos coordenará temporariamente P0-A e P0-B. | [Escopo e limites](decisao-coordenacao-temporaria-direcao-p0-a-p0-b.md). Sem nomeação individual, aceite, acesso a sistemas, testes ou homologação de gates. |
+
 ## Propostas de decisão ainda não aprovadas
 O [GAI-INT-14 — Registro de Decisões Pendentes e Plano de Fechamento de Gates](registro-decisoes-pendentes-plano-fechamento-gates.md) consolida **16 decisões candidatas PND-01 a PND-16**. Todas permanecem em aberto e não modificam o status dos direcionamentos aprovados neste registro. A criação de uma pendência não representa aprovação técnica nem operacional.
 
@@ -30,6 +32,8 @@ O [GAI-INT-25](modelo-inicial-designacoes-segregacao-responsabilidades.md) prop�
 O [GAI-INT-26](inventario-tecnico-inicial-designacoes-p0.md) verifica artefatos do GitHub e prepara a indicação de responsáveis P0-A/P0-B, sem nomeações ou fechamento das decisões PND-01/PND-11.
 
 O [GAI-INT-27](termos-designacao-coordenacao-arquitetura-inventario-canonico.md) formaliza os termos candidatos P0-A/P0-B. A [minuta GAI-INT-28](minuta-executiva-indicacao-p0-a-p0-b.md) apresenta alternativas para indicação pela direção, sem nomeações ou alteração das PNDs.
+
+A [GAI-DEC-010](decisao-coordenacao-temporaria-direcao-p0-a-p0-b.md) seleciona a alternativa C da minuta GAI-INT-28; as pendências PND-01/11 continuam abertas até a ratificação de titulares e competências.
 
 ## Registro de novas decisões
 Cada decisão deve indicar: identificador, data, responsável pela aprovação, contexto, alternativas, decisão, fundamentos, documentos afetados e condição de revisão. Novas hipóteses não serão promovidas a decisões automaticamente.
