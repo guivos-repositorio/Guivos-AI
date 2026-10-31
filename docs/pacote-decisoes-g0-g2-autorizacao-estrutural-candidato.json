@@ -1,0 +1,83 @@
+{
+  "proposal_id": "GAI-INT-21-G0G2-STRUCTURAL-RUN",
+  "document_version": "4.5",
+  "status": "awaiting_formal_decision",
+  "execution_authorized": false,
+  "gate_approved": false,
+  "requested_activity": "offline_structural_validation_synthetic_only",
+  "scope": {
+    "repository": "guivos-repositorio/Guivos-AI",
+    "schemas": "schemas/candidate-v1",
+    "candidate_schema_count": 19,
+    "fixture_refs": [
+      "tests/contracts/candidate-v1/cases.json",
+      "tests/contracts/candidate-v1/typed-cases.json"
+    ],
+    "planned_cases": 49,
+    "runners": [
+      "tests/contracts/run_schema_cases.py",
+      "tests/contracts/run_typed_cases.py"
+    ],
+    "external_connections": false,
+    "real_person_data": false,
+    "replit_access": false,
+    "neo4j_access": false,
+    "llm_provider_calls": false
+  },
+  "required_decisions": [
+    {
+      "id": "PND-01",
+      "topic": "canonical_data_authority",
+      "status": "pending"
+    },
+    {
+      "id": "PND-11",
+      "topic": "gate_authority_roles",
+      "status": "pending"
+    },
+    {
+      "id": "PND-02",
+      "topic": "processing_purpose_and_privacy_review",
+      "status": "pending"
+    },
+    {
+      "id": "PND-03",
+      "topic": "tenant_scope_and_authorization",
+      "status": "pending"
+    },
+    {
+      "id": "PND-08",
+      "topic": "revocation_retention_derived_data",
+      "status": "pending"
+    },
+    {
+      "id": "PND-09",
+      "topic": "fixtures_and_rubrics_review",
+      "status": "pending"
+    },
+    {
+      "id": "PND-12",
+      "topic": "acceptance_and_stop_conditions",
+      "status": "pending"
+    },
+    {
+      "id": "PND-10",
+      "topic": "specific_campaign_execution_authorization",
+      "status": "pending"
+    }
+  ],
+  "authorization": {
+    "authority_ref": null,
+    "approved_at": null,
+    "scope_ref": null,
+    "expiration": null,
+    "budget_limit": null,
+    "repository_commit_sha": null,
+    "environment_spec_ref": null,
+    "dependency_lock_ref": null
+  },
+  "runs": [],
+  "review_refs": [],
+  "gate_decision_ref": null,
+  "notes": "This is a decision proposal only; no tests should run or gates pass based on this record."
+}
