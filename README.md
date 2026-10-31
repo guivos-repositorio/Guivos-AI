@@ -3,13 +3,14 @@
 
 Repositório independente de documentação conceitual, arquitetura, produtos e governança da Guivos AI.
 
-> Estado: versão conceitual inicial v0.1 · 31 de outubro de 2026. Hipóteses e conceitos sujeitos a validação.
+> Estado: versão conceitual v0.2 · 31 de outubro de 2026. Hipóteses e conceitos sujeitos a validação.
 
 ## Propósito
 Compreender o presente, aprender com a trajetória e identificar condições e oportunidades que podem tornar novas possibilidades futuras mais acessíveis.
 
 ## Documentos
 - [Documento Mestre](docs/index.md)
+- [Motor de Possibilidades Futuras e Análise de Lacunas](docs/motor-possibilidades-lacunas.md)
 - [Arquitetura de inteligência](docs/arquitetura.md)
 - [Relatório de Trajetória e Possibilidades](docs/relatorio.md)
 - [Produto e API](docs/produto-api.md)
