@@ -40,7 +40,10 @@ A [matriz JSON de casos candidatos](matriz-casos-compatibilidade-v2-candidata.js
 ## 5. Critérios para eventual campanha de testes
 Antes de executar o Pedido B: decisão de autorização específica, executor, revisor independente, SHA congelado, registry v2 explícito, dependências e ambiente isolado, pacote de evidências e critérios de encerramento. O manifesto existente permanece `not_authorized`.
 
-## 6. Próxima decisão
+## 6. Envelope v2 preparado
+O [GAI-INT-34](envelope-tipado-v2-politica-ciclo-vida-candidata.md) publicou um envelope tipado v2 independente, com CAP-11 v2 e regra candidata para estado de conclusão. Continua sem testes ou adoção.
+
+## 7. Próxima decisão
 A direção pode autorizar **somente a preparação documental de um envelope tipado v2 alternativo** (sem ativação nem testes), condicionada à decisão sobre respostas intermediárias `queued/failed`. **Esta publicação não autoriza a execução do Pedido B ou inspeção C.**
 
 **Estado preservado:** 19 schemas candidate-v1 e três candidates v2 separados; 49 fixtures v1 ainda não executadas; G0 parcial e G1–G6 pendentes; PNDs abertas.
