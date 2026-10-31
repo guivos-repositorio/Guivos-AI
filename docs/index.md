@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 0.3 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 0.4 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## 1. Identidade e objetivo
 Guivos AI é uma proposta de inteligência especializada no universo Guivos, capaz de compreender trajetórias, relacionar evidências, analisar lacunas e identificar possibilidades futuras e oportunidades intermediárias. Não é necessário desenvolver um modelo de linguagem fundacional próprio para construir esta especialização.
@@ -35,7 +35,10 @@ Ver [Motor de Possibilidades Futuras e Análise de Lacunas](motor-possibilidades
 ## 10. Descoberta de possibilidades não consideradas
 Ver [Descoberta de Possibilidades Não Consideradas](descoberta-possibilidades-nao-consideradas.md), documento v0.3. A inteligência deve distinguir possibilidades declaradas, adjacentes, emergentes e exploratórias, com justificativas, evidências e validação pela Pessoa. Não atribuir desejos que ela não expressou, nem interpretar recusa como autossabotagem.
 
-## 11. Próximos estudos
+## 11. Inteligência de Compatibilidade Futura
+Ver [Compatibilidade Futura — estudo v0.4](compatibilidade-futura.md), que especifica a comparação entre condições atuais, requisitos futuros, lacunas, alternativas e oportunidades intermediárias. A compatibilidade é contextual, nunca uma nota ou previsão de sucesso da Pessoa.
+
+## 12. Próximos estudos
 - Modelos de evidências, fontes e rastreabilidade
 - Ontologia temporal de trajetórias e possibilidades
 - Métodos de identificação e validação de lacunas
