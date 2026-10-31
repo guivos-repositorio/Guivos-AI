@@ -1,6 +1,6 @@
 # Guivos AI — Repositório Mestre de Conhecimento
 
-**Versão documental 5.3 · 31/10/2026**
+**Versão documental 5.4 · 31/10/2026**
 
 Este repositório é a **base mestra de conhecimento, análise, governança e evolução da Guivos AI**. É um projeto independente do [Guivos Knowledge Repository](https://github.com/guivos-repositorio/Guivos-Knowledge-Repository).
 
@@ -95,6 +95,8 @@ Não se destina a divulgar ou comercializar um produto, nem a oferecer interface
 [GAI-INT-27 — Termos P0-A/P0-B](docs/termos-designacao-coordenacao-arquitetura-inventario-canonico.md) — v5.2.
 
 - [GAI-INT-28 — Minuta Executiva de Indicação P0-A/P0-B — v5.3](docs/minuta-executiva-indicacao-p0-a-p0-b.md)
+
+- [GAI-DEC-010 — Coordenação Temporária P0-A/P0-B pela Direção — v5.4](docs/decisao-coordenacao-temporaria-direcao-p0-a-p0-b.md)
 
 ## Regras
 1. Registrar evidências, hipóteses, limitações e decisões separadamente.
