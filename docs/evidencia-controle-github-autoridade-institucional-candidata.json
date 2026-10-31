@@ -1,0 +1,40 @@
+{
+  "record_id": "GAI-INT-24-github-repo-control-check",
+  "document_version": "4.8",
+  "checked_at_date": "2026-10-31",
+  "source": "GitHub connector get_repo and list_user_org_memberships",
+  "repository": {
+    "full_name": "guivos-repositorio/Guivos-AI",
+    "id": "1440878620",
+    "owner_login": "guivos-repositorio",
+    "owner_type": "User",
+    "visibility": "public",
+    "default_branch": "main"
+  },
+  "authenticated_connection_permissions": {
+    "admin": true,
+    "maintain": true,
+    "pull": true,
+    "push": true,
+    "triage": true
+  },
+  "authenticated_connection_org_memberships": [],
+  "finding": "Technical repository administration evidenced; legal or institutional gate/data authority not evidenced.",
+  "institutional_authority_verified": false,
+  "appointed_governance_roles_verified": 0,
+  "operational_authorizations_granted": 0,
+  "gate_status": {
+    "G0": "partial",
+    "G1": "pending",
+    "G2": "pending",
+    "G3": "pending",
+    "G4": "pending",
+    "G5": "pending",
+    "G6": "pending"
+  },
+  "cautions": [
+    "GitHub account ownership is not proof of legal ownership or professional mandate.",
+    "No individual identity is inferred.",
+    "No live integration or test execution has occurred."
+  ]
+}
