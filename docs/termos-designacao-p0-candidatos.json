@@ -1,0 +1,65 @@
+{
+  "document_id": "GAI-INT-27",
+  "document_version": "5.2",
+  "status": "nomination_templates_ready_no_appointees",
+  "appointing_institution_ref": "GAI-DEC-009",
+  "mandates": [
+    {
+      "mandate_id": "P0-A",
+      "title": "Coordenação de Arquitetura Guivos AI",
+      "status": "awaiting_nomination",
+      "nominee_ref": null,
+      "nominator_ref": "Guivos direction (GAI-DEC-009)",
+      "appointment_decision_ref": null,
+      "acceptance_ref": null,
+      "effective_at": null,
+      "scope": [
+        "assess_architecture_boundary",
+        "inventory_contract_owners",
+        "propose_technical_ADRs",
+        "identify_integration_gaps"
+      ],
+      "excluded": [
+        "grant_data_processing_authorization",
+        "approve_security_or_privacy_gates",
+        "execute_tests_without_authorization",
+        "modify_operational_Replit_or_Neo4j"
+      ],
+      "first_deliverable": "Versioned boundary and architecture gap report",
+      "independence_review_ref": null
+    },
+    {
+      "mandate_id": "P0-B",
+      "title": "Inventário de Serviços Canônicos",
+      "status": "awaiting_nomination",
+      "nominee_ref": null,
+      "nominator_ref": "Guivos direction (GAI-DEC-009)",
+      "appointment_decision_ref": null,
+      "acceptance_ref": null,
+      "effective_at": null,
+      "scope": [
+        "identify_real_service_owners",
+        "verify_service_lifecycle",
+        "map_data_source_authority",
+        "record_consent_and_revocation_dependencies"
+      ],
+      "excluded": [
+        "read_personal_data_without_purpose_and_permission",
+        "assign_authority_from_GitHub_admin",
+        "declare_Neo4j_canonical",
+        "approve_G2_or_any_gate"
+      ],
+      "first_deliverable": "Verified service inventory with evidence references and unknowns",
+      "independence_review_ref": null
+    }
+  ],
+  "appointments_count": 0,
+  "acceptances_count": 0,
+  "gate_approvals_count": 0,
+  "test_execution_authorized": false,
+  "operational_access_authorized": false,
+  "unresolved_decisions": [
+    "PND-01",
+    "PND-11"
+  ]
+}
