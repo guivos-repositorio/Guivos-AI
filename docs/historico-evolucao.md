@@ -42,4 +42,6 @@
 
 | 2.2 | 31/10/2026 | Especificação GAI-CAP-10 para reavaliação, invalidação de dependências, revisão temporal, revogações, contratos e 20 testes sintéticos candidatos. | Conceitual; não implementada |
 
+| 2.3 | 31/10/2026 | Especificação GAI-CAP-11 de Relatório de Trajetória e Possibilidades, evidências por seção, validação, acesso, entrega e 22 cenários sintéticos. | Conceitual; não implementada |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
