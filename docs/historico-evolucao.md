@@ -31,4 +31,6 @@
 | 2.7 | 31/10/2026 | GAI-INT-03: matriz de testes por capacidade, 12 cenários integrados, critérios de aceite, evidência de execução, severidade, adjudicação e gates G0–G6. | Plano documental; sem testes ou gates adjudicados |
 | 2.8 | 31/10/2026 | GAI-INT-04: catálogo de fixtures sintéticas, rubricas por risco, registros de runs, revisão e adjudicação humana, sem resultados presumidos. | Proposta documental; sem execução ou adjudicação |
 
+| 2.9 | 31/10/2026 | GAI-INT-05: autoridade de dados, autorizações por finalidade, fluxos de revogação e 18 cenários sintéticos propostos. | Estudo documental; sem testes ou implementação |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
