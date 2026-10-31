@@ -10,6 +10,7 @@
 | GAI-DEC-005 | Aprovado conceitualmente | Pessoa cadastrada na Guivos e compartilhamento de dados mediante permissões adequadas; profissional pode inserir informações adicionais e configurar a frequência. | Conta não autoriza acesso automático. |
 | GAI-DEC-006 | Aprovado conceitualmente | Explorar camada de inteligência comercializável por API para sistemas de terceiros. | Produto e demanda ainda não validados. |
 | GAI-DEC-007 | Aprovado | A cada evolução, atualizar repositório e leitura pública em conjunto. | Conferir publicação efetiva separadamente. |
+| GAI-DEC-008 | Aprovado | Guivos Intelligence consumirá Guivos AI, e ambos serão utilizados no ecossistema Guivos com papéis distintos. | A divisão técnica proposta está documentada em [Fronteira Arquitetural](guivos-ai-vs-intelligence.md), ainda sujeita a validação dos detalhes. |
 
 ## Registro de novas decisões
 Cada decisão deve indicar: identificador, data, responsável pela aprovação, contexto, alternativas, decisão, fundamentos, documentos afetados e condição de revisão. Novas hipóteses não serão promovidas a decisões automaticamente.
