@@ -25,7 +25,10 @@ Os três arquivos foram criados a partir da estrutura dos respectivos fontes e a
 
 Os 19 schemas do diretório `candidate-v1` continuam distintos dos 3 schemas **adicionais** da proposta; 22 arquivos em dois diretórios **não significam 22 contratos aprovados**.
 
-## 4. Critérios para aprovação futura
+## 4. Análise de compatibilidade
+O [GAI-INT-33](compatibilidade-contrato-tipado-matriz-casos-v2.md) confirma a permanência da referência CAP-11 no contrato tipado v1 e prepara matriz de 15 casos v2, não executados.
+
+## 5. Critérios para aprovação futura
 1. Revisão da semântica por responsáveis técnicos de arquitetura, autorização, privacidade e serviços canônicos.
 2. Avaliação de compatibilidade dos produtores/consumidores e estratégia de versão.
 3. Validação estrutural e casos positivos/negativos mediante autorização **independente para Pedido B**, com executor e revisor.
