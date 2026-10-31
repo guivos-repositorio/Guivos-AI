@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 5.2 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 5.3 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -186,7 +186,10 @@ Ver [Estudo de Autoridade, Consentimentos e Revogação](autoridade-dados-consen
 ## 58. GAI-INT-27 — Termos de Designação P0-A/P0-B — v5.2
 [Estudo](termos-designacao-coordenacao-arquitetura-inventario-canonico.md) e [termos candidatos](termos-designacao-p0-candidatos.json). Nenhuma nomeação ratificada ou gate aprovado.
 
-## 59. Próximos passos
+## 59. GAI-INT-28 — Minuta Executiva de Indicação P0-A/P0-B — v5.3
+[Minuta para decisão da direção](minuta-executiva-indicacao-p0-a-p0-b.md) com três alternativas de alocação, escopos, aceites e limites, e [registro JSON](minuta-indicacao-p0-a-p0-b.json). **Nenhum indicado, mandato, teste ou gate aprovado.**
+
+## 60. Próximos passos
 - Revisão e testes futuros dos schemas compartilhados candidatos
 - Formalização da autoridade canônica, finalidades, bases legais e contratos de autorização
 - Aprovação futura das fixtures, rubricas e critérios de adjudicação
