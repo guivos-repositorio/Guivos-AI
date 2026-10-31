@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://guivos-repositorio.github.io/Guivos-AI/schemas/candidate-v1/cap08-offer-result.schema.json",
+  "title": "Guivos AI cap08-offer-result candidate-1",
+  "type": "object",
+  "properties": {
+    "capability_id": {
+      "const": "GAI-CAP-08"
+    },
+    "offer_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "publisher_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "publication_status": {
+      "enum": [
+        "draft",
+        "published",
+        "suspended",
+        "closed",
+        "cancelled",
+        "unknown"
+      ]
+    },
+    "verification_status": {
+      "enum": [
+        "verified_current",
+        "verified_historical",
+        "pending_verification",
+        "stale",
+        "conflicting_sources",
+        "unverifiable"
+      ]
+    },
+    "availability_status": {
+      "enum": [
+        "confirmed_available",
+        "published_not_confirmed",
+        "not_available",
+        "unknown"
+      ]
+    },
+    "as_of": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "capability_id",
+    "offer_ref",
+    "publisher_ref",
+    "source_ref",
+    "publication_status",
+    "verification_status",
+    "availability_status",
+    "as_of",
+    "limitations"
+  ],
+  "additionalProperties": false
+}
