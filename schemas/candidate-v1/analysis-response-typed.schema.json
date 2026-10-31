@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Candidate typed analysis response",
+  "allOf": [
+    {
+      "$ref": "analysis-response.schema.json"
+    },
+    {
+      "properties": {
+        "result": {
+          "oneOf": [
+            {
+              "$ref": "cap01-trajectory-result.schema.json"
+            },
+            {
+              "$ref": "cap02-moment-result.schema.json"
+            },
+            {
+              "$ref": "cap03-evidence-result.schema.json"
+            },
+            {
+              "$ref": "cap04-gap-result.schema.json"
+            },
+            {
+              "$ref": "cap05-possibility-result.schema.json"
+            },
+            {
+              "$ref": "cap06-compatibility-result.schema.json"
+            },
+            {
+              "$ref": "cap07-path-result.schema.json"
+            },
+            {
+              "$ref": "cap08-offer-result.schema.json"
+            },
+            {
+              "$ref": "cap09-contradictions-result.schema.json"
+            },
+            {
+              "$ref": "cap10-invalidation-result.schema.json"
+            },
+            {
+              "$ref": "cap11-report-result.schema.json"
+            },
+            {
+              "$ref": "cap12-api-service-result.schema.json"
+            }
+          ]
+        }
+      },
+      "required": [
+        "result"
+      ]
+    }
+  ]
+}
