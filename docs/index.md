@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 5.1 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 5.2 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -183,7 +183,10 @@ Ver [Estudo de Autoridade, Consentimentos e Revogação](autoridade-dados-consen
 ## 57. GAI-INT-26 — Inventário Técnico Inicial e Designações P0 — v5.1
 [Inventário GAI-INT-26](inventario-tecnico-inicial-designacoes-p0.md). Verificou no GitHub 19 schemas candidatos, dois runners e dois catálogos de fixtures, diferenciando-os de serviços operacionais ainda não verificados. Define duas designações prioritárias a ratificar; [registro JSON](inventario-tecnico-inicial-guivos-ai.json). **Nenhum teste, nomeação ou gate aprovado.**
 
-## 58. Próximos passos
+## 58. GAI-INT-27 — Termos de Designação P0-A/P0-B — v5.2
+[Estudo](termos-designacao-coordenacao-arquitetura-inventario-canonico.md) e [termos candidatos](termos-designacao-p0-candidatos.json). Nenhuma nomeação ratificada ou gate aprovado.
+
+## 59. Próximos passos
 - Revisão e testes futuros dos schemas compartilhados candidatos
 - Formalização da autoridade canônica, finalidades, bases legais e contratos de autorização
 - Aprovação futura das fixtures, rubricas e critérios de adjudicação
