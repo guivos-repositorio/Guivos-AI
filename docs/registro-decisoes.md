@@ -18,6 +18,8 @@
 
 | GAI-DEC-011 | Aprovado — responsabilidade administrativa declarada | Declarante da direção assume coordenação inicial P0-A/P0-B e controle central de autorizações específicas para Guivos AI. | [Decisão com limites](decisao-representante-direcao-autoridade-central-autorizacao.md). Sem aprovações antecipadas, acessos operacionais, gates ou dispensa de revisões. |
 
+| GAI-DEC-012 | Aprovado — desenho | A1/B1/C1 — resultado concluído, erros separados e candidate-2 isolado | [Decisão](decisao-politica-envelope-v2-a1-b1-c1.md). Sem testes, inspeção, implantação ou gates. |
+
 ## Propostas de decisão ainda não aprovadas
 O [GAI-INT-14 — Registro de Decisões Pendentes e Plano de Fechamento de Gates](registro-decisoes-pendentes-plano-fechamento-gates.md) consolida **16 decisões candidatas PND-01 a PND-16**. Todas permanecem em aberto e não modificam o status dos direcionamentos aprovados neste registro. A criação de uma pendência não representa aprovação técnica nem operacional.
 
