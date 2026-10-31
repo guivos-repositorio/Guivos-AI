@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 4.1 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 4.2 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -153,10 +153,13 @@ Ver [Estudo de Autoridade, Consentimentos e Revogação](autoridade-dados-consen
 ## 47. GAI-INT-17 — Rastreabilidade, Auditoria e Proveniência de Evidências de Gate — v4.1
 [Especificação GAI-INT-17](modelo-rastreabilidade-auditoria-proveniencia-gates.md). Define objetos e relações entre commits, schemas, fixtures, autorização, runs, observações, defeitos, revisões e GateDecision; apresenta 18 casos sintéticos e [template de rastreabilidade](../tests/contracts/candidate-v1/traceability-record-template.json). **Estado: proposta documental, sem execução, auditoria ou gate aprovado.**
 
-## 48. Próximos estudos
+## 48. GAI-INT-18 — Observabilidade de Gates, Alertas e Revalidação Contínua — v4.2
+[Especificação GAI-INT-18](modelo-observabilidade-gates-alertas-revalidacao.md). Define sinais, 12 categorias de alertas, critérios de revalidação, 20 casos sintéticos e [template de observabilidade](../tests/contracts/candidate-v1/gate-observability-signal-template.json). **Estado: estudo documental; nenhum monitoramento, alerta real ou gate aprovado.**
+
+## 49. Próximos estudos
 - Revisão e testes futuros dos schemas compartilhados candidatos
 - Formalização da autoridade canônica, finalidades, bases legais e contratos de autorização
 - Aprovação futura das fixtures, rubricas e critérios de adjudicação
-- Especificar observabilidade documental de gates, alertas e revalidação contínua
+- Consolidar arquitetura, dependências e critérios de prontidão para futura implementação
 - Comparação controlada dos contratos com implementação Replit, somente mediante autorização específica
 - Avaliação comercial e B2B após verificação dos gates relevantes
