@@ -7,43 +7,25 @@
 | 0.3 | 31/10/2026 | Descoberta de possibilidades não consideradas. | Estudo |
 | 0.4 | 31/10/2026 | Inteligência de Compatibilidade Futura. | Estudo |
 | 0.5 | 31/10/2026 | Governança do repositório como Documento Mestre, registro de decisões e índice documental público. | Direcionamento aprovado |
-
 | 0.6 | 31/10/2026 | Separação de papéis Guivos AI e Guivos Intelligence, com relação de consumo definida. | Direção aprovada; detalhamento técnico em estudo |
-
 | 0.7 | 31/10/2026 | Inspeção de leitura da Jornada no Replit; diagnóstico de conexões atuais e arquitetura-alvo Intelligence, AI, Neo4j e modelos. | Documentado; implementação não autorizada |
-
 | 0.8 | 31/10/2026 | Arquitetura conceitual de autoridade pelos fatos, memória canônica, análises derivadas, permissões e consumo por Intelligence/API. | Estudo técnico; não implementado |
-
 | 0.9 | 31/10/2026 | Modelo de conhecimento e ontologia temporal para trajetórias, eventos, evidências, lacunas e possibilidades. | Estudo conceitual; esquema técnico pendente |
-
 | 1.0 | 31/10/2026 | Modelo de evidências, rastreabilidade por afirmação, tratamento de contradições e invalidação analítica. | Estudo técnico; não implementado |
-
 | 1.1 | 31/10/2026 | Protocolo de avaliação e qualidade, cenários sintéticos, divergência entre modelos, falhas e gates. | Proposta documental, sem testes executados |
-
 | 1.2 | 31/10/2026 | Matriz com 12 capacidades Guivos AI, 8 dependências habilitadoras, riscos, estados e priorização em ondas. | Planejamento conceitual; não implementado |
-
 | 1.3 | 31/10/2026 | Especificação da GAI-CAP-01 com fontes, temporalidade, entradas/saídas, erros, integração e 12 fixtures de avaliação candidatas. | Especificação conceitual; não implementada |
-
 | 1.4 | 31/10/2026 | Especificação CAP-02 do momento atual, com dimensões, proveniência, contratos lógicos e 14 cenários sintéticos. | Conceitual; não implementada |
-
 | 1.5 | 31/10/2026 | Especificação CAP-03 de interpretação fundamentada, contratos de claims/evidências, integração transversal e 16 casos sintéticos candidatos. | Conceitual, sem implementação ou testes |
-
 | 1.6 | 31/10/2026 | Especificação GAI-CAP-04 de identificação e qualificação de lacunas, critérios de confirmação, barreiras e 16 fixtures sintéticas. | Conceitual; não implementada |
-
 | 1.7 | 31/10/2026 | Especificação CAP-05 de descoberta de possibilidades declaradas, adjacentes, emergentes e exploratórias, contratos e 18 cenários sintéticos. | Conceitual; não implementada |
-
 | 1.8 | 31/10/2026 | Especificação GAI-CAP-06 de compatibilidade futura por requisito, cenários condicionais, contratos de entrada/saída e 18 avaliações sintéticas propostas. | Conceitual; não implementada |
-
 | 1.9 | 31/10/2026 | Especificação GAI-CAP-07 de caminhos intermediários, etapas alternativas, Direct/Enabling Supply, contratos e 20 cenários sintéticos. | Conceitual; não implementada |
-
 | 2.0 | 31/10/2026 | Especificação GAI-CAP-08 para qualificação de ofertas, status de publicação/disponibilidade, requisitos, eventos e 20 cenários sintéticos. | Conceitual; não implementada |
-
 | 2.1 | 31/10/2026 | Especificação GAI-CAP-09 sobre incertezas, contradições temporais, divergências entre modelos, revisão humana e 20 cenários sintéticos. | Conceitual; não implementada |
-
 | 2.2 | 31/10/2026 | Especificação GAI-CAP-10 para reavaliação, invalidação de dependências, revisão temporal, revogações, contratos e 20 testes sintéticos candidatos. | Conceitual; não implementada |
-
 | 2.3 | 31/10/2026 | Especificação GAI-CAP-11 de Relatório de Trajetória e Possibilidades, evidências por seção, validação, acesso, entrega e 22 cenários sintéticos. | Conceitual; não implementada |
-
 | 2.4 | 31/10/2026 | Especificação GAI-CAP-12 de API interna/externa, autorização, contratos, segurança, versionamento e 24 cenários sintéticos; primeira rodada de 12 capacidades documentada. | Conceitual; não implementada |
+| 2.5 | 31/10/2026 | Revisão integrada GAI-INT-01 das 12 capacidades, dependências, contratos, 12 achados, 8 cenários ponta a ponta e gates G0–G6. | Revisão documental; sem implementação nem testes |
 
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
