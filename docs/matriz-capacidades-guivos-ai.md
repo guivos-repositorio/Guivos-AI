@@ -1,5 +1,5 @@
 # Matriz de Capacidades da Guivos AI
-**Versão documental 3.4 · 31/10/2026**
+**Versão documental 3.5 · 31/10/2026**
 **Estado:** planejamento conceitual e priorização proposta, sem homologação técnica, comercial ou autorização de implantação.
 
 ## 1. Função deste documento
@@ -66,6 +66,8 @@ Transformar os fundamentos e estudos da Guivos AI em um catálogo rastreável de
 **Schemas especializados e recibos:** [GAI-INT-09 — Schemas Especializados, Contratos de Erro e Recibos de Eventos v3.3](schemas-especializados-erros-recibos-eventos.md). Oito novos schemas candidatos, sem homologação, integração aos envelopes ou execução de testes.
 
 **Conformidade de contratos:** [GAI-INT-10 — Conformidade de Schemas, Casos de Contrato e Compatibilidade v3.4](conformidade-schemas-casos-contrato-compatibilidade.md). Catálogo sintético de 25 casos e executor offline candidato, ainda sem resultados de execução ou homologação.
+
+**Cobertura de contratos:** [GAI-INT-11 — Cobertura dos Contratos Especializados e Integração dos Schemas v3.5](cobertura-contratos-especializados-integracao-schemas.md). Sete novos payloads, envelope tipado por CAP e 24 casos sintéticos não executados; sem alteração de maturidade.
 
 ## 3. Capacidades estruturais habilitadoras (não equivalentes à Guivos AI)
 | ID | Responsável proposto | Capacidade habilitadora | Dependência |
