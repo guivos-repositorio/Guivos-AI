@@ -91,4 +91,6 @@
 
 | 5.8 | 31/10/2026 | GAI-INT-31: propostas estruturadas para STA-01, STA-02 e STA-03 com compatibilidade, critérios de revisão e JSON Schema candidato. | Somente proposta; schemas originais inalterados, testes e gates pendentes |
 
+| 5.9 | 31/10/2026 | GAI-INT-32: três schemas v2 propostos em diretório isolado, preservando candidate-v1. | Nenhum teste ou gate aprovado |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
