@@ -47,3 +47,6 @@ A preparação deste artefato decorre do encaminhamento da direção para envelo
 **Próxima decisão material:** escolher política de respostas parciais, versão de protocolo e compatibilidade; somente depois preparar validação offline sob autorização específica.
 
 Referências: [GAI-INT-33](compatibilidade-contrato-tipado-matriz-casos-v2.md) · [GAI-INT-32](schemas-candidatos-v2-propostas-sta01-sta02-sta03.md) · [GAI-DEC-011](decisao-representante-direcao-autoridade-central-autorizacao.md).
+
+## Atualização após GAI-DEC-012
+A direção aprovou A1/B1/C1 somente como política de desenho. Foi criado [base candidate-2](../schemas/candidate-v2-proposed/analysis-response.schema.json), e o [envelope tipado v2](../schemas/candidate-v2-proposed/analysis-response-typed.schema.json) passou a referenciá-lo. O envelope anterior candidate-v1 permanece preservado; sem teste ou homologação.
