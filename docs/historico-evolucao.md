@@ -59,4 +59,6 @@
 
 | 4.2 | 31/10/2026 | GAI-INT-18: proposta de observabilidade de gates, 12 alertas candidatos, revalidação contínua, 20 cenários sintéticos e template JSON. | Estudo documental; sem monitoramento ativado ou gate aprovado |
 
+| 4.3 | 31/10/2026 | GAI-INT-19: consolidação da arquitetura-alvo, fronteiras dos serviços, inventário de contratos, prontidão por camada, dependências e critérios futuros de implementação. | Estudo documental; sem implementação, testes ou gates aprovados |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
