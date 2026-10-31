@@ -49,4 +49,6 @@
 
 | 3.7 | 31/10/2026 | GAI-INT-13: plano de compatibilidade de produtores e consumidores, migração, versionamento, depreciação, rollout/rollback e 20 cenários sintéticos. | Planejamento documental; sem migrações ou testes |
 
+| 3.8 | 31/10/2026 | GAI-INT-14: 16 decisões pendentes, sequenciamento de responsabilidade, requisitos de evidência e fechamento dos gates G0–G6. | Planejamento; nenhuma aprovação operacional ou teste |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
