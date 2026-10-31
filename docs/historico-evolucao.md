@@ -65,4 +65,6 @@
 
 | 4.5 | 31/10/2026 | GAI-INT-21: oito propostas de decisões G0/G2, pacote sintético delimitado e registro JSON explicitamente não autorizado. | Propostas documentais; sem deliberação, testes ou gate aprovado |
 
+| 4.6 | 31/10/2026 | GAI-INT-22: encaminhamento conceitual de autoridade canônica por domínio e segregação de papéis, com matriz JSON e ratificações pendentes. | Direcionamentos conceituais; sem nomeações, testes ou gates aprovados |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
