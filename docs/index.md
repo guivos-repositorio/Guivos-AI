@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 0.8 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 0.9 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -54,7 +54,10 @@ Ver [Diagnóstico e arquitetura-alvo de integração](integracao-replit-intellig
 ## 14. Autoridade dos dados e memória contextual — v0.8
 A fonte canônica de cada informação deve permanecer sob responsabilidade dos serviços de contexto, identidade e oportunidades do ecossistema. Guivos AI mantém autoridade metodológica sobre análises especializadas, e Guivos Intelligence sobre orquestração e experiência; nenhum modelo de linguagem é autoridade pelos fatos originais. Detalhes de persistência, Neo4j e contratos ainda estão em estudo. Ver [Autoridade de Dados, Memória Canônica e Consumo de Inteligência](autoridade-dados-memoria-contexto.md).
 
-## 15. Próximos estudos
+## 15. Modelo de Conhecimento e Ontologia Temporal — v0.9
+Ver [Modelo de Conhecimento e Ontologia Temporal](modelo-conhecimento-ontologia-temporal.md), que estabelece um vocabulário proposto para Pessoa, Momento, Objetivo, Possibilidade, Oportunidade, Requisito, Condição, Evento, Evidência, Lacuna, Hipótese e Análise, com relações, temporalidade, proveniência, versionamento e autorização. O esquema físico Neo4j ainda depende de validação e não está autorizado para implantação.
+
+## 16. Próximos estudos
 - Modelos de evidências, fontes e rastreabilidade
 - Ontologia temporal de trajetórias e possibilidades
 - Métodos de identificação e validação de lacunas
