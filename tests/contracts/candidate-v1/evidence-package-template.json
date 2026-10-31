@@ -1,0 +1,20 @@
+{
+  "template_id": "GAI-INT-16-evidence-package-template",
+  "document_version": "4.0",
+  "template_status": "unfilled",
+  "execution_status": "not_executed",
+  "campaign_ref": null,
+  "authorization_ref": null,
+  "gate_id": null,
+  "scope_ref": null,
+  "repository_commit_sha": null,
+  "artifact_digests": [],
+  "environment_ref": null,
+  "case_results": [],
+  "findings": [],
+  "incident_refs": [],
+  "review_refs": [],
+  "adjudication_ref": null,
+  "gate_decision_ref": null,
+  "note": "Template only. No observed results or authorization."
+}
