@@ -1,13 +1,13 @@
 {
   "document_id": "GAI-INT-27",
-  "document_version": "5.2",
-  "status": "nomination_templates_ready_no_appointees",
+  "document_version": "5.4",
+  "status": "alternative_c_confirmed_personal_appointments_and_acceptance_pending",
   "appointing_institution_ref": "GAI-DEC-009",
   "mandates": [
     {
       "mandate_id": "P0-A",
       "title": "Coordenação de Arquitetura Guivos AI",
-      "status": "awaiting_nomination",
+      "status": "temporary_direction_coordination_model_confirmed_no_individual_nominee",
       "nominee_ref": null,
       "nominator_ref": "Guivos direction (GAI-DEC-009)",
       "appointment_decision_ref": null,
@@ -31,7 +31,7 @@
     {
       "mandate_id": "P0-B",
       "title": "Inventário de Serviços Canônicos",
-      "status": "awaiting_nomination",
+      "status": "temporary_direction_coordination_model_confirmed_no_individual_nominee",
       "nominee_ref": null,
       "nominator_ref": "Guivos direction (GAI-DEC-009)",
       "appointment_decision_ref": null,
@@ -61,5 +61,6 @@
   "unresolved_decisions": [
     "PND-01",
     "PND-11"
-  ]
+  ],
+  "allocation_decision_ref": "GAI-DEC-010"
 }
