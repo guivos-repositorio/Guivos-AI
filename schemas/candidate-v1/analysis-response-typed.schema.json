@@ -270,5 +270,6 @@
       }
     }
   ],
-  "description": "Candidate-v1 integration: if capability_id matches GAI-CAP-NN, result must validate the matching capability payload. All referenced schemas must resolve via local registry."
+  "description": "Candidate-v1 integration: if capability_id matches GAI-CAP-NN, result must validate the matching capability payload. All referenced schemas must resolve via local registry.",
+  "$id": "https://guivos-repositorio.github.io/Guivos-AI/schemas/candidate-v1/analysis-response-typed.schema.json"
 }
