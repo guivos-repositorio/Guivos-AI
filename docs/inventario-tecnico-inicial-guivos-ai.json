@@ -1,0 +1,79 @@
+{
+  "inventory_id": "GAI-INT-26",
+  "document_version": "5.1",
+  "verified_on": "2026-10-31",
+  "scope": "github_repository_only",
+  "repository": "guivos-repositorio/Guivos-AI",
+  "branch": "main",
+  "verified_artifacts": [
+    {
+      "category": "candidate_json_schemas",
+      "path": "schemas/candidate-v1",
+      "count": 19,
+      "verification": "GitHub directory listing"
+    },
+    {
+      "category": "synthetic_fixture_catalogs",
+      "paths": [
+        "tests/contracts/candidate-v1/cases.json",
+        "tests/contracts/candidate-v1/typed-cases.json"
+      ],
+      "catalog_count": 2,
+      "case_count_claimed_by_prior_documentation": 49,
+      "case_count_recounted_in_this_check": false
+    },
+    {
+      "category": "offline_candidate_runners",
+      "paths": [
+        "tests/contracts/run_schema_cases.py",
+        "tests/contracts/run_typed_cases.py"
+      ],
+      "count": 2,
+      "execution_verified": false
+    },
+    {
+      "category": "documentation_and_site",
+      "paths": [
+        "README.md",
+        "docs/index.md",
+        "index.html"
+      ],
+      "verification": "GitHub file fetch"
+    }
+  ],
+  "unverified_service_domains": [
+    "identity_authentication",
+    "authorization_consent",
+    "person_context_evidence",
+    "opportunities_supply",
+    "report_delivery",
+    "Guivos_Intelligence_Replit",
+    "Neo4j_memory_projection",
+    "LLM_adapters",
+    "B2B_API"
+  ],
+  "authority": {
+    "appointing_body_ref": "GAI-DEC-009",
+    "architecture_owner_ref": null,
+    "source_inventory_owner_ref": null,
+    "mandate_refs": [],
+    "acceptance_refs": [],
+    "role_status": "pending_appointment"
+  },
+  "gate_status": {
+    "G0": "partial",
+    "G1": "pending",
+    "G2": "pending",
+    "G3": "pending",
+    "G4": "pending",
+    "G5": "pending",
+    "G6": "pending"
+  },
+  "test_execution_authorized": false,
+  "runs": [],
+  "caveats": [
+    "Repository artifact presence is not proof of deployed services.",
+    "No operational inspection of Replit, Neo4j, external providers or GKR.",
+    "No individual appointment inferred."
+  ]
+}
