@@ -1,0 +1,114 @@
+{
+  "document_id": "GAI-INT-22",
+  "document_version": "4.6",
+  "date": "2026-10-31",
+  "status": "conceptual_direction_registered_formal_ratification_pending",
+  "gate_status": {
+    "G0": "partial",
+    "G2": "pending"
+  },
+  "decisions": [
+    {
+      "id": "D21-01",
+      "pending_ref": "PND-01",
+      "conceptual_direction": "domain_specific_canonical_authority",
+      "formal_status": "pending_ratification",
+      "authority_holder_ref": null
+    },
+    {
+      "id": "D21-02",
+      "pending_ref": "PND-11",
+      "conceptual_direction": "separated_accountability_and_independent_review",
+      "formal_status": "pending_role_assignment",
+      "authority_holder_ref": null
+    }
+  ],
+  "authority_matrix": [
+    {
+      "domain": "identity",
+      "canonical_role": "identity_service_owner",
+      "guivos_ai_role": "authorized_consumer",
+      "intelligence_role": "orchestrator",
+      "projection_role": "non_authoritative"
+    },
+    {
+      "domain": "person_context",
+      "canonical_role": "context_service_owner",
+      "guivos_ai_role": "derived_analysis",
+      "intelligence_role": "capture_and_validation",
+      "projection_role": "authorized_cache"
+    },
+    {
+      "domain": "consent_and_permissions",
+      "canonical_role": "authorization_service_owner",
+      "guivos_ai_role": "enforce_scope",
+      "intelligence_role": "request_and_explain",
+      "projection_role": "non_authoritative"
+    },
+    {
+      "domain": "opportunities_and_availability",
+      "canonical_role": "supply_service_owner",
+      "guivos_ai_role": "compatibility_analysis_only",
+      "intelligence_role": "present_options",
+      "projection_role": "reconciled_index"
+    },
+    {
+      "domain": "evidence",
+      "canonical_role": "evidence_source_owner",
+      "guivos_ai_role": "claims_with_provenance",
+      "intelligence_role": "display_limits",
+      "projection_role": "dependency_projection"
+    },
+    {
+      "domain": "reports_and_delivery",
+      "canonical_role": "report_delivery_service_owner",
+      "guivos_ai_role": "produce_candidate_analysis",
+      "intelligence_role": "confirm_person_flow",
+      "projection_role": "not_delivery_authority"
+    },
+    {
+      "domain": "gate_decision",
+      "canonical_role": "designated_gate_governance",
+      "guivos_ai_role": "provide_evidence_only",
+      "intelligence_role": "no_gate_authority",
+      "projection_role": "non_authoritative"
+    }
+  ],
+  "roles": [
+    {
+      "role": "architecture_owner",
+      "assigned_to": null
+    },
+    {
+      "role": "data_authority_owner",
+      "assigned_to": null
+    },
+    {
+      "role": "privacy_legal_reviewer",
+      "assigned_to": null
+    },
+    {
+      "role": "security_owner",
+      "assigned_to": null
+    },
+    {
+      "role": "contract_owner",
+      "assigned_to": null
+    },
+    {
+      "role": "qa_executor",
+      "assigned_to": null
+    },
+    {
+      "role": "independent_reviewer",
+      "assigned_to": null
+    },
+    {
+      "role": "gate_decision_authority",
+      "assigned_to": null
+    }
+  ],
+  "test_execution_authorized": false,
+  "run_refs": [],
+  "gate_decision_ref": null
+}
