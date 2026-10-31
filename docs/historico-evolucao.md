@@ -12,4 +12,6 @@
 
 | 0.7 | 31/10/2026 | Inspeção de leitura da Jornada no Replit; diagnóstico de conexões atuais e arquitetura-alvo Intelligence, AI, Neo4j e modelos. | Documentado; implementação não autorizada |
 
+| 0.8 | 31/10/2026 | Arquitetura conceitual de autoridade pelos fatos, memória canônica, análises derivadas, permissões e consumo por Intelligence/API. | Estudo técnico; não implementado |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
