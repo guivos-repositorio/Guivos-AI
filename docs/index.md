@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 2.4 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 2.5 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -102,11 +102,13 @@ Ver [Especificação CAP-11](cap-11-relatorio-trajetoria-possibilidades.md). Def
 ## 30. GAI-CAP-12 — API Especializada da Guivos AI — v2.4
 Ver [Especificação CAP-12](cap-12-api-especializada-guivos-ai.md). Distingue consumo interno Guivos Intelligence e API para parceiros, com autenticação, autorização por finalidade, isolamento de tenants, versionamento, estados assíncronos, invalidação, controles de segurança e 24 testes sintéticos candidatos. **Estado: conceituada, sem API implementada ou homologada.** Esta etapa completa a primeira rodada de especificações CAP-01 a CAP-12, não a implementação.
 
-## 31. Próximos estudos
-- Modelos de evidências, fontes e rastreabilidade
-- Ontologia temporal de trajetórias e possibilidades
-- Métodos de identificação e validação de lacunas
-- Desenho de API, identidade e gestão de consentimentos
-- Avaliações de qualidade, risco e fundamentação
-- Segmentação e validação comercial
-- Governança para informações sensíveis
+## 31. GAI-INT-01 — Arquitetura Integrada e Plano de Validação — v2.5
+Ver [Revisão Integrada da Arquitetura](arquitetura-integrada-plano-validacao.md). Consolida responsabilidades, dependências CAP-01 a CAP-12, doze achados documentais, contrato compartilhado proposto, oito cenários sintéticos ponta a ponta e gates G0–G6 pendentes. **Estado: revisão documental, sem testes executados ou liberação operacional.**
+
+## 32. Próximos estudos
+- Normalização do contrato compartilhado e taxonomia de estados por domínio
+- Autoridade canônica e autorização por finalidade, vínculo e versão
+- Matriz de testes ponta a ponta, critérios de qualidade e adjudicação humana
+- Modelo de dependências e propagação de revogações e invalidações
+- Comparação controlada dos contratos com implementação Replit, somente mediante autorização específica
+- Avaliação comercial e B2B após verificação dos gates relevantes
