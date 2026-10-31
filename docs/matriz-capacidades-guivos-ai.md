@@ -1,5 +1,5 @@
 # Matriz de Capacidades da Guivos AI
-**Versão documental 5.7 · 31/10/2026**
+**Versão documental 5.8 · 31/10/2026**
 **Estado:** planejamento conceitual e priorização proposta, sem homologação técnica, comercial ou autorização de implantação.
 
 ## 1. Função deste documento
@@ -112,6 +112,8 @@ Transformar os fundamentos e estudos da Guivos AI em um catálogo rastreável de
 **Controle de autorização:** [GAI-DEC-011](decisao-representante-direcao-autoridade-central-autorizacao.md). Aprovação administrativa prévia e específica centralizada no representante declarante da direção; nenhuma execução ou gate automaticamente autorizado.
 
 **Revisão estática autorizada:** [GAI-REV-001](relatorio-revisao-estatica-autorizada-pedido-a.md) registra achados STA-01 a STA-10 sobre contratos candidate-v1; nenhuma execução, validação semântica ou gate aprovado.
+
+**Correções prioritárias propostas:** [GAI-INT-31](propostas-correcao-contratos-prioritarios-sta01-sta02-sta03.md) define condições para compartilhamento, recibos e eventos canônicos, ainda sem aprovação de schemas ou testes.
 
 ## 3. Capacidades estruturais habilitadoras (não equivalentes à Guivos AI)
 | ID | Responsável proposto | Capacidade habilitadora | Dependência |
