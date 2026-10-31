@@ -1,5 +1,5 @@
 # Matriz de Capacidades da Guivos AI
-**Versão documental 5.1 · 31/10/2026**
+**Versão documental 5.2 · 31/10/2026**
 **Estado:** planejamento conceitual e priorização proposta, sem homologação técnica, comercial ou autorização de implantação.
 
 ## 1. Função deste documento
@@ -100,6 +100,8 @@ Transformar os fundamentos e estudos da Guivos AI em um catálogo rastreável de
 **Designações e segregação:** [GAI-INT-25 — Modelo Inicial de Designações v5.0](modelo-inicial-designacoes-segregacao-responsabilidades.md). Papéis candidatos P0–P3, responsabilidades técnicas e revisão independente; sem nomeações formais.
 
 **Inventário técnico verificado:** [GAI-INT-26 — Inventário e Designações P0 v5.1](inventario-tecnico-inicial-designacoes-p0.md). Inspeção dos diretórios GitHub e separação de artefatos candidatos dos serviços operacionais ainda não verificados.
+
+**Designações P0:** [GAI-INT-27 — Termos P0-A/P0-B v5.2](termos-designacao-coordenacao-arquitetura-inventario-canonico.md). Mandatos candidatos para coordenação de arquitetura e inventário canônico; sem responsáveis ratificados.
 
 ## 3. Capacidades estruturais habilitadoras (não equivalentes à Guivos AI)
 | ID | Responsável proposto | Capacidade habilitadora | Dependência |
