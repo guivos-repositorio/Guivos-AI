@@ -41,4 +41,6 @@
 
 | 3.3 | 31/10/2026 | GAI-INT-09: oito schemas candidatos de erros, recibos, dependências e CAP-04/05/07/08/11; 20 casos de contrato propostos. | Artefatos técnicos candidatos; sem testes ou homologação |
 
+| 3.4 | 31/10/2026 | GAI-INT-10: 25 casos sintéticos para 11 schemas, executor offline Draft 2020-12 e plano de conformidade/compatibilidade. | Suite candidata criada; sem runs ou homologação |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
