@@ -51,4 +51,6 @@
 
 | 3.8 | 31/10/2026 | GAI-INT-14: 16 decisões pendentes, sequenciamento de responsabilidade, requisitos de evidência e fechamento dos gates G0–G6. | Planejamento; nenhuma aprovação operacional ou teste |
 
+| 3.9 | 31/10/2026 | GAI-INT-15: preparação de ambiente sintético, autorização, isolamento, evidências de execução, critérios de parada e manifesto de campanha não autorizada. | Preparação documental; sem execução ou gate aprovado |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
