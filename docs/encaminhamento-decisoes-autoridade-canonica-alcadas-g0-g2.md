@@ -70,7 +70,10 @@ O conjunto de 19 schemas candidatos e 49 fixtures estruturais sintéticas poder�
 
 Nenhum dos dois runners foi executado nesta etapa. Mesmo que a validação estrutural passe no futuro, não prova autorização, causalidade, qualidade das análises nem integração Replit/Neo4j.
 
-## 7. Próximo trabalho de maior valor
+## 7. Dossiê de ratificação
+O [GAI-INT-23](dossie-ratificacao-responsaveis-autoridade-alcadas.md) prepara evidências de nomeação e aceite de titulares, sem alterar o estado pendente de D21-01 e D21-02.
+
+## 8. Próximo trabalho de maior valor
 A próxima ação recomendada não é produzir outro plano de alto nível: **designar autoridades reais para D21-01/D21-02** e revisar, em ambiente autorizado, o inventário de serviços que de fato existem. Só então preparar uma decisão separada para execução offline da campanha sintética.
 
 **Referências:** [GAI-INT-21](pacote-decisoes-g0-g2-autorizacao-validacao-estrutural.md) · [GAI-INT-20](matriz-dependencias-sequenciamento-entrada-implementacao.md) · [GAI-INT-14](registro-decisoes-pendentes-plano-fechamento-gates.md) · [GAI-INT-05](autoridade-dados-consentimentos-revogacao.md) · [Registro de Decisões](registro-decisoes.md).
