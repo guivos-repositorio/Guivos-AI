@@ -75,4 +75,6 @@
 
 | 5.0 | 31/10/2026 | GAI-INT-25: modelo progressivo de designação, priorização P0–P3, segregação de funções e 16 slots candidatos com matriz JSON. | Plano documental; sem nomeações formais, testes ou gates aprovados |
 
+| 5.1 | 31/10/2026 | GAI-INT-26: inventário inicial verificado no GitHub, distinção entre artefatos e serviços operacionais, e duas nomeações P0 a ratificar. | Inspeção de repositório; sem serviços externos inspecionados ou gates aprovados |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
