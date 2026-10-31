@@ -1,0 +1,23 @@
+{
+  "template_id": "GAI-INT-18-observability-signal",
+  "document_version": "4.2",
+  "template_status": "unfilled",
+  "monitoring_status": "not_activated",
+  "signal_id": null,
+  "signal_type": null,
+  "source_ref": null,
+  "observed_at": null,
+  "subject_gate_ref": null,
+  "scope_ref": null,
+  "referenced_version": null,
+  "evidence_refs": [],
+  "integrity_status": "not_assessed",
+  "authorization_status": "not_assessed",
+  "proposed_severity": null,
+  "handling_status": "not_started",
+  "review_ref": null,
+  "gate_decision_ref": null,
+  "limitations": [
+    "Template only; does not represent an observed signal or live alert."
+  ]
+}
