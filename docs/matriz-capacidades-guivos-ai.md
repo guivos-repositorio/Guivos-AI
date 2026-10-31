@@ -1,5 +1,5 @@
 # Matriz de Capacidades da Guivos AI
-**Versão documental 5.4 · 31/10/2026**
+**Versão documental 5.5 · 31/10/2026**
 **Estado:** planejamento conceitual e priorização proposta, sem homologação técnica, comercial ou autorização de implantação.
 
 ## 1. Função deste documento
@@ -106,6 +106,8 @@ Transformar os fundamentos e estudos da Guivos AI em um catálogo rastreável de
 **Indicação P0 pendente:** [GAI-INT-28 — Minuta Executiva v5.3](minuta-executiva-indicacao-p0-a-p0-b.md). Alternativas de alocação para P0-A/P0-B sem nomeados nem mandatos.
 
 **Coordenação temporária:** [GAI-DEC-010](decisao-coordenacao-temporaria-direcao-p0-a-p0-b.md). Alternativa C confirmada para P0-A/P0-B, sem nomeação individual ou gate aprovado.
+
+**Representação P0:** [GAI-INT-29](encaminhamento-representante-temporario-p0.md) prepara indicação e aceite de representantes temporários pela direção, sem delegação operacional.
 
 ## 3. Capacidades estruturais habilitadoras (não equivalentes à Guivos AI)
 | ID | Responsável proposto | Capacidade habilitadora | Dependência |
