@@ -40,4 +40,6 @@
 
 | 2.1 | 31/10/2026 | Especificação GAI-CAP-09 sobre incertezas, contradições temporais, divergências entre modelos, revisão humana e 20 cenários sintéticos. | Conceitual; não implementada |
 
+| 2.2 | 31/10/2026 | Especificação GAI-CAP-10 para reavaliação, invalidação de dependências, revisão temporal, revogações, contratos e 20 testes sintéticos candidatos. | Conceitual; não implementada |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
