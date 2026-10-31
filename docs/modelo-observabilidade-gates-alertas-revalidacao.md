@@ -144,7 +144,7 @@ Sinais de potencial risco crítico a dados exigirão caminho de contenção e no
 As PND-01–16 continuam abertas. Nenhum alerta ou template alterou o Registro de Decisões ou as condições de acesso.
 
 ## 13. Próxima etapa
-**GAI-INT-19 — Consolidação de Arquitetura e Critérios de Prontidão para Implementação**, reunindo contratos, governança, observabilidade e dependências em um roteiro verificável para futuras decisões, sem iniciar a implementação.
+[**GAI-INT-19 — Consolidação de Arquitetura e Critérios de Prontidão para Implementação**](consolidacao-arquitetura-prontidao-implementacao.md), reunindo contratos, governança, observabilidade e dependências em um roteiro verificável para futuras decisões, sem iniciar a implementação.
 
 **Referências:** [GAI-INT-17](modelo-rastreabilidade-auditoria-proveniencia-gates.md) · [GAI-INT-16](pacote-evidencias-revisao-independente-adjudicacao-gates.md) · [GAI-INT-14](registro-decisoes-pendentes-plano-fechamento-gates.md) · [GAI-INT-07](contratos-eventos-projecao-dependencias.md) · [GAI-INT-05](autoridade-dados-consentimentos-revogacao.md).
 
