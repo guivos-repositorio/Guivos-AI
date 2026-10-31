@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 0.5 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 0.6 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -45,7 +45,10 @@ Ver [Descoberta de Possibilidades Não Consideradas](descoberta-possibilidades-n
 ## 11. Inteligência de Compatibilidade Futura
 Ver [Compatibilidade Futura — estudo v0.4](compatibilidade-futura.md), que especifica a comparação entre condições atuais, requisitos futuros, lacunas, alternativas e oportunidades intermediárias. A compatibilidade é contextual, nunca uma nota ou previsão de sucesso da Pessoa.
 
-## 12. Próximos estudos
+## 12. Separação de responsabilidades entre Guivos AI e Guivos Intelligence
+**Direção aprovada:** Guivos Intelligence consome Guivos AI e ambos operam no ecossistema Guivos. O primeiro orquestra a experiência e integra capacidades, enquanto a Guivos AI fornece inteligência especializada em trajetórias, lacunas e possibilidades, também potencialmente consumível por parceiros externos. O desenho técnico detalhado ainda depende de validação. Ver [Fronteira Arquitetural — Guivos AI e Guivos Intelligence](guivos-ai-vs-intelligence.md).
+
+## 13. Próximos estudos
 - Modelos de evidências, fontes e rastreabilidade
 - Ontologia temporal de trajetórias e possibilidades
 - Métodos de identificação e validação de lacunas
