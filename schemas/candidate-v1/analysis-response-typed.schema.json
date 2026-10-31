@@ -6,51 +6,269 @@
       "$ref": "analysis-response.schema.json"
     },
     {
-      "properties": {
-        "result": {
-          "oneOf": [
-            {
-              "$ref": "cap01-trajectory-result.schema.json"
-            },
-            {
-              "$ref": "cap02-moment-result.schema.json"
-            },
-            {
-              "$ref": "cap03-evidence-result.schema.json"
-            },
-            {
-              "$ref": "cap04-gap-result.schema.json"
-            },
-            {
-              "$ref": "cap05-possibility-result.schema.json"
-            },
-            {
-              "$ref": "cap06-compatibility-result.schema.json"
-            },
-            {
-              "$ref": "cap07-path-result.schema.json"
-            },
-            {
-              "$ref": "cap08-offer-result.schema.json"
-            },
-            {
-              "$ref": "cap09-contradictions-result.schema.json"
-            },
-            {
-              "$ref": "cap10-invalidation-result.schema.json"
-            },
-            {
-              "$ref": "cap11-report-result.schema.json"
-            },
-            {
-              "$ref": "cap12-api-service-result.schema.json"
-            }
-          ]
-        }
+      "if": {
+        "properties": {
+          "capability_id": {
+            "const": "GAI-CAP-10"
+          }
+        },
+        "required": [
+          "capability_id"
+        ]
       },
-      "required": [
-        "result"
-      ]
+      "then": {
+        "properties": {
+          "result": {
+            "$ref": "cap10-invalidation-result.schema.json"
+          }
+        },
+        "required": [
+          "result"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "capability_id": {
+            "const": "GAI-CAP-11"
+          }
+        },
+        "required": [
+          "capability_id"
+        ]
+      },
+      "then": {
+        "properties": {
+          "result": {
+            "$ref": "cap11-report-result.schema.json"
+          }
+        },
+        "required": [
+          "result"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "capability_id": {
+            "const": "GAI-CAP-12"
+          }
+        },
+        "required": [
+          "capability_id"
+        ]
+      },
+      "then": {
+        "properties": {
+          "result": {
+            "$ref": "cap12-api-service-result.schema.json"
+          }
+        },
+        "required": [
+          "result"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "capability_id": {
+            "const": "GAI-CAP-01"
+          }
+        },
+        "required": [
+          "capability_id"
+        ]
+      },
+      "then": {
+        "properties": {
+          "result": {
+            "$ref": "cap01-trajectory-result.schema.json"
+          }
+        },
+        "required": [
+          "result"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "capability_id": {
+            "const": "GAI-CAP-02"
+          }
+        },
+        "required": [
+          "capability_id"
+        ]
+      },
+      "then": {
+        "properties": {
+          "result": {
+            "$ref": "cap02-moment-result.schema.json"
+          }
+        },
+        "required": [
+          "result"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "capability_id": {
+            "const": "GAI-CAP-03"
+          }
+        },
+        "required": [
+          "capability_id"
+        ]
+      },
+      "then": {
+        "properties": {
+          "result": {
+            "$ref": "cap03-evidence-result.schema.json"
+          }
+        },
+        "required": [
+          "result"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "capability_id": {
+            "const": "GAI-CAP-04"
+          }
+        },
+        "required": [
+          "capability_id"
+        ]
+      },
+      "then": {
+        "properties": {
+          "result": {
+            "$ref": "cap04-gap-result.schema.json"
+          }
+        },
+        "required": [
+          "result"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "capability_id": {
+            "const": "GAI-CAP-05"
+          }
+        },
+        "required": [
+          "capability_id"
+        ]
+      },
+      "then": {
+        "properties": {
+          "result": {
+            "$ref": "cap05-possibility-result.schema.json"
+          }
+        },
+        "required": [
+          "result"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "capability_id": {
+            "const": "GAI-CAP-06"
+          }
+        },
+        "required": [
+          "capability_id"
+        ]
+      },
+      "then": {
+        "properties": {
+          "result": {
+            "$ref": "cap06-compatibility-result.schema.json"
+          }
+        },
+        "required": [
+          "result"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "capability_id": {
+            "const": "GAI-CAP-07"
+          }
+        },
+        "required": [
+          "capability_id"
+        ]
+      },
+      "then": {
+        "properties": {
+          "result": {
+            "$ref": "cap07-path-result.schema.json"
+          }
+        },
+        "required": [
+          "result"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "capability_id": {
+            "const": "GAI-CAP-08"
+          }
+        },
+        "required": [
+          "capability_id"
+        ]
+      },
+      "then": {
+        "properties": {
+          "result": {
+            "$ref": "cap08-offer-result.schema.json"
+          }
+        },
+        "required": [
+          "result"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "capability_id": {
+            "const": "GAI-CAP-09"
+          }
+        },
+        "required": [
+          "capability_id"
+        ]
+      },
+      "then": {
+        "properties": {
+          "result": {
+            "$ref": "cap09-contradictions-result.schema.json"
+          }
+        },
+        "required": [
+          "result"
+        ]
+      }
     }
-  ]
+  ],
+  "description": "Candidate-v1 integration: if capability_id matches GAI-CAP-NN, result must validate the matching capability payload. All referenced schemas must resolve via local registry."
 }
