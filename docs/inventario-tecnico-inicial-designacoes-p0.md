@@ -62,7 +62,10 @@ Para cada serviço: `service_ref`, `repository_or_system_ref`, `environment`, `l
 
 `lifecycle_state` deve distinguir `proposed`, `code_present`, `deployed_unverified`, `running_verified`, `deprecated` e `unknown`. Nenhum estado `running_verified` decorre apenas de um arquivo no GitHub.
 
-## 7. Condições para a próxima inspeção
+## 7. Termos de designação elaborados
+O [GAI-INT-27](termos-designacao-coordenacao-arquitetura-inventario-canonico.md) detalha mandatos candidatos P0-A/P0-B, sem indicados, aceites ou autorização de inspeção operacional.
+
+## 8. Condições para a próxima inspeção
 O próximo passo material depende de **indicações/aceites de P0-A/P0-B** e de acesso autorizado aos projetos relevantes. Toda inspeção dos ambientes Replit, Neo4j ou serviços de dados deverá ter autorização e finalidade próprias, sem realizar escrita operacional involuntária.
 
 As decisões PND-01/PND-11 permanecem abertas, apesar de GAI-DEC-009. As 16 funções do GAI-INT-23 seguem sem titulares formalizados. G0 parcial; G1–G6 pendentes.
