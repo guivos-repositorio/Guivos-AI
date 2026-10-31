@@ -1,28 +1,34 @@
 {
   "id": "GAI-INT-29",
-  "version": "5.5",
+  "version": "5.6",
   "decision_ref": "GAI-DEC-010",
-  "status": "pending_individual_representatives",
+  "status": "direction_representative_self_declared_operational_authorizations_not_granted",
   "roles": [
     {
       "role": "P0-A",
       "coordinating_body": "Guivos direction",
-      "representative_ref": null,
-      "acceptance_ref": null,
+      "representative_ref": "GUIVOS-DIRECTION-DECLARANT",
+      "acceptance_ref": "GAI-DEC-011:self_declaration_in_conversation",
       "mandate_ref": null,
       "term_ref": null,
-      "status": "not_ratified"
+      "status": "self_declared_temporary_coordination_no_operational_mandate"
     },
     {
       "role": "P0-B",
       "coordinating_body": "Guivos direction",
-      "representative_ref": null,
-      "acceptance_ref": null,
+      "representative_ref": "GUIVOS-DIRECTION-DECLARANT",
+      "acceptance_ref": "GAI-DEC-011:self_declaration_in_conversation",
       "mandate_ref": null,
       "term_ref": null,
-      "status": "not_ratified"
+      "status": "self_declared_temporary_coordination_no_operational_mandate"
     }
   ],
   "test_authorized": false,
-  "gates_approved": 0
+  "gates_approved": 0,
+  "authorization_controller": {
+    "representative_ref": "GUIVOS-DIRECTION-DECLARANT",
+    "decision_ref": "GAI-DEC-011",
+    "require_prior_specific_approval": true,
+    "legal_identity_external_verification": false
+  }
 }
