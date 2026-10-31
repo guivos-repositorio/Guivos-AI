@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://guivos-repositorio.github.io/Guivos-AI/schemas/candidate-v1/canonical-event.schema.json",
+  "title": "Guivos AI referenced canonical event — candidate v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "event_id",
+    "event_type",
+    "schema_version",
+    "producer_service_ref",
+    "aggregate_ref",
+    "aggregate_version",
+    "occurred_at",
+    "recorded_at",
+    "payload_ref"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "event_type": {
+      "enum": [
+        "person_statement_corrected",
+        "person_goal_revised",
+        "context_revision_published",
+        "source_evidence_corrected",
+        "opportunity_requirement_changed",
+        "opportunity_expired",
+        "opportunity_cancelled",
+        "authorization_scope_revoked",
+        "authorization_scope_expired",
+        "method_version_withdrawn",
+        "report_access_restricted"
+      ]
+    },
+    "schema_version": {
+      "const": "candidate-1"
+    },
+    "producer_service_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "aggregate_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "aggregate_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "prior_version": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "subject_scope_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "tenant_scope_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "occurred_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "recorded_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "correlation_id": {
+      "type": "string"
+    },
+    "authorization_policy_ref": {
+      "type": "string"
+    },
+    "payload_ref": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}
