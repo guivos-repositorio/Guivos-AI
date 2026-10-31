@@ -15,5 +15,7 @@
 ## Propostas de decisão ainda não aprovadas
 O [GAI-INT-14 — Registro de Decisões Pendentes e Plano de Fechamento de Gates](registro-decisoes-pendentes-plano-fechamento-gates.md) consolida **16 decisões candidatas PND-01 a PND-16**. Todas permanecem em aberto e não modificam o status dos direcionamentos aprovados neste registro. A criação de uma pendência não representa aprovação técnica nem operacional.
 
+A [proposta GAI-INT-21 de deliberação prioritária](pacote-decisoes-g0-g2-autorizacao-validacao-estrutural.md) reúne oito perguntas e uma campanha sintética ainda **não autorizada**. Nenhuma PND foi encerrada por sua publicação.
+
 ## Registro de novas decisões
 Cada decisão deve indicar: identificador, data, responsável pela aprovação, contexto, alternativas, decisão, fundamentos, documentos afetados e condição de revisão. Novas hipóteses não serão promovidas a decisões automaticamente.
