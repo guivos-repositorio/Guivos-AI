@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 3.3 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 3.4 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -129,10 +129,13 @@ Ver [Estudo de Autoridade, Consentimentos e Revogação](autoridade-dados-consen
 ## 39. GAI-INT-09 — Schemas Especializados, Erros e Recibos — v3.3
 [Especificação GAI-INT-09](schemas-especializados-erros-recibos-eventos.md). Oito schemas candidatos de erros, recibos, dependências e resultados CAP-04/05/07/08/11; 20 casos sintéticos ainda não executados.
 
-## 40. Próximos estudos
+## 40. GAI-INT-10 — Conformidade de Schemas, Casos de Contrato e Compatibilidade — v3.4
+[Especificação GAI-INT-10](conformidade-schemas-casos-contrato-compatibilidade.md). Organiza 25 fixtures sintéticas para os 11 schemas candidatos e publica executor offline de validação estrutural, sem runs executados nem gates aprovados.
+
+## 41. Próximos estudos
 - Revisão e testes futuros dos schemas compartilhados candidatos
 - Formalização da autoridade canônica, finalidades, bases legais e contratos de autorização
 - Aprovação futura das fixtures, rubricas e critérios de adjudicação
-- Schemas especializados por capacidade, contratos de erro e recibos de eventos
+- Completar cobertura dos schemas específicos e união tipada entre envelopes
 - Comparação controlada dos contratos com implementação Replit, somente mediante autorização específica
 - Avaliação comercial e B2B após verificação dos gates relevantes
