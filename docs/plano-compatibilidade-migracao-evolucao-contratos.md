@@ -172,7 +172,7 @@ As funções de owner do contrato, responsável por serviço, segurança, dados,
 8. Distinguir migração técnica de mudança de base legal/finalidade.
 
 ## 15. Próximo estudo
-**GAI-INT-14 — Registro de Decisões Pendentes e Plano de Fechamento de Gates**, proposto como consolidação das decisões de contrato, segurança, fontes e avaliação, antes de qualquer pedido de autorização operacional.
+[**GAI-INT-14 — Registro de Decisões Pendentes e Plano de Fechamento de Gates**](registro-decisoes-pendentes-plano-fechamento-gates.md), publicado como consolidação das decisões de contrato, segurança, fontes e avaliação, antes de qualquer pedido de autorização operacional.
 
 **Referências:** [GAI-INT-12](relatorio-conformidade-estrategia-homologacao-contratual.md) · [GAI-INT-11](cobertura-contratos-especializados-integracao-schemas.md) · [GAI-INT-10](conformidade-schemas-casos-contrato-compatibilidade.md) · [GAI-INT-07](contratos-eventos-projecao-dependencias.md) · [GAI-INT-05](autoridade-dados-consentimentos-revogacao.md) · [CAP-12](cap-12-api-especializada-guivos-ai.md).
 
