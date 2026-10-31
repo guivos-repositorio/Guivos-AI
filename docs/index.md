@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 2.9 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 3.1 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -117,7 +117,13 @@ Ver [Catálogo de Fixtures, Rubricas e Adjudicação](catalogo-fixtures-rubricas
 ## 35. GAI-INT-05 — Autoridade de Dados, Consentimentos e Fluxos de Revogação — v2.9
 Ver [Estudo de Autoridade, Consentimentos e Revogação](autoridade-dados-consentimentos-revogacao.md). Consolida matriz de autoridade, finalidades e bases legais a definir, autorizações de processamento e entrega, fluxo de restrição/revogação, estados separados, contrato lógico de evento e 18 cenários sintéticos candidatos. **Estado: estudo documental; sem execução, parecer jurídico ou alteração operacional.**
 
-## 36. Próximos estudos
+## 36. GAI-INT-06 — Dependências e Invalidação — v3.0
+[Especificação GAI-INT-06](modelo-dependencias-eventos-propagacao-invalidacao.md). Eventos, dependências e propagação seletiva; estudo não executado.
+
+## 37. GAI-INT-07 — Contratos de Eventos e Projeção — v3.1
+[Especificação GAI-INT-07](contratos-eventos-projecao-dependencias.md). Envelopes, versões, projeções, recibos e 22 cenários sintéticos, sem execução.
+
+## 38. Próximos estudos
 - Formalização e validação técnica dos schemas compartilhados propostos
 - Formalização da autoridade canônica, finalidades, bases legais e contratos de autorização
 - Aprovação futura das fixtures, rubricas e critérios de adjudicação
