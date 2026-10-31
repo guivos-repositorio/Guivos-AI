@@ -3,6 +3,8 @@
 
 > Status: direção conceitual aprovada para separação de responsabilidades; detalhamento técnico é proposta em estudo. Não autoriza alteração operacional de POC/Replit, ativação de gates ou processamento de dados reais.
 
+**Aprofundamento especializado:** [GAI-INT-05 — Autoridade de Dados, Consentimentos e Fluxos de Revogação v2.9](autoridade-dados-consentimentos-revogacao.md). O presente texto conserva o estudo de arquitetura v0.8; o GAI-INT-05 detalha autorizações e fluxos propostos, sem aprovação operacional.
+
 ## 1. Princípio arquitetural
 A **autoridade pelos fatos e permissões** pertence aos serviços de contexto e identidade do ecossistema Guivos, não ao modelo de linguagem. A **autoridade metodológica sobre análises especializadas** pertence à Guivos AI. A **autoridade de orquestração e experiência** pertence à Guivos Intelligence. A Pessoa e, quando aplicável, o profissional permanecem responsáveis por validar escolhas e decisões que lhes competem.
 
