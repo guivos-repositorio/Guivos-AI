@@ -3,12 +3,13 @@
 
 Repositório independente de documentação conceitual, arquitetura, produtos e governança da Guivos AI.
 
-> Estado: versão conceitual v0.3 · 31 de outubro de 2026. Hipóteses e conceitos sujeitos a validação.
+> Estado: versão conceitual v0.4 · 31 de outubro de 2026. Hipóteses e conceitos sujeitos a validação.
 
 ## Propósito
 Compreender o presente, aprender com a trajetória e identificar condições e oportunidades que podem tornar novas possibilidades futuras mais acessíveis.
 
 ## Documentos
+- [Compatibilidade Futura — estudo v0.4](docs/compatibilidade-futura.md)
 - [Estudo v0.3 — Possibilidades não consideradas](docs/descoberta-possibilidades-nao-consideradas.md)
 - [Documento Mestre](docs/index.md)
 - [Motor de Possibilidades Futuras e Análise de Lacunas](docs/motor-possibilidades-lacunas.md)
