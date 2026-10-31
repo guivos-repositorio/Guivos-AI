@@ -1,7 +1,7 @@
 {
   "id": "GAI-INT-28",
-  "version": "5.4",
-  "state": "temporary_direction_coordination_model_confirmed_nominees_pending",
+  "version": "5.6",
+  "state": "alternative_c_direction_representative_self_declared",
   "appointing_body_ref": "GAI-DEC-009",
   "selected_allocation_option": "temporary_direction_coordination_with_specific_mandate",
   "options": [
@@ -12,21 +12,22 @@
   "nominations": [
     {
       "role_id": "P0-A",
-      "nominee_ref": null,
+      "nominee_ref": "GUIVOS-DIRECTION-DECLARANT",
       "mandate_ref": null,
-      "acceptance_ref": null,
-      "status": "direction_coordination_model_confirmed_personal_nomination_pending"
+      "acceptance_ref": "GAI-DEC-011:self_declaration",
+      "status": "coordination_confirmed_operational_mandate_pending"
     },
     {
       "role_id": "P0-B",
-      "nominee_ref": null,
+      "nominee_ref": "GUIVOS-DIRECTION-DECLARANT",
       "mandate_ref": null,
-      "acceptance_ref": null,
-      "status": "direction_coordination_model_confirmed_personal_nomination_pending"
+      "acceptance_ref": "GAI-DEC-011:self_declaration",
+      "status": "coordination_confirmed_operational_mandate_pending"
     }
   ],
   "tests_executed": 0,
   "gate_approvals": 0,
   "authorization_for_operational_inspection": false,
-  "allocation_decision_ref": "GAI-DEC-010"
+  "allocation_decision_ref": "GAI-DEC-010",
+  "authorization_controller_ref": "GAI-DEC-011"
 }
