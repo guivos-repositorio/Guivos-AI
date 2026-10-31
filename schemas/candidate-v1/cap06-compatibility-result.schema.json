@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://guivos-repositorio.github.io/Guivos-AI/schemas/candidate-v1/cap06-compatibility-result.schema.json",
+  "title": "cap06-compatibility-result candidate-1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "capability_id",
+    "possibility_ref",
+    "requirement_assessments",
+    "limitations"
+  ],
+  "properties": {
+    "capability_id": {
+      "const": "GAI-CAP-06"
+    },
+    "possibility_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "requirement_assessments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "requirement_ref",
+          "assessment_status",
+          "evidence_refs"
+        ],
+        "properties": {
+          "requirement_ref": {
+            "type": "string",
+            "minLength": 1
+          },
+          "assessment_status": {
+            "enum": [
+              "met",
+              "not_met",
+              "unknown",
+              "not_assessable"
+            ]
+          },
+          "evidence_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          }
+        }
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
