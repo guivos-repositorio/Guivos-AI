@@ -1,0 +1,347 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://guivos-repositorio.github.io/Guivos-AI/schemas/candidate-v2-proposed/analysis-response-typed.schema.json",
+  "title": "Proposed typed analysis response v2 — lifecycle-aware, not approved",
+  "description": "Draft: completed responses require a capability-typed result. Non-completed lifecycle statuses must omit result. All external references must be resolved from a version-pinned local registry; no remote network fetch implied.",
+  "allOf": [
+    {
+      "$ref": "https://guivos-repositorio.github.io/Guivos-AI/schemas/candidate-v1/analysis-response.schema.json"
+    },
+    {
+      "if": {
+        "properties": {
+          "lifecycle_status": {
+            "const": "completed"
+          }
+        },
+        "required": [
+          "lifecycle_status"
+        ]
+      },
+      "then": {
+        "required": [
+          "result"
+        ]
+      },
+      "else": {
+        "not": {
+          "required": [
+            "result"
+          ]
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "lifecycle_status": {
+            "const": "completed"
+          },
+          "capability_id": {
+            "const": "GAI-CAP-01"
+          }
+        },
+        "required": [
+          "lifecycle_status",
+          "capability_id"
+        ]
+      },
+      "then": {
+        "properties": {
+          "result": {
+            "$ref": "https://guivos-repositorio.github.io/Guivos-AI/schemas/candidate-v1/cap01-trajectory-result.schema.json"
+          }
+        },
+        "required": [
+          "result"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "lifecycle_status": {
+            "const": "completed"
+          },
+          "capability_id": {
+            "const": "GAI-CAP-02"
+          }
+        },
+        "required": [
+          "lifecycle_status",
+          "capability_id"
+        ]
+      },
+      "then": {
+        "properties": {
+          "result": {
+            "$ref": "https://guivos-repositorio.github.io/Guivos-AI/schemas/candidate-v1/cap02-moment-result.schema.json"
+          }
+        },
+        "required": [
+          "result"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "lifecycle_status": {
+            "const": "completed"
+          },
+          "capability_id": {
+            "const": "GAI-CAP-03"
+          }
+        },
+        "required": [
+          "lifecycle_status",
+          "capability_id"
+        ]
+      },
+      "then": {
+        "properties": {
+          "result": {
+            "$ref": "https://guivos-repositorio.github.io/Guivos-AI/schemas/candidate-v1/cap03-evidence-result.schema.json"
+          }
+        },
+        "required": [
+          "result"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "lifecycle_status": {
+            "const": "completed"
+          },
+          "capability_id": {
+            "const": "GAI-CAP-04"
+          }
+        },
+        "required": [
+          "lifecycle_status",
+          "capability_id"
+        ]
+      },
+      "then": {
+        "properties": {
+          "result": {
+            "$ref": "https://guivos-repositorio.github.io/Guivos-AI/schemas/candidate-v1/cap04-gap-result.schema.json"
+          }
+        },
+        "required": [
+          "result"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "lifecycle_status": {
+            "const": "completed"
+          },
+          "capability_id": {
+            "const": "GAI-CAP-05"
+          }
+        },
+        "required": [
+          "lifecycle_status",
+          "capability_id"
+        ]
+      },
+      "then": {
+        "properties": {
+          "result": {
+            "$ref": "https://guivos-repositorio.github.io/Guivos-AI/schemas/candidate-v1/cap05-possibility-result.schema.json"
+          }
+        },
+        "required": [
+          "result"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "lifecycle_status": {
+            "const": "completed"
+          },
+          "capability_id": {
+            "const": "GAI-CAP-06"
+          }
+        },
+        "required": [
+          "lifecycle_status",
+          "capability_id"
+        ]
+      },
+      "then": {
+        "properties": {
+          "result": {
+            "$ref": "https://guivos-repositorio.github.io/Guivos-AI/schemas/candidate-v1/cap06-compatibility-result.schema.json"
+          }
+        },
+        "required": [
+          "result"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "lifecycle_status": {
+            "const": "completed"
+          },
+          "capability_id": {
+            "const": "GAI-CAP-07"
+          }
+        },
+        "required": [
+          "lifecycle_status",
+          "capability_id"
+        ]
+      },
+      "then": {
+        "properties": {
+          "result": {
+            "$ref": "https://guivos-repositorio.github.io/Guivos-AI/schemas/candidate-v1/cap07-path-result.schema.json"
+          }
+        },
+        "required": [
+          "result"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "lifecycle_status": {
+            "const": "completed"
+          },
+          "capability_id": {
+            "const": "GAI-CAP-08"
+          }
+        },
+        "required": [
+          "lifecycle_status",
+          "capability_id"
+        ]
+      },
+      "then": {
+        "properties": {
+          "result": {
+            "$ref": "https://guivos-repositorio.github.io/Guivos-AI/schemas/candidate-v1/cap08-offer-result.schema.json"
+          }
+        },
+        "required": [
+          "result"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "lifecycle_status": {
+            "const": "completed"
+          },
+          "capability_id": {
+            "const": "GAI-CAP-09"
+          }
+        },
+        "required": [
+          "lifecycle_status",
+          "capability_id"
+        ]
+      },
+      "then": {
+        "properties": {
+          "result": {
+            "$ref": "https://guivos-repositorio.github.io/Guivos-AI/schemas/candidate-v1/cap09-contradictions-result.schema.json"
+          }
+        },
+        "required": [
+          "result"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "lifecycle_status": {
+            "const": "completed"
+          },
+          "capability_id": {
+            "const": "GAI-CAP-10"
+          }
+        },
+        "required": [
+          "lifecycle_status",
+          "capability_id"
+        ]
+      },
+      "then": {
+        "properties": {
+          "result": {
+            "$ref": "https://guivos-repositorio.github.io/Guivos-AI/schemas/candidate-v1/cap10-invalidation-result.schema.json"
+          }
+        },
+        "required": [
+          "result"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "lifecycle_status": {
+            "const": "completed"
+          },
+          "capability_id": {
+            "const": "GAI-CAP-11"
+          }
+        },
+        "required": [
+          "lifecycle_status",
+          "capability_id"
+        ]
+      },
+      "then": {
+        "properties": {
+          "result": {
+            "$ref": "https://guivos-repositorio.github.io/Guivos-AI/schemas/candidate-v2-proposed/cap11-report-result.schema.json"
+          }
+        },
+        "required": [
+          "result"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "lifecycle_status": {
+            "const": "completed"
+          },
+          "capability_id": {
+            "const": "GAI-CAP-12"
+          }
+        },
+        "required": [
+          "lifecycle_status",
+          "capability_id"
+        ]
+      },
+      "then": {
+        "properties": {
+          "result": {
+            "$ref": "https://guivos-repositorio.github.io/Guivos-AI/schemas/candidate-v1/cap12-api-service-result.schema.json"
+          }
+        },
+        "required": [
+          "result"
+        ]
+      }
+    }
+  ]
+}
