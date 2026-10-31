@@ -57,4 +57,6 @@
 
 | 4.1 | 31/10/2026 | GAI-INT-17: rastreabilidade, auditoria e proveniência de evidências, relações entre artefatos e decisões, 18 casos sintéticos e template JSON. | Estudo documental; sem runs, auditorias ou gate aprovado |
 
+| 4.2 | 31/10/2026 | GAI-INT-18: proposta de observabilidade de gates, 12 alertas candidatos, revalidação contínua, 20 cenários sintéticos e template JSON. | Estudo documental; sem monitoramento ativado ou gate aprovado |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
