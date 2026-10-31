@@ -27,5 +27,7 @@ O [GAI-INT-24](verificacao-administracao-repositorio-limites-autoridade.md) regi
 
 O [GAI-INT-25](modelo-inicial-designacoes-segregacao-responsabilidades.md) propõe uma ordem P0–P3 para designar funções com separação de responsabilidades. Essa proposta não atribui titulares nem altera a GAI-DEC-009, as PNDs ou os gates.
 
+O [GAI-INT-26](inventario-tecnico-inicial-designacoes-p0.md) verifica artefatos do GitHub e prepara a indicação de responsáveis P0-A/P0-B, sem nomeações ou fechamento das decisões PND-01/PND-11.
+
 ## Registro de novas decisões
 Cada decisão deve indicar: identificador, data, responsável pela aprovação, contexto, alternativas, decisão, fundamentos, documentos afetados e condição de revisão. Novas hipóteses não serão promovidas a decisões automaticamente.
