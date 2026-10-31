@@ -1,5 +1,5 @@
 # Matriz de Capacidades da Guivos AI
-**Versão documental 3.7 · 31/10/2026**
+**Versão documental 3.8 · 31/10/2026**
 **Estado:** planejamento conceitual e priorização proposta, sem homologação técnica, comercial ou autorização de implantação.
 
 ## 1. Função deste documento
@@ -72,6 +72,8 @@ Transformar os fundamentos e estudos da Guivos AI em um catálogo rastreável de
 **Prontidão e homologação:** [GAI-INT-12 — Relatório de Conformidade e Estratégia de Homologação Contratual v3.6](relatorio-conformidade-estrategia-homologacao-contratual.md). Consolida critérios, evidências, riscos e gates pendentes; não constitui teste nem homologação.
 
 **Compatibilidade e migração:** [GAI-INT-13 — Plano de Compatibilidade, Migração e Evolução de Contratos v3.7](plano-compatibilidade-migracao-evolucao-contratos.md). Mapeia versões, consumidores, adaptação, regressão e rollback; não altera a maturidade das capacidades.
+
+**Decisões e gates:** [GAI-INT-14 — Registro de Decisões Pendentes e Plano de Fechamento de Gates v3.8](registro-decisoes-pendentes-plano-fechamento-gates.md). Consolida 16 decisões ainda em aberto e evidências exigidas para gates, sem alteração da maturidade das capacidades.
 
 ## 3. Capacidades estruturais habilitadoras (não equivalentes à Guivos AI)
 | ID | Responsável proposto | Capacidade habilitadora | Dependência |
