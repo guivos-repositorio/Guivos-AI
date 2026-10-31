@@ -21,5 +21,7 @@ O [GAI-INT-22 — Encaminhamento de Autoridade Canônica e Alçadas](encaminhame
 
 O [GAI-INT-23 — Dossiê de Ratificação de Responsáveis](dossie-ratificacao-responsaveis-autoridade-alcadas.md) consolida 16 funções candidatas, sem atribuição ou mandato efetivo. As PND-01 e PND-11 e todas as demais PNDs permanecem abertas.
 
+O [GAI-INT-24](verificacao-administracao-repositorio-limites-autoridade.md) registra administração técnica da conexão sobre o repositório, mas não identifica autoridade institucional legitimada. Não houve ratificação ou encerramento de PNDs.
+
 ## Registro de novas decisões
 Cada decisão deve indicar: identificador, data, responsável pela aprovação, contexto, alternativas, decisão, fundamentos, documentos afetados e condição de revisão. Novas hipóteses não serão promovidas a decisões automaticamente.
