@@ -1,0 +1,20 @@
+{
+  "template_id": "GAI-INT-16-gate-review-template",
+  "document_version": "4.0",
+  "template_status": "unfilled",
+  "review_status": "not_reviewed",
+  "adjudication_status": "not_adjudicated",
+  "gate_status": "not_requested",
+  "gate_id": null,
+  "evidence_package_ref": null,
+  "reviewer_roles": [],
+  "reviewer_independence_assessed": false,
+  "findings": [],
+  "dissent_refs": [],
+  "blocking_issue_refs": [],
+  "authority_ref": null,
+  "approval_ref": null,
+  "decision_at": null,
+  "limitations": [],
+  "note": "Template only. Does not approve any gate."
+}
