@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 4.3 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 4.4 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -159,10 +159,13 @@ Ver [Estudo de Autoridade, Consentimentos e Revogação](autoridade-dados-consen
 ## 49. GAI-INT-19 — Consolidação de Arquitetura e Critérios de Prontidão para Implementação — v4.3
 [Especificação GAI-INT-19](consolidacao-arquitetura-prontidao-implementacao.md). Consolida arquitetura Guivos Intelligence/Guivos AI/serviços canônicos, contratos e dependências, estado de 19 schemas e 49 fixtures, decisões PND-01–16 e fases condicionadas de prontidão. **Estado: consolidação documental; nenhum teste, implementação ou gate aprovado.**
 
-## 50. Próximos estudos
+## 50. GAI-INT-20 — Matriz de Dependências, Sequenciamento e Entrada na Implementação — v4.4
+[Especificação GAI-INT-20](matriz-dependencias-sequenciamento-entrada-implementacao.md). Publica backlog arquitetural com 16 itens vinculados às PND-01–16, dependências, owners candidatos, prioridades, gates e [matriz JSON](matriz-dependencias-sequenciamento-candidato.json). **Estado: planejamento documental; nenhuma implementação, execução de teste ou gate aprovado.**
+
+## 51. Próximos estudos
 - Revisão e testes futuros dos schemas compartilhados candidatos
 - Formalização da autoridade canônica, finalidades, bases legais e contratos de autorização
 - Aprovação futura das fixtures, rubricas e critérios de adjudicação
-- Priorizar dependências e sequenciar decisões para futura entrada na implementação
+- Deliberar decisões prioritárias de G0/G2 e eventual autorização delimitada de validação sintética
 - Comparação controlada dos contratos com implementação Replit, somente mediante autorização específica
 - Avaliação comercial e B2B após verificação dos gates relevantes
