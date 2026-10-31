@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 4.6 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 4.7 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -168,10 +168,13 @@ Ver [Estudo de Autoridade, Consentimentos e Revogação](autoridade-dados-consen
 ## 52. GAI-INT-22 — Autoridade Canônica e Responsabilidades de Governança — v4.6
 [Especificação GAI-INT-22](encaminhamento-decisoes-autoridade-canonica-alcadas-g0-g2.md). Define direcionamentos conceituais para D21-01 e D21-02, fronteiras de fontes e alçadas candidatas, com [matriz JSON](matriz-autoridade-alcadas-g0-g2-candidata.json). **Ratificação e nomeações formais pendentes; nenhuma autorização, execução ou gate aprovado.**
 
-## 53. Próximos passos
+## 53. GAI-INT-23 — Dossiê de Ratificação de Responsáveis e Alçadas — v4.7
+[Dossiê GAI-INT-23](dossie-ratificacao-responsaveis-autoridade-alcadas.md). Registra 16 posições funcionais sem titular ratificado, provas de mandato/aceite e critérios de fechamento de D21-01 e D21-02. [Registro candidato JSON](registro-ratificacao-titulares-alcadas-candidato.json). **Estado: nenhuma ratificação, execução de testes ou gate aprovado.**
+
+## 54. Próximos passos
 - Revisão e testes futuros dos schemas compartilhados candidatos
 - Formalização da autoridade canônica, finalidades, bases legais e contratos de autorização
 - Aprovação futura das fixtures, rubricas e critérios de adjudicação
-- Ratificar responsáveis reais e alçadas de D21-01/D21-02 antes de qualquer campanha sintética
+- Obter indicação e aceite formal dos titulares de D21-01/D21-02 antes de qualquer campanha sintética
 - Comparação controlada dos contratos com implementação Replit, somente mediante autorização específica
 - Avaliação comercial e B2B após verificação dos gates relevantes
