@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 2.2 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 2.3 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -96,7 +96,10 @@ Ver [Especificação CAP-09](cap-09-gestao-incertezas-contradicoes.md). Define t
 ## 28. GAI-CAP-10 — Reavaliação e Invalidação de Análises — v2.2
 Ver [Especificação CAP-10](cap-10-reavaliacao-invalidacao-analises.md). Define eventos de alteração, dependências diretas e transitivas, estados de validade, propagação e reprocessamento autorizado, correções, revogações, contratos lógicos e 20 cenários sintéticos. **Estado: conceituada; sem implementação ou testes executados.**
 
-## 29. Próximos estudos
+## 29. GAI-CAP-11 — Relatório de Trajetória e Possibilidades — v2.3
+Ver [Especificação CAP-11](cap-11-relatorio-trajetoria-possibilidades.md). Define a composição modular de análises rastreáveis, estados de geração/revisão/entrega, validação pela Pessoa, autorização separada de processamento e compartilhamento, contratos lógicos e 22 cenários sintéticos propostos. **Estado: conceituada; produto não implementado, homologado ou comercializado.**
+
+## 30. Próximos estudos
 - Modelos de evidências, fontes e rastreabilidade
 - Ontologia temporal de trajetórias e possibilidades
 - Métodos de identificação e validação de lacunas
