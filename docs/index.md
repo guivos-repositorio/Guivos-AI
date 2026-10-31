@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 3.6 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 3.7 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -138,10 +138,13 @@ Ver [Estudo de Autoridade, Consentimentos e Revogação](autoridade-dados-consen
 ## 42. GAI-INT-12 — Relatório de Conformidade e Estratégia de Homologação Contratual — v3.6
 [Estudo de Conformidade e Homologação](relatorio-conformidade-estrategia-homologacao-contratual.md). Consolida 19 schemas, 49 fixtures, níveis de evidência E0–E5, dez lacunas de homologação, compatibilidade e gates G0–G6. **Estado: relatório de prontidão documental, sem testes executados ou gates aprovados.**
 
-## 43. Próximos estudos
+## 43. GAI-INT-13 — Plano de Compatibilidade, Migração e Evolução de Contratos — v3.7
+[Estudo de Compatibilidade e Migração](plano-compatibilidade-migracao-evolucao-contratos.md). Estabelece classes de mudança, matriz produtor/consumidor, versionamento paralelo, adaptadores, depreciação, rollout/rollback, 20 cenários sintéticos e gates pendentes. **Estado: plano documental, sem migração implementada ou teste executado.**
+
+## 44. Próximos estudos
 - Revisão e testes futuros dos schemas compartilhados candidatos
 - Formalização da autoridade canônica, finalidades, bases legais e contratos de autorização
 - Aprovação futura das fixtures, rubricas e critérios de adjudicação
-- Planejar migração e evolução compatível dos contratos entre serviços
+- Consolidar decisões pendentes e plano de fechamento dos gates contratuais
 - Comparação controlada dos contratos com implementação Replit, somente mediante autorização específica
 - Avaliação comercial e B2B após verificação dos gates relevantes
