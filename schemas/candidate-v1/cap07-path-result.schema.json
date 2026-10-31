@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CAP-07 path candidate",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "capability_id",
+    "path_ref",
+    "possibility_ref",
+    "steps",
+    "limitations"
+  ],
+  "properties": {
+    "capability_id": {
+      "const": "GAI-CAP-07"
+    },
+    "path_ref": {
+      "type": "string"
+    },
+    "possibility_ref": {
+      "type": "string"
+    },
+    "steps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "step_ref",
+          "kind"
+        ],
+        "properties": {
+          "step_ref": {
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "direct_supply",
+              "enabling_supply",
+              "person_action",
+              "clarification"
+            ]
+          },
+          "offer_ref": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
