@@ -119,7 +119,10 @@ O JSON é **registro de proposta**, não sistema de permissões e não substitui
 | Divergência de provedores | Não substitui evidência canônica |
 | Gate estrutural isolado | Não autoriza API, B2B, Jornada ou release |
 
-## 10. Próximo avanço preferencial
+## 10. Encaminhamento conceitual D21-01/D21-02
+O [GAI-INT-22](encaminhamento-decisoes-autoridade-canonica-alcadas-g0-g2.md) consolida autoridade por domínio e segregação de alçadas como direcionamentos arquiteturais. Permanecem pendentes a ratificação formal, a nomeação de responsáveis e toda autorização de execução.
+
+## 11. Próximo avanço preferencial
 Ao contrário de criar indefinidamente novos estudos, a etapa seguinte mais útil será **deliberar formalmente os pontos D21-01 e D21-02** e identificar a autoridade capaz de decidir sobre uma campanha offline estritamente sintética.
 
 Um eventual **GAI-INT-22 — Registro das Deliberações de G0/G2 e Plano de Validação Autorizada** só deve registrar decisões realmente tomadas; caso persistam pendências, manter o registro como não aprovado.
