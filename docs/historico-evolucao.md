@@ -37,4 +37,6 @@
 
 | 3.1 | 31/10/2026 | GAI-INT-07: envelopes de eventos, projeção de dependências, recibos, versionamento, consistência e 22 casos sintéticos. | Estudo documental; sem testes ou implementação |
 
+| 3.2 | 31/10/2026 | GAI-INT-08: catálogo de três JSON Schemas candidatos, compatibilidade, lacunas e 18 cenários de conformidade propostos. | Artefatos técnicos candidatos; sem testes ou homologação |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
