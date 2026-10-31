@@ -32,4 +32,6 @@
 
 | 1.7 | 31/10/2026 | Especificação CAP-05 de descoberta de possibilidades declaradas, adjacentes, emergentes e exploratórias, contratos e 18 cenários sintéticos. | Conceitual; não implementada |
 
+| 1.8 | 31/10/2026 | Especificação GAI-CAP-06 de compatibilidade futura por requisito, cenários condicionais, contratos de entrada/saída e 18 avaliações sintéticas propostas. | Conceitual; não implementada |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
