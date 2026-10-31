@@ -45,4 +45,6 @@
 
 | 3.5 | 31/10/2026 | GAI-INT-11: sete payloads, um envelope tipado CAP-01–12, 24 casos sintéticos e executor de referências locais. | Artefatos candidatos; sem testes executados ou homologação |
 
+| 3.6 | 31/10/2026 | GAI-INT-12: relatório de prontidão documental, inventário de 19 schemas e 49 fixtures, níveis de evidência, riscos, compatibilidade e estratégia de homologação. | Planejamento; sem runs, adjudicação ou gates aprovados |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
