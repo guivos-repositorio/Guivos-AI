@@ -1,5 +1,5 @@
 # Matriz de Capacidades da Guivos AI
-**Versão documental 4.2 · 31/10/2026**
+**Versão documental 4.3 · 31/10/2026**
 **Estado:** planejamento conceitual e priorização proposta, sem homologação técnica, comercial ou autorização de implantação.
 
 ## 1. Função deste documento
@@ -82,6 +82,8 @@ Transformar os fundamentos e estudos da Guivos AI em um catálogo rastreável de
 **Rastreabilidade de evidências:** [GAI-INT-17 — Modelo de Rastreabilidade, Auditoria e Proveniência de Evidências de Gate v4.1](modelo-rastreabilidade-auditoria-proveniencia-gates.md). Objetos e relações de auditoria, 18 cenários sintéticos e template não preenchido; gates inalterados.
 
 **Observabilidade de gates:** [GAI-INT-18 — Observabilidade de Gates, Alertas e Revalidação Contínua v4.2](modelo-observabilidade-gates-alertas-revalidacao.md). Contempla sinais e revalidação de evidências, versões e autorizações; sem monitoramento operacional.
+
+**Arquitetura consolidada:** [GAI-INT-19 — Consolidação de Arquitetura e Critérios de Prontidão para Implementação v4.3](consolidacao-arquitetura-prontidao-implementacao.md). Mapa integrado das 12 CAPs, serviços, contratos, decisões e gates pendentes; não autoriza implementação.
 
 ## 3. Capacidades estruturais habilitadoras (não equivalentes à Guivos AI)
 | ID | Responsável proposto | Capacidade habilitadora | Dependência |
