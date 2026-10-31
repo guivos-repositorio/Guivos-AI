@@ -34,4 +34,6 @@
 
 | 1.8 | 31/10/2026 | Especificação GAI-CAP-06 de compatibilidade futura por requisito, cenários condicionais, contratos de entrada/saída e 18 avaliações sintéticas propostas. | Conceitual; não implementada |
 
+| 1.9 | 31/10/2026 | Especificação GAI-CAP-07 de caminhos intermediários, etapas alternativas, Direct/Enabling Supply, contratos e 20 cenários sintéticos. | Conceitual; não implementada |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
