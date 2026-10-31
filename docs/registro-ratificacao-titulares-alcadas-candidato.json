@@ -1,6 +1,6 @@
 {
   "register_id": "GAI-INT-23-ROLE-RATIFICATION",
-  "document_version": "4.9",
+  "document_version": "5.4",
   "date": "2026-10-31",
   "status": "appointing_body_confirmed_role_assignments_pending",
   "authoritative_owner_inventory_verified": false,
@@ -215,5 +215,13 @@
     "individual_members_verified": false,
     "gate_authority_delegated": false,
     "operational_execution_authorized": false
+  },
+  "temporary_coordination_model": {
+    "decision_ref": "GAI-DEC-010",
+    "selected_option": "C",
+    "institutional_body": "Guivos direction",
+    "individual_mandate_accepted": false,
+    "technical_gate_authority_delegated": false,
+    "operational_access_authorized": false
   }
 }
