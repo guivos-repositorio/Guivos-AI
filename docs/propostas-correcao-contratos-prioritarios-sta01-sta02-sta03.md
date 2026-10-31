@@ -50,3 +50,6 @@ A [matriz JSON de patches](propostas-correcao-sta01-sta02-sta03.json) conserva *
 
 ## 7. Situação preservada
 A autorização concedida se restringiu ao Pedido A. Pedidos B e C continuam não autorizados. G0 segue parcial, G1–G6 pendentes; PND-01 a PND-16 não foram encerradas. Nenhuma alteração em Replit, Neo4j, provedores ou GKR.
+
+## Evolução v5.9
+Os três schemas candidatos separados foram publicados no [GAI-INT-32](schemas-candidatos-v2-propostas-sta01-sta02-sta03.md). Nenhuma homologação foi concedida.
