@@ -89,4 +89,6 @@
 
 | 5.7 | 31/10/2026 | GAI-REV-001: revisão estática autorizada do Pedido A, 19 schemas, 49 fixtures e 2 scripts; dez achados candidatos para triagem. Documento Mestre sincronizado com GAI-DEC-011. | Leitura estática concluída; B/C não autorizados, nenhum gate aprovado |
 
+| 5.8 | 31/10/2026 | GAI-INT-31: propostas estruturadas para STA-01, STA-02 e STA-03 com compatibilidade, critérios de revisão e JSON Schema candidato. | Somente proposta; schemas originais inalterados, testes e gates pendentes |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
