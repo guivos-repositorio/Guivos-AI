@@ -1,6 +1,6 @@
 # Guivos AI — Repositório Mestre de Conhecimento
 
-**Versão documental 2.2 · 31/10/2026**
+**Versão documental 2.3 · 31/10/2026**
 
 Este repositório é a **base mestra de conhecimento, análise, governança e evolução da Guivos AI**. É um projeto independente do [Guivos Knowledge Repository](https://github.com/guivos-repositorio/Guivos-Knowledge-Repository).
 
@@ -23,6 +23,7 @@ Não se destina a divulgar ou comercializar um produto, nem a oferecer interface
 - [GAI-CAP-08 — Qualificação de Oportunidades — v2.0](docs/cap-08-qualificacao-oportunidades.md)
 - [GAI-CAP-09 — Gestão de Incertezas e Contradições — v2.1](docs/cap-09-gestao-incertezas-contradicoes.md)
 - [GAI-CAP-10 — Reavaliação e Invalidação de Análises — v2.2](docs/cap-10-reavaliacao-invalidacao-analises.md)
+- [GAI-CAP-11 — Relatório de Trajetória e Possibilidades — v2.3](docs/cap-11-relatorio-trajetoria-possibilidades.md)
 
 ## Matriz de capacidades
 - [Matriz de Capacidades, Dependências e Priorização — v1.2](docs/matriz-capacidades-guivos-ai.md)
