@@ -1,5 +1,5 @@
 # Matriz de Capacidades da Guivos AI
-**Versão documental 2.5 · 31/10/2026**
+**Versão documental 2.6 · 31/10/2026**
 **Estado:** planejamento conceitual e priorização proposta, sem homologação técnica, comercial ou autorização de implantação.
 
 ## 1. Função deste documento
@@ -48,6 +48,8 @@ Transformar os fundamentos e estudos da Guivos AI em um catálogo rastreável de
 **Primeira rodada documental concluída:** CAP-01 a CAP-12 têm especificações; nenhuma capacidade foi declarada homologada ou operacional.
 
 **Revisão integrada:** [GAI-INT-01 — Arquitetura Integrada e Plano de Validação v2.5](arquitetura-integrada-plano-validacao.md). Identifica dependências não circulares, limites de autoridade, estados compartilhados e critérios de avaliação ponta a ponta. Não altera os estados de maturidade.
+
+**Contratos e estados transversais:** [GAI-INT-02 — Normalização dos Contratos e Estados Compartilhados v2.6](normalizacao-contratos-estados-compartilhados.md). Distingue status de execução, validade, suporte, escolha da Pessoa, publicação e disponibilidade da oferta; os contratos seguem propostos e não homologados.
 
 ## 3. Capacidades estruturais habilitadoras (não equivalentes à Guivos AI)
 | ID | Responsável proposto | Capacidade habilitadora | Dependência |
