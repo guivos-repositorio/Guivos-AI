@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 1.7 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 1.8 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -81,7 +81,10 @@ Ver [Especificação CAP-04](cap-04-identificacao-qualificacao-lacunas.md). Defi
 ## 23. GAI-CAP-05 — Descoberta de Possibilidades Futuras — v1.7
 Ver [Especificação CAP-05](cap-05-descoberta-possibilidades-futuras.md). Define possibilidades declaradas, adjacentes, emergentes e exploratórias; processo de descoberta contextual, autonomia da Pessoa, estados de validação e rejeição, contratos lógicos, divergências entre modelos e 18 casos sintéticos propostos. **Estado: conceituada, sem implementação ou testes executados.**
 
-## 24. Próximos estudos
+## 24. GAI-CAP-06 — Inteligência de Compatibilidade Futura — v1.8
+Ver [Especificação CAP-06](cap-06-inteligencia-compatibilidade-futura.md). Relaciona possibilidades da CAP-05 aos requisitos qualificados pela CAP-04 e condições do momento, com avaliação por requisito, cenários condicionais, evidências, contrato lógico, 18 testes sintéticos propostos e validação pela Pessoa. **Estado: conceituada; não implementada ou homologada.**
+
+## 25. Próximos estudos
 - Modelos de evidências, fontes e rastreabilidade
 - Ontologia temporal de trajetórias e possibilidades
 - Métodos de identificação e validação de lacunas
