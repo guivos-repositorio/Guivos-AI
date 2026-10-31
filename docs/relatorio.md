@@ -1,5 +1,7 @@
 # Relatório de Trajetória e Possibilidades
-**Produto conceitual inicial.** Documento de apoio ao acompanhamento; não é diagnóstico psicológico automatizado.
+**Produto conceitual inicial.**
+
+**Especificação especializada vigente:** [GAI-CAP-11 — Relatório de Trajetória e Possibilidades, v2.3](cap-11-relatorio-trajetoria-possibilidades.md). Este documento mantém a concepção inicial; a CAP-11 descreve contratos, estados, validação e controles de entrega. Documento de apoio ao acompanhamento; não é diagnóstico psicológico automatizado.
 
 ## Estrutura proposta
 1. **Identificação e escopo** — Pessoa, profissional, período e fontes autorizadas.
