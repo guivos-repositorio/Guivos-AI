@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 3.9 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 4.0 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -147,10 +147,13 @@ Ver [Estudo de Autoridade, Consentimentos e Revogação](autoridade-dados-consen
 ## 45. GAI-INT-15 — Preparação para Execução Sintética Controlada e Evidências de Gate — v3.9
 [Especificação GAI-INT-15](preparacao-execucao-sintetica-controlada-evidencias-gate.md). Define autorização, ambiente isolado, controles de segurança, evidências de run, critérios de parada e checklist, além do [manifesto não autorizado](../tests/contracts/candidate-v1/execution-readiness-manifest.json). **Estado: preparação documental; nenhum teste executado, gate liberado ou operação alterada.**
 
-## 46. Próximos estudos
+## 46. GAI-INT-16 — Pacote de Evidências, Revisão Independente e Adjudicação de Gates — v4.0
+[Especificação GAI-INT-16](pacote-evidencias-revisao-independente-adjudicacao-gates.md). Estabelece a distinção entre execução, evidência, parecer, adjudicação e decisão formal, 16 cenários propostos e dois [modelos JSON](../tests/contracts/candidate-v1/evidence-package-template.json) de registros sem resultados ou aprovação. **Estado: governança documental; nenhum teste ou gate aprovado.**
+
+## 47. Próximos estudos
 - Revisão e testes futuros dos schemas compartilhados candidatos
 - Formalização da autoridade canônica, finalidades, bases legais e contratos de autorização
 - Aprovação futura das fixtures, rubricas e critérios de adjudicação
-- Definir pacote de evidências, revisão independente e adjudicação formal de gates
+- Formalizar rastreabilidade, auditoria e proveniência das evidências de gate
 - Comparação controlada dos contratos com implementação Replit, somente mediante autorização específica
 - Avaliação comercial e B2B após verificação dos gates relevantes
