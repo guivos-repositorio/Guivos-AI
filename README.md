@@ -1,6 +1,6 @@
 # Guivos AI — Repositório Mestre de Conhecimento
 
-**Versão documental 0.8 · 31/10/2026**
+**Versão documental 0.9 · 31/10/2026**
 
 Este repositório é a **base mestra de conhecimento, análise, governança e evolução da Guivos AI**. É um projeto independente do [Guivos Knowledge Repository](https://github.com/guivos-repositorio/Guivos-Knowledge-Repository).
 
@@ -11,6 +11,9 @@ Não se destina a divulgar ou comercializar um produto, nem a oferecer interface
 - [Governança do repositório](docs/governanca-repositorio.md)
 - [Registro de decisões](docs/registro-decisoes.md)
 - [Histórico de evolução](docs/historico-evolucao.md)
+
+## Modelo de conhecimento
+- [Modelo de Conhecimento e Ontologia Temporal — v0.9](docs/modelo-conhecimento-ontologia-temporal.md)
 
 ## Autoridade de dados e memória
 - [Memória canônica, permissões e consumo da inteligência — v0.8](docs/autoridade-dados-memoria-contexto.md)
