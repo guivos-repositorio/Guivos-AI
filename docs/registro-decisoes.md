@@ -35,5 +35,7 @@ O [GAI-INT-27](termos-designacao-coordenacao-arquitetura-inventario-canonico.md)
 
 A [GAI-DEC-010](decisao-coordenacao-temporaria-direcao-p0-a-p0-b.md) seleciona a alternativa C da minuta GAI-INT-28; as pendências PND-01/11 continuam abertas até a ratificação de titulares e competências.
 
+O [GAI-INT-29](encaminhamento-representante-temporario-p0.md) reúne condições para designar representantes da direção, sem afirmar aceite ou alçada operacional. A GAI-DEC-010 segue válida dentro de seus limites.
+
 ## Registro de novas decisões
 Cada decisão deve indicar: identificador, data, responsável pela aprovação, contexto, alternativas, decisão, fundamentos, documentos afetados e condição de revisão. Novas hipóteses não serão promovidas a decisões automaticamente.
