@@ -50,3 +50,6 @@ Ausência de autorização B, operador/revisor independente, SHA congelado, ambi
 **Estado:** especificação publicada; executor v2 não criado, testes não executados, Pedido B/C não autorizados, G0 parcial, G1–G6 pendentes, PND-01–16 abertas.
 
 Referências: [GAI-INT-37](pacote-prontidao-testes-offline-candidate-2.md) · [GAI-INT-36](matriz-casos-protocolo-candidate-2.md) · [GAI-DEC-012](decisao-politica-envelope-v2-a1-b1-c1.md).
+
+## Implementação isolada v6.7
+[GAI-INT-39](implementacao-executor-offline-v2-nao-executado.md) confirma criação do código do runner v2, sem execução, homologação ou autorização do Pedido B.
