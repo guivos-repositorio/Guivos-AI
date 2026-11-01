@@ -129,4 +129,6 @@
 
 | 7.7 | 31/10/2026 | GAI-INT-47: comparação das alternativas A/B/C de custódia com critérios e pesos propostos, evidências e filtros eliminatórios. | Proposta, sem fornecedor, pontuação verificada, dados, testes ou gates |
 
+| 7.8 | 31/10/2026 | GAI-DEC-014: aprovação de COMP-01/02/03 como política metodológica de avaliação de custódia; COMP-04 pendente. | Sem cotações, inspeção, seleção de fornecedor ou gates |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
