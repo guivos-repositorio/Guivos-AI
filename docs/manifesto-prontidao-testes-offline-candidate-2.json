@@ -1,0 +1,91 @@
+{
+  "id": "GAI-INT-37-PREPARATION",
+  "version": "6.5",
+  "status": "not_authorized_not_executed",
+  "decision_context": [
+    "GAI-DEC-011",
+    "GAI-DEC-012"
+  ],
+  "source_snapshot_sha": "f787ba13c754d9d45dc12866f1a1d59ebf247e8f",
+  "source_snapshot_role": "planning_reference_not_frozen_execution_commit",
+  "execution_sha": null,
+  "authorization_ref": null,
+  "operator_ref": null,
+  "independent_reviewer_ref": null,
+  "environment_ref": null,
+  "network_access": false,
+  "real_data_allowed": false,
+  "secret_access_allowed": false,
+  "external_services_allowed": false,
+  "dependencies": [
+    {
+      "name": "python",
+      "version": "not_pinned",
+      "required_for": "runners"
+    },
+    {
+      "name": "jsonschema",
+      "declared_range": ">=4,<5",
+      "version": "not_locked"
+    },
+    {
+      "name": "referencing",
+      "declared_range": ">=0.35,<1",
+      "version": "not_locked"
+    }
+  ],
+  "scope": {
+    "catalogs": [
+      {
+        "path": "tests/contracts/candidate-v1/cases.json",
+        "count": 25,
+        "runner": "tests/contracts/run_schema_cases.py",
+        "run_ready": false
+      },
+      {
+        "path": "tests/contracts/candidate-v1/typed-cases.json",
+        "count": 24,
+        "runner": "tests/contracts/run_typed_cases.py",
+        "run_ready": false
+      },
+      {
+        "path": "docs/matriz-casos-compatibilidade-v2-candidata.json",
+        "count": 15,
+        "runner": null,
+        "run_ready": false
+      },
+      {
+        "path": "docs/matriz-casos-protocolo-candidate-2.json",
+        "count": 18,
+        "runner": null,
+        "run_ready": false
+      }
+    ],
+    "total_expected": 82,
+    "executed": 0
+  },
+  "preconditions": [
+    "specific_B_authorization",
+    "operator_named",
+    "independent_reviewer_named",
+    "immutable_execution_SHA",
+    "dependency_lock_with_digests",
+    "offline_isolated_environment",
+    "v2_runner_and_registry_reviewed",
+    "synthetic_fixture_review",
+    "artifact_digests_and_evidence_plan",
+    "stop_criteria_accepted"
+  ],
+  "stop_conditions": [
+    "unexpected_network_or_secret_access",
+    "real_data_detected",
+    "dependency_or_ref_unresolved",
+    "scope_or_version_mismatch",
+    "unapproved_execution_environment",
+    "unexpected_side_effect",
+    "missing_independent_review",
+    "evidence_integrity_failure"
+  ],
+  "run_results": [],
+  "gate_decision_ref": null
+}
