@@ -1,8 +1,8 @@
 {
   "id": "GAI-INT-47",
-  "version": "7.7",
+  "version": "7.8",
   "date": "2026-10-31",
-  "status": "comparison_for_decision_not_approved",
+  "status": "evaluation_method_approved_only",
   "basis": "GAI-INT-46",
   "purpose": "compare custody architectures without claiming measurements",
   "criteria": [
@@ -145,7 +145,7 @@
   "method": {
     "scale": "0 to 5 only after evidence is supplied",
     "scoring_status": "not_scored",
-    "weights_status": "proposed_not_approved",
+    "weights_status": "approved_as_evaluation_policy",
     "missing_evidence_handling": "unknown; never infer a score",
     "mandatory_gates": [
       "legal_basis_and_privacy_review",
@@ -157,7 +157,8 @@
       "export_and_exit_plan",
       "specific_implementation_authorization"
     ],
-    "decision_rule": "No weighted preference may override mandatory gate failure; no decision with material unknowns."
+    "decision_rule": "No weighted preference may override mandatory gate failure; no decision with material unknowns.",
+    "mandatory_gates_status": "approved_as_evaluation_policy"
   },
   "evaluation": {
     "A": null,
@@ -173,5 +174,16 @@
   "personal_data_collected": false,
   "external_system_inspected": false,
   "tests_authorized": false,
-  "gate_approvals": 0
+  "gate_approvals": 0,
+  "decision_ref": "GAI-DEC-014",
+  "evaluation_order": [
+    "A",
+    "B",
+    "C"
+  ],
+  "evaluation_order_scope": "desk_based_documentation_first_only",
+  "COMP_01_status": "approved_criteria_and_weights",
+  "COMP_02_status": "approved_mandatory_filters_and_evidence_method",
+  "COMP_03_status": "approved_evaluation_order_A_then_B_then_C",
+  "COMP_04_status": "pending_specific_permission_for_quotes_and_system_inventory"
 }
