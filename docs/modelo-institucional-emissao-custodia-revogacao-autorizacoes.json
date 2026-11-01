@@ -1,0 +1,69 @@
+{
+  "id": "GAI-INT-42",
+  "version": "7.1",
+  "status": "proposed_for_direction_review",
+  "roles": [
+    {
+      "id": "ROLE-DIR",
+      "state": "declared_identity_unverified_externally",
+      "nominee_ref": "GUIVOS-DIRECTION-DECLARANT",
+      "accepted_for_cryptographic_trust": false
+    },
+    {
+      "id": "ROLE-REG",
+      "state": "vacant",
+      "nominee_ref": null,
+      "accepted": false
+    },
+    {
+      "id": "ROLE-CUS",
+      "state": "vacant",
+      "nominee_ref": null,
+      "accepted": false
+    },
+    {
+      "id": "ROLE-REV",
+      "state": "vacant",
+      "nominee_ref": null,
+      "accepted": false
+    },
+    {
+      "id": "ROLE-OPS",
+      "state": "vacant",
+      "nominee_ref": null,
+      "accepted": false
+    },
+    {
+      "id": "ROLE-AUD",
+      "state": "vacant",
+      "nominee_ref": null,
+      "accepted": false
+    }
+  ],
+  "process": [
+    "external_identity_proof",
+    "key_and_role_binding",
+    "bounded_request",
+    "independent_review",
+    "direction_approval",
+    "custodian_signature",
+    "trusted_verification",
+    "audit_and_closure"
+  ],
+  "open_decisions": [
+    "INST-01",
+    "INST-02",
+    "INST-03",
+    "INST-04",
+    "INST-05",
+    "INST-06",
+    "INST-07"
+  ],
+  "key_material_created": false,
+  "authorization_issued": false,
+  "revocation_implemented": false,
+  "tests_authorized": false,
+  "inspection_authorized": false,
+  "gate_approvals": 0,
+  "notes": "Proposal only; acceptance cannot be inferred from publication."
+}
