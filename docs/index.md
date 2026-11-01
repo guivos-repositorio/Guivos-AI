@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 7.7 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 7.8 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -261,7 +261,10 @@ Ver [Estudo de Autoridade, Consentimentos e Revogação](autoridade-dados-consen
 ## 83. GAI-INT-47 — Matriz Comparativa de Custódia A/B/C — v7.7
 [Comparação](matriz-comparativa-custodia-institucional-a-b-c.md) e [registro JSON](matriz-comparativa-custodia-institucional-a-b-c.json). Sete critérios ponderados e filtros obrigatórios, sem pontuações empíricas, seleção, preços ou implantação.
 
-## 84. Próximos passos
+## 84. GAI-DEC-014 — Método de Avaliação de Custódia — v7.8
+[Decisão](decisao-metodo-avaliacao-custodia-gai-dec-014.md): COMP-01/02/03 aprovados como metodologia; COMP-04 permanece pendente, sem cotações ou inspeção.
+
+## 85. Próximos passos
 - Revisão e testes futuros dos schemas compartilhados candidatos
 - Formalização da autoridade canônica, finalidades, bases legais e contratos de autorização
 - Aprovação futura das fixtures, rubricas e critérios de adjudicação
