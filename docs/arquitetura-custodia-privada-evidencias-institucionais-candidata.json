@@ -1,0 +1,88 @@
+{
+  "id": "GAI-INT-46",
+  "version": "7.6",
+  "date": "2026-10-31",
+  "status": "candidate_design_unapproved",
+  "purpose": "private institutional identity and acceptance evidence custody",
+  "alternatives": [
+    {
+      "id": "A",
+      "model": "managed_private_evidence_repository",
+      "recommended_for_evaluation": true,
+      "approved": false
+    },
+    {
+      "id": "B",
+      "model": "self_hosted_document_vault",
+      "recommended_for_evaluation": false,
+      "approved": false
+    },
+    {
+      "id": "C",
+      "model": "assessed_existing_institutional_system",
+      "recommended_for_evaluation": false,
+      "approved": false
+    }
+  ],
+  "data_handling": {
+    "real_personal_data_collected": false,
+    "private_repository_provisioned": false,
+    "legal_basis_assessed": false,
+    "retention_period_approved": false,
+    "public_repo_personal_evidence_allowed": false,
+    "public_repo_private_links_allowed": false,
+    "access_policy_implemented": false,
+    "logs_operational": false,
+    "backup_and_deletion_verified": false
+  },
+  "decision_gates": [
+    {
+      "id": "EVD-01",
+      "status": "pending"
+    },
+    {
+      "id": "EVD-02",
+      "status": "pending"
+    },
+    {
+      "id": "EVD-03",
+      "status": "pending"
+    },
+    {
+      "id": "EVD-04",
+      "status": "pending"
+    },
+    {
+      "id": "EVD-05",
+      "status": "pending"
+    },
+    {
+      "id": "EVD-06",
+      "status": "pending"
+    },
+    {
+      "id": "EVD-07",
+      "status": "pending"
+    }
+  ],
+  "controls_proposed": [
+    "data_minimization",
+    "need_to_know_rbac",
+    "strong_authentication",
+    "separation_of_duties",
+    "encryption_at_rest_and_in_transit",
+    "external_key_custody",
+    "access_audit",
+    "retention_schedule",
+    "deletion_and_backup_policy",
+    "incident_response",
+    "rights_request_process",
+    "vendor_and_transfers_review"
+  ],
+  "selected_alternative": null,
+  "decision_ref": null,
+  "implementation_authorized": false,
+  "tests_authorized": false,
+  "inspection_authorized": false,
+  "gate_approvals": 0
+}
