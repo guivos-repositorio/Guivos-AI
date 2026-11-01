@@ -119,4 +119,6 @@
 
 | 7.2 | 31/10/2026 | GAI-INT-43: matriz de sete pendências institucionais, separados atos administrativos, validação técnica e aceites. | Proposta sem nomeações, chaves, execução ou gates |
 
+| 7.3 | 31/10/2026 | GAI-INT-44: minuta de critérios de indicação, aceites, independência, suspensão e substituição de responsáveis institucionais. | Sem escolha aprovada, nomeações, credenciais, testes ou gates |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
