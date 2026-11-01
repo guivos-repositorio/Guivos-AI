@@ -1,0 +1,52 @@
+{
+  "id": "GAI-INT-51",
+  "version": "8.2",
+  "date": "2026-10-31",
+  "kind": "draft_authorization_for_direction",
+  "scope_id": "COMP-04-P",
+  "status": "pending_explicit_direction_decision",
+  "approval_granted": false,
+  "authorization_id": null,
+  "decision_ref": null,
+  "issuer_identity_ref": null,
+  "issuer_authority_verified": false,
+  "signature_ref": null,
+  "operator_ref": null,
+  "operator_accepted": false,
+  "independent_reviewer_ref": null,
+  "not_before": null,
+  "expires_at": null,
+  "revocation_method_ref": null,
+  "allowed_source_domains": [],
+  "allowed_source_categories": [
+    "public_official_vendor_pages",
+    "public_technical_docs",
+    "public_price_pages",
+    "public_legal_and_privacy_material"
+  ],
+  "candidate_services": [],
+  "permitted_actions": [
+    "read_open_public_pages_only_after_approval",
+    "record_public_url_date_version",
+    "document_evidence_gaps"
+  ],
+  "forbidden_actions": [
+    "contact_suppliers",
+    "request_quotes",
+    "register_accounts_or_login",
+    "access_private_systems",
+    "process_personal_data",
+    "run_security_tests",
+    "pay_or_contract",
+    "run_pedido_b",
+    "inspect_pedido_c"
+  ],
+  "spend_ceiling_brl": 0,
+  "activity_performed": false,
+  "providers_contacted": false,
+  "quotes_requested": false,
+  "private_systems_inspected": false,
+  "implementation_authorized": false,
+  "other_comp_04_scopes_authorized": false,
+  "gate_approvals": 0
+}
