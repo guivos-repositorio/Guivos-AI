@@ -103,4 +103,6 @@
 
 | 6.4 | 31/10/2026 | GAI-INT-36: 18 casos sintéticos candidate-2 e seis verificações de compatibilidade/registry. | Preparação documental; nenhum teste, integração ou gate aprovado |
 
+| 6.5 | 31/10/2026 | GAI-INT-37: prontidão para campanha offline, análise de dependências, controles de integridade, evidências e critérios de interrupção. | Não autorizado: B/C; nenhum teste ou gate aprovado |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
