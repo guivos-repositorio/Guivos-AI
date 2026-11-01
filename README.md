@@ -1,6 +1,6 @@
 # Guivos AI — Repositório Mestre de Conhecimento
 
-**Versão documental 6.9 · 31/10/2026**
+**Versão documental 7.0 · 31/10/2026**
 
 Este repositório é a **base mestra de conhecimento, análise, governança e evolução da Guivos AI**. É um projeto independente do [Guivos Knowledge Repository](https://github.com/guivos-repositorio/Guivos-Knowledge-Repository).
 
@@ -126,6 +126,8 @@ Não se destina a divulgar ou comercializar um produto, nem a oferecer interface
 - [GAI-REV-002 — Revisão estática do executor v2 — v6.8](docs/revisao-estatica-executor-offline-v2-rev002.md): 11 achados, sem execução.
 
 - [GAI-INT-40 — Executor v2 endurecido, bloqueado — v6.9](docs/endurecimento-executor-v2-candidato-bloqueado.md)
+
+- [GAI-INT-41 — Cadeia de confiança de autorizações — v7.0](docs/cadeia-confianca-autorizacoes-execucao-candidata.md) — proposta sem implementação nem concessão de execução.
 
 ## Regras
 1. Registrar evidências, hipóteses, limitações e decisões separadamente.
