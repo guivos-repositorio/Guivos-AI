@@ -125,4 +125,6 @@
 
 | 7.5 | 31/10/2026 | GAI-INT-45: procedimento de credenciamento institucional e três modelos em branco, sem coleta de dados pessoais. | Preparado, sem indicação, aceite, credenciais, testes ou gates |
 
+| 7.6 | 31/10/2026 | GAI-INT-46: proposta para custódia privada de evidências, controle de acesso, retenção e exclusão. | Sem implantação, dados pessoais ou autorização de execução |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
