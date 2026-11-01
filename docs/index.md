@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 7.9 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 8.0 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -267,7 +267,10 @@ Ver [Estudo de Autoridade, Consentimentos e Revogação](autoridade-dados-consen
 ## 85. GAI-INT-48 — Roteiro Documental da Alternativa A — v7.9
 [Roteiro](roteiro-avaliacao-alternativa-a-custodia-gerenciada.md) e [modelo JSON de evidências e TCO](roteiro-avaliacao-alternativa-a-custodia-gerenciada.json). Sete grupos ponderados, filtros obrigatórios e custos em 12/36 meses, sem preços, fornecedores ou inspeção. COMP-04 pendente.
 
-## 86. Próximos passos
+## 86. GAI-INT-49 — Instrumento de Evidências e Parecer Independente — v8.0
+[Procedimento](instrumento-avaliacao-evidencias-parecer-alternativa-a.md), [modelo de evidências](instrumento-evidencias-alternativa-a-custodia.json) e [modelo de parecer](modelo-parecer-independente-custodia-a.json). Critérios de suficiência, lacunas G-00–G-05 e revisão independente; nenhum fornecedor avaliado, COMP-04 pendente.
+
+## 87. Próximos passos
 - Revisão e testes futuros dos schemas compartilhados candidatos
 - Formalização da autoridade canônica, finalidades, bases legais e contratos de autorização
 - Aprovação futura das fixtures, rubricas e critérios de adjudicação
