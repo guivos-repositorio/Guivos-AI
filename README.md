@@ -1,6 +1,6 @@
 # Guivos AI — Repositório Mestre de Conhecimento
 
-**Versão documental 7.3 · 31/10/2026**
+**Versão documental 7.4 · 31/10/2026**
 
 Este repositório é a **base mestra de conhecimento, análise, governança e evolução da Guivos AI**. É um projeto independente do [Guivos Knowledge Repository](https://github.com/guivos-repositorio/Guivos-Knowledge-Repository).
 
@@ -134,6 +134,8 @@ Não se destina a divulgar ou comercializar um produto, nem a oferecer interface
 - [GAI-INT-43 — Matriz de Deliberação INST-01 a INST-07 — v7.2](docs/matriz-deliberacao-pendencias-institucionais-inst01-inst07.md), com escolhas pendentes.
 
 - [GAI-INT-44 — Critérios de indicação e aceite — v7.3](docs/criterios-indicacao-aceite-responsaveis-institucionais.md) — minuta sem nomeações ou aprovações.
+
+- [GAI-DEC-013 — Política de indicação e aceite aprovada — v7.4](docs/decisao-aprovacao-criterios-institucionais-gai-dec-013.md), sem habilitação operacional.
 
 ## Regras
 1. Registrar evidências, hipóteses, limitações e decisões separadamente.
