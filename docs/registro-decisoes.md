@@ -89,5 +89,7 @@ A [GAI-INT-48](roteiro-avaliacao-alternativa-a-custodia-gerenciada.md) prepara p
 
 A [GAI-INT-49](instrumento-avaliacao-evidencias-parecer-alternativa-a.md) publica instrumento e modelos em branco para evidências e parecer independente da alternativa A; não aprova COMP-04 nem seleciona fornecedores.
 
+A [GAI-INT-50](proposta-autorizacao-comp04-escopos-segregados.md) propõe três escopos COMP-04-P/C/I, todos pendentes e sem qualquer autorização operacional concedida.
+
 ## Registro de novas decisões
 Cada decisão deve indicar: identificador, data, responsável pela aprovação, contexto, alternativas, decisão, fundamentos, documentos afetados e condição de revisão. Novas hipóteses não serão promovidas a decisões automaticamente.
