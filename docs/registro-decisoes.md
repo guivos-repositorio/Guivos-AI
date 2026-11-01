@@ -61,5 +61,7 @@ O [GAI-INT-37](pacote-prontidao-testes-offline-candidate-2.md) constitui prepara
 
 O [GAI-INT-38](especificacao-executor-offline-33-casos-v2.md) é especificação de executor offline não implementado e não altera o escopo da GAI-DEC-012; B/C e gates continuam não autorizados.
 
+O [GAI-INT-39](implementacao-executor-offline-v2-nao-executado.md) registra a criação do runner v2 separado e não constitui autorização de execução ou validação de gate.
+
 ## Registro de novas decisões
 Cada decisão deve indicar: identificador, data, responsável pela aprovação, contexto, alternativas, decisão, fundamentos, documentos afetados e condição de revisão. Novas hipóteses não serão promovidas a decisões automaticamente.
