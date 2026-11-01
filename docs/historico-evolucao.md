@@ -137,4 +137,6 @@
 
 | 8.1 | 31/10/2026 | GAI-INT-50: proposta de segregação COMP-04-P/C/I para consulta pública, contato comercial e inspeção privada. | Todos pendentes; sem execução, levantamento externo ou gates |
 
+| 8.2 | 31/10/2026 | GAI-INT-51: instrumento de deliberação da COMP-04-P para pesquisa em fontes abertas, com campos de concessão vazios e exclusões expressas. | Autorização pendente, nenhuma pesquisa ou gate |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
