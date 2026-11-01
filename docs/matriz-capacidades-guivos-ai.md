@@ -1,5 +1,5 @@
 # Matriz de Capacidades da Guivos AI
-**Versão documental 8.1 · 31/10/2026**
+**Versão documental 8.2 · 31/10/2026**
 **Estado:** planejamento conceitual e priorização proposta, sem homologação técnica, comercial ou autorização de implantação.
 
 ## 1. Função deste documento
@@ -158,6 +158,8 @@ Transformar os fundamentos e estudos da Guivos AI em um catálogo rastreável de
 **Instrumento de evidências:** [GAI-INT-49](instrumento-avaliacao-evidencias-parecer-alternativa-a.md), com modelos não preenchidos e avaliação independente ainda não realizada.
 
 **Escopos de autorização COMP-04:** [GAI-INT-50](proposta-autorizacao-comp04-escopos-segregados.md) separa pesquisa pública, contato comercial e inspeção, todos pendentes.
+
+**Instrumento COMP-04-P:** [GAI-INT-51](instrumento-deliberacao-comp04-p-pesquisa-publica.md) prepara uma autorização de pesquisa pública ainda não emitida.
 
 ## 3. Capacidades estruturais habilitadoras (não equivalentes à Guivos AI)
 | ID | Responsável proposto | Capacidade habilitadora | Dependência |
