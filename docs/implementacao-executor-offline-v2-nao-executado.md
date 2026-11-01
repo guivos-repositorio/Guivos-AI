@@ -31,3 +31,6 @@ A presença do sinal `offline_isolation_confirmed=true` **não bloqueia acesso �
 Runners v1 e seus 49 casos preservados; matrizes v2 de 15 e 18 casos preservadas; 82 casos totais catalogados. **Zero execuções verificadas, Pedido B/C não autorizados, G0 parcial, G1–G6 pendentes, 16 PNDs abertas.**
 
 Referências: [GAI-INT-38](especificacao-executor-offline-33-casos-v2.md) · [GAI-INT-37](pacote-prontidao-testes-offline-candidate-2.md) · [GAI-DEC-012](decisao-politica-envelope-v2-a1-b1-c1.md).
+
+## Revisão estática posterior
+O [GAI-REV-002](revisao-estatica-executor-offline-v2-rev002.md) identificou 11 achados; código implementado permanece não executado e não homologado.
