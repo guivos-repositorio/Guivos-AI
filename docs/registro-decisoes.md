@@ -79,5 +79,7 @@ O [GAI-INT-44](criterios-indicacao-aceite-responsaveis-institucionais.md) propõ
 
 O [GAI-INT-45](procedimento-credenciamento-institucional-candidato.md) registra procedimento e três modelos em branco; sem nomeações, aceites ou autorização B/C.
 
+A [GAI-INT-46](arquitetura-custodia-privada-evidencias-institucionais-candidata.md) propõe arquitetura de custódia privada de evidências sem seleção de fornecedor, coleta, implantação ou autorização B/C.
+
 ## Registro de novas decisões
 Cada decisão deve indicar: identificador, data, responsável pela aprovação, contexto, alternativas, decisão, fundamentos, documentos afetados e condição de revisão. Novas hipóteses não serão promovidas a decisões automaticamente.
