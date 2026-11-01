@@ -1,0 +1,177 @@
+{
+  "id": "GAI-INT-47",
+  "version": "7.7",
+  "date": "2026-10-31",
+  "status": "comparison_for_decision_not_approved",
+  "basis": "GAI-INT-46",
+  "purpose": "compare custody architectures without claiming measurements",
+  "criteria": [
+    {
+      "id": "CUST-01",
+      "name": "Segurança e identidade",
+      "weight": 25,
+      "requirements": [
+        "RBAC/ABAC e MFA",
+        "segregação de deveres",
+        "criptografia e custódia de chaves",
+        "gestão de incidentes"
+      ]
+    },
+    {
+      "id": "CUST-02",
+      "name": "Privacidade e conformidade",
+      "weight": 20,
+      "requirements": [
+        "base legal e minimização",
+        "acesso a direitos dos titulares",
+        "localização e transferências",
+        "suboperadores e DPA"
+      ]
+    },
+    {
+      "id": "CUST-03",
+      "name": "Auditoria e evidências",
+      "weight": 15,
+      "requirements": [
+        "trilha resistente a adulteração",
+        "logs mínimos e íntegros",
+        "exportação para auditor independente"
+      ]
+    },
+    {
+      "id": "CUST-04",
+      "name": "Retenção e exclusão",
+      "weight": 15,
+      "requirements": [
+        "regras por classe de dado",
+        "exclusão e confirmação",
+        "retenção de backup e litígio"
+      ]
+    },
+    {
+      "id": "CUST-05",
+      "name": "Custo total de propriedade",
+      "weight": 10,
+      "requirements": [
+        "implantação e licenças",
+        "armazenamento e transferência",
+        "equipe e suporte",
+        "saída e migração"
+      ]
+    },
+    {
+      "id": "CUST-06",
+      "name": "Operação, manutenção e resiliência",
+      "weight": 10,
+      "requirements": [
+        "responsável operacional",
+        "patching e monitoramento",
+        "backup e restauração",
+        "SLA/SLO"
+      ]
+    },
+    {
+      "id": "CUST-07",
+      "name": "Portabilidade e reversibilidade",
+      "weight": 5,
+      "requirements": [
+        "exportação completa",
+        "formatos interoperáveis",
+        "gestão de dependência do fornecedor",
+        "descarte após migração"
+      ]
+    }
+  ],
+  "weight_total": 100,
+  "alternatives": [
+    {
+      "id": "A",
+      "name": "Repositório privado gerenciado",
+      "benefits": [
+        "menor necessidade potencial de infraestrutura própria",
+        "controles possivelmente disponíveis por serviço"
+      ],
+      "risks": [
+        "dependência contratual e de fornecedor",
+        "provar deleção de backups e transparência de suboperadores",
+        "custos variáveis e restrições de exportação"
+      ],
+      "verification": [
+        "evidência técnica de MFA/RBAC, criptografia e auditoria",
+        "contrato, DPA, região e transferências",
+        "cotações e custos de saída",
+        "prova de restauração e exclusão"
+      ]
+    },
+    {
+      "id": "B",
+      "name": "Cofre em infraestrutura própria",
+      "benefits": [
+        "controle mais direto de configuração e chaves",
+        "flexibilidade de retenção e formatos"
+      ],
+      "risks": [
+        "maior responsabilidade por defesa, operação e atualização",
+        "custo e complexidade de equipe",
+        "pontos únicos de falha e continuidade"
+      ],
+      "verification": [
+        "modelo de ameaças e arquitetura",
+        "plano de operação 24/7 e resposta a incidentes",
+        "custos de equipe, infraestrutura e manutenção",
+        "auditoria e ensaios autorizados em etapa futura"
+      ]
+    },
+    {
+      "id": "C",
+      "name": "Sistema institucional existente avaliado",
+      "benefits": [
+        "possível reaproveitamento de contrato e operação",
+        "menos mudança de processos se controles já existirem"
+      ],
+      "risks": [
+        "adequação funcional desconhecida",
+        "permissões legadas e mistura de finalidades",
+        "reversibilidade, retenção e custos não comprovados"
+      ],
+      "verification": [
+        "inventário e contratos mediante autorização",
+        "avaliação independente de segregação e finalidade",
+        "relatório de lacunas, retenção e exclusão",
+        "custo incremental e plano de segregação"
+      ]
+    }
+  ],
+  "method": {
+    "scale": "0 to 5 only after evidence is supplied",
+    "scoring_status": "not_scored",
+    "weights_status": "proposed_not_approved",
+    "missing_evidence_handling": "unknown; never infer a score",
+    "mandatory_gates": [
+      "legal_basis_and_privacy_review",
+      "role_access_segregation",
+      "encrypted_storage_and_key_custody",
+      "auditable_access",
+      "retention_and_deletion_plan",
+      "incident_response",
+      "export_and_exit_plan",
+      "specific_implementation_authorization"
+    ],
+    "decision_rule": "No weighted preference may override mandatory gate failure; no decision with material unknowns."
+  },
+  "evaluation": {
+    "A": null,
+    "B": null,
+    "C": null
+  },
+  "selection": null,
+  "provider_selected": null,
+  "prices_verified": false,
+  "quotes_requested": false,
+  "independent_review_completed": false,
+  "implementation_authorized": false,
+  "personal_data_collected": false,
+  "external_system_inspected": false,
+  "tests_authorized": false,
+  "gate_approvals": 0
+}
