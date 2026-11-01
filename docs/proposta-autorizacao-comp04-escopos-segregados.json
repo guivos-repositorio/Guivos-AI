@@ -1,10 +1,10 @@
 {
   "id": "GAI-INT-50",
-  "version": "8.1",
+  "version": "8.3",
   "date": "2026-10-31",
-  "status": "proposal_without_authorization",
+  "status": "conditional_public_policy_no_operational_permissions",
   "source_decision": "GAI-DEC-014",
-  "comp_04_overall_status": "pending",
+  "comp_04_overall_status": "not_operationally_authorized",
   "scopes": [
     {
       "id": "COMP-04-P",
@@ -17,7 +17,7 @@
         "registro de fonte, data e limitações"
       ],
       "recommended_next_step": true,
-      "status": "pending_explicit_authorization",
+      "status": "conditionally_approved_in_principle_inactive",
       "authorized": false,
       "authorization_id": null,
       "issuer_ref": null,
@@ -29,7 +29,9 @@
       "expires_at": null,
       "cost_limit": null,
       "decision_ref": null,
-      "activities_performed": 0
+      "activities_performed": 0,
+      "policy_approved_in_principle": true,
+      "policy_decision_ref": "GAI-DEC-015"
     },
     {
       "id": "COMP-04-C",
