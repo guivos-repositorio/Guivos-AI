@@ -85,5 +85,7 @@ A [GAI-INT-47](matriz-comparativa-custodia-institucional-a-b-c.md) organiza comp
 
 | GAI-DEC-014 | Aprovado — metodologia | COMP-01/02/03: critérios, pesos, filtros e ordem A-B-C; COMP-04 pendente | [Decisão](decisao-metodo-avaliacao-custodia-gai-dec-014.md). Sem cotações, inspeção, implantação ou gates. |
 
+A [GAI-INT-48](roteiro-avaliacao-alternativa-a-custodia-gerenciada.md) prepara perguntas e TCO para alternativa A sem coleta externa; COMP-04 permanece pendente, sem nova autorização ou gate.
+
 ## Registro de novas decisões
 Cada decisão deve indicar: identificador, data, responsável pela aprovação, contexto, alternativas, decisão, fundamentos, documentos afetados e condição de revisão. Novas hipóteses não serão promovidas a decisões automaticamente.
