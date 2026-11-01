@@ -1,0 +1,132 @@
+{
+  "id": "GAI-INT-43",
+  "version": "7.2",
+  "date": "2026-10-31",
+  "state": "pending_direction_deliberation",
+  "purpose": "institutional_approval_matrix_without_nominations_or_execution",
+  "source": "GAI-INT-42",
+  "items": [
+    {
+      "id": "INST-01",
+      "topic": "Registrador institucional",
+      "decision_class": "administrativa + aceite",
+      "proposal": "A direção pode definir critérios e indicar candidato; independência e aceite exigem comprovação.",
+      "required_evidence": "Nomeação e evidência de independência",
+      "roles_for_future_review": [
+        "direcao",
+        "registrador",
+        "revisor"
+      ],
+      "selected_option": null,
+      "direction_decision": null,
+      "technical_approval": false,
+      "role_acceptance_refs": [],
+      "operational_authorization": false
+    },
+    {
+      "id": "INST-02",
+      "topic": "Custódia e substituição",
+      "decision_class": "mista",
+      "proposal": "A direção define segregação e alçada; revisão técnica determina mecanismo, recuperação e dupla custódia.",
+      "required_evidence": "Plano de custódia avaliado e aceite",
+      "roles_for_future_review": [
+        "direcao",
+        "custodiante",
+        "seguranca"
+      ],
+      "selected_option": null,
+      "direction_decision": null,
+      "technical_approval": false,
+      "role_acceptance_refs": [],
+      "operational_authorization": false
+    },
+    {
+      "id": "INST-03",
+      "topic": "Identidade da direção",
+      "decision_class": "verificação externa",
+      "proposal": "A autodeclaração GAI-DEC-011 não demonstra vínculo institucional verificável; autoridade de confiança independente deve validar.",
+      "required_evidence": "Atestado institucional externo e registro protegido",
+      "roles_for_future_review": [
+        "registrador",
+        "revisor"
+      ],
+      "selected_option": null,
+      "direction_decision": null,
+      "technical_approval": false,
+      "role_acceptance_refs": [],
+      "operational_authorization": false
+    },
+    {
+      "id": "INST-04",
+      "topic": "Perfil criptográfico",
+      "decision_class": "técnica + aprovação",
+      "proposal": "Algoritmo, serialização canônica, âncora, ciclo de chave e validade requerem parecer de segurança antes de aprovação.",
+      "required_evidence": "Perfil revisado, interoperabilidade e ameaça modelada",
+      "roles_for_future_review": [
+        "seguranca",
+        "arquitetura",
+        "direcao"
+      ],
+      "selected_option": null,
+      "direction_decision": null,
+      "technical_approval": false,
+      "role_acceptance_refs": [],
+      "operational_authorization": false
+    },
+    {
+      "id": "INST-05",
+      "topic": "Revogação offline",
+      "decision_class": "técnica + risco",
+      "proposal": "Política de expiração de snapshot, anti-rollback, revogação e interrupção é decisão técnica sujeita ao apetite de risco aprovado pela direção.",
+      "required_evidence": "Procedimento assinado e teste autorizado em etapa futura",
+      "roles_for_future_review": [
+        "seguranca",
+        "direcao",
+        "auditoria"
+      ],
+      "selected_option": null,
+      "direction_decision": null,
+      "technical_approval": false,
+      "role_acceptance_refs": [],
+      "operational_authorization": false
+    },
+    {
+      "id": "INST-06",
+      "topic": "Aceites ROLE-REV/OPS/AUD",
+      "decision_class": "administrativa + aceite",
+      "proposal": "Direção pode indicar; cada função exige aceite explícito, comprovação de segregação e limites claros.",
+      "required_evidence": "Termos de aceite e incompatibilidades verificados",
+      "roles_for_future_review": [
+        "direcao",
+        "nomeados"
+      ],
+      "selected_option": null,
+      "direction_decision": null,
+      "technical_approval": false,
+      "role_acceptance_refs": [],
+      "operational_authorization": false
+    },
+    {
+      "id": "INST-07",
+      "topic": "Custos e limites de implantação",
+      "decision_class": "administrativa + orçamento",
+      "proposal": "Preparar faixas de custo; aprovação de orçamento não equivale a autorização de aquisição, acesso ou execução.",
+      "required_evidence": "Plano de custos e decisão financeira específica",
+      "roles_for_future_review": [
+        "direcao",
+        "financeiro"
+      ],
+      "selected_option": null,
+      "direction_decision": null,
+      "technical_approval": false,
+      "role_acceptance_refs": [],
+      "operational_authorization": false
+    }
+  ],
+  "approved": false,
+  "nominations_made": false,
+  "keys_issued": false,
+  "tests_authorized": false,
+  "inspection_authorized": false,
+  "gate_approvals": 0
+}
