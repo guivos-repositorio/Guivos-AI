@@ -91,5 +91,7 @@ A [GAI-INT-49](instrumento-avaliacao-evidencias-parecer-alternativa-a.md) public
 
 A [GAI-INT-50](proposta-autorizacao-comp04-escopos-segregados.md) propõe três escopos COMP-04-P/C/I, todos pendentes e sem qualquer autorização operacional concedida.
 
+A [GAI-INT-51](instrumento-deliberacao-comp04-p-pesquisa-publica.md) apresenta minuta de autorização COMP-04-P, sem decisão emitida, fontes autorizadas, operador aceito ou pesquisa realizada.
+
 ## Registro de novas decisões
 Cada decisão deve indicar: identificador, data, responsável pela aprovação, contexto, alternativas, decisão, fundamentos, documentos afetados e condição de revisão. Novas hipóteses não serão promovidas a decisões automaticamente.
