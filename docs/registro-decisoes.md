@@ -67,5 +67,7 @@ O [GAI-REV-002](revisao-estatica-executor-offline-v2-rev002.md) registra onze ac
 
 O [GAI-INT-40](endurecimento-executor-v2-candidato-bloqueado.md) publica variante bloqueada do executor, não autorização de execução nem decisão de gate.
 
+O [GAI-INT-41](cadeia-confianca-autorizacoes-execucao-candidata.md) registra proposta técnica de cadeia de confiança; não aprova emissão de credenciais, autorização B/C, implantação ou gates.
+
 ## Registro de novas decisões
 Cada decisão deve indicar: identificador, data, responsável pela aprovação, contexto, alternativas, decisão, fundamentos, documentos afetados e condição de revisão. Novas hipóteses não serão promovidas a decisões automaticamente.
