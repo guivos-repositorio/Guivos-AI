@@ -83,5 +83,7 @@ A [GAI-INT-46](arquitetura-custodia-privada-evidencias-institucionais-candidata.
 
 A [GAI-INT-47](matriz-comparativa-custodia-institucional-a-b-c.md) organiza comparação A/B/C de custódia sem escolha ratificada, fornecedor ou autorização operacional.
 
+| GAI-DEC-014 | Aprovado — metodologia | COMP-01/02/03: critérios, pesos, filtros e ordem A-B-C; COMP-04 pendente | [Decisão](decisao-metodo-avaliacao-custodia-gai-dec-014.md). Sem cotações, inspeção, implantação ou gates. |
+
 ## Registro de novas decisões
 Cada decisão deve indicar: identificador, data, responsável pela aprovação, contexto, alternativas, decisão, fundamentos, documentos afetados e condição de revisão. Novas hipóteses não serão promovidas a decisões automaticamente.
