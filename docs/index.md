@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 7.3 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 7.4 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -249,7 +249,10 @@ Ver [Estudo de Autoridade, Consentimentos e Revogação](autoridade-dados-consen
 ## 79. GAI-INT-44 — Critérios Institucionais de Indicação e Aceite — v7.3
 [Minuta](criterios-indicacao-aceite-responsaveis-institucionais.md) e [registro estruturado](criterios-indicacao-aceite-responsaveis-candidatos.json). Sete requisitos gerais, segregação de funções, aceite verificável e quatro decisões da direção pendentes. Sem nomes, credenciais, execução ou gates.
 
-## 80. Próximos passos
+## 80. GAI-DEC-013 — Critérios de Governança Aprovados — v7.4
+[Decisão formal](decisao-aprovacao-criterios-institucionais-gai-dec-013.md) e [registro estruturado](criterios-indicacao-aceite-responsaveis-candidatos.json). DIR-C44-01 a DIR-C44-04 aprovados apenas como política; nenhuma nomeação, execução ou gate.
+
+## 81. Próximos passos
 - Revisão e testes futuros dos schemas compartilhados candidatos
 - Formalização da autoridade canônica, finalidades, bases legais e contratos de autorização
 - Aprovação futura das fixtures, rubricas e critérios de adjudicação
