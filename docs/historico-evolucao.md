@@ -109,4 +109,6 @@
 
 | 6.7 | 31/10/2026 | GAI-INT-39: executor offline v2 implementado em arquivo isolado, sem execução; exige autorização explícita B e revisão antes de rodar. | Código publicado, sem validação, implantação ou gates |
 
+| 6.8 | 31/10/2026 | GAI-REV-002: revisão estática do runner v2, onze achados registrados sem execução de testes. | Revisão documental; Pedido B/C não autorizados, nenhum gate |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
