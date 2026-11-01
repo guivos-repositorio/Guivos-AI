@@ -1,6 +1,6 @@
 # Guivos AI — Repositório Mestre de Conhecimento
 
-**Versão documental 8.2 · 31/10/2026**
+**Versão documental 8.3 · 31/10/2026**
 
 Este repositório é a **base mestra de conhecimento, análise, governança e evolução da Guivos AI**. É um projeto independente do [Guivos Knowledge Repository](https://github.com/guivos-repositorio/Guivos-Knowledge-Repository).
 
@@ -150,6 +150,8 @@ Não se destina a divulgar ou comercializar um produto, nem a oferecer interface
 - [GAI-INT-50 — Proposta de autorização COMP-04 segregada — v8.1](docs/proposta-autorizacao-comp04-escopos-segregados.md), três escopos pendentes.
 
 - [GAI-INT-51 — Instrumento de deliberação COMP-04-P — v8.2](docs/instrumento-deliberacao-comp04-p-pesquisa-publica.md), autorização ainda pendente.
+
+- [GAI-DEC-015 — COMP-04-P aprovada em princípio, inativa — v8.3](docs/decisao-aprovacao-condicionada-comp04-p-gai-dec-015.md), sem pesquisa iniciada.
 
 ## Regras
 1. Registrar evidências, hipóteses, limitações e decisões separadamente.
