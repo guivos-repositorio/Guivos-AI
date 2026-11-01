@@ -131,4 +131,6 @@
 
 | 7.8 | 31/10/2026 | GAI-DEC-014: aprovação de COMP-01/02/03 como política metodológica de avaliação de custódia; COMP-04 pendente. | Sem cotações, inspeção, seleção de fornecedor ou gates |
 
+| 7.9 | 31/10/2026 | GAI-INT-48: roteiro de avaliação documental da alternativa A e modelo de TCO 12/36 meses, sem dados de fornecedores. | Sem preços, cotações, inspeção, execução ou gates |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
