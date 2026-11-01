@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 6.5 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 6.6 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -225,7 +225,10 @@ Ver [Estudo de Autoridade, Consentimentos e Revogação](autoridade-dados-consen
 ## 71. GAI-INT-37 — Pacote de Prontidão Offline — v6.5
 [Plano](pacote-prontidao-testes-offline-candidate-2.md) e [manifesto JSON](manifesto-prontidao-testes-offline-candidate-2.json) para 82 casos. Scripts atuais cobrem somente os 49 casos v1; 33 casos v2 sem executor homologado, sem lockfile, autorização B ou execução.
 
-## 72. Próximos passos
+## 72. GAI-INT-38 — Executor Offline v2 — v6.6
+[Especificação](especificacao-executor-offline-33-casos-v2.md) para 33 casos v2; executor ainda não implementado nem executado, pedidos B/C sem autorização.
+
+## 73. Próximos passos
 - Revisão e testes futuros dos schemas compartilhados candidatos
 - Formalização da autoridade canônica, finalidades, bases legais e contratos de autorização
 - Aprovação futura das fixtures, rubricas e critérios de adjudicação
