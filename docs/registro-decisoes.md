@@ -63,5 +63,7 @@ O [GAI-INT-38](especificacao-executor-offline-33-casos-v2.md) é especificação
 
 O [GAI-INT-39](implementacao-executor-offline-v2-nao-executado.md) registra a criação do runner v2 separado e não constitui autorização de execução ou validação de gate.
 
+O [GAI-REV-002](revisao-estatica-executor-offline-v2-rev002.md) registra onze achados da revisão estática do executor v2. A publicação não autoriza testes, inspeção ou gates.
+
 ## Registro de novas decisões
 Cada decisão deve indicar: identificador, data, responsável pela aprovação, contexto, alternativas, decisão, fundamentos, documentos afetados e condição de revisão. Novas hipóteses não serão promovidas a decisões automaticamente.
