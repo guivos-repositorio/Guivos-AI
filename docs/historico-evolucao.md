@@ -111,4 +111,6 @@
 
 | 6.8 | 31/10/2026 | GAI-REV-002: revisão estática do runner v2, onze achados registrados sem execução de testes. | Revisão documental; Pedido B/C não autorizados, nenhum gate |
 
+| 6.9 | 31/10/2026 | GAI-INT-40: versão alternativa do executor v2 com endurecimentos parciais e bloqueio de execução até verificação de autorização confiável. | Arquivo publicado, não executado, achados pendentes |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
