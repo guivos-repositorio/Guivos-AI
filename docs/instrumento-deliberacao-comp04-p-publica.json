@@ -1,10 +1,10 @@
 {
   "id": "GAI-INT-51",
-  "version": "8.2",
+  "version": "8.3",
   "date": "2026-10-31",
   "kind": "draft_authorization_for_direction",
   "scope_id": "COMP-04-P",
-  "status": "pending_explicit_direction_decision",
+  "status": "policy_approved_conditional_inactive",
   "approval_granted": false,
   "authorization_id": null,
   "decision_ref": null,
@@ -48,5 +48,15 @@
   "private_systems_inspected": false,
   "implementation_authorized": false,
   "other_comp_04_scopes_authorized": false,
-  "gate_approvals": 0
+  "gate_approvals": 0,
+  "policy_approved_in_principle": true,
+  "policy_decision_ref": "GAI-DEC-015",
+  "operational_authorization": false,
+  "conditions_pending": [
+    "designated_verified_operator_and_acceptance",
+    "approved_sources",
+    "validity_window",
+    "evidence_audit_and_review",
+    "separate_activation_act"
+  ]
 }
