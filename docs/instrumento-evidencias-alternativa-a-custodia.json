@@ -1,0 +1,192 @@
+{
+  "id": "GAI-INT-49",
+  "version": "8.0",
+  "date": "2026-10-31",
+  "state": "blank_unapplied_instrument",
+  "policy_refs": [
+    "GAI-DEC-014",
+    "GAI-INT-48"
+  ],
+  "comp_04_authorized": false,
+  "reviewer_appointed": false,
+  "candidate_provider": null,
+  "service_product_version": null,
+  "criteria": [
+    {
+      "id": "A-SEC",
+      "title": "Segurança e identidade",
+      "weight": 25,
+      "score": null,
+      "assessment": "not_evaluated",
+      "evidence_ids": [],
+      "reviewer_ref": null
+    },
+    {
+      "id": "A-PRIV",
+      "title": "Privacidade e conformidade",
+      "weight": 20,
+      "score": null,
+      "assessment": "not_evaluated",
+      "evidence_ids": [],
+      "reviewer_ref": null
+    },
+    {
+      "id": "A-AUD",
+      "title": "Auditoria e evidências",
+      "weight": 15,
+      "score": null,
+      "assessment": "not_evaluated",
+      "evidence_ids": [],
+      "reviewer_ref": null
+    },
+    {
+      "id": "A-RET",
+      "title": "Retenção e exclusão",
+      "weight": 15,
+      "score": null,
+      "assessment": "not_evaluated",
+      "evidence_ids": [],
+      "reviewer_ref": null
+    },
+    {
+      "id": "A-TCO",
+      "title": "Custo total",
+      "weight": 10,
+      "score": null,
+      "assessment": "not_evaluated",
+      "evidence_ids": [],
+      "reviewer_ref": null
+    },
+    {
+      "id": "A-OPS",
+      "title": "Operação e resiliência",
+      "weight": 10,
+      "score": null,
+      "assessment": "not_evaluated",
+      "evidence_ids": [],
+      "reviewer_ref": null
+    },
+    {
+      "id": "A-EXIT",
+      "title": "Reversibilidade",
+      "weight": 5,
+      "score": null,
+      "assessment": "not_evaluated",
+      "evidence_ids": [],
+      "reviewer_ref": null
+    }
+  ],
+  "evidence_sufficiency_dimensions": [
+    "authenticity",
+    "source_traceability",
+    "version_and_date",
+    "scope_specificity",
+    "completeness",
+    "technical_verifiability",
+    "currency",
+    "independent_review"
+  ],
+  "evidence_records": [],
+  "evidence_record_template": {
+    "evidence_id": null,
+    "criterion_id": null,
+    "requirement_ref": null,
+    "source_type": null,
+    "source_title": null,
+    "source_reference_private": null,
+    "issuer_ref": null,
+    "document_version": null,
+    "issued_date": null,
+    "valid_until": null,
+    "integrity_check_ref": null,
+    "collection_basis": null,
+    "collector_ref": null,
+    "verification_method": null,
+    "dimension_results": {
+      "authenticity": null,
+      "source_traceability": null,
+      "version_and_date": null,
+      "scope_specificity": null,
+      "completeness": null,
+      "technical_verifiability": null,
+      "currency": null,
+      "independent_review": null
+    },
+    "sufficiency": "not_evaluated",
+    "gap_classes": [],
+    "independent_reviewer_ref": null,
+    "conflicts": [],
+    "notes": null
+  },
+  "gap_classes": [
+    "G-00",
+    "G-01",
+    "G-02",
+    "G-03",
+    "G-04",
+    "G-05"
+  ],
+  "mandatory_filter_states": [
+    "unverified",
+    "unclear",
+    "passed",
+    "failed"
+  ],
+  "mandatory_filters": [
+    {
+      "id": "legal_basis_privacy",
+      "result": "unverified",
+      "evidence_ids": [],
+      "reviewer_ref": null
+    },
+    {
+      "id": "identity_access_segregation",
+      "result": "unverified",
+      "evidence_ids": [],
+      "reviewer_ref": null
+    },
+    {
+      "id": "cryptography_key_custody",
+      "result": "unverified",
+      "evidence_ids": [],
+      "reviewer_ref": null
+    },
+    {
+      "id": "audit_integrity",
+      "result": "unverified",
+      "evidence_ids": [],
+      "reviewer_ref": null
+    },
+    {
+      "id": "retention_deletion_backups",
+      "result": "unverified",
+      "evidence_ids": [],
+      "reviewer_ref": null
+    },
+    {
+      "id": "incident_response",
+      "result": "unverified",
+      "evidence_ids": [],
+      "reviewer_ref": null
+    },
+    {
+      "id": "export_and_exit",
+      "result": "unverified",
+      "evidence_ids": [],
+      "reviewer_ref": null
+    },
+    {
+      "id": "specific_implementation_authorization",
+      "result": "unverified",
+      "evidence_ids": [],
+      "reviewer_ref": null
+    }
+  ],
+  "weighted_score": null,
+  "score_calculation_allowed": false,
+  "readiness_for_selection": false,
+  "provider_contacted": false,
+  "external_inspection": false,
+  "costs_verified": false,
+  "operational_authorization": false
+}
