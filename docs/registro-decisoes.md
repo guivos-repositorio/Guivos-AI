@@ -75,5 +75,7 @@ O [GAI-INT-43](matriz-deliberacao-pendencias-institucionais-inst01-inst07.md) or
 
 O [GAI-INT-44](criterios-indicacao-aceite-responsaveis-institucionais.md) propõe critérios de indicação, aceite e independência sem decisões aprovadas, nomeações ou autorização B/C.
 
+| GAI-DEC-013 | Aprovado — política de governança | DIR-C44-01 a DIR-C44-04: indicação, elegibilidade, independência, aceite e substituição | [Decisão](decisao-aprovacao-criterios-institucionais-gai-dec-013.md). Sem nomeações, credenciais, Pedido B/C ou gates. |
+
 ## Registro de novas decisões
 Cada decisão deve indicar: identificador, data, responsável pela aprovação, contexto, alternativas, decisão, fundamentos, documentos afetados e condição de revisão. Novas hipóteses não serão promovidas a decisões automaticamente.
