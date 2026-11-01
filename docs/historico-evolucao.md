@@ -107,4 +107,6 @@
 
 | 6.6 | 31/10/2026 | GAI-INT-38: especificação do executor offline para 33 casos v2, registro local de schemas e evidências. | Não implementado, não executado, sem Pedido B/C ou gates |
 
+| 6.7 | 31/10/2026 | GAI-INT-39: executor offline v2 implementado em arquivo isolado, sem execução; exige autorização explícita B e revisão antes de rodar. | Código publicado, sem validação, implantação ou gates |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
