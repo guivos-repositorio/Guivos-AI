@@ -117,4 +117,6 @@
 
 | 7.1 | 31/10/2026 | GAI-INT-42: proposta de governança institucional para emissão, custódia, verificação e revogação de autorizações; funções e aceites pendentes. | Sem chaves, credenciais, testes, inspeção ou gates |
 
+| 7.2 | 31/10/2026 | GAI-INT-43: matriz de sete pendências institucionais, separados atos administrativos, validação técnica e aceites. | Proposta sem nomeações, chaves, execução ou gates |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
