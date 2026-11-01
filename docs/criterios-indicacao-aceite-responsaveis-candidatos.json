@@ -1,0 +1,43 @@
+{
+  "id": "GAI-INT-44",
+  "version": "7.3",
+  "date": "2026-10-31",
+  "state": "draft_awaiting_direction_approval",
+  "topics": [
+    {
+      "id": "DIR-C44-01",
+      "topic": "seven_general_eligibility_criteria",
+      "approved": null
+    },
+    {
+      "id": "DIR-C44-02",
+      "topic": "role_incompatibilities_and_independence",
+      "approved": null
+    },
+    {
+      "id": "DIR-C44-03",
+      "topic": "nomination_identity_proof_and_acceptance_workflow",
+      "approved": null
+    },
+    {
+      "id": "DIR-C44-04",
+      "topic": "suspension_replacement_and_review",
+      "approved": null
+    }
+  ],
+  "roles": [
+    "ROLE-DIR",
+    "ROLE-REG",
+    "ROLE-CUS",
+    "ROLE-REV",
+    "ROLE-OPS",
+    "ROLE-AUD"
+  ],
+  "nominations": [],
+  "acceptances": [],
+  "external_identity_verifications": [],
+  "keys_created": false,
+  "tests_authorized": false,
+  "inspection_authorized": false,
+  "gate_approvals": 0
+}
