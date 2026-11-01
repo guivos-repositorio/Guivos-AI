@@ -71,5 +71,7 @@ O [GAI-INT-41](cadeia-confianca-autorizacoes-execucao-candidata.md) registra pro
 
 O [GAI-INT-42](modelo-institucional-emissao-custodia-revogacao-autorizacoes.md) propõe funções de governança e custódia sem designações ou aceites; não aprova emissão de credenciais, Pedido B/C nem gates.
 
+O [GAI-INT-43](matriz-deliberacao-pendencias-institucionais-inst01-inst07.md) organiza sete pendências de governança sem escolhas aprovadas, nomeações ou autorização de testes/inspeção.
+
 ## Registro de novas decisões
 Cada decisão deve indicar: identificador, data, responsável pela aprovação, contexto, alternativas, decisão, fundamentos, documentos afetados e condição de revisão. Novas hipóteses não serão promovidas a decisões automaticamente.
