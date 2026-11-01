@@ -1,5 +1,5 @@
 # Matriz de Capacidades da Guivos AI
-**Versão documental 6.9 · 31/10/2026**
+**Versão documental 7.0 · 31/10/2026**
 **Estado:** planejamento conceitual e priorização proposta, sem homologação técnica, comercial ou autorização de implantação.
 
 ## 1. Função deste documento
@@ -134,6 +134,8 @@ Transformar os fundamentos e estudos da Guivos AI em um catálogo rastreável de
 **Executor v2 implementado:** [GAI-INT-39](implementacao-executor-offline-v2-nao-executado.md) registra código isolado para os 33 casos v2, ainda não testado e sem autorização B.
 
 **Revisão estática:** [GAI-REV-002](revisao-estatica-executor-offline-v2-rev002.md) identifica onze achados do executor offline v2 ainda não executado.
+
+**Cadeia de confiança proposta:** [GAI-INT-41](cadeia-confianca-autorizacoes-execucao-candidata.md), sem implantação, criação de chaves ou autorização de execução.
 
 ## 3. Capacidades estruturais habilitadoras (não equivalentes à Guivos AI)
 | ID | Responsável proposto | Capacidade habilitadora | Dependência |
