@@ -127,4 +127,6 @@
 
 | 7.6 | 31/10/2026 | GAI-INT-46: proposta para custódia privada de evidências, controle de acesso, retenção e exclusão. | Sem implantação, dados pessoais ou autorização de execução |
 
+| 7.7 | 31/10/2026 | GAI-INT-47: comparação das alternativas A/B/C de custódia com critérios e pesos propostos, evidências e filtros eliminatórios. | Proposta, sem fornecedor, pontuação verificada, dados, testes ou gates |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
