@@ -133,4 +133,6 @@
 
 | 7.9 | 31/10/2026 | GAI-INT-48: roteiro de avaliação documental da alternativa A e modelo de TCO 12/36 meses, sem dados de fornecedores. | Sem preços, cotações, inspeção, execução ou gates |
 
+| 8.0 | 31/10/2026 | GAI-INT-49: instrumento de suficiência das evidências da alternativa A, classes de lacunas e modelo de parecer técnico independente. | Modelos em branco, sem fornecedores avaliados, cotações, execução ou gates |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
