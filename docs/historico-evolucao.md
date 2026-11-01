@@ -113,4 +113,6 @@
 
 | 6.9 | 31/10/2026 | GAI-INT-40: versão alternativa do executor v2 com endurecimentos parciais e bloqueio de execução até verificação de autorização confiável. | Arquivo publicado, não executado, achados pendentes |
 
+| 7.0 | 31/10/2026 | GAI-INT-41: arquitetura proposta de confiança para autorizações, identidade institucional, assinatura, revogação e anti-replay. | Proposta sem chaves, execução, verificador ou gates |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
