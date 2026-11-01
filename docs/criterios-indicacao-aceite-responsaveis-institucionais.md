@@ -57,3 +57,6 @@ As quatro escolhas estão **pendentes** no [registro JSON](criterios-indicacao-a
 Não existe registrador, custodiante, revisor, operador ou auditor nomeado/aceito por este documento. Nenhuma chave, credencial, serviço ou infraestrutura foi ativada. Pedidos B e C não autorizados; 82 casos catalogados, nenhum teste executado; G0 parcial, G1–G6 pendentes; PND-01 a PND-16 abertas.
 
 Referências: [GAI-INT-43](matriz-deliberacao-pendencias-institucionais-inst01-inst07.md) · [GAI-INT-42](modelo-institucional-emissao-custodia-revogacao-autorizacoes.md) · [GAI-DEC-011](decisao-representante-direcao-autoridade-central-autorizacao.md).
+
+## Deliberação posterior — GAI-DEC-013
+Os quatro critérios DIR-C44-01 a DIR-C44-04 foram ratificados como política de governança, sem nomeações, aceites, emissão de credenciais ou autorizações operacionais. [Consultar decisão formal](decisao-aprovacao-criterios-institucionais-gai-dec-013.md).
