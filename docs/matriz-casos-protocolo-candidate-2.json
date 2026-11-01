@@ -1,0 +1,511 @@
+{
+  "catalog_id": "GAI-INT-36-PROTOCOL-CANDIDATE-2",
+  "version": "6.4",
+  "source_decision": "GAI-DEC-012",
+  "status": "candidate_not_executed",
+  "data_class": "synthetic_only",
+  "execution_authorized": false,
+  "run_refs": [],
+  "gate_decision_ref": null,
+  "existing_fixture_catalogs_unchanged": true,
+  "expected_counts": {
+    "total": 18,
+    "positive": 8,
+    "negative": 10
+  },
+  "cases": [
+    {
+      "case_id": "V2-P01",
+      "schema": "schemas/candidate-v2-proposed/analysis-response-typed.schema.json",
+      "instance": {
+        "request_id": "synthetic-req-2",
+        "analysis_id": "synthetic-analysis-2",
+        "api_contract_version": "candidate-2",
+        "capability_id": "GAI-CAP-11",
+        "context_version": "ctx-2",
+        "lifecycle_status": "completed",
+        "validity_status": "valid_for_recorded_context",
+        "support_status": "not_assessable",
+        "claims": [],
+        "limitations": [],
+        "generated_at": "2026-10-31T18:00:00-03:00",
+        "result": {
+          "capability_id": "GAI-CAP-11",
+          "report_ref": "synthetic-report",
+          "report_version": "v2",
+          "report_status": "draft",
+          "processing_scope_ref": "synthetic-processing-scope",
+          "sections": [],
+          "limitations": []
+        }
+      },
+      "expected_valid": true,
+      "rationale": "completed with typed CAP-11 draft result",
+      "execution_status": "not_executed"
+    },
+    {
+      "case_id": "V2-P02",
+      "schema": "schemas/candidate-v2-proposed/analysis-response-typed.schema.json",
+      "instance": {
+        "request_id": "synthetic-req-2",
+        "analysis_id": "synthetic-analysis-2",
+        "api_contract_version": "candidate-2",
+        "capability_id": "GAI-CAP-11",
+        "context_version": "ctx-2",
+        "lifecycle_status": "queued",
+        "validity_status": "valid_for_recorded_context",
+        "support_status": "not_assessable",
+        "claims": [],
+        "limitations": [],
+        "generated_at": "2026-10-31T18:00:00-03:00"
+      },
+      "expected_valid": true,
+      "rationale": "queued omits result",
+      "execution_status": "not_executed"
+    },
+    {
+      "case_id": "V2-P03",
+      "schema": "schemas/candidate-v2-proposed/analysis-response-typed.schema.json",
+      "instance": {
+        "request_id": "synthetic-req-2",
+        "analysis_id": "synthetic-analysis-2",
+        "api_contract_version": "candidate-2",
+        "capability_id": "GAI-CAP-11",
+        "context_version": "ctx-2",
+        "lifecycle_status": "processing",
+        "validity_status": "valid_for_recorded_context",
+        "support_status": "not_assessable",
+        "claims": [],
+        "limitations": [],
+        "generated_at": "2026-10-31T18:00:00-03:00"
+      },
+      "expected_valid": true,
+      "rationale": "processing omits result",
+      "execution_status": "not_executed"
+    },
+    {
+      "case_id": "V2-P04",
+      "schema": "schemas/candidate-v2-proposed/analysis-response-typed.schema.json",
+      "instance": {
+        "request_id": "synthetic-req-2",
+        "analysis_id": "synthetic-analysis-2",
+        "api_contract_version": "candidate-2",
+        "capability_id": "GAI-CAP-11",
+        "context_version": "ctx-2",
+        "lifecycle_status": "awaiting_review",
+        "validity_status": "valid_for_recorded_context",
+        "support_status": "not_assessable",
+        "claims": [],
+        "limitations": [],
+        "generated_at": "2026-10-31T18:00:00-03:00"
+      },
+      "expected_valid": true,
+      "rationale": "awaiting_review omits result under A1",
+      "execution_status": "not_executed"
+    },
+    {
+      "case_id": "V2-P05",
+      "schema": "schemas/candidate-v2-proposed/analysis-response-typed.schema.json",
+      "instance": {
+        "request_id": "synthetic-req-2",
+        "analysis_id": "synthetic-analysis-2",
+        "api_contract_version": "candidate-2",
+        "capability_id": "GAI-CAP-11",
+        "context_version": "ctx-2",
+        "lifecycle_status": "failed",
+        "validity_status": "valid_for_recorded_context",
+        "support_status": "not_assessable",
+        "claims": [],
+        "limitations": [],
+        "generated_at": "2026-10-31T18:00:00-03:00"
+      },
+      "expected_valid": true,
+      "rationale": "failed omits result under B1",
+      "execution_status": "not_executed"
+    },
+    {
+      "case_id": "V2-P06",
+      "schema": "schemas/candidate-v2-proposed/analysis-response-typed.schema.json",
+      "instance": {
+        "request_id": "synthetic-req-2",
+        "analysis_id": "synthetic-analysis-2",
+        "api_contract_version": "candidate-2",
+        "capability_id": "GAI-CAP-11",
+        "context_version": "ctx-2",
+        "lifecycle_status": "cancelled",
+        "validity_status": "valid_for_recorded_context",
+        "support_status": "not_assessable",
+        "claims": [],
+        "limitations": [],
+        "generated_at": "2026-10-31T18:00:00-03:00"
+      },
+      "expected_valid": true,
+      "rationale": "cancelled omits result under B1",
+      "execution_status": "not_executed"
+    },
+    {
+      "case_id": "V2-P07",
+      "schema": "schemas/candidate-v2-proposed/analysis-response-typed.schema.json",
+      "instance": {
+        "request_id": "synthetic-req-2",
+        "analysis_id": "synthetic-analysis-2",
+        "api_contract_version": "candidate-2",
+        "capability_id": "GAI-CAP-11",
+        "context_version": "ctx-2",
+        "lifecycle_status": "completed",
+        "validity_status": "valid_for_recorded_context",
+        "support_status": "not_assessable",
+        "claims": [],
+        "limitations": [],
+        "generated_at": "2026-10-31T18:00:00-03:00",
+        "result": {
+          "capability_id": "GAI-CAP-11",
+          "report_ref": "synthetic-report",
+          "report_version": "v2",
+          "report_status": "released_to_authorized_recipient",
+          "processing_scope_ref": "synthetic-processing-scope",
+          "sections": [],
+          "limitations": [],
+          "sharing_scope_ref": "synthetic-approved-scope"
+        }
+      },
+      "expected_valid": true,
+      "rationale": "released report carries scope reference (not proof of authorization)",
+      "execution_status": "not_executed"
+    },
+    {
+      "case_id": "V2-P08",
+      "schema": "schemas/candidate-v2-proposed/analysis-response-typed.schema.json",
+      "instance": {
+        "request_id": "synthetic-req-2",
+        "analysis_id": "synthetic-analysis-2",
+        "api_contract_version": "candidate-2",
+        "capability_id": "GAI-CAP-11",
+        "context_version": "ctx-2",
+        "lifecycle_status": "accepted",
+        "validity_status": "valid_for_recorded_context",
+        "support_status": "not_assessable",
+        "claims": [],
+        "limitations": [],
+        "generated_at": "2026-10-31T18:00:00-03:00"
+      },
+      "expected_valid": true,
+      "rationale": "accepted omits result",
+      "execution_status": "not_executed"
+    },
+    {
+      "case_id": "V2-N01",
+      "schema": "schemas/candidate-v2-proposed/analysis-response-typed.schema.json",
+      "instance": {
+        "request_id": "synthetic-req-2",
+        "analysis_id": "synthetic-analysis-2",
+        "api_contract_version": "candidate-2",
+        "capability_id": "GAI-CAP-11",
+        "context_version": "ctx-2",
+        "lifecycle_status": "completed",
+        "validity_status": "valid_for_recorded_context",
+        "support_status": "not_assessable",
+        "claims": [],
+        "limitations": [],
+        "generated_at": "2026-10-31T18:00:00-03:00"
+      },
+      "expected_valid": false,
+      "rationale": "completed missing result",
+      "execution_status": "not_executed"
+    },
+    {
+      "case_id": "V2-N02",
+      "schema": "schemas/candidate-v2-proposed/analysis-response-typed.schema.json",
+      "instance": {
+        "request_id": "synthetic-req-2",
+        "analysis_id": "synthetic-analysis-2",
+        "api_contract_version": "candidate-2",
+        "capability_id": "GAI-CAP-11",
+        "context_version": "ctx-2",
+        "lifecycle_status": "queued",
+        "validity_status": "valid_for_recorded_context",
+        "support_status": "not_assessable",
+        "claims": [],
+        "limitations": [],
+        "generated_at": "2026-10-31T18:00:00-03:00",
+        "result": {
+          "capability_id": "GAI-CAP-11",
+          "report_ref": "synthetic-report",
+          "report_version": "v2",
+          "report_status": "draft",
+          "processing_scope_ref": "synthetic-processing-scope",
+          "sections": [],
+          "limitations": []
+        }
+      },
+      "expected_valid": false,
+      "rationale": "queued must omit result",
+      "execution_status": "not_executed"
+    },
+    {
+      "case_id": "V2-N03",
+      "schema": "schemas/candidate-v2-proposed/analysis-response-typed.schema.json",
+      "instance": {
+        "request_id": "synthetic-req-2",
+        "analysis_id": "synthetic-analysis-2",
+        "api_contract_version": "candidate-2",
+        "capability_id": "GAI-CAP-11",
+        "context_version": "ctx-2",
+        "lifecycle_status": "processing",
+        "validity_status": "valid_for_recorded_context",
+        "support_status": "not_assessable",
+        "claims": [],
+        "limitations": [],
+        "generated_at": "2026-10-31T18:00:00-03:00",
+        "result": {
+          "capability_id": "GAI-CAP-11",
+          "report_ref": "synthetic-report",
+          "report_version": "v2",
+          "report_status": "draft",
+          "processing_scope_ref": "synthetic-processing-scope",
+          "sections": [],
+          "limitations": []
+        }
+      },
+      "expected_valid": false,
+      "rationale": "processing must omit result",
+      "execution_status": "not_executed"
+    },
+    {
+      "case_id": "V2-N04",
+      "schema": "schemas/candidate-v2-proposed/analysis-response-typed.schema.json",
+      "instance": {
+        "request_id": "synthetic-req-2",
+        "analysis_id": "synthetic-analysis-2",
+        "api_contract_version": "candidate-2",
+        "capability_id": "GAI-CAP-11",
+        "context_version": "ctx-2",
+        "lifecycle_status": "failed",
+        "validity_status": "valid_for_recorded_context",
+        "support_status": "not_assessable",
+        "claims": [],
+        "limitations": [],
+        "generated_at": "2026-10-31T18:00:00-03:00",
+        "result": {
+          "capability_id": "GAI-CAP-11",
+          "report_ref": "synthetic-report",
+          "report_version": "v2",
+          "report_status": "draft",
+          "processing_scope_ref": "synthetic-processing-scope",
+          "sections": [],
+          "limitations": []
+        }
+      },
+      "expected_valid": false,
+      "rationale": "failed must omit result",
+      "execution_status": "not_executed"
+    },
+    {
+      "case_id": "V2-N05",
+      "schema": "schemas/candidate-v2-proposed/analysis-response-typed.schema.json",
+      "instance": {
+        "request_id": "synthetic-req-2",
+        "analysis_id": "synthetic-analysis-2",
+        "api_contract_version": "candidate-2",
+        "capability_id": "GAI-CAP-11",
+        "context_version": "ctx-2",
+        "lifecycle_status": "cancelled",
+        "validity_status": "valid_for_recorded_context",
+        "support_status": "not_assessable",
+        "claims": [],
+        "limitations": [],
+        "generated_at": "2026-10-31T18:00:00-03:00",
+        "result": {
+          "capability_id": "GAI-CAP-11",
+          "report_ref": "synthetic-report",
+          "report_version": "v2",
+          "report_status": "draft",
+          "processing_scope_ref": "synthetic-processing-scope",
+          "sections": [],
+          "limitations": []
+        }
+      },
+      "expected_valid": false,
+      "rationale": "cancelled must omit result",
+      "execution_status": "not_executed"
+    },
+    {
+      "case_id": "V2-N06",
+      "schema": "schemas/candidate-v2-proposed/analysis-response-typed.schema.json",
+      "instance": {
+        "request_id": "synthetic-req-2",
+        "analysis_id": "synthetic-analysis-2",
+        "api_contract_version": "candidate-1",
+        "capability_id": "GAI-CAP-11",
+        "context_version": "ctx-2",
+        "lifecycle_status": "completed",
+        "validity_status": "valid_for_recorded_context",
+        "support_status": "not_assessable",
+        "claims": [],
+        "limitations": [],
+        "generated_at": "2026-10-31T18:00:00-03:00",
+        "result": {
+          "capability_id": "GAI-CAP-11",
+          "report_ref": "synthetic-report",
+          "report_version": "v2",
+          "report_status": "draft",
+          "processing_scope_ref": "synthetic-processing-scope",
+          "sections": [],
+          "limitations": []
+        }
+      },
+      "expected_valid": false,
+      "rationale": "v1 protocol discriminant rejected by candidate-2 base",
+      "execution_status": "not_executed"
+    },
+    {
+      "case_id": "V2-N07",
+      "schema": "schemas/candidate-v2-proposed/analysis-response-typed.schema.json",
+      "instance": {
+        "request_id": "synthetic-req-2",
+        "analysis_id": "synthetic-analysis-2",
+        "api_contract_version": "candidate-2",
+        "capability_id": "GAI-CAP-11",
+        "context_version": "ctx-2",
+        "lifecycle_status": "completed",
+        "validity_status": "valid_for_recorded_context",
+        "support_status": "not_assessable",
+        "claims": [],
+        "limitations": [],
+        "generated_at": "2026-10-31T18:00:00-03:00",
+        "result": {
+          "capability_id": "GAI-CAP-10",
+          "report_ref": "synthetic-report",
+          "report_version": "v2",
+          "report_status": "draft",
+          "processing_scope_ref": "synthetic-processing-scope",
+          "sections": [],
+          "limitations": []
+        }
+      },
+      "expected_valid": false,
+      "rationale": "mismatched typed result capability",
+      "execution_status": "not_executed"
+    },
+    {
+      "case_id": "V2-N08",
+      "schema": "schemas/candidate-v2-proposed/analysis-response-typed.schema.json",
+      "instance": {
+        "request_id": "synthetic-req-2",
+        "analysis_id": "synthetic-analysis-2",
+        "api_contract_version": "candidate-2",
+        "capability_id": "GAI-CAP-11",
+        "context_version": "ctx-2",
+        "lifecycle_status": "completed",
+        "validity_status": "valid_for_recorded_context",
+        "support_status": "not_assessable",
+        "claims": [],
+        "limitations": [],
+        "generated_at": "2026-10-31T18:00:00-03:00",
+        "result": {
+          "capability_id": "GAI-CAP-11",
+          "report_ref": "synthetic-report",
+          "report_version": "v2",
+          "report_status": "released_to_authorized_recipient",
+          "processing_scope_ref": "synthetic-processing-scope",
+          "sections": [],
+          "limitations": []
+        }
+      },
+      "expected_valid": false,
+      "rationale": "released report without sharing scope reference",
+      "execution_status": "not_executed"
+    },
+    {
+      "case_id": "V2-N09",
+      "schema": "schemas/candidate-v2-proposed/analysis-response-typed.schema.json",
+      "instance": {
+        "request_id": "synthetic-req-2",
+        "analysis_id": "synthetic-analysis-2",
+        "api_contract_version": "candidate-2",
+        "capability_id": "GAI-CAP-11",
+        "context_version": "ctx-2",
+        "lifecycle_status": "completed",
+        "validity_status": "valid_for_recorded_context",
+        "support_status": "not_assessable",
+        "claims": [],
+        "limitations": [],
+        "generated_at": "2026-10-31T18:00:00-03:00",
+        "result": {
+          "capability_id": "GAI-CAP-11",
+          "report_ref": "synthetic-report",
+          "report_version": "v2",
+          "report_status": "ready_for_authorized_release",
+          "processing_scope_ref": "synthetic-processing-scope",
+          "sections": [],
+          "limitations": [],
+          "sharing_scope_ref": ""
+        }
+      },
+      "expected_valid": false,
+      "rationale": "release-ready report with empty scope reference",
+      "execution_status": "not_executed"
+    },
+    {
+      "case_id": "V2-N10",
+      "schema": "schemas/candidate-v2-proposed/analysis-response-typed.schema.json",
+      "instance": {
+        "request_id": "synthetic-req-2",
+        "analysis_id": "synthetic-analysis-2",
+        "api_contract_version": "candidate-2",
+        "capability_id": "GAI-CAP-11",
+        "context_version": "ctx-2",
+        "lifecycle_status": "awaiting_review",
+        "validity_status": "valid_for_recorded_context",
+        "support_status": "not_assessable",
+        "claims": [],
+        "limitations": [],
+        "generated_at": "2026-10-31T18:00:00-03:00",
+        "result": {
+          "capability_id": "GAI-CAP-11",
+          "report_ref": "synthetic-report",
+          "report_version": "v2",
+          "report_status": "draft",
+          "processing_scope_ref": "synthetic-processing-scope",
+          "sections": [],
+          "limitations": []
+        }
+      },
+      "expected_valid": false,
+      "rationale": "A1 awaiting review must omit result",
+      "execution_status": "not_executed"
+    }
+  ],
+  "registry_checks": [
+    {
+      "id": "REG-01",
+      "expectation": "candidate-v2-proposed/analysis-response-typed references candidate-v2-proposed/analysis-response",
+      "observed_by_static_read": true
+    },
+    {
+      "id": "REG-02",
+      "expectation": "candidate-v2-proposed/analysis-response enforces api_contract_version candidate-2",
+      "observed_by_static_read": true
+    },
+    {
+      "id": "REG-03",
+      "expectation": "typed GAI-CAP-11 resolves candidate-v2-proposed/cap11-report-result",
+      "observed_by_static_read": true
+    },
+    {
+      "id": "REG-04",
+      "expectation": "remaining eleven capabilities reference candidate-v1 payload schemas",
+      "observed_by_static_read": true
+    },
+    {
+      "id": "REG-05",
+      "expectation": "every external $ref resolves in a frozen offline registry; no remote fetch",
+      "observed_by_static_read": false
+    },
+    {
+      "id": "REG-06",
+      "expectation": "version negotiation and correlated error contract for B1 specified and reviewed",
+      "observed_by_static_read": false
+    }
+  ]
+}
