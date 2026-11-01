@@ -1,6 +1,6 @@
 # Guivos AI — Repositório Mestre de Conhecimento
 
-**Versão documental 7.6 · 31/10/2026**
+**Versão documental 7.7 · 31/10/2026**
 
 Este repositório é a **base mestra de conhecimento, análise, governança e evolução da Guivos AI**. É um projeto independente do [Guivos Knowledge Repository](https://github.com/guivos-repositorio/Guivos-Knowledge-Repository).
 
@@ -140,6 +140,8 @@ Não se destina a divulgar ou comercializar um produto, nem a oferecer interface
 - [GAI-INT-45 — Procedimento de credenciamento institucional — v7.5](docs/procedimento-credenciamento-institucional-candidato.md) e modelos em branco.
 
 - [GAI-INT-46 — Custódia privada de evidências — v7.6](docs/arquitetura-custodia-privada-evidencias-institucionais-candidata.md) — proposta sem ambiente nem coleta.
+
+- [GAI-INT-47 — Comparação de Custódia A/B/C — v7.7](docs/matriz-comparativa-custodia-institucional-a-b-c.md) — pesos propostos, nenhuma seleção.
 
 ## Regras
 1. Registrar evidências, hipóteses, limitações e decisões separadamente.
