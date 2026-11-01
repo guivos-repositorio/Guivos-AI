@@ -115,4 +115,6 @@
 
 | 7.0 | 31/10/2026 | GAI-INT-41: arquitetura proposta de confiança para autorizações, identidade institucional, assinatura, revogação e anti-replay. | Proposta sem chaves, execução, verificador ou gates |
 
+| 7.1 | 31/10/2026 | GAI-INT-42: proposta de governança institucional para emissão, custódia, verificação e revogação de autorizações; funções e aceites pendentes. | Sem chaves, credenciais, testes, inspeção ou gates |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
