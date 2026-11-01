@@ -1,5 +1,5 @@
 # Matriz de Capacidades da Guivos AI
-**Versão documental 7.9 · 31/10/2026**
+**Versão documental 8.0 · 31/10/2026**
 **Estado:** planejamento conceitual e priorização proposta, sem homologação técnica, comercial ou autorização de implantação.
 
 ## 1. Função deste documento
@@ -154,6 +154,8 @@ Transformar os fundamentos e estudos da Guivos AI em um catálogo rastreável de
 **Método de custódia ratificado:** [GAI-DEC-014](decisao-metodo-avaliacao-custodia-gai-dec-014.md), critérios e ordem de avaliação sem levantamento externo autorizado.
 
 **Roteiro de avaliação da custódia A:** [GAI-INT-48](roteiro-avaliacao-alternativa-a-custodia-gerenciada.md) organiza critérios, evidências e TCO sem levantamento externo autorizado.
+
+**Instrumento de evidências:** [GAI-INT-49](instrumento-avaliacao-evidencias-parecer-alternativa-a.md), com modelos não preenchidos e avaliação independente ainda não realizada.
 
 ## 3. Capacidades estruturais habilitadoras (não equivalentes à Guivos AI)
 | ID | Responsável proposto | Capacidade habilitadora | Dependência |
