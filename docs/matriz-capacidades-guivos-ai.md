@@ -1,5 +1,5 @@
 # Matriz de Capacidades da Guivos AI
-**Versão documental 6.3 · 31/10/2026**
+**Versão documental 6.4 · 31/10/2026**
 **Estado:** planejamento conceitual e priorização proposta, sem homologação técnica, comercial ou autorização de implantação.
 
 ## 1. Função deste documento
@@ -124,6 +124,8 @@ Transformar os fundamentos e estudos da Guivos AI em um catálogo rastreável de
 **Deliberação de compatibilidade pendente:** [GAI-INT-35](deliberacao-compatibilidade-versionamento-envelope-v2.md) organiza escolhas A/B/C e recomenda A1/B1/C1, ainda não ratificadas.
 
 **Política de envelope confirmada:** [GAI-DEC-012](decisao-politica-envelope-v2-a1-b1-c1.md). A1/B1/C1 para desenho candidato, sem homologação ou execução. O contrato-base candidate-2 está isolado.
+
+**Casos candidate-2:** [GAI-INT-36](matriz-casos-protocolo-candidate-2.md) documenta 18 casos não executados e seis verificações de compatibilidade.
 
 ## 3. Capacidades estruturais habilitadoras (não equivalentes à Guivos AI)
 | ID | Responsável proposto | Capacidade habilitadora | Dependência |
