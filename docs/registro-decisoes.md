@@ -93,5 +93,7 @@ A [GAI-INT-50](proposta-autorizacao-comp04-escopos-segregados.md) propõe três 
 
 A [GAI-INT-51](instrumento-deliberacao-comp04-p-pesquisa-publica.md) apresenta minuta de autorização COMP-04-P, sem decisão emitida, fontes autorizadas, operador aceito ou pesquisa realizada.
 
+| GAI-DEC-015 | Aprovado em princípio — inativo | COMP-04-P restrita a pesquisa documental pública, sujeita a cinco condições suspensivas | [Decisão](decisao-aprovacao-condicionada-comp04-p-gai-dec-015.md). Sem ativação, consulta, contato, inspeção ou gates. |
+
 ## Registro de novas decisões
 Cada decisão deve indicar: identificador, data, responsável pela aprovação, contexto, alternativas, decisão, fundamentos, documentos afetados e condição de revisão. Novas hipóteses não serão promovidas a decisões automaticamente.
