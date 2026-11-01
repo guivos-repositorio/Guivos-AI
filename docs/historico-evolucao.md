@@ -105,4 +105,6 @@
 
 | 6.5 | 31/10/2026 | GAI-INT-37: prontidão para campanha offline, análise de dependências, controles de integridade, evidências e critérios de interrupção. | Não autorizado: B/C; nenhum teste ou gate aprovado |
 
+| 6.6 | 31/10/2026 | GAI-INT-38: especificação do executor offline para 33 casos v2, registro local de schemas e evidências. | Não implementado, não executado, sem Pedido B/C ou gates |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
