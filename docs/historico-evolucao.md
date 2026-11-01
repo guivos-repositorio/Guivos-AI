@@ -121,4 +121,6 @@
 
 | 7.3 | 31/10/2026 | GAI-INT-44: minuta de critérios de indicação, aceites, independência, suspensão e substituição de responsáveis institucionais. | Sem escolha aprovada, nomeações, credenciais, testes ou gates |
 
+| 7.4 | 31/10/2026 | GAI-DEC-013: aprovação dos quatro critérios DIR-C44-01 a DIR-C44-04, exclusivamente como política institucional. | Sem nomeações, chaves, testes, inspeção ou gates |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
