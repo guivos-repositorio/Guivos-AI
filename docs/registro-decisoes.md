@@ -59,5 +59,7 @@ O [GAI-INT-36](matriz-casos-protocolo-candidate-2.md) prepara 18 casos sintétic
 
 O [GAI-INT-37](pacote-prontidao-testes-offline-candidate-2.md) constitui preparação de prontidão offline, não autorização do Pedido B ou de gate.
 
+O [GAI-INT-38](especificacao-executor-offline-33-casos-v2.md) é especificação de executor offline não implementado e não altera o escopo da GAI-DEC-012; B/C e gates continuam não autorizados.
+
 ## Registro de novas decisões
 Cada decisão deve indicar: identificador, data, responsável pela aprovação, contexto, alternativas, decisão, fundamentos, documentos afetados e condição de revisão. Novas hipóteses não serão promovidas a decisões automaticamente.
