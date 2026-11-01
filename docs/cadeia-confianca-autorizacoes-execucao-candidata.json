@@ -1,0 +1,39 @@
+{
+  "id": "GAI-INT-41",
+  "version": "7.0",
+  "state": "proposed_not_approved_or_implemented",
+  "authority_ref": "GAI-DEC-011",
+  "trust_anchor_status": "not_provisioned",
+  "issuer_identity_verified_externally": false,
+  "private_keys_created": false,
+  "authorization_grants_issued": 0,
+  "signature_profile_selected": false,
+  "revocation_registry_operational": false,
+  "verifier_implemented": false,
+  "runner_enabled": false,
+  "execution_authorized": false,
+  "inspection_authorized": false,
+  "controls": [
+    "institutional_identity_binding",
+    "independent_trust_anchor",
+    "signed_scope_and_artifact_digests",
+    "trusted_clock_and_expiration",
+    "signed_revocation_snapshot_or_deny",
+    "durable_anti_replay",
+    "real_checkout_and_dependency_digest_verification",
+    "external_offline_sandbox",
+    "operator_reviewer_separation",
+    "audit_and_incident_evidence"
+  ],
+  "fail_closed": true,
+  "open_decisions": [
+    "registrar_and_key_custodian",
+    "external_identity_proof",
+    "signature_profile",
+    "revocation_and_offline_freshness_policy",
+    "trusted_verifier_host",
+    "trusted_time_and_anti_replay_storage",
+    "independent_security_review"
+  ],
+  "gate_approvals": 0
+}
