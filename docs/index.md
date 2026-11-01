@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 7.5 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 7.6 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -255,7 +255,10 @@ Ver [Estudo de Autoridade, Consentimentos e Revogação](autoridade-dados-consen
 ## 81. GAI-INT-45 — Credenciamento Institucional — v7.5
 [Procedimento e modelos não preenchidos](procedimento-credenciamento-institucional-candidato.md), sem nomeação, teste ou acesso.
 
-## 82. Próximos passos
+## 82. GAI-INT-46 — Arquitetura de Custódia Privada de Evidências — v7.6
+[Proposta](arquitetura-custodia-privada-evidencias-institucionais-candidata.md) e [registro estruturado](arquitetura-custodia-privada-evidencias-institucionais-candidata.json). Alternativas A/B/C, segregação de evidências, auditoria, retenção, exclusão e sete requisitos EVD. Sem seleção, provisionamento, dados reais ou gates.
+
+## 83. Próximos passos
 - Revisão e testes futuros dos schemas compartilhados candidatos
 - Formalização da autoridade canônica, finalidades, bases legais e contratos de autorização
 - Aprovação futura das fixtures, rubricas e critérios de adjudicação
