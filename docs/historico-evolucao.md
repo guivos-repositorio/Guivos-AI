@@ -123,4 +123,6 @@
 
 | 7.4 | 31/10/2026 | GAI-DEC-013: aprovação dos quatro critérios DIR-C44-01 a DIR-C44-04, exclusivamente como política institucional. | Sem nomeações, chaves, testes, inspeção ou gates |
 
+| 7.5 | 31/10/2026 | GAI-INT-45: procedimento de credenciamento institucional e três modelos em branco, sem coleta de dados pessoais. | Preparado, sem indicação, aceite, credenciais, testes ou gates |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
