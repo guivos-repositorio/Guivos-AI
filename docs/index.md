@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 7.1 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 7.2 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -243,7 +243,10 @@ Ver [Estudo de Autoridade, Consentimentos e Revogação](autoridade-dados-consen
 ## 77. GAI-INT-42 — Modelo Institucional de Emissão, Custódia e Revogação — v7.1
 [Proposta](modelo-institucional-emissao-custodia-revogacao-autorizacoes.md) e [registro estruturado](modelo-institucional-emissao-custodia-revogacao-autorizacoes.json). Define seis funções segregadas, sete decisões institucionais e fluxo de emissão e revogação; sem nomeações, chaves, execução ou gates.
 
-## 78. Próximos passos
+## 78. GAI-INT-43 — Deliberação das Sete Pendências Institucionais — v7.2
+[Matriz](matriz-deliberacao-pendencias-institucionais-inst01-inst07.md) e [registro estruturado](matriz-deliberacao-pendencias-institucionais-inst01-inst07.json) para INST-01 a INST-07. Nenhuma decisão ratificada ou papel nomeado. Sem Pedido B/C nem gates.
+
+## 79. Próximos passos
 - Revisão e testes futuros dos schemas compartilhados candidatos
 - Formalização da autoridade canônica, finalidades, bases legais e contratos de autorização
 - Aprovação futura das fixtures, rubricas e critérios de adjudicação
