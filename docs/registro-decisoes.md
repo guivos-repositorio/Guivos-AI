@@ -55,5 +55,7 @@ O [GAI-INT-34](envelope-tipado-v2-politica-ciclo-vida-candidata.md) publica um e
 
 O [GAI-INT-35](deliberacao-compatibilidade-versionamento-envelope-v2.md) apresenta alternativas de política A/B/C sem decisão aprovada e sem autorizar testes ou mudança de contratos.
 
+O [GAI-INT-36](matriz-casos-protocolo-candidate-2.md) prepara 18 casos sintéticos candidate-2 sem execução e não altera o alcance de GAI-DEC-012 nem autoriza o Pedido B ou qualquer gate.
+
 ## Registro de novas decisões
 Cada decisão deve indicar: identificador, data, responsável pela aprovação, contexto, alternativas, decisão, fundamentos, documentos afetados e condição de revisão. Novas hipóteses não serão promovidas a decisões automaticamente.
