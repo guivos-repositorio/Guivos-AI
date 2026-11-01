@@ -81,5 +81,7 @@ O [GAI-INT-45](procedimento-credenciamento-institucional-candidato.md) registra 
 
 A [GAI-INT-46](arquitetura-custodia-privada-evidencias-institucionais-candidata.md) propõe arquitetura de custódia privada de evidências sem seleção de fornecedor, coleta, implantação ou autorização B/C.
 
+A [GAI-INT-47](matriz-comparativa-custodia-institucional-a-b-c.md) organiza comparação A/B/C de custódia sem escolha ratificada, fornecedor ou autorização operacional.
+
 ## Registro de novas decisões
 Cada decisão deve indicar: identificador, data, responsável pela aprovação, contexto, alternativas, decisão, fundamentos, documentos afetados e condição de revisão. Novas hipóteses não serão promovidas a decisões automaticamente.
