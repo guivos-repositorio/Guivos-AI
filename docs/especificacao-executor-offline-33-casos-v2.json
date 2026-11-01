@@ -1,0 +1,64 @@
+{
+  "id": "GAI-INT-38",
+  "version": "6.6",
+  "status": "design_only_not_implemented_not_authorized",
+  "scope": {
+    "candidate_v2_cases": 33,
+    "compatibility_cases": 15,
+    "protocol_cases": 18,
+    "additional_review_checks": 11,
+    "checks_are_not_executable_cases": true
+  },
+  "catalogs": [
+    {
+      "source": "docs/matriz-casos-compatibilidade-v2-candidata.json",
+      "count": 15,
+      "expectation_field": "expected_valid_v2",
+      "schema_mode": "logical_name",
+      "map": {
+        "cap11-report-result": "schemas/candidate-v2-proposed/cap11-report-result.schema.json",
+        "event-receipt": "schemas/candidate-v2-proposed/event-receipt.schema.json",
+        "canonical-event": "schemas/candidate-v2-proposed/canonical-event.schema.json"
+      }
+    },
+    {
+      "source": "docs/matriz-casos-protocolo-candidate-2.json",
+      "count": 18,
+      "expectation_field": "expected_valid",
+      "schema_mode": "allowlisted_path"
+    }
+  ],
+  "schema_roots": [
+    "schemas/candidate-v1",
+    "schemas/candidate-v2-proposed"
+  ],
+  "required_checks": [
+    "unique_case_ids",
+    "synthetic_data_only",
+    "boolean_expectations",
+    "immutable_repo_sha",
+    "local_refs_only",
+    "unique_schema_ids",
+    "pinned_dependencies",
+    "offline_no_secrets",
+    "explicit_B_authorization",
+    "operator_and_independent_reviewer"
+  ],
+  "result_fields": [
+    "case_id",
+    "catalog_id",
+    "schema_uri",
+    "schema_digest",
+    "expected_valid",
+    "observed_valid",
+    "matched",
+    "error_paths",
+    "failure_kind",
+    "duration_ms"
+  ],
+  "implementation_authorized": false,
+  "execution_authorized": false,
+  "inspection_authorized": false,
+  "observations": [],
+  "gate_decision_ref": null
+}
