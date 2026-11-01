@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 7.0 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 7.1 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -240,7 +240,10 @@ Ver [Estudo de Autoridade, Consentimentos e Revogação](autoridade-dados-consen
 ## 76. GAI-INT-41 — Cadeia de Confiança de Autorizações — v7.0
 [Proposta arquitetural](cadeia-confianca-autorizacoes-execucao-candidata.md) e [registro estruturado](cadeia-confianca-autorizacoes-execucao-candidata.json). Autorizações assinadas e verificadas por âncora confiável independente, com revogação, expiração e proteção contra replay; nenhuma autorização B/C, chave, verificador ou gate criado.
 
-## 77. Próximos passos
+## 77. GAI-INT-42 — Modelo Institucional de Emissão, Custódia e Revogação — v7.1
+[Proposta](modelo-institucional-emissao-custodia-revogacao-autorizacoes.md) e [registro estruturado](modelo-institucional-emissao-custodia-revogacao-autorizacoes.json). Define seis funções segregadas, sete decisões institucionais e fluxo de emissão e revogação; sem nomeações, chaves, execução ou gates.
+
+## 78. Próximos passos
 - Revisão e testes futuros dos schemas compartilhados candidatos
 - Formalização da autoridade canônica, finalidades, bases legais e contratos de autorização
 - Aprovação futura das fixtures, rubricas e critérios de adjudicação
