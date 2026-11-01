@@ -101,4 +101,6 @@
 
 | 6.3 | 31/10/2026 | GAI-DEC-012 aprova A1/B1/C1 apenas como desenho; base candidate-2 criado separadamente e envelope tipado candidato atualizado para referenciá-lo. | Sem testes, inspeção, migração ou aprovação de gates |
 
+| 6.4 | 31/10/2026 | GAI-INT-36: 18 casos sintéticos candidate-2 e seis verificações de compatibilidade/registry. | Preparação documental; nenhum teste, integração ou gate aprovado |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
