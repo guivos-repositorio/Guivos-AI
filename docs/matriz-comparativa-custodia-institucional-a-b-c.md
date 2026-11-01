@@ -72,3 +72,6 @@ A GAI-INT-46 sugeriu priorizar **A para avaliação**, não contratação. Esta 
 Nenhum fornecedor foi selecionado, preço validado, cotação solicitada, sistema inspecionado ou ambiente privado criado; nenhum documento pessoal coletado. Pedidos B e C continuam não autorizados; 82 casos sintéticos catalogados e nenhuma execução verificada; G0 parcial, G1–G6 pendentes e 16 PNDs abertas.
 
 [Registro comparativo em JSON](matriz-comparativa-custodia-institucional-a-b-c.json) · [GAI-INT-46](arquitetura-custodia-privada-evidencias-institucionais-candidata.md) · [GAI-DEC-013](decisao-aprovacao-criterios-institucionais-gai-dec-013.md).
+
+## Deliberação posterior — GAI-DEC-014
+A direção ratificou COMP-01/02/03 como método documental de avaliação e ordem A/B/C. COMP-04 permanece dependente de autorização específica; nenhuma cotação, inspeção ou implantação foi autorizada. [Consultar decisão](decisao-metodo-avaliacao-custodia-gai-dec-014.md).
