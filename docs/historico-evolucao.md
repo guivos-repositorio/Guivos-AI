@@ -139,4 +139,6 @@
 
 | 8.2 | 31/10/2026 | GAI-INT-51: instrumento de deliberação da COMP-04-P para pesquisa em fontes abertas, com campos de concessão vazios e exclusões expressas. | Autorização pendente, nenhuma pesquisa ou gate |
 
+| 8.3 | 31/10/2026 | GAI-DEC-015: concordância condicionada com o escopo COMP-04-P, sem operador, fontes, prazo ou autorização operacional executável. | Política em princípio, inativa; sem pesquisa, contatos, testes ou gates |
+
 **Observação:** a numeração registra a evolução da documentação, não maturidade ou disponibilidade de software.
