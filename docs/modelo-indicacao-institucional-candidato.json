@@ -1,0 +1,22 @@
+{
+  "template_id": "GAI-INT-45-NOMINATION",
+  "document_version": "7.5",
+  "source_policy": "GAI-DEC-013",
+  "state": "draft_unfilled",
+  "nominee_ref": null,
+  "role_code": null,
+  "mandate_scope": null,
+  "effective_at": null,
+  "expires_at": null,
+  "record_ref": null,
+  "access_authorized": false,
+  "execution_authorized": false,
+  "indication_ref": null,
+  "authority_ref": null,
+  "justification": null,
+  "incompatibility_review_ref": null,
+  "indication_signed": false,
+  "identity_verified": false,
+  "accepted": false,
+  "nomination_effective": false
+}
