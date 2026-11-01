@@ -1,0 +1,259 @@
+{
+  "id": "GAI-INT-48",
+  "version": "7.9",
+  "date": "2026-10-31",
+  "state": "desk_review_plan_only",
+  "basis": [
+    "GAI-DEC-014",
+    "GAI-INT-47"
+  ],
+  "alternative": "A_managed_private_repository",
+  "criteria": [
+    {
+      "id": "A-SEC",
+      "title": "Segurança e identidade",
+      "weight": 25,
+      "questions": [
+        "Há MFA resistente a phishing para funções administrativas?",
+        "É possível segregação RBAC/ABAC e revisão periódica de permissões?",
+        "Como são gerenciadas chaves, criptografia e acessos emergenciais?",
+        "Que evidências auditáveis existem sobre incidentes e recuperação?"
+      ],
+      "evidence": [
+        "arquitetura de segurança",
+        "descrição verificável de controles de identidade",
+        "política de chaves e incidentes"
+      ]
+    },
+    {
+      "id": "A-PRIV",
+      "title": "Privacidade e conformidade",
+      "weight": 20,
+      "questions": [
+        "Quais papéis contratuais e bases legais são necessários?",
+        "Onde dados, backups e suboperadores estão localizados?",
+        "Como responder a direitos dos titulares e limitar finalidade?",
+        "O fornecedor aceita cláusulas de proteção de dados e portabilidade?"
+      ],
+      "evidence": [
+        "DPA/minuta contratual",
+        "mapa de dados e suboperadores",
+        "documento de transferências internacionais",
+        "processo de direitos dos titulares"
+      ]
+    },
+    {
+      "id": "A-AUD",
+      "title": "Auditoria e evidências",
+      "weight": 15,
+      "questions": [
+        "Há logs de acesso, exportação, alteração e exclusão?",
+        "Logs são protegidos de adulteração por administradores comuns?",
+        "É possível entregar evidências a auditor independente?"
+      ],
+      "evidence": [
+        "dicionário de eventos",
+        "política de integridade e retenção de logs",
+        "descrição de exportação de auditoria"
+      ]
+    },
+    {
+      "id": "A-RET",
+      "title": "Retenção e exclusão",
+      "weight": 15,
+      "questions": [
+        "Retenção é configurável por classe e base legal?",
+        "Como funciona exclusão de objetos, réplicas e backups?",
+        "São possíveis suspensão legal e comprovação do descarte?"
+      ],
+      "evidence": [
+        "matriz de retenção configurável",
+        "política de backup e exclusão",
+        "procedimento de confirmação de descarte"
+      ]
+    },
+    {
+      "id": "A-TCO",
+      "title": "Custo total",
+      "weight": 10,
+      "questions": [
+        "Quais cobranças fixas, por usuário, armazenamento, operações e tráfego?",
+        "Quais custos de implantação, suporte, auditoria e integração?",
+        "Quais custos de saída e variação por volume?"
+      ],
+      "evidence": [
+        "estrutura de preços por unidade",
+        "premissas de volume",
+        "condições comerciais e de cancelamento"
+      ]
+    },
+    {
+      "id": "A-OPS",
+      "title": "Operação e resiliência",
+      "weight": 10,
+      "questions": [
+        "Quais SLA, RPO/RTO e responsabilidades de configuração?",
+        "Como operam patching, monitoramento e resposta a incidentes?",
+        "Quais limites de API e capacidade?"
+      ],
+      "evidence": [
+        "SLA e divisão de responsabilidade",
+        "documentação de continuidade",
+        "política de suporte"
+      ]
+    },
+    {
+      "id": "A-EXIT",
+      "title": "Reversibilidade",
+      "weight": 5,
+      "questions": [
+        "É possível exportar todos os documentos, metadados e trilhas pertinentes?",
+        "Quais formatos são usados e quais restrições existem?",
+        "Como confirmar fim de processamento e descarte após migração?"
+      ],
+      "evidence": [
+        "especificação de exportação",
+        "condições de saída",
+        "plano de migração e descarte"
+      ]
+    }
+  ],
+  "mandatory_filters": [
+    "legal_basis_privacy_review",
+    "access_segregation_and_strong_auth",
+    "encryption_and_key_custody",
+    "tamper_resistant_audit",
+    "retention_deletion_and_backups",
+    "incident_response",
+    "export_exit_plan",
+    "specific_implementation_authorization"
+  ],
+  "evaluation": {
+    "selected_provider": null,
+    "candidates": [],
+    "evidence_received": [],
+    "criterion_scores": [],
+    "weighted_score": null,
+    "filter_results": [],
+    "evaluation_complete": false
+  },
+  "tco_template": {
+    "currency": "BRL",
+    "horizons_months": [
+      12,
+      36
+    ],
+    "assumptions": {
+      "licensed_users": null,
+      "average_stored_gb": null,
+      "monthly_ops": null,
+      "monthly_egress_gb": null,
+      "hours_per_month": null,
+      "exchange_rate_if_needed": null
+    },
+    "lines": [
+      {
+        "id": "fixed_license",
+        "unit": "BRL/month",
+        "formula": "monthly_fixed_fee * months",
+        "unit_price": null,
+        "quantity": null,
+        "observed_total": null
+      },
+      {
+        "id": "users",
+        "unit": "BRL/user/month",
+        "formula": "licensed_users * unit_price_per_user_month * months",
+        "unit_price": null,
+        "quantity": null,
+        "observed_total": null
+      },
+      {
+        "id": "storage",
+        "unit": "BRL/GB/month",
+        "formula": "average_stored_gb * price_per_gb_month * months",
+        "unit_price": null,
+        "quantity": null,
+        "observed_total": null
+      },
+      {
+        "id": "operations",
+        "unit": "BRL/1000_ops",
+        "formula": "monthly_ops / 1000 * price_per_1000_ops * months",
+        "unit_price": null,
+        "quantity": null,
+        "observed_total": null
+      },
+      {
+        "id": "egress",
+        "unit": "BRL/GB",
+        "formula": "monthly_egress_gb * price_per_gb * months",
+        "unit_price": null,
+        "quantity": null,
+        "observed_total": null
+      },
+      {
+        "id": "implementation",
+        "unit": "BRL/once",
+        "formula": "one_time_setup_cost",
+        "unit_price": null,
+        "quantity": null,
+        "observed_total": null
+      },
+      {
+        "id": "security_privacy_review",
+        "unit": "BRL/once",
+        "formula": "one_time_review_cost",
+        "unit_price": null,
+        "quantity": null,
+        "observed_total": null
+      },
+      {
+        "id": "support",
+        "unit": "BRL/month",
+        "formula": "monthly_support_cost * months",
+        "unit_price": null,
+        "quantity": null,
+        "observed_total": null
+      },
+      {
+        "id": "internal_operations",
+        "unit": "BRL/hour",
+        "formula": "hours_per_month * internal_hourly_cost * months",
+        "unit_price": null,
+        "quantity": null,
+        "observed_total": null
+      },
+      {
+        "id": "backup_recovery",
+        "unit": "BRL/month",
+        "formula": "monthly_backup_recovery_cost * months",
+        "unit_price": null,
+        "quantity": null,
+        "observed_total": null
+      },
+      {
+        "id": "exit_migration",
+        "unit": "BRL/once",
+        "formula": "one_time_exit_migration_cost",
+        "unit_price": null,
+        "quantity": null,
+        "observed_total": null
+      }
+    ],
+    "scenario_comparisons": [
+      "baseline",
+      "growth",
+      "exit"
+    ],
+    "costs_verified": false
+  },
+  "comp_04_authorization": false,
+  "quotes_requested": false,
+  "provider_contacted": false,
+  "external_system_inspected": false,
+  "real_data_collected": false,
+  "implementation_authorized": false,
+  "tests_authorized": false,
+  "gate_approvals": 0
+}
