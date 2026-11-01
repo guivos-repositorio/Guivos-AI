@@ -1,5 +1,5 @@
 # Matriz de Capacidades da Guivos AI
-**Versão documental 7.3 · 31/10/2026**
+**Versão documental 7.4 · 31/10/2026**
 **Estado:** planejamento conceitual e priorização proposta, sem homologação técnica, comercial ou autorização de implantação.
 
 ## 1. Função deste documento
@@ -142,6 +142,8 @@ Transformar os fundamentos e estudos da Guivos AI em um catálogo rastreável de
 **Deliberações institucionais pendentes:** [GAI-INT-43](matriz-deliberacao-pendencias-institucionais-inst01-inst07.md) descreve INST-01 a INST-07, sem aprovação de titulares ou credenciais.
 
 **Critérios de indicação e aceite:** [GAI-INT-44](criterios-indicacao-aceite-responsaveis-institucionais.md), com quatro decisões para a direção ainda pendentes.
+
+**Política de governança ratificada:** [GAI-DEC-013](decisao-aprovacao-criterios-institucionais-gai-dec-013.md) aprovou os quatro critérios institucionais sem nomeações ou habilitação operacional.
 
 ## 3. Capacidades estruturais habilitadoras (não equivalentes à Guivos AI)
 | ID | Responsável proposto | Capacidade habilitadora | Dependência |
