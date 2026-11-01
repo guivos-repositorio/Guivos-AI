@@ -1,5 +1,5 @@
 # Guivos AI — Documento Mestre
-**Versão:** 8.2 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
+**Versão:** 8.3 · **Data:** 31/10/2026 · **Estado:** conceitual em evolução
 
 ## Natureza e autoridade deste documento
 Este é o **Documento Mestre da Guivos AI**, responsável por organizar, direcionar, analisar, registrar e preservar conhecimento e decisões relativos à Guivos AI — em paralelo, mas separado, do GKR. O endereço público serve apenas à leitura da documentação, não à divulgação comercial ou consulta externa como produto.
@@ -276,7 +276,10 @@ Ver [Estudo de Autoridade, Consentimentos e Revogação](autoridade-dados-consen
 ## 88. GAI-INT-51 — Instrumento de Autorização COMP-04-P — v8.2
 [Instrumento](instrumento-deliberacao-comp04-p-pesquisa-publica.md) e [registro ainda sem concessão](instrumento-deliberacao-comp04-p-publica.json). Escopo candidato de consulta pública, sem contatos, login, cotações, inspeção ou despesa. COMP-04-P ainda pendente.
 
-## 89. Próximos passos
+## 89. GAI-DEC-015 — Aprovação Condicionada COMP-04-P — v8.3
+[Decisão formal](decisao-aprovacao-condicionada-comp04-p-gai-dec-015.md), com registros [COMP-04-P](instrumento-deliberacao-comp04-p-publica.json) e [COMP-04 geral](proposta-autorizacao-comp04-escopos-segregados.json). Diretriz pública aprovada em princípio, operacionalmente inativa até responsável, fontes, prazo, revisão e ativação específica.
+
+## 90. Próximos passos
 - Revisão e testes futuros dos schemas compartilhados candidatos
 - Formalização da autoridade canônica, finalidades, bases legais e contratos de autorização
 - Aprovação futura das fixtures, rubricas e critérios de adjudicação
