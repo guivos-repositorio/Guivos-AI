@@ -1,5 +1,5 @@
 # Matriz de Capacidades da Guivos AI
-**Versão documental 7.6 · 31/10/2026**
+**Versão documental 7.7 · 31/10/2026**
 **Estado:** planejamento conceitual e priorização proposta, sem homologação técnica, comercial ou autorização de implantação.
 
 ## 1. Função deste documento
@@ -148,6 +148,8 @@ Transformar os fundamentos e estudos da Guivos AI em um catálogo rastreável de
 **Credenciamento institucional:** [GAI-INT-45](procedimento-credenciamento-institucional-candidato.md) publica procedimento e modelos em branco, sem nomeação ou habilitação de acessos.
 
 **Custódia de evidências:** [GAI-INT-46](arquitetura-custodia-privada-evidencias-institucionais-candidata.md) propõe separação público/privado, acesso mínimo e controles de retenção, sem coleta ou implantação.
+
+**Comparação de custódia:** [GAI-INT-47](matriz-comparativa-custodia-institucional-a-b-c.md), sem seleção de fornecedor ou implantação.
 
 ## 3. Capacidades estruturais habilitadoras (não equivalentes à Guivos AI)
 | ID | Responsável proposto | Capacidade habilitadora | Dependência |
